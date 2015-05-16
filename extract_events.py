@@ -1,44 +1,73 @@
-import bs4
 import re
+import csv
 
-from bs4 import BeautifulSoup
-from soupselect import select
+from extractor import extract_events
 
-match = open("data/32683310", 'r')
-soup = BeautifulSoup(match.read())
+def find_foul_location(foul):
+    return re.findall(".*free kick (.*)", foul)[0]
 
-all_events = []
 
-for event in select(soup, 'div#live-text-commentary-wrapper div#live-text'):
-    for child in event.children:
-        if type(child) is bs4.element.Tag:
-            all_events.append(child.getText().strip())
+match_id = "32683310"
+timed_events = extract_events("data/%s" % (match_id))
 
-for event in select(soup, 'div#live-text-commentary-wrapper div#more-live-text'):
-    for child in event.children:
-        if type(child) is bs4.element.Tag:
-            all_events.append(child.getText().strip())
+with open("data/events.csv", "w") as file:
+    writer = csv.writer(file, delimiter=",")
+    writer.writerow(["matchId",
+                     "foulId",
+                     "freeKickId",
+                     "time",
+                     "foulLocation",
+                     "fouledPlayer",
+                     "fouledPlayerTeam",
+                     "foulingPlayer",
+                     "foulingPlayerTeam"])
 
-indexed_events = list(enumerate(all_events))
+    for i in range(0, len(timed_events)):
+        event_id = str(i)
+        entry = timed_events[i]
+        event = entry["event"]
 
-timed_events = []
-for i in range(0, len(indexed_events)):
-    idx, event = indexed_events[i]
-    time =  re.findall("\d{1,2}:\d{2}", event)
-    formatted_time = " +".join(time)
-    if time:
-        timed_events.append({'time': formatted_time, 'event': indexed_events[i+1][1]})
+        foul = re.findall("Foul by.*", event)
+        if foul:
+            previous = timed_events[i-1]
+            next = timed_events[i+1]
 
-for i in range(0, len(timed_events)):
-    entry = timed_events[i]
-    event = entry["event"]
+            if previous["time"] == entry["time"]:
+                foul_location = find_foul_location(previous["event"])
 
-    foul = re.findall("Foul by.*", event)
-    if foul:
-        previous = timed_events[i-1]
-        next = timed_events[i+1]
+                fouled_player = re.findall("([^(]*)", previous["event"])[0].strip()
+                fouled_player_team = re.findall(".*\((.*)\)", previous["event"])[0].strip()
 
-        if previous["time"] == entry["time"]:
-            print [previous, entry]
-        if next["time"] == entry["time"]:
-            print [next, entry]
+                fouling_player = re.findall("Foul by ([^(]*)", entry["event"])[0].strip()
+                fouling_player_team = re.findall(".*\((.*)\)", entry["event"])[0].strip()
+
+                values = [match_id,
+                          event_id,
+                          str(i-1),
+                          previous["time"],
+                          foul_location,
+                          fouled_player,
+                          fouled_player_team,
+                          fouling_player,
+                          fouling_player_team]
+                writer.writerow([value.encode("utf-8") for value in values])
+
+            if next["time"] == entry["time"]:
+                foul_location = find_foul_location(next["event"])
+
+                fouled_player = re.findall("([^(]*)", next["event"])[0].strip()
+                fouled_player_team = re.findall(".*\((.*)\)", next["event"])[0].strip()
+
+                fouling_player = re.findall("Foul by ([^(]*)", entry["event"])[0].strip()
+                fouling_player_team = re.findall(".*\((.*)\)", entry["event"])[0].strip()
+
+                values = [match_id,
+                          event_id,
+                          str(i+1),
+                          next["time"],
+                          foul_location,
+                          fouled_player,
+                          fouled_player_team,
+                          fouling_player,
+                          fouling_player_team]
+                writer.writerow([value.encode("utf-8") for value in values])
