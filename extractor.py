@@ -9,7 +9,6 @@ def extract_events(file):
     soup = BeautifulSoup(match.read())
 
     all_events = []
-
     for event in select(soup, 'div#live-text-commentary-wrapper div#live-text'):
         for child in event.children:
             if type(child) is bs4.element.Tag:
@@ -30,3 +29,18 @@ def extract_events(file):
         if time:
             timed_events.append({'time': formatted_time, 'event': indexed_events[i+1][1]})
     return timed_events
+
+def foul_location(foul):
+    return re.findall(".*free kick (.*)", foul)[0]
+
+def fouled_player(foul):
+    return re.findall("([^(]*)", foul)[0].strip()
+
+def fouled_player_team(foul):
+    return re.findall(".*\((.*)\)", foul)[0].strip()
+
+def fouling_player(foul):
+    return re.findall("Foul by ([^(]*)", foul)[0].strip()
+
+def fouling_player_team(foul):
+    return re.findall(".*\((.*)\)", foul)[0].strip()

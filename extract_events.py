@@ -1,20 +1,14 @@
 import re
 import csv
-
-from extractor import extract_events
-
-def find_foul_location(foul):
-    return re.findall(".*free kick (.*)", foul)[0]
-
+from extractor import *
 
 match_id = "32683310"
 timed_events = extract_events("data/%s" % (match_id))
 
-with open("data/events.csv", "w") as file:
+with open("data/fouls.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
     writer.writerow(["matchId",
                      "foulId",
-                     "freeKickId",
                      "time",
                      "foulLocation",
                      "fouledPlayer",
@@ -33,41 +27,51 @@ with open("data/events.csv", "w") as file:
             next = timed_events[i+1]
 
             if previous["time"] == entry["time"]:
-                foul_location = find_foul_location(previous["event"])
-
-                fouled_player = re.findall("([^(]*)", previous["event"])[0].strip()
-                fouled_player_team = re.findall(".*\((.*)\)", previous["event"])[0].strip()
-
-                fouling_player = re.findall("Foul by ([^(]*)", entry["event"])[0].strip()
-                fouling_player_team = re.findall(".*\((.*)\)", entry["event"])[0].strip()
-
-                values = [match_id,
-                          event_id,
-                          str(i-1),
-                          previous["time"],
-                          foul_location,
-                          fouled_player,
-                          fouled_player_team,
-                          fouling_player,
-                          fouling_player_team]
-                writer.writerow([value.encode("utf-8") for value in values])
+                fouled = previous
 
             if next["time"] == entry["time"]:
-                foul_location = find_foul_location(next["event"])
+                fouled = next
 
-                fouled_player = re.findall("([^(]*)", next["event"])[0].strip()
-                fouled_player_team = re.findall(".*\((.*)\)", next["event"])[0].strip()
+            values = [match_id,
+                      event_id,
+                      previous["time"],
+                      foul_location(fouled["event"]),
+                      fouled_player(fouled["event"]),
+                      fouled_player_team(fouled["event"]),
+                      fouling_player(entry["event"]),
+                      fouling_player_team(entry["event"])]
+            writer.writerow([value.encode("utf-8") for value in values])
 
-                fouling_player = re.findall("Foul by ([^(]*)", entry["event"])[0].strip()
-                fouling_player_team = re.findall(".*\((.*)\)", entry["event"])[0].strip()
+with open("data/attempts.csv", "w") as file:
+    writer = csv.writer(file, delimiter=",")
+    writer.writerow(["matchId",
+                     "attemptId",
+                     "time",
+                     "attemptOutcome",
+                     "attemptBy",
+                     "attemptByTeam"])
 
-                values = [match_id,
-                          event_id,
-                          str(i+1),
-                          next["time"],
-                          foul_location,
-                          fouled_player,
-                          fouled_player_team,
-                          fouling_player,
-                          fouling_player_team]
-                writer.writerow([value.encode("utf-8") for value in values])
+    for i in range(0, len(timed_events)):
+        event_id = str(i)
+        entry = timed_events[i]
+        event = entry["event"]
+
+        attempt = re.findall("(Attempt|Goal).*", event)
+        if attempt:
+            print entry
+            outcome = re.findall("Attempt ([^\.]*)\.", event)
+            player_with_attempt = re.findall(".*\.([^(]*) \(.*\)", event)[0].strip()
+            player_with_attempt_team = re.findall(".*\.([^(]*) \((.*)\)", event)[0][1]
+
+            if not outcome:
+                outcome = "goal"
+            else:
+                outcome = outcome[0]
+
+            values = [match_id,
+                      event_id,
+                      entry["time"],
+                      outcome,
+                      player_with_attempt,
+                      player_with_attempt_team]
+            writer.writerow([value.encode("utf-8") for value in values])
