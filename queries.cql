@@ -47,3 +47,9 @@ WITH team, fouled, COUNT(*) AS fouls
 ORDER BY team.name, fouls DESC
 WITH team, COLLECT({fouled:fouled, fouls:fouls})[0] AS topFouled
 RETURN team.name, topFouled.fouled.name, topFouled.fouls;
+
+
+//  what did neymar do in the match?
+match (p:Player {name: "Neymar"})-[:MADE_APPEARANCE]->(app)-[r]-(event:Event)
+RETURN event, [label in LABELS(event) where label <> "Event"][0] AS type
+ORDER BY event.time

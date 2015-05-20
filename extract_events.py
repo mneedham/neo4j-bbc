@@ -5,16 +5,14 @@ from extractor import *
 match_id = "32683310"
 timed_events = extract_events("data/%s" % (match_id))
 
+print timed_events
+
+print "*****"
+
 with open("data/fouls.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
-    writer.writerow(["matchId",
-                     "foulId",
-                     "time",
-                     "foulLocation",
-                     "fouledPlayer",
-                     "fouledPlayerTeam",
-                     "foulingPlayer",
-                     "foulingPlayerTeam"])
+    writer.writerow(["matchId", "foulId", "time", "foulLocation", "fouledPlayer",
+                     "fouledPlayerTeam", "foulingPlayer", "foulingPlayerTeam"])
 
     for i in range(0, len(timed_events)):
         event_id = str(i)
@@ -32,14 +30,11 @@ with open("data/fouls.csv", "w") as file:
             if next["time"] == entry["time"]:
                 fouled = next
 
-            values = [match_id,
-                      event_id,
-                      previous["time"],
-                      foul_location(fouled["event"]),
-                      fouled_player(fouled["event"]),
-                      fouled_player_team(fouled["event"]),
-                      fouling_player(entry["event"]),
-                      fouling_player_team(entry["event"])]
+            print entry, fouled
+
+            values = [match_id, event_id, fouled["time"], foul_location(fouled["event"]),
+                      fouled_player(fouled["event"]), fouled_player_team(fouled["event"]),
+                      fouling_player(entry["event"]), fouling_player_team(entry["event"])]
             writer.writerow([value.encode("utf-8") for value in values])
 
 with open("data/attempts.csv", "w") as file:
