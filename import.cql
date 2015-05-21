@@ -14,33 +14,15 @@ LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fo
 MERGE (:Team {name: row.fouledPlayerTeam});
 
 // players
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
-MERGE (player1:Player {id: row.foulingPlayer + "_" + row.foulingPlayerTeam})
-ON CREATE SET player1.name = row.foulingPlayer
-
-MERGE (player2:Player {id: row.fouledPlayer + "_" + row.fouledPlayerTeam})
-ON CREATE SET player2.name = row.fouledPlayer;
-
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
-MERGE (player1:Player {id: row.attemptBy + "_" + row.attemptByTeam})
-ON CREATE SET player1.name = row.attemptBy;
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/players.csv" AS row
+MERGE (player:Player {id: row.player + "_" + row.team})
+ON CREATE SET player.name = row.player;
 
 // appearances
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/players.csv" AS row
 MATCH (match:Match {id: row.matchId})
-MATCH (player:Player {id: row.foulingPlayer + "_" + row.foulingPlayerTeam})
-MATCH (team:Team {name: row.foulingPlayerTeam})
-
-MERGE (appearance:Appearance {id: player.id + " in " + row.matchId})
-MERGE (player)-[:MADE_APPEARANCE]->(appearance)
-MERGE (appearance)-[:IN_MATCH]->(match)
-MERGE (appearance)-[:FOR_TEAM]->(team);
-
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
-MATCH (match:Match {id: row.matchId})
-MATCH (player:Player {id: row.fouledPlayer + "_" + row.fouledPlayerTeam})
-MATCH (team:Team {name: row.fouledPlayerTeam})
-
+MATCH (player:Player {id: row.player + "_" + row.team})
+MATCH (team:Team {name: row.team})
 MERGE (appearance:Appearance {id: player.id + " in " + row.matchId})
 MERGE (player)-[:MADE_APPEARANCE]->(appearance)
 MERGE (appearance)-[:IN_MATCH]->(match)
@@ -93,3 +75,20 @@ ON CREATE SET attempt.time = row.time, attempt.outcome = row.attemptOutcome
 MERGE (match:Match {id: row.matchId})
 
 MERGE (appearance)-[:HAD_ATTEMPT]->(attempt);
+
+// corners
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/corners.csv" AS row
+
+WITH row WHERE row.attemptId <> ""
+MERGE (match:Match {id: row.matchId})
+
+WITH row, match
+MATCH (concededBy:Player {name: row.concededBy})
+
+WITH match, concededBy, row
+MATCH (concededBy)-[:MADE_APPEARANCE]->(concededByApp)-[:IN_MATCH]-(match)
+MATCH (attempt:Attempt {attemptId: row.attemptId})
+MERGE (corner:Corner {cornerId: row.cornerId})
+
+MERGE (attempt)-[:LED_TO]->(corner)
+MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
