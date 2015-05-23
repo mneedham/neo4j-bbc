@@ -3,8 +3,24 @@ from soupselect import select
 
 import bs4
 import re
-
 import itertools
+
+def format_time(raw_events):
+    raw_events = iter(raw_events)
+    for event in raw_events:
+        time = event["time"]
+        event["formatted_time"] = " +".join(time)
+
+        minutes = seconds = 0
+        for chunk in time:
+            mins, secs = chunk.split(":")
+            minutes += int(mins)
+            seconds += int(secs)
+
+        sortable_time = (minutes * 60) + seconds
+        event["sortable_time"] = sortable_time
+        del event["time"]
+        yield event
 
 def raw_events(file):
     match = open(file, 'r')
@@ -20,9 +36,8 @@ def extract_events(file):
     events = raw_events(file)
     for event in events:
         time =  re.findall("\d{1,2}:\d{2}", event)
-        formatted_time = " +".join(time)
         if time:
-            yield {'time': formatted_time, 'event': next(events)}
+            yield {'time': time, 'event': next(events)}
 
 def fouls(events):
     events = iter(events)
@@ -32,9 +47,9 @@ def fouls(events):
     for next in events:
         foul = re.findall("Foul by.*", item["event"])
         if foul:
-            if prev["time"] == item["time"]:
+            if prev["formatted_time"] == item["formatted_time"]:
                 fouled = prev
-            if next["time"] == item["time"]:
+            if next["formatted_time"] == item["formatted_time"]:
                 fouled = next
 
             yield str(event_id), item, fouled
@@ -64,7 +79,7 @@ def attempts(events):
                 without_with =  list(itertools.takewhile(lambda word: word != "with" and word != "following", parts[0].split(" ")))
                 player_with_assist = " ".join(without_with)
 
-            yield str(event_id), item["time"], outcome, player_with_attempt, player_with_attempt_team, player_with_assist
+            yield str(event_id), item["formatted_time"], outcome, player_with_attempt, player_with_attempt_team, player_with_assist
 
 def corners(events):
     events = iter(events)
@@ -81,9 +96,9 @@ def corners(events):
 
             potential_attempt = re.findall("Attempt.*", next["event"])
             if potential_attempt:
-                yield str(event_id + 1), str(event_id), team, conceded_by
+                yield str(event_id + 1), str(event_id), team, conceded_by, item["formatted_time"]
             else:
-                yield '', str(event_id), team, conceded_by
+                yield '', str(event_id), team, conceded_by, item["formatted_time"]
         item = next
         event_id += 1
 
@@ -105,7 +120,7 @@ def cards(events):
             player = re.findall("Booking([^(]*)", event)[0].strip()
             team = re.findall("Booking([^(]*) \((.*)\)", event)[0][1]
 
-            yield event_id, associated_foul[1], player, team
+            yield event_id, associated_foul[1], player, team, item["formatted_time"]
 
         item = next
         next = next_next
