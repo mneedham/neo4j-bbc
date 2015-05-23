@@ -72,11 +72,26 @@ MERGE (appearance:Appearance {id: attemptingPlayer.id + " in " + row.matchId})
 MERGE (attempt:Attempt:Event {attemptId: row.attemptId})
 ON CREATE SET attempt.time = row.time, attempt.outcome = row.attemptOutcome
 
+FOREACH(ignoreMe IN CASE WHEN attempt.outcome = "goal" THEN [1] ELSE [] END |
+  SET attempt:Goal)
+
 MERGE (match:Match {id: row.matchId})
 
 MERGE (appearance)-[:HAD_ATTEMPT]->(attempt);
 
-// corners
+// assists for attempts
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
+
+MATCH (assistingPlayer:Player {id:row.assistedBy + "_" + row.attemptByTeam })
+MATCH (attempt:Attempt:Event {attemptId: row.attemptId})
+MATCH (match:Match {id: row.matchId})
+MATCH (assistingPlayer)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
+
+MERGE (attempt)<-[:PROVIDED_ASSIST_FOR]-(app);
+
+
+
+// corners from an attempt
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/corners.csv" AS row
 
 WITH row WHERE row.attemptId <> ""
@@ -92,3 +107,35 @@ MERGE (corner:Corner {cornerId: row.cornerId})
 
 MERGE (attempt)-[:LED_TO]->(corner)
 MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
+
+// corners not from an attempt
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/corners.csv" AS row
+
+WITH row WHERE row.attemptId is null
+MERGE (match:Match {id: row.matchId})
+
+WITH row, match
+MATCH (concededBy:Player {name: row.concededBy})
+
+WITH match, concededBy, row
+MATCH (concededBy)-[:MADE_APPEARANCE]->(concededByApp)-[:IN_MATCH]-(match)
+MERGE (corner:Corner {cornerId: row.cornerId})
+
+MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
+
+// bookings
+
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/cards.csv" AS row
+
+MERGE (card:Card:Event:Yellow {eventId: row.cardId})
+SET card.type = "yellow"
+WITH card, row
+
+MATCH (match:Match {id: row.matchId})
+MATCH (player:Player {id: row.player + "_" + row.playerTeam})
+MATCH (foul:Foul:Event {eventId: row.foulId})
+
+MATCH (player)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
+
+MERGE (foul)-[:RESULTED_IN]->(card)
+MERGE (card)-[:GIVEN_TO]->(app);

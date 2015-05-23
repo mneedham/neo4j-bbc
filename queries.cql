@@ -53,3 +53,20 @@ RETURN team.name, topFouled.fouled.name, topFouled.fouls;
 match (p:Player {name: "Neymar"})-[:MADE_APPEARANCE]->(app)-[r]-(event:Event)
 RETURN event, [label in LABELS(event) where label <> "Event"][0] AS type
 ORDER BY event.time
+
+// find the corners conceded by each goalkeeper
+
+// find the goal scorers for both teams in the match
+
+// fouls that led to cards and those that didn't
+match (foul:Foul)<-[:COMMITTED_FOUL]-(app),
+      (player)-[:MADE_APPEARANCE]->(app),
+      (foul)-[:COMMITTED_AGAINST]->()<-[:MADE_APPEARANCE]-(otherPlayer)
+optional match (foul)-[:RESULTED_IN]->(card)-[:GIVEN_TO]->(app)
+RETURN player.name, foul.time, foul.location, card.type, otherPlayer.name
+ORDER BY foul.time
+
+// chances created, goals scored
+
+
+// who's providing the assists for goals
