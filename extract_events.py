@@ -39,18 +39,3 @@ with open("data/cards.csv", "w") as file:
 
     for card_id, associated_foul, player, team in cards(timed_events):
         writer.writerow([match_id, card_id, associated_foul, player.encode('utf-8'), team.encode('utf-8')])
-
-    # for i in range(0, len(timed_events)):
-    #     event_id = str(i)
-    #     entry = timed_events[i]
-    #     event = entry["event"]
-    #     booking = re.findall("Booking.*", event)
-    #
-    #     if booking:
-    #         associated_foul = [(timed_events[j]["event"], j)
-    #                             for j in [i+1,i+2]
-    #                             if re.findall("Foul by.*", timed_events[j]["event"])][0]
-    #
-    #         player = re.findall("Booking([^(]*)", event)[0].strip()
-    #         team = re.findall("Booking([^(]*) \((.*)\)", event)[0][1]
-    #         writer.writerow([match_id, i, associated_foul[1], player.encode('utf-8'), team.encode('utf-8')])
