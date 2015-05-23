@@ -23,3 +23,33 @@ matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortabl
 32683310,105,6:47,goal,Medhi Benatia,FC Bayern München,Xabi Alonso,407
 32683310,107,5:15,blocked,Thiago Alcántara,FC Bayern München,Thomas Müller,315
 32683310,109,4:18,saved,Ivan Rakitic,Barcelona,Dani Alves,258
+32683303,122,87:33,missed,Arturo Vidal,Juventus,,5253
+32683303,123,87:30,saved,Paul Pogba,Juventus,Fernando Llorente,5250
+32683303,127,83:10,missed,Gareth Bale,Real Madrid,James Rodríguez,4990
+32683303,129,80:23,saved,Toni Kroos,Real Madrid,Gareth Bale,4823
+32683303,130,80:20,blocked,Javier Hernández,Real Madrid,Isco,4820
+32683303,134,74:50,missed,Gareth Bale,Real Madrid,James Rodríguez,4490
+32683303,136,71:45,missed,Gareth Bale,Real Madrid,Cristiano Ronaldo,4305
+32683303,137,70:33,missed,Gareth Bale,Real Madrid,,4233
+32683303,141,69:04,saved,Claudio Marchisio,Juventus,Arturo Vidal,4144
+32683303,142,67:06,missed,James Rodríguez,Real Madrid,Cristiano Ronaldo,4026
+32683303,146,62:01,missed,Gareth Bale,Real Madrid,Marcelo,3721
+32683303,151,56:54,goal,Álvaro Morata,Juventus,Paul Pogba,3414
+32683303,155,52:12,missed,Marcelo,Real Madrid,,3132
+32683303,156,51:53,missed,Toni Kroos,Real Madrid,James Rodríguez,3113
+32683303,157,50:37,missed,Claudio Marchisio,Juventus,Carlos Tévez,3037
+32683303,164,41:25,missed,Sergio Ramos,Real Madrid,James Rodríguez,2485
+32683303,166,40:53,saved,Karim Benzema,Real Madrid,Cristiano Ronaldo,2453
+32683303,167,40:22,missed,Cristiano Ronaldo,Real Madrid,Gareth Bale,2422
+32683303,171,38:23,missed,Karim Benzema,Real Madrid,Daniel Carvajal,2303
+32683303,178,31:44,blocked,Álvaro Morata,Juventus,Carlos Tévez,1904
+32683303,182,29:56,saved,Karim Benzema,Real Madrid,Toni Kroos,1796
+32683303,184,29:00,blocked,Sergio Ramos,Real Madrid,James Rodríguez,1740
+32683303,191,22:30,goal,Cristiano Ronaldo,Real Madrid,,1350
+32683303,194,20:09,blocked,Toni Kroos,Real Madrid,,1209
+32683303,196,19:42,saved,Gareth Bale,Real Madrid,Daniel Carvajal,1182
+32683303,197,17:10,missed,Isco,Real Madrid,Daniel Carvajal,1030
+32683303,200,13:01,saved,Arturo Vidal,Juventus,Carlos Tévez,781
+32683303,202,10:25,blocked,Cristiano Ronaldo,Real Madrid,,625
+32683303,205,5:04,missed,Karim Benzema,Real Madrid,Daniel Carvajal,304
+32683303,212,0:35,missed,Gareth Bale,Real Madrid,Marcelo,35

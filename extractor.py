@@ -109,18 +109,23 @@ def cards(events):
     next = events.next()
     event_id = 0
 
-    for next_next in events:
+    for next_next in events:        
         event = item["event"]
         booking = re.findall("Booking.*", event)
         if booking:
-            associated_foul = [x
-                               for x in [(next, event_id+1), (next_next, event_id+2)]
-                               if re.findall("Foul by.*", x[0]["event"])][0]
-
             player = re.findall("Booking([^(]*)", event)[0].strip()
             team = re.findall("Booking([^(]*) \((.*)\)", event)[0][1]
 
-            yield event_id, associated_foul[1], player, team, item
+            associated_foul = [x
+                               for x in [(next, event_id+1), (next_next, event_id+2)]
+                               if re.findall("Foul by.*", x[0]["event"])]
+
+            if associated_foul:
+                associated_foul = associated_foul[0]
+
+                yield event_id, associated_foul[1], player, team, item
+            else:
+                yield event_id, "", player, team, item
 
         item = next
         next = next_next

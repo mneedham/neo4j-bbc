@@ -5,12 +5,21 @@ sys.setdefaultencoding('utf8')
 
 import re
 import csv
-from extractor import *
+import itertools
 
-match_id = "32683310"
-timed_events = list(extract_events("data/%s" % (match_id)))
+from extractor import *
+from collections import defaultdict
+
+matches = ["32683310", "32683303"]
+raw_events = itertools.chain()
+for match_id in matches:
+    raw_events = itertools.chain(raw_events, extract_events("data/raw/%s" % (match_id)))
+timed_events = list(format_time(raw_events))
 
 players = set()
+players_matches = defaultdict(set)
+matches_teams = defaultdict(set)
+
 for i in range(0, len(timed_events)):
     entry = timed_events[i]
     event = entry["event"]
@@ -24,15 +33,18 @@ for i in range(0, len(timed_events)):
         previous = timed_events[i-1]
         next = timed_events[i+1]
 
-        if previous["time"] == entry["time"]:
+        if previous["formatted_time"] == entry["formatted_time"]:
             fouled = previous
 
-        if next["time"] == entry["time"]:
+        if next["formatted_time"] == entry["formatted_time"]:
             fouled = next
 
         player = fouled_player(fouled["event"]).encode("utf-8")
         team = fouled_player_team(fouled["event"])
+
+        players_matches[(player, team)].add(entry["match_id"])
         players.add((player, team))
+        matches_teams[entry["match_id"]].add(team)
 
 for i in range(0, len(timed_events)):
     entry = timed_events[i]
@@ -47,24 +59,34 @@ for i in range(0, len(timed_events)):
         off = parts[2].strip().encode("utf-8")
 
         players.add((on, team))
+        players_matches[(on, team)].add(entry["match_id"])
+
         players.add((off, team))
+        players_matches[(off, team)].add(entry["match_id"])
 
+        matches_teams[entry["match_id"]].add(team)
 
-teams = set([item[1].encode("utf-8") for item in players])
 for i in range(0, len(timed_events)):
     entry = timed_events[i]
     event = entry["event"]
+
+    teams = matches_teams[entry["match_id"]]
 
     corner = re.findall("Corner,", event)
     if corner:
         other_team = re.findall("Corner, (.*)\. ", event)[0].encode("utf-8").strip()
         conceded_by = re.findall(".*Conceded by (.*)\.", event)[0].encode("utf-8").strip()
         team = list(teams.difference([other_team]))[0]
+
         players.add((conceded_by, team))
+        players_matches[(conceded_by, team)].add(entry["match_id"])
 
 with open("data/players.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
     writer.writerow(["matchId", "player", "team"])
 
     for player, team in players:
-        writer.writerow([match_id, player, team])
+        matches = players_matches[(player, team)]
+
+        for match_id in matches:
+            writer.writerow([match_id, player, team])

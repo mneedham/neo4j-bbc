@@ -3,9 +3,19 @@ import csv
 from extractor import *
 import itertools
 
-match_id = "32683310"
-raw_events = extract_events("data/raw/%s" % (match_id))
+matches = ["32683310", "32683303"]
+
+raw_events = itertools.chain()
+for match_id in matches:
+    raw_events = itertools.chain(raw_events, extract_events("data/raw/%s" % (match_id)))
+
 timed_events = list(format_time(raw_events))
+
+# for event in timed_events:
+#     print event
+#
+# import sys
+# sys.exit(1)
 
 with open("data/fouls.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")

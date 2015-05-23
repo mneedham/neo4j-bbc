@@ -133,9 +133,9 @@ MERGE (corner:Corner {cornerId: row.cornerId})
 
 MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
 
-// bookings
-
+// bookings with fouls
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/cards.csv" AS row
+WITH row WHERE row.foulId <> ""
 
 MERGE (card:Card:Event:Yellow {eventId: row.matchId + "_" + row.cardId})
 SET card.type = "yellow", card.time = row.time, card.sortableTime = toint(row.sortableTime)
@@ -148,6 +148,20 @@ MATCH (foul:Foul:Event {eventId: row.matchId + "_" + row.foulId})
 MATCH (player)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
 
 MERGE (foul)-[:RESULTED_IN]->(card)
+MERGE (card)-[:GIVEN_TO]->(app);
+
+// bookings with no fouls
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/cards.csv" AS row
+WITH row WHERE row.foulId is null
+
+MERGE (card:Card:Event:Yellow {eventId: row.matchId + "_" + row.cardId})
+SET card.type = "yellow", card.time = row.time, card.sortableTime = toint(row.sortableTime)
+WITH card, row
+
+MATCH (match:Match {id: row.matchId})
+MATCH (player:Player {id: row.player + "_" + row.playerTeam})
+MATCH (player)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
+
 MERGE (card)-[:GIVEN_TO]->(app);
 
 // foul revenge
