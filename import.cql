@@ -36,7 +36,7 @@ MATCH (fouledPlayer:Player {id:row.fouledPlayer + "_" + row.fouledPlayerTeam })
 MATCH (match:Match {id: row.matchId})
 
 MERGE (foul:Foul:Event {eventId: row.foulId})
-ON CREATE SET foul.time = row.time, foul.location = row.foulLocation
+ON CREATE SET foul.time = row.time, foul.sortableTime = toint(row.sortableTime), foul.location = row.foulLocation
 
 MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayer)
 MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayer)
@@ -70,7 +70,7 @@ ON CREATE SET attemptingPlayer.name = row.attemptBy
 MERGE (appearance:Appearance {id: attemptingPlayer.id + " in " + row.matchId})
 
 MERGE (attempt:Attempt:Event {attemptId: row.attemptId})
-ON CREATE SET attempt.time = row.time, attempt.outcome = row.attemptOutcome
+ON CREATE SET attempt.time = row.time, attempt.sortableTime = toint(row.sortableTime), attempt.outcome = row.attemptOutcome
 
 FOREACH(ignoreMe IN CASE WHEN attempt.outcome = "goal" THEN [1] ELSE [] END |
   SET attempt:Goal)

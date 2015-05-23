@@ -1,53 +1,55 @@
 // where do the fouls happen
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)
+match (match:Match {id: "32683310"})<-[:IN_MATCH]-()<-[]-(foul:Foul)
 RETURN foul.location AS location, COUNT(*) as fouls
-ORDER BY fouls DESC;
+ORDER BY fouls DESC
 
 // who fouls the most
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)<-[:COMMITTED_FOUL]-(fouler)
+match (match:Match {id: "32683310"})<-[:IN_MATCH]-(appearance)-[:COMMITTED_FOUL]->(foul:Foul),
+      (appearance)<-[:MADE_APPEARANCE]-(fouler)
 RETURN fouler.name AS fouler, COUNT(*) as fouls
 ORDER BY fouls DESC
-LIMIT 10;
+LIMIT 10
 
 // who was fouled the most
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)-[:COMMITTED_AGAINST]->(fouled)
+match (match:Match {id: "32683310"})<-[:IN_MATCH]-(appearance)<-[:COMMITTED_AGAINST]->(foul:Foul),
+      (appearance)<-[:MADE_APPEARANCE]-(fouled)
 RETURN fouled.name AS fouled, COUNT(*) as fouls
 ORDER BY fouls DESC
-LIMIT 10;
+LIMIT 10
 
 // who fouled who the most
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)-[:COMMITTED_AGAINST]->(fouled),
-      (foul)<-[:COMMITTED_FOUL]-(fouler)
+match (match:Match {id: "32683310"}),
+      (match)<-[:IN_MATCH]-(fouledApp)<-[:COMMITTED_AGAINST]->(foul:Foul)<-[:COMMITTED_FOUL]-(foulerApp)-[:IN_MATCH]->(match),
+      (fouledApp)<-[:MADE_APPEARANCE]-(fouled),
+      (foulerApp)<-[:MADE_APPEARANCE]-(fouler)
 RETURN fouler.name AS fouler, fouled.name AS fouled, COUNT(*) as fouls
 ORDER BY fouls DESC
 LIMIT 10;
 
 // which team fouled most
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)<-[:COMMITTED_FOUL]-(fouler),
+match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-()<-[:COMMITTED_FOUL]-(fouler),
       (fouler)-[:MADE_APPEARANCE]-(app)-[:IN_MATCH]-(match),
       (app)-[:FOR_TEAM]->(team)
 RETURN team.name, COUNT(*) as fouls
 ORDER BY fouls DESC
-LIMIT 10;
 
 // worst fouler for each team?
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)<-[:COMMITTED_FOUL]-(fouler),
-      (fouler)-[:MADE_APPEARANCE]-(app)-[:IN_MATCH]-(match),
-      (app)-[:FOR_TEAM]->(team)
+match (match:Match {id: "32683310"})<-[:IN_MATCH]-(app:Appearance)-[:COMMITTED_FOUL]->(),
+      (app)-[:FOR_TEAM]->(team),
+      (fouler)-[:MADE_APPEARANCE]->(app)
 WITH team, fouler, COUNT(*) AS fouls
 ORDER BY team.name, fouls DESC
 WITH team, COLLECT({fouler:fouler, fouls:fouls})[0] AS topFouler
 RETURN team.name, topFouler.fouler.name, topFouler.fouls;
 
 // most fouled against for each team
-match (match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul)-[:COMMITTED_AGAINST]-(fouled),
-      (fouled)-[:MADE_APPEARANCE]-(app)-[:IN_MATCH]-(match),
-      (app)-[:FOR_TEAM]->(team)
+match (match:Match {id: "32683310"})<-[:IN_MATCH]-(app:Appearance)<-[:COMMITTED_AGAINST]->(),
+      (app)-[:FOR_TEAM]->(team),
+      (fouled)-[:MADE_APPEARANCE]->(app)
 WITH team, fouled, COUNT(*) AS fouls
 ORDER BY team.name, fouls DESC
 WITH team, COLLECT({fouled:fouled, fouls:fouls})[0] AS topFouled
-RETURN team.name, topFouled.fouled.name, topFouled.fouls;
-
+RETURN team.name, topFouled.fouled.name, topFouled.fouls
 
 //  what did neymar do in the match?
 match (p:Player {name: "Neymar"})-[:MADE_APPEARANCE]->(app)-[r]-(event:Event)
@@ -70,3 +72,19 @@ ORDER BY foul.time
 
 
 // who's providing the assists for goals
+match (app:Appearance)-[:PROVIDED_ASSIST_FOR]->(attempt),
+      (player)-[:MADE_APPEARANCE]->(app),
+      (attempt)<-[:HAD_ATTEMPT]-()<-[:MADE_APPEARANCE]-(otherPlayer)
+RETURN attempt.time, player.name, attempt.outcome, otherPlayer.name
+ORDER BY attempt.sortableTime
+
+// top assister
+match (app:Appearance)-[:PROVIDED_ASSIST_FOR]->(attempt),
+      (player)-[:MADE_APPEARANCE]->(app),
+      (attempt)<-[:HAD_ATTEMPT]-()<-[:MADE_APPEARANCE]-(otherPlayer)
+WITH player, COUNT(*) AS assists, COLLECT(attempt) AS attempts
+RETURN player.name,
+       LENGTH([attempt in attempts WHERE attempt:Goal]) AS goalAssists,
+       LENGTH([attempt in attempts WHERE NOT attempt:Goal]) AS nonGoalAssists,
+       assists
+ORDER BY assists DESC
