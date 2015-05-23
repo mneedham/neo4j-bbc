@@ -8,11 +8,10 @@ import csv
 from extractor import *
 
 match_id = "32683310"
-timed_events = extract_events("data/%s" % (match_id))
+timed_events = list(extract_events("data/%s" % (match_id)))
 
 players = set()
 for i in range(0, len(timed_events)):
-    event_id = str(i)
     entry = timed_events[i]
     event = entry["event"]
 
@@ -35,9 +34,24 @@ for i in range(0, len(timed_events)):
         team = fouled_player_team(fouled["event"])
         players.add((player, team))
 
+for i in range(0, len(timed_events)):
+    entry = timed_events[i]
+    event = entry["event"]
+
+    sub = re.findall("Substitution", event)
+
+    if sub:
+        parts = re.findall("Substitution, (.*)\.(.*) replaces (.*)\.$", event)[0]
+        team = parts[0]
+        on = parts[1].strip().encode("utf-8")
+        off = parts[2].strip().encode("utf-8")
+
+        players.add((on, team))
+        players.add((off, team))
+
+
 teams = set([item[1].encode("utf-8") for item in players])
 for i in range(0, len(timed_events)):
-    event_id = str(i)
     entry = timed_events[i]
     event = entry["event"]
 

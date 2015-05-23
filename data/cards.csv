@@ -1,4 +1,4 @@
-matchId,cardId,foulId,player,playerTeam,time
+matchId,cardId,foulId,player,playerTeam,time,sortableTime
 32683310,7,9,Pedro,Barcelona,84:43,5083
 32683310,11,12,Sebastian Rode,FC Bayern München,83:18,4998
 32683310,16,17,Xabi Alonso,FC Bayern München,80:44,4844

@@ -37,7 +37,7 @@ def extract_events(file):
     for event in events:
         time =  re.findall("\d{1,2}:\d{2}", event)
         if time:
-            yield {'time': time, 'event': next(events)}
+            yield {'match_id': file.split("/")[2], 'time': time, 'event': next(events)}
 
 def fouls(events):
     events = iter(events)
@@ -126,6 +126,19 @@ def cards(events):
         item = next
         next = next_next
         event_id += 1
+
+def subs(events):
+    events = iter(events)
+
+    for event_id, event in enumerate(events):
+        sub = re.findall("Substitution", event["event"])
+        if sub:
+            parts = re.findall("Substitution, (.*)\.(.*) replaces (.*)\.$", event["event"])[0]
+            team = parts[0]
+            on = parts[1].strip()
+            off = parts[2].strip()
+
+            yield event_id, team, on, off, event["formatted_time"], event["sortable_time"]
 
 def foul_location(foul):
     return re.findall(".*free kick (.*)", foul)[0]

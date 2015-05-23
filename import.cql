@@ -1,6 +1,18 @@
-// Players index
+// Indexes
 CREATE CONSTRAINT ON (player:Player)
 ASSERT player.id IS UNIQUE;
+
+CREATE CONSTRAINT ON (match:Match)
+ASSERT match.id IS UNIQUE;
+
+CREATE CONSTRAINT ON (team:Team)
+ASSERT team.name IS UNIQUE;
+
+CREATE CONSTRAINT ON (player:Player)
+ASSERT player.id IS UNIQUE;
+
+CREATE CONSTRAINT ON (app:Appearance)
+ASSERT app.id IS UNIQUE;
 
 // match
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
@@ -35,7 +47,7 @@ MATCH (foulingPlayer:Player {id:row.foulingPlayer + "_" + row.foulingPlayerTeam 
 MATCH (fouledPlayer:Player {id:row.fouledPlayer + "_" + row.fouledPlayerTeam })
 MATCH (match:Match {id: row.matchId})
 
-MERGE (foul:Foul:Event {eventId: row.foulId})
+MERGE (foul:Foul:Event {eventId: row.matchId + "_" + row.foulId})
 ON CREATE SET foul.time = row.time, foul.sortableTime = toint(row.sortableTime), foul.location = row.foulLocation
 
 MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayer)
@@ -69,7 +81,7 @@ ON CREATE SET attemptingPlayer.name = row.attemptBy
 
 MERGE (appearance:Appearance {id: attemptingPlayer.id + " in " + row.matchId})
 
-MERGE (attempt:Attempt:Event {attemptId: row.attemptId})
+MERGE (attempt:Attempt:Event {attemptId: row.matchId + "_" + row.attemptId})
 ON CREATE SET attempt.time = row.time, attempt.sortableTime = toint(row.sortableTime), attempt.outcome = row.attemptOutcome
 
 FOREACH(ignoreMe IN CASE WHEN attempt.outcome = "goal" THEN [1] ELSE [] END |
@@ -83,13 +95,11 @@ MERGE (appearance)-[:HAD_ATTEMPT]->(attempt);
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
 
 MATCH (assistingPlayer:Player {id:row.assistedBy + "_" + row.attemptByTeam })
-MATCH (attempt:Attempt:Event {attemptId: row.attemptId})
+MATCH (attempt:Attempt:Event {attemptId: row.matchId + "_" + row.attemptId})
 MATCH (match:Match {id: row.matchId})
 MATCH (assistingPlayer)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
 
 MERGE (attempt)<-[:PROVIDED_ASSIST_FOR]-(app);
-
-
 
 // corners from an attempt
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/corners.csv" AS row
@@ -127,15 +137,43 @@ MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
 
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/cards.csv" AS row
 
-MERGE (card:Card:Event:Yellow {eventId: row.cardId})
-SET card.type = "yellow"
+MERGE (card:Card:Event:Yellow {eventId: row.matchId + "_" + row.cardId})
+SET card.type = "yellow", card.time = row.time, card.sortableTime = toint(row.sortableTime)
 WITH card, row
 
 MATCH (match:Match {id: row.matchId})
 MATCH (player:Player {id: row.player + "_" + row.playerTeam})
-MATCH (foul:Foul:Event {eventId: row.foulId})
+MATCH (foul:Foul:Event {eventId: row.matchId + "_" + row.foulId})
 
 MATCH (player)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
 
 MERGE (foul)-[:RESULTED_IN]->(card)
 MERGE (card)-[:GIVEN_TO]->(app);
+
+// foul revenge
+match (foul:Foul)
+WITH foul
+ORDER BY foul.sortableTime
+WITH COLLECT(foul) AS fouls
+FOREACH(i in range(0, length(fouls) -2) |
+  FOREACH(foul1 in [fouls[i]] | FOREACH (foul2 in [fouls[i+1]] |
+    MERGE (foul1)-[:NEXT]->(foul2)
+)));
+
+// subs
+
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/subs.csv" AS row
+
+MERGE (sub:Sub:Event {subId: row.matchId + "_" + row.subId})
+SET sub.time = row.time, sub.sortableTime = toint(row.sortableTime)
+WITH sub, row
+
+MATCH (match:Match {id: row.matchId})
+MATCH (playerOn:Player {id: row.on + "_" + row.team})
+MATCH (playerOff:Player {id: row.off + "_" + row.team})
+
+MATCH (playerOn)-[:MADE_APPEARANCE]->(onApp)-[:IN_MATCH]-(match)
+MATCH (playerOff)-[:MADE_APPEARANCE]->(offApp)-[:IN_MATCH]-(match)
+
+MERGE (sub)-[:ON]->(onApp)
+MERGE (sub)-[:OFF]->(offApp);
