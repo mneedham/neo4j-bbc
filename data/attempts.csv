@@ -1,1 +1,25 @@
 matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy
+32683310,10,84:00,missed,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger
+32683310,19,78:24,missed,Medhi Benatia,FC Bayern München,Xabi Alonso
+32683310,21,77:56,blocked,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger
+32683310,28,73:19,goal,Thomas Müller,FC Bayern München,Bastian Schweinsteiger
+32683310,37,62:22,missed,Thomas Müller,FC Bayern München,
+32683310,44,58:45,goal,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger
+32683310,48,56:41,missed,Juan Bernat,FC Bayern München,
+32683310,49,54:13,missed,Thomas Müller,FC Bayern München,Thiago Alcántara
+32683310,53,51:32,blocked,Lionel Messi,Barcelona,Dani Alves
+32683310,64,44:41,missed,Medhi Benatia,FC Bayern München,Xabi Alonso
+32683310,71,39:01,saved,Robert Lewandowski,FC Bayern München,
+32683310,72,38:59,blocked,Thiago Alcántara,FC Bayern München,Xabi Alonso
+32683310,73,37:55,missed,Medhi Benatia,FC Bayern München,Xabi Alonso
+32683310,75,37:26,saved,Bastian Schweinsteiger,FC Bayern München,Juan Bernat
+32683310,83,28:48,goal,Neymar,Barcelona,Luis Suárez
+32683310,84,28:15,saved,Thomas Müller,FC Bayern München,Thiago Alcántara
+32683310,85,27:34,saved,Lionel Messi,Barcelona,Neymar
+32683310,86,26:10,saved,Robert Lewandowski,FC Bayern München,Thomas Müller
+32683310,93,18:20,saved,Thomas Müller,FC Bayern München,Philipp Lahm
+32683310,99,14:16,goal,Neymar,Barcelona,Luis Suárez
+32683310,100,13:00,missed,Bastian Schweinsteiger,FC Bayern München,Jerome Boateng
+32683310,105,6:47,goal,Medhi Benatia,FC Bayern München,Xabi Alonso
+32683310,107,5:15,blocked,Thiago Alcántara,FC Bayern München,Thomas Müller
+32683310,109,4:18,saved,Ivan Rakitic,Barcelona,Dani Alves
