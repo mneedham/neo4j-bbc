@@ -1,7 +1,7 @@
-matchId,attemptId,cornerId,team,concededBy,time
-32683310,,1,FC Bayern München,Dani Alves,90:00 +1:02
-32683310,21,20,FC Bayern München,Gerard Piqué,77:59
-32683310,75,74,FC Bayern München,Marc-André ter Stegen,37:28
-32683310,93,92,FC Bayern München,Marc-André ter Stegen,18:23
-32683310,107,106,FC Bayern München,Gerard Piqué,6:21
-32683310,109,108,Barcelona,Manuel Neuer,4:31
+matchId,attemptId,cornerId,team,concededBy,time,sortableTime
+32683310,,1,FC Bayern München,Dani Alves,90:00 +1:02,5462
+32683310,21,20,FC Bayern München,Gerard Piqué,77:59,4679
+32683310,75,74,FC Bayern München,Marc-André ter Stegen,37:28,2248
+32683310,93,92,FC Bayern München,Marc-André ter Stegen,18:23,1103
+32683310,107,106,FC Bayern München,Gerard Piqué,6:21,381
+32683310,109,108,Barcelona,Manuel Neuer,4:31,271

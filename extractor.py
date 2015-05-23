@@ -79,7 +79,8 @@ def attempts(events):
                 without_with =  list(itertools.takewhile(lambda word: word != "with" and word != "following", parts[0].split(" ")))
                 player_with_assist = " ".join(without_with)
 
-            yield str(event_id), item["formatted_time"], outcome, player_with_attempt, player_with_attempt_team, player_with_assist
+            yield str(event_id), item["formatted_time"], outcome, player_with_attempt, \
+                player_with_attempt_team, player_with_assist, item["sortable_time"]
 
 def corners(events):
     events = iter(events)
@@ -96,9 +97,9 @@ def corners(events):
 
             potential_attempt = re.findall("Attempt.*", next["event"])
             if potential_attempt:
-                yield str(event_id + 1), str(event_id), team, conceded_by, item["formatted_time"]
+                yield str(event_id + 1), str(event_id), team, conceded_by, item["formatted_time"], item["sortable_time"]
             else:
-                yield '', str(event_id), team, conceded_by, item["formatted_time"]
+                yield '', str(event_id), team, conceded_by, item["formatted_time"], item["sortable_time"]
         item = next
         event_id += 1
 
@@ -120,7 +121,7 @@ def cards(events):
             player = re.findall("Booking([^(]*)", event)[0].strip()
             team = re.findall("Booking([^(]*) \((.*)\)", event)[0][1]
 
-            yield event_id, associated_foul[1], player, team, item["formatted_time"]
+            yield event_id, associated_foul[1], player, team, item["formatted_time"], item["sortable_time"]
 
         item = next
         next = next_next
