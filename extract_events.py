@@ -26,25 +26,12 @@ with open("data/attempts.csv", "w") as file:
         values = [match_id, event_id, time, outcome, attempt,team, assist]
         writer.writerow([value.encode("utf-8") for value in values])
 
-# with open("data/corners.csv", "w") as file:
-#     writer = csv.writer(file, delimiter=",")
-#     writer.writerow(["matchId", "attemptId", "cornerId", "team", "concededBy"])
-#
-#     for i in range(0, len(timed_events)):
-#         event_id = str(i)
-#         entry = timed_events[i]
-#         event = entry["event"]
-#         corner = re.findall("Corner,", event)
-#
-#         if corner:
-#             team = re.findall("Corner, (.*)\. ", event)[0].encode("utf-8").strip()
-#             conceded_by = re.findall(".*Conceded by (.*)\.", event)[0].encode("utf-8").strip()
-#
-#             potential_attempt = re.findall("Attempt.*", timed_events[i+1]["event"])
-#             if potential_attempt:
-#                 writer.writerow([match_id, str(i+1), str(i), team, conceded_by])
-#             else:
-#                 writer.writerow([match_id, '', str(i), team, conceded_by])
+with open("data/corners.csv", "w") as file:
+    writer = csv.writer(file, delimiter=",")
+    writer.writerow(["matchId", "attemptId", "cornerId", "team", "concededBy"])
+
+    for attempt_id, corner_id, team, conceded_by in corners(timed_events):
+        writer.writerow([match_id, attempt_id, corner_id, team, conceded_by])
 
 # with open("data/cards.csv", "w") as file:
 #     writer = csv.writer(file, delimiter=",")

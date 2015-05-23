@@ -66,6 +66,27 @@ def attempts(events):
 
             yield str(event_id), item["time"], outcome, player_with_attempt, player_with_attempt_team, player_with_assist
 
+def corners(events):
+    events = iter(events)
+    event_id = 0
+    item = events.next()
+
+    for next in events:
+        event = item["event"]
+        corner = re.findall("Corner,", event)
+
+        if corner:
+            team = re.findall("Corner, (.*)\. ", event)[0].encode("utf-8").strip()
+            conceded_by = re.findall(".*Conceded by (.*)\.", event)[0].encode("utf-8").strip()
+
+            potential_attempt = re.findall("Attempt.*", next["event"])
+            if potential_attempt:
+                yield str(event_id + 1), str(event_id), team, conceded_by
+            else:
+                yield '', str(event_id), team, conceded_by
+        item = next
+        event_id += 1
+
 def foul_location(foul):
     return re.findall(".*free kick (.*)", foul)[0]
 
