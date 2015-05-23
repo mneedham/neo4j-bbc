@@ -87,6 +87,30 @@ def corners(events):
         item = next
         event_id += 1
 
+def cards(events):
+    events = iter(events)
+
+    item = events.next()
+    next = events.next()
+    event_id = 0
+
+    for next_next in events:
+        event = item["event"]
+        booking = re.findall("Booking.*", event)
+        if booking:
+            associated_foul = [x
+                               for x in [(next, event_id+1), (next_next, event_id+2)]
+                               if re.findall("Foul by.*", x[0]["event"])][0]
+
+            player = re.findall("Booking([^(]*)", event)[0].strip()
+            team = re.findall("Booking([^(]*) \((.*)\)", event)[0][1]
+
+            yield event_id, associated_foul[1], player, team
+
+        item = next
+        next = next_next
+        event_id += 1
+
 def foul_location(foul):
     return re.findall(".*free kick (.*)", foul)[0]
 
