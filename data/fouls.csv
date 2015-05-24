@@ -44,3 +44,46 @@ matchId,foulId,time,foulLocation,fouledPlayer,fouledPlayerTeam,foulingPlayer,fou
 32683303,203,9:15,in the attacking half.,Cristiano Ronaldo,Real Madrid,Leonardo Bonucci,Juventus,555
 32683303,208,2:37,in the defensive half.,Giorgio Chiellini,Juventus,Gareth Bale,Real Madrid,157
 32683303,211,2:16,in the defensive half.,Raphael Varane,Real Madrid,Arturo Vidal,Juventus,136
+32384894,216,90:00 +4:18,in the defensive half.,Raúl García,Atlético de Madrid,Jesé,Real Madrid,5658
+32384894,220,90:00 +3:13,in the defensive half.,Daniel Carvajal,Real Madrid,Koke,Atlético de Madrid,5593
+32384894,223,90:00 +2:18,in the defensive half.,Raúl García,Atlético de Madrid,Álvaro Arbeloa,Real Madrid,5538
+32384894,240,75:14,in the defensive half.,Sergio Ramos,Real Madrid,Arda Turan,Atlético de Madrid,4514
+32384894,246,72:43,in the defensive half.,Raphael Varane,Real Madrid,Raúl García,Atlético de Madrid,4363
+32384894,247,70:20,in the defensive half.,Arda Turan,Atlético de Madrid,Sergio Ramos,Real Madrid,4220
+32384894,251,67:45,in the attacking half.,Raúl García,Atlético de Madrid,Raphael Varane,Real Madrid,4065
+32384894,255,64:09,in the defensive half.,Koke,Atlético de Madrid,Daniel Carvajal,Real Madrid,3849
+32384894,261,61:02,in the defensive half.,Fábio Coentrão,Real Madrid,Tiago,Atlético de Madrid,3662
+32384894,267,57:03,in the defensive half.,Tiago,Atlético de Madrid,Cristiano Ronaldo,Real Madrid,3423
+32384894,269,52:29,in the defensive half.,Koke,Atlético de Madrid,Sergio Ramos,Real Madrid,3149
+32384894,275,45:34,in the attacking half.,Mario Mandzukic,Atlético de Madrid,Raphael Varane,Real Madrid,2734
+32384894,286,40:05,on the right wing.,Sergio Ramos,Real Madrid,Saúl Ñíguez,Atlético de Madrid,2405
+32384894,287,38:52,on the left wing.,Jesús Gámez,Atlético de Madrid,Javier Hernández,Real Madrid,2332
+32384894,289,38:22,on the left wing.,Jesús Gámez,Atlético de Madrid,James Rodríguez,Real Madrid,2302
+32384894,292,36:43,on the right wing.,Javier Hernández,Real Madrid,Miranda,Atlético de Madrid,2203
+32384894,293,34:41,on the right wing.,Arda Turan,Atlético de Madrid,Fábio Coentrão,Real Madrid,2081
+32384894,301,30:37,in the attacking half.,Toni Kroos,Real Madrid,Arda Turan,Atlético de Madrid,1837
+32384894,305,28:31,on the left wing.,Isco,Real Madrid,Tiago,Atlético de Madrid,1711
+32384894,308,27:10,in the defensive half.,Sergio Ramos,Real Madrid,Mario Mandzukic,Atlético de Madrid,1630
+32384894,311,25:37,in the attacking half.,Cristiano Ronaldo,Real Madrid,Jesús Gámez,Atlético de Madrid,1537
+32384894,312,20:59,in the defensive half.,Jesús Gámez,Atlético de Madrid,Cristiano Ronaldo,Real Madrid,1259
+32384894,315,17:39,in the defensive half.,Diego Godín,Atlético de Madrid,Sergio Ramos,Real Madrid,1059
+32384894,318,13:29,on the left wing.,Mario Mandzukic,Atlético de Madrid,Sergio Ramos,Real Madrid,809
+32384894,324,10:30,in the attacking half.,Cristiano Ronaldo,Real Madrid,Arda Turan,Atlético de Madrid,630
+32384894,326,6:16,in the defensive half.,Arda Turan,Atlético de Madrid,Fábio Coentrão,Real Madrid,376
+32384894,329,5:45,on the right wing.,James Rodríguez,Real Madrid,Jesús Gámez,Atlético de Madrid,345
+31816155,339,88:31,in the attacking half.,Sebastian Rode,FC Bayern München,Fred,Shakhtar Donetsk,5311
+31816155,348,72:39,in the defensive half.,Darijo Srna,Shakhtar Donetsk,Mario Götze,FC Bayern München,4359
+31816155,352,68:27,in the defensive half.,Darijo Srna,Shakhtar Donetsk,Mario Götze,FC Bayern München,4107
+31816155,354,66:55,on the right wing.,Alex Teixeira,Shakhtar Donetsk,Dante,FC Bayern München,4015
+31816155,364,52:10,in the defensive half.,Darijo Srna,Shakhtar Donetsk,Franck Ribéry,FC Bayern München,3130
+31816155,372,46:37,in the defensive half.,Taras Stepanenko,Shakhtar Donetsk,Sebastian Rode,FC Bayern München,2797
+31816155,377,42:45,in the defensive half.,Fred,Shakhtar Donetsk,Franck Ribéry,FC Bayern München,2565
+31816155,380,42:06,on the right wing.,Rafinha,FC Bayern München,Luiz Adriano,Shakhtar Donetsk,2526
+31816155,382,41:11,in the defensive half.,Fred,Shakhtar Donetsk,Robert Lewandowski,FC Bayern München,2471
+31816155,389,36:45,in the defensive half.,Franck Ribéry,FC Bayern München,Douglas Costa,Shakhtar Donetsk,2205
+31816155,394,32:14,in the defensive half.,David Alaba,FC Bayern München,Douglas Costa,Shakhtar Donetsk,1934
+31816155,397,28:47,on the right wing.,Douglas Costa,Shakhtar Donetsk,Franck Ribéry,FC Bayern München,1727
+31816155,402,25:50,in the defensive half.,Fred,Shakhtar Donetsk,Holger Badstuber,FC Bayern München,1550
+31816155,414,12:20,in the defensive half.,Viacheslav Shevchuk,Shakhtar Donetsk,Holger Badstuber,FC Bayern München,740
+31816155,419,9:05,in the defensive half.,Taras Stepanenko,Shakhtar Donetsk,Mario Götze,FC Bayern München,545
+31816155,431,1:10,in the defensive half.,Darijo Srna,Shakhtar Donetsk,Mario Götze,FC Bayern München,70

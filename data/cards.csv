@@ -1,12 +1,22 @@
-matchId,cardId,foulId,player,playerTeam,time,sortableTime
-32683310,7,9,Pedro,Barcelona,84:43,5083
-32683310,11,12,Sebastian Rode,FC Bayern München,83:18,4998
-32683310,16,17,Xabi Alonso,FC Bayern München,80:44,4844
-32683310,24,25,Robert Lewandowski,FC Bayern München,75:41,4541
-32683310,34,36,Ivan Rakitic,Barcelona,63:29,3809
-32683310,61,62,Thiago Alcántara,FC Bayern München,45:00 +1:34,2794
-32683310,68,69,Rafinha,FC Bayern München,39:56,2396
-32683303,133,,Stephan Lichtsteiner,Juventus,75:58,4558
-32683303,138,140,Carlos Tévez,Juventus,69:54,4194
-32683303,160,162,James Rodríguez,Real Madrid,43:52,2632
-32683303,179,180,Isco,Real Madrid,31:05,1865
+matchId,cardId,foulId,player,playerTeam,time,sortableTime,cardType
+32683310,7,9,Pedro,Barcelona,84:43,5083,yellow
+32683310,11,12,Sebastian Rode,FC Bayern München,83:18,4998,yellow
+32683310,16,17,Xabi Alonso,FC Bayern München,80:44,4844,yellow
+32683310,24,25,Robert Lewandowski,FC Bayern München,75:41,4541,yellow
+32683310,34,36,Ivan Rakitic,Barcelona,63:29,3809,yellow
+32683310,61,62,Thiago Alcántara,FC Bayern München,45:00 +1:34,2794,yellow
+32683310,68,69,Rafinha,FC Bayern München,39:56,2396,yellow
+32683303,133,,Stephan Lichtsteiner,Juventus,75:58,4558,yellow
+32683303,138,140,Carlos Tévez,Juventus,69:54,4194,yellow
+32683303,160,162,James Rodríguez,Real Madrid,43:52,2632,yellow
+32683303,179,180,Isco,Real Madrid,31:05,1865,yellow
+32384894,218,220,Koke,Atlético de Madrid,90:00 +3:22,5602,yellow
+32384894,222,223,Álvaro Arbeloa,Real Madrid,90:00 +2:21,5541,yellow
+32384894,238,240,Arda Turan,Atlético de Madrid,75:18,4518,second_yellow
+32384894,242,,Pepe,Real Madrid,73:52,4432,yellow
+32384894,243,,Raúl García,Atlético de Madrid,73:29,4409,yellow
+32384894,299,301,Arda Turan,Atlético de Madrid,30:44,1844,yellow
+31816155,386,,Jerome Boateng,FC Bayern München,37:23,2243,yellow
+31816155,387,389,Douglas Costa,Shakhtar Donetsk,37:22,2242,yellow
+31816155,401,402,Holger Badstuber,FC Bayern München,25:54,1554,yellow
+31816155,428,430,Olexandr Kucher,Shakhtar Donetsk,2:39,159,red

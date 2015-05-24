@@ -3,7 +3,8 @@ import csv
 from extractor import *
 import itertools
 
-matches = ["32683310", "32683303"]
+# matches = ["32683310", "32683303"]
+matches = ["32683310", "32683303", "32384894", "31816155"]
 
 raw_events = itertools.chain()
 for match_id in matches:
@@ -11,8 +12,8 @@ for match_id in matches:
 
 timed_events = list(format_time(raw_events))
 
-# for event in timed_events:
-#     print event
+for event in timed_events:
+    print event
 #
 # import sys
 # sys.exit(1)
@@ -47,10 +48,10 @@ with open("data/corners.csv", "w") as file:
 
 with open("data/cards.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
-    writer.writerow(["matchId", "cardId", "foulId", "player", "playerTeam", "time", "sortableTime"])
+    writer.writerow(["matchId", "cardId", "foulId", "player", "playerTeam", "time", "sortableTime", "cardType"])
 
-    for card_id, associated_foul, player, team, item in cards(timed_events):
-        writer.writerow([item["match_id"], card_id, associated_foul, player.encode('utf-8'), team.encode('utf-8'), item["formatted_time"], item["sortable_time"]])
+    for card_id, associated_foul, player, team, item, card_type in cards(timed_events):
+        writer.writerow([item["match_id"], card_id, associated_foul, player.encode('utf-8'), team.encode('utf-8'), item["formatted_time"], item["sortable_time"], card_type])
 
 with open("data/subs.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")

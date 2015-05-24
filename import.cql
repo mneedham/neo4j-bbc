@@ -64,7 +64,7 @@ MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayerApp)
 MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp);
 
 // remove the old rels
-match (match:Match {id: "32683310"})<-[oldRel:COMMITTED_IN_MATCH]-(foul:Foul)
+match (match:Match)<-[oldRel:COMMITTED_IN_MATCH]-(foul:Foul)
 DELETE oldRel;
 
 match (player:Player)<-[oldRel:COMMITTED_AGAINST]-(foul:Foul)

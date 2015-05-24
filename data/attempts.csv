@@ -53,3 +53,59 @@ matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortabl
 32683303,202,10:25,blocked,Cristiano Ronaldo,Real Madrid,,625
 32683303,205,5:04,missed,Karim Benzema,Real Madrid,Daniel Carvajal,304
 32683303,212,0:35,missed,Gareth Bale,Real Madrid,Marcelo,35
+32384894,227,88:50,missed,Raúl García,Atlético de Madrid,,5330
+32384894,228,87:13,goal,Javier Hernández,Real Madrid,Cristiano Ronaldo,5233
+32384894,232,83:05,missed,Pepe,Real Madrid,Toni Kroos,4985
+32384894,234,80:59,saved,James Rodríguez,Real Madrid,Daniel Carvajal,4859
+32384894,235,79:49,missed,Isco,Real Madrid,James Rodríguez,4789
+32384894,237,79:29,saved,Javier Hernández,Real Madrid,James Rodríguez,4769
+32384894,249,69:39,saved,Cristiano Ronaldo,Real Madrid,,4179
+32384894,250,68:58,saved,Koke,Atlético de Madrid,Arda Turan,4138
+32384894,253,66:07,missed,Cristiano Ronaldo,Real Madrid,Javier Hernández,3967
+32384894,257,63:09,blocked,Gabi,Atlético de Madrid,,3789
+32384894,259,61:54,saved,Sergio Ramos,Real Madrid,Cristiano Ronaldo,3714
+32384894,263,60:28,blocked,Tiago,Atlético de Madrid,Koke,3628
+32384894,265,58:30,saved,Raphael Varane,Real Madrid,Toni Kroos,3510
+32384894,273,50:50,blocked,Isco,Real Madrid,James Rodríguez,3050
+32384894,274,48:05,missed,Javier Hernández,Real Madrid,Isco,2885
+32384894,277,45:10,missed,Javier Hernández,Real Madrid,Cristiano Ronaldo,2710
+32384894,281,44:08,missed,Raphael Varane,Real Madrid,James Rodríguez,2648
+32384894,283,43:49,saved,Cristiano Ronaldo,Real Madrid,James Rodríguez,2629
+32384894,296,32:00,missed,Toni Kroos,Real Madrid,,1920
+32384894,298,31:36,saved,Cristiano Ronaldo,Real Madrid,,1896
+32384894,303,30:08,blocked,Javier Hernández,Real Madrid,James Rodríguez,1808
+32384894,306,28:12,saved,Jesús Gámez,Atlético de Madrid,,1692
+32384894,309,26:40,missed,James Rodríguez,Real Madrid,,1600
+32384894,317,14:57,missed,Koke,Atlético de Madrid,,897
+32384894,320,12:59,missed,Cristiano Ronaldo,Real Madrid,,779
+32384894,321,11:22,missed,Javier Hernández,Real Madrid,James Rodríguez,682
+32384894,322,10:55,missed,Javier Hernández,Real Madrid,Daniel Carvajal,655
+32384894,325,9:26,blocked,Cristiano Ronaldo,Real Madrid,Daniel Carvajal,566
+32384894,330,1:33,missed,Toni Kroos,Real Madrid,Sergio Ramos,93
+31816155,335,90:00 +0:44,saved,Robert Lewandowski,FC Bayern München,Sebastian Rode,5444
+31816155,337,89:25,missed,Mario Götze,FC Bayern München,Bastian Schweinsteiger,5365
+31816155,340,86:56,goal,Mario Götze,FC Bayern München,Jerome Boateng,5216
+31816155,342,83:25,missed,Robert Lewandowski,FC Bayern München,Mario Götze,5005
+31816155,343,82:43,missed,Viacheslav Shevchuk,Shakhtar Donetsk,Fred,4963
+31816155,344,82:03,missed,Thomas Müller,FC Bayern München,Sebastian Rode,4923
+31816155,346,77:37,missed,Fred,Shakhtar Donetsk,Douglas Costa,4657
+31816155,347,74:12,goal,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,4452
+31816155,357,62:25,goal,Holger Badstuber,FC Bayern München,Rafinha,3745
+31816155,359,61:31,saved,Juan Bernat,FC Bayern München,Sebastian Rode,3691
+31816155,366,50:59,goal,Thomas Müller,FC Bayern München,,3059
+31816155,368,48:55,goal,Franck Ribéry,FC Bayern München,David Alaba,2935
+31816155,381,41:52,saved,Robert Lewandowski,FC Bayern München,Franck Ribéry,2512
+31816155,390,35:09,missed,Thomas Müller,FC Bayern München,David Alaba,2109
+31816155,391,33:13,goal,Jerome Boateng,FC Bayern München,,1993
+31816155,392,33:12,saved,Robert Lewandowski,FC Bayern München,Thomas Müller,1992
+31816155,395,31:42,missed,Jerome Boateng,FC Bayern München,,1902
+31816155,399,28:32,saved,Thomas Müller,FC Bayern München,Rafinha,1712
+31816155,400,27:46,saved,Franck Ribéry,FC Bayern München,Rafinha,1666
+31816155,405,23:32,blocked,Robert Lewandowski,FC Bayern München,Rafinha,1412
+31816155,410,16:03,missed,Robert Lewandowski,FC Bayern München,Franck Ribéry,963
+31816155,411,15:06,blocked,Franck Ribéry,FC Bayern München,Jerome Boateng,906
+31816155,412,14:52,missed,Arjen Robben,FC Bayern München,Franck Ribéry,892
+31816155,417,10:39,missed,Arjen Robben,FC Bayern München,Franck Ribéry,639
+31816155,422,6:13,missed,Franck Ribéry,FC Bayern München,,373
+31816155,424,5:24,blocked,Luiz Adriano,Shakhtar Donetsk,Darijo Srna,324
+31816155,427,3:30,goal,Thomas Müller,FC Bayern München,,210

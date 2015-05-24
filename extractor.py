@@ -109,7 +109,7 @@ def cards(events):
     next = events.next()
     event_id = 0
 
-    for next_next in events:        
+    for next_next in events:
         event = item["event"]
         booking = re.findall("Booking.*", event)
         if booking:
@@ -122,10 +122,26 @@ def cards(events):
 
             if associated_foul:
                 associated_foul = associated_foul[0]
-
-                yield event_id, associated_foul[1], player, team, item
+                yield event_id, associated_foul[1], player, team, item, "yellow"
             else:
-                yield event_id, "", player, team, item
+                yield event_id, "", player, team, item, "yellow"
+
+        red = re.findall("Dismissal.*", event)
+        if red:
+            player = re.findall("Dismissal([^(]*)", event)[0].strip()
+            team = re.findall("Dismissal([^(]*) \((.*)\)", event)[0][1]
+
+            card_type = "second_yellow" if "Second yellow card" in player else "red"
+            player = player.replace("Second yellow card to ", "")
+
+            associated_foul = [x
+                               for x in [(next, event_id+1), (next_next, event_id+2)]
+                               if re.findall("(Foul by|Penalty conceded).*", x[0]["event"])]
+            if associated_foul:
+                associated_foul = associated_foul[0]
+                yield event_id, associated_foul[1], player, team, item, card_type
+            else:
+                yield event_id, "", player, team, item, card_type
 
         item = next
         next = next_next
