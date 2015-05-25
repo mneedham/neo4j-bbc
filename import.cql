@@ -57,25 +57,6 @@ MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayerApp)
 MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp)
 MERGE (foul)-[:COMMITTED_IN_MATCH]->(match);
 
-// refactor the fouls to hook to appearances
-// match (foul:Foul)-[:COMMITTED_AGAINST]->(fouledPlayer),
-//       (foul)<-[:COMMITTED_FOUL]-(foulingPlayer),
-//       (foul)-[:COMMITTED_IN_MATCH]->(match:Match),
-//       (foulingPlayer)-[:MADE_APPEARANCE]-(foulingPlayerApp)-[:IN_MATCH]->(match),
-//       (fouledPlayer)-[:MADE_APPEARANCE]-(fouledPlayerApp)-[:IN_MATCH]->(match)
-// MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayerApp)
-// MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp);
-
-// remove the old rels
-// match (match:Match)<-[oldRel:COMMITTED_IN_MATCH]-(foul:Foul)
-// DELETE oldRel;
-
-// match (player:Player)<-[oldRel:COMMITTED_AGAINST]-(foul:Foul)
-// DELETE oldRel;
-//
-// match (player:Player)-[oldRel:COMMITTED_FOUL]->(foul:Foul)
-// DELETE oldRel;
-
 // attempts
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
 
