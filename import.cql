@@ -47,31 +47,34 @@ MATCH (foulingPlayer:Player {id:row.foulingPlayer + "_" + row.foulingPlayerTeam 
 MATCH (fouledPlayer:Player {id:row.fouledPlayer + "_" + row.fouledPlayerTeam })
 MATCH (match:Match {id: row.matchId})
 
+MATCH (foulingPlayer)-[:MADE_APPEARANCE]->(foulingPlayerApp)-[:IN_MATCH]-(match)
+MATCH (fouledPlayer)-[:MADE_APPEARANCE]->(fouledPlayerApp)-[:IN_MATCH]-(match)
+
 MERGE (foul:Foul:Event {eventId: row.matchId + "_" + row.foulId})
 ON CREATE SET foul.time = row.time, foul.sortableTime = toint(row.sortableTime), foul.location = row.foulLocation
 
-MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayer)
-MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayer)
+MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayerApp)
+MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp)
 MERGE (foul)-[:COMMITTED_IN_MATCH]->(match);
 
 // refactor the fouls to hook to appearances
-match (foul:Foul)-[:COMMITTED_AGAINST]->(fouledPlayer),
-      (foul)<-[:COMMITTED_FOUL]-(foulingPlayer),
-      (foul)-[:COMMITTED_IN_MATCH]->(match:Match {id: "32683310"}),
-      (foulingPlayer)-[:MADE_APPEARANCE]-(foulingPlayerApp)-[:IN_MATCH]->(match),
-      (fouledPlayer)-[:MADE_APPEARANCE]-(fouledPlayerApp)-[:IN_MATCH]->(match)
-MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayerApp)
-MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp);
+// match (foul:Foul)-[:COMMITTED_AGAINST]->(fouledPlayer),
+//       (foul)<-[:COMMITTED_FOUL]-(foulingPlayer),
+//       (foul)-[:COMMITTED_IN_MATCH]->(match:Match),
+//       (foulingPlayer)-[:MADE_APPEARANCE]-(foulingPlayerApp)-[:IN_MATCH]->(match),
+//       (fouledPlayer)-[:MADE_APPEARANCE]-(fouledPlayerApp)-[:IN_MATCH]->(match)
+// MERGE (foul)<-[:COMMITTED_FOUL]-(foulingPlayerApp)
+// MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp);
 
 // remove the old rels
-match (match:Match)<-[oldRel:COMMITTED_IN_MATCH]-(foul:Foul)
-DELETE oldRel;
+// match (match:Match)<-[oldRel:COMMITTED_IN_MATCH]-(foul:Foul)
+// DELETE oldRel;
 
-match (player:Player)<-[oldRel:COMMITTED_AGAINST]-(foul:Foul)
-DELETE oldRel;
-
-match (player:Player)-[oldRel:COMMITTED_FOUL]->(foul:Foul)
-DELETE oldRel;
+// match (player:Player)<-[oldRel:COMMITTED_AGAINST]-(foul:Foul)
+// DELETE oldRel;
+//
+// match (player:Player)-[oldRel:COMMITTED_FOUL]->(foul:Foul)
+// DELETE oldRel;
 
 // attempts
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
@@ -144,7 +147,6 @@ WITH card, row
 MATCH (match:Match {id: row.matchId})
 MATCH (player:Player {id: row.player + "_" + row.playerTeam})
 MATCH (foul:Foul:Event {eventId: row.matchId + "_" + row.foulId})
-
 MATCH (player)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
 
 MERGE (foul)-[:RESULTED_IN]->(card)
@@ -165,10 +167,10 @@ MATCH (player)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
 MERGE (card)-[:GIVEN_TO]->(app);
 
 // foul revenge
-match (foul:Foul)
-WITH foul
-ORDER BY foul.sortableTime
-WITH COLLECT(foul) AS fouls
+MATCH (foul:Foul)-[:COMMITTED_IN_MATCH]->(match)
+WITH foul,match
+ORDER BY match.id, foul.sortableTime
+WITH match, COLLECT(foul) AS fouls
 FOREACH(i in range(0, length(fouls) -2) |
   FOREACH(foul1 in [fouls[i]] | FOREACH (foul2 in [fouls[i+1]] |
     MERGE (foul1)-[:NEXT]->(foul2)

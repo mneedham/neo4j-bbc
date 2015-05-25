@@ -10,7 +10,9 @@ import itertools
 from extractor import *
 from collections import defaultdict
 
-matches = ["32683310", "32683303"]
+# matches = ["32683310", "32683303"]
+matches = ["32683310", "32683303", "32384894", "31816155"]
+
 raw_events = itertools.chain()
 for match_id in matches:
     raw_events = itertools.chain(raw_events, extract_events("data/raw/%s" % (match_id)))
@@ -56,7 +58,7 @@ for i in range(0, len(timed_events)):
         parts = re.findall("Substitution, (.*)\.(.*) replaces (.*)\.$", event)[0]
         team = parts[0]
         on = parts[1].strip().encode("utf-8")
-        off = parts[2].strip().encode("utf-8")
+        off = parts[2].strip().encode("utf-8").replace("because of an injury", "")
 
         players.add((on, team))
         players_matches[(on, team)].add(entry["match_id"])

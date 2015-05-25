@@ -12,8 +12,13 @@ for match_id in matches:
 
 timed_events = list(format_time(raw_events))
 
-for event in timed_events:
-    print event
+# for event in timed_events:
+#     print event
+#
+
+match_id = "32683310"
+events = extract_events("data/raw/%s" % (match_id))
+# print type(events)
 #
 # import sys
 # sys.exit(1)

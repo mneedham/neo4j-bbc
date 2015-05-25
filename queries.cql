@@ -91,7 +91,8 @@ ORDER BY assists DESC
 
 // revenge foulers
 match (foul1:Foul)-[:COMMITTED_AGAINST]->(app1)-[:COMMITTED_FOUL]->(foul2)-[:COMMITTED_AGAINST]->(app2)-[:COMMITTED_FOUL]->(foul1),
-      (player1)-[:MADE_APPEARANCE]->(app1), (player2)-[:MADE_APPEARANCE]->(app2)
+      (player1)-[:MADE_APPEARANCE]->(app1), (player2)-[:MADE_APPEARANCE]->(app2),
+      (foul1)-[:COMMITTED_IN_MATCH]->(match:Match {id: "32683310"})<-[:COMMITTED_IN_MATCH]-(foul2)
 WHERE (foul1)-[:NEXT*]->(foul2)
 RETURN player2.name AS firstFouler, player1.name AS revengeFouler, foul1.time, foul1.location, foul2.time, foul2.location
 

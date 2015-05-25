@@ -156,7 +156,7 @@ def subs(events):
             parts = re.findall("Substitution, (.*)\.(.*) replaces (.*)\.$", event["event"])[0]
             team = parts[0]
             on = parts[1].strip()
-            off = parts[2].strip()
+            off = parts[2].strip().replace("because of an injury", "")
 
             yield event_id, team, on, off, event
 

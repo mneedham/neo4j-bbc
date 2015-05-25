@@ -10,7 +10,7 @@ matchId,subId,team,on,off,time,sortableTime
 32683303,132,Juventus,Andrea Barzagli,Andrea Pirlo,78:47,4727
 32683303,143,Real Madrid,Javier Hernández,Karim Benzema,66:06,3966
 32384894,221,Real Madrid,Asier Illarramendi,Isco,90:00 +2:56,5576
-32384894,225,Real Madrid,Jesé,Javier Hernández because of an injury,90:00 +1:08,5468
+32384894,225,Real Madrid,Jesé,Javier Hernández ,90:00 +1:08,5468
 32384894,226,Real Madrid,Álvaro Arbeloa,Fábio Coentrão,90:00 +0:30,5430
 32384894,229,Atlético de Madrid,Giménez,Tiago,85:23,5123
 32384894,254,Atlético de Madrid,Raúl García,Antoine Griezmann,64:54,3894
@@ -18,6 +18,6 @@ matchId,subId,team,on,off,time,sortableTime
 31816155,345,Shakhtar Donetsk,Wellington Nem,Douglas Costa,78:03,4683
 31816155,351,Shakhtar Donetsk,Ilsinho,Alex Teixeira,69:06,4146
 31816155,356,FC Bayern München,Dante,Holger Badstuber,66:06,3966
-31816155,361,FC Bayern München,Juan Bernat,Franck Ribéry because of an injury,58:58,3538
-31816155,408,FC Bayern München,Sebastian Rode,Arjen Robben because of an injury,18:38,1118
+31816155,361,FC Bayern München,Juan Bernat,Franck Ribéry ,58:58,3538
+31816155,408,FC Bayern München,Sebastian Rode,Arjen Robben ,18:38,1118
 31816155,421,Shakhtar Donetsk,Sergey Krivtsov,Taison,8:22,502
