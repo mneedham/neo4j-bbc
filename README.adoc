@@ -1,0 +1,17 @@
+= BBC Live Text Graph
+
+```
+virtualenv bbc
+```
+
+```
+source bbc/bin/activate
+```
+
+```
+pip install -r requirements.txt
+````
+
+```
+find_all_matches.py | xargs wget -O data/raw
+```
