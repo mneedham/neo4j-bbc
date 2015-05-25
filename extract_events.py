@@ -23,6 +23,16 @@ events = extract_events("data/raw/%s" % (match_id))
 # import sys
 # sys.exit(1)
 
+with open('data/matches.csv', "w") as file:
+    writer = csv.writer(file, delimiter=",")
+    writer.writerow(["matchId", "home", "away", "homeScore", "awayScore"])
+
+    for match_id, home, away, home_score, away_score in teams(timed_events):
+        writer.writerow([match_id, home.encode("utf-8"), away.encode("utf-8"), home_score, away_score])
+
+import sys
+sys.exit(1)
+
 with open("data/fouls.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
     writer.writerow(["matchId", "foulId", "time", "foulLocation", "fouledPlayer",

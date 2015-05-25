@@ -39,6 +39,15 @@ def extract_events(file):
         if time:
             yield {'match_id': file.split("/")[2], 'time': time, 'event': next(events)}
 
+def teams(events):
+    events = iter(events)
+    for entry in events:
+        event = entry["event"]
+        full_time = re.findall(".*Full Time.*", event)
+        if full_time:
+            parts =  re.findall("Second Half ends, (.*) (\d{1,2}), (.*) (\d{1,2})\.", event)[0]
+            yield entry["match_id"], parts[0], parts[2], parts[1], parts[3]
+
 def fouls(events):
     events = iter(events)
     event_id = 0
