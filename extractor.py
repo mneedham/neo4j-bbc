@@ -73,7 +73,12 @@ def attempts(events):
 
         attempt = re.findall("(Attempt|Goal).*", event)
         if attempt:
+            print event
             outcome = re.findall("Attempt ([^\.]*)\.", event)
+
+            # handle own goals here
+            # Goal!     Own Goal by Marek Suchy, FC Basel.  Real Madrid 1, FC Basel 0.
+
             player_with_attempt = re.findall(".*\.([^(]*) \(.*\)", event)[0].strip()
             player_with_attempt_team = re.findall(".*\.([^(]*) \((.*)\)", event)[0][1]
 
@@ -111,23 +116,27 @@ def corners(events):
         item = next
         event_id += 1
 
+from itertools import tee, izip
+def window(iterable, size):
+    iters = tee(iterable, size)
+    for i in xrange(1, size):
+        for each in iters[i:]:
+            next(each, None)
+    return izip(*iters)
+
 def cards(events):
     events = iter(events)
+    for event_id, triple in enumerate(window(events, 3)):
+        item = triple[0]
+        event = triple[0]["event"]
 
-    item = events.next()
-    next = events.next()
-    event_id = 0
-
-    for next_next in events:
-        event = item["event"]
         booking = re.findall("Booking.*", event)
         if booking:
             player = re.findall("Booking([^(]*)", event)[0].strip()
             team = re.findall("Booking([^(]*) \((.*)\)", event)[0][1]
 
-            associated_foul = [x
-                               for x in [(next, event_id+1), (next_next, event_id+2)]
-                               if re.findall("Foul by.*", x[0]["event"])]
+            associated_foul = [x for x in [(triple[1], event_id+1), (triple[2], event_id+2)]
+                                 if re.findall("Foul by.*", x[0]["event"])]
 
             if associated_foul:
                 associated_foul = associated_foul[0]
@@ -144,17 +153,13 @@ def cards(events):
             player = player.replace("Second yellow card to ", "")
 
             associated_foul = [x
-                               for x in [(next, event_id+1), (next_next, event_id+2)]
+                               for x in [(triple[1], event_id+1), (triple[2], event_id+2)]
                                if re.findall("(Foul by|Penalty conceded).*", x[0]["event"])]
             if associated_foul:
                 associated_foul = associated_foul[0]
                 yield event_id, associated_foul[1], player, team, item, card_type
             else:
                 yield event_id, "", player, team, item, card_type
-
-        item = next
-        next = next_next
-        event_id += 1
 
 def subs(events):
     events = iter(events)

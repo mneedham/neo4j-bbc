@@ -25,13 +25,6 @@ MERGE (away:Team {name: row.away})
 MERGE (match)-[:HOME_TEAM]->(home)
 MERGE (match)-[:AWAY_TEAM]->(away);
 
-// teams
-// LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
-// MERGE (:Team {name: row.foulingPlayerTeam});
-//
-// LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
-// MERGE (:Team {name: row.fouledPlayerTeam});
-
 // players
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/players.csv" AS row
 MERGE (player:Player {id: row.player + "_" + row.team})

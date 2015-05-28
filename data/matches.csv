@@ -1,5 +1,132 @@
 matchId,home,away,homeScore,awayScore
-32683310,FC Bayern München,Barcelona,3,2
-32683303,Real Madrid,Juventus,1,1
-32384894,Real Madrid,Atlético de Madrid,1,0
+28278531,KR Reykjavík,Celtic,0,1
+28508318,Legia Warsaw,Celtic,4,1
+28656118,Celtic,Legia Warsaw,0,2
+28784340,Besiktas,Arsenal,0,0
+28784367,NK Maribor,Celtic,1,1
+28927666,Celtic,NK Maribor,0,1
+28931063,Arsenal,Besiktas,1,0
+28962031,Ludogorets Razgrad,Steaua Bucharest,1,0
+29209551,Borussia Dortmund,Arsenal,2,0
+29209558,Liverpool,Ludogorets Razgrad,2,1
+29210808,Real Madrid,FC Basel,5,1
+29212602,Juventus,Malmö FF,2,0
+29220458,Olympiakos,Atlético de Madrid,3,2
+29220465,Galatasaray,RSC Anderlecht,1,1
+29220472,Monaco,Bayer 04 Leverkusen,1,0
+29220479,Benfica,Zenit St Petersburg,0,2
+29225435,FC Bayern München,Manchester City,1,0
+29225452,Chelsea,FC Schalke 04,1,1
+29225459,Roma,CSKA Moscow,5,1
+29225466,NK Maribor,Sporting Lisbon,1,1
+29225473,FC Porto,BATE Borisov,6,0
+29225480,Athletic Club,Shakhtar Donetsk,0,0
+29225487,Barcelona,APOEL Nicosia,1,0
+29225494,Ajax,Paris Saint Germain,1,1
+29362540,CSKA Moscow,FC Bayern München,0,1
+29362547,APOEL Nicosia,Ajax,1,1
+29362554,Paris Saint Germain,Barcelona,3,2
+29362571,BATE Borisov,Athletic Club,2,1
+29362578,Shakhtar Donetsk,FC Porto,2,2
+29362585,FC Schalke 04,NK Maribor,1,1
+29362602,Sporting Lisbon,Chelsea,0,1
+29362609,Manchester City,Roma,1,1
+29362626,Zenit St Petersburg,Monaco,0,0
+29362633,Bayer 04 Leverkusen,Benfica,3,1
+29362640,Arsenal,Galatasaray,4,1
+29362648,RSC Anderlecht,Borussia Dortmund,0,3
+29362655,Atlético de Madrid,Juventus,1,0
+29362662,Malmö FF,Olympiakos,2,0
+29362669,FC Basel,Liverpool,1,0
+29362676,Ludogorets Razgrad,Real Madrid,1,2
+29362703,CSKA Moscow,Manchester City,2,2
+29362710,APOEL Nicosia,Paris Saint Germain,0,1
+29362717,Barcelona,Ajax,3,1
+29362724,BATE Borisov,Shakhtar Donetsk,0,7
+29362731,FC Porto,Athletic Club,2,1
+29362738,Chelsea,NK Maribor,6,0
+29362745,FC Schalke 04,Sporting Lisbon,4,3
+29362752,Roma,FC Bayern München,1,7
+29362759,Bayer 04 Leverkusen,Zenit St Petersburg,2,0
+29362766,Monaco,Benfica,0,0
+29362773,Galatasaray,Borussia Dortmund,0,4
+29362790,RSC Anderlecht,Arsenal,1,2
+29362797,Atlético de Madrid,Malmö FF,5,0
+29362804,Olympiakos,Juventus,1,0
+29362811,Liverpool,Real Madrid,0,3
+29362818,Ludogorets Razgrad,FC Basel,1,0
+29362835,Zenit St Petersburg,Bayer 04 Leverkusen,1,2
+29362842,Benfica,Monaco,1,0
+29362849,Arsenal,RSC Anderlecht,3,3
+29362856,Borussia Dortmund,Galatasaray,4,1
+29362863,Juventus,Olympiakos,3,2
+29362870,Malmö FF,Atlético de Madrid,0,2
+29362877,FC Basel,Ludogorets Razgrad,4,0
+29362894,Real Madrid,Liverpool,1,0
+29362901,Ajax,Barcelona,0,2
+29362908,Paris Saint Germain,APOEL Nicosia,1,0
+29362915,Athletic Club,FC Porto,0,2
+29362922,Shakhtar Donetsk,BATE Borisov,5,0
+29362929,NK Maribor,Chelsea,1,1
+29362936,Sporting Lisbon,FC Schalke 04,4,2
+29362943,FC Bayern München,Roma,2,0
+29362950,Manchester City,CSKA Moscow,1,2
+29362977,BATE Borisov,FC Porto,0,3
+29362984,CSKA Moscow,Roma,1,1
+29362991,Paris Saint Germain,Ajax,3,1
+29362998,Shakhtar Donetsk,Athletic Club,0,1
+29363005,FC Schalke 04,Chelsea,0,5
+29363022,Sporting Lisbon,NK Maribor,3,1
+29363029,Manchester City,FC Bayern München,3,2
+29363037,Arsenal,Borussia Dortmund,2,0
+29363038,Zenit St Petersburg,Benfica,1,0
+29363064,Atlético de Madrid,Olympiakos,4,0
+29363078,Bayer 04 Leverkusen,Monaco,0,1
+29363092,Ludogorets Razgrad,Liverpool,2,2
+29363106,Malmö FF,Juventus,0,2
+29363492,FC Bayern München,CSKA Moscow,3,0
+29363509,FC Porto,Shakhtar Donetsk,1,1
+29363510,Juventus,Atlético de Madrid,0,0
+29363523,Roma,Manchester City,0,2
+29363530,Olympiakos,Malmö FF,4,2
+29363537,Liverpool,FC Basel,1,1
+29363544,Real Madrid,Ludogorets Razgrad,4,0
+29363551,NK Maribor,FC Schalke 04,0,1
+29363558,Ajax,APOEL Nicosia,4,0
+29363565,Athletic Club,BATE Borisov,2,0
+29363780,APOEL Nicosia,Barcelona,0,4
+29363787,FC Basel,Real Madrid,0,1
+29363804,Benfica,Bayer 04 Leverkusen,0,0
+29363821,Monaco,Zenit St Petersburg,2,0
+29363838,Borussia Dortmund,RSC Anderlecht,1,1
+29363845,Galatasaray,Arsenal,1,4
+29363852,Barcelona,Paris Saint Germain,3,1
+29363859,Chelsea,Sporting Lisbon,3,1
+31491679,Paris Saint Germain,Chelsea,1,1
+31491686,Shakhtar Donetsk,FC Bayern München,0,0
+31513358,FC Schalke 04,Real Madrid,0,2
+31513365,FC Basel,FC Porto,1,1
+31590794,Juventus,Borussia Dortmund,2,1
+31590801,Manchester City,Barcelona,1,2
+31608951,Arsenal,Monaco,1,3
+31608958,Bayer 04 Leverkusen,Atlético de Madrid,1,0
+31802502,Real Madrid,FC Schalke 04,3,4
+31803965,FC Porto,FC Basel,4,0
+31816148,Chelsea,Paris Saint Germain,1,1
 31816155,FC Bayern München,Shakhtar Donetsk,7,0
+31911679,Atlético de Madrid,Bayer 04 Leverkusen,1,0
+31913128,Monaco,Arsenal,0,2
+31922160,Barcelona,Manchester City,1,0
+31922167,Borussia Dortmund,Juventus,0,3
+32289606,Atlético de Madrid,Real Madrid,0,0
+32289613,Juventus,Monaco,1,0
+32295979,FC Porto,FC Bayern München,3,1
+32295986,Paris Saint-Germain,Barcelona,1,3
+32380834,Barcelona,Paris Saint-Germain,2,0
+32380841,FC Bayern München,FC Porto,6,1
+32384894,Real Madrid,Atlético de Madrid,1,0
+32384921,Monaco,Juventus,0,0
+32582191,Juventus,Real Madrid,2,1
+32582198,Barcelona,FC Bayern München,3,0
+32683303,Real Madrid,Juventus,1,1
+32683310,FC Bayern München,Barcelona,3,2

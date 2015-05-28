@@ -10,8 +10,10 @@ import itertools
 from extractor import *
 from collections import defaultdict
 
+import os, glob
+matches = [f.split("/")[-1] for f in glob.glob('data/raw/[0-9]*') if os.path.isfile(f) ]
 # matches = ["32683310", "32683303"]
-matches = ["32683310", "32683303", "32384894", "31816155"]
+# matches = ["32683310", "32683303", "32384894", "31816155"]
 
 raw_events = itertools.chain()
 for match_id in matches:
@@ -82,6 +84,12 @@ for i in range(0, len(timed_events)):
 
         players.add((conceded_by, team))
         players_matches[(conceded_by, team)].add(entry["match_id"])
+
+import sys
+for player in players:
+    print player
+
+sys.exit(1)
 
 with open("data/players.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")

@@ -3,8 +3,14 @@ import csv
 from extractor import *
 import itertools
 
+import os, glob
+import sys
+# matches = [f.split("/")[-1] for f in glob.glob('data/raw/[0-9]*') if os.path.isfile(f) ]
+
+
+matches = ["32683310"]
 # matches = ["32683310", "32683303"]
-matches = ["32683310", "32683303", "32384894", "31816155"]
+# matches = ["32683310", "32683303", "32384894", "31816155"]
 
 raw_events = itertools.chain()
 for match_id in matches:
@@ -14,14 +20,25 @@ timed_events = list(format_time(raw_events))
 
 # for event in timed_events:
 #     print event
+
+# for event in timed_events:
+#     print event
 #
 
-match_id = "32683310"
-events = extract_events("data/raw/%s" % (match_id))
+# match_id = "32683310"
+# events = extract_events("data/raw/%s" % (match_id))
 # print type(events)
 #
-# import sys
-# sys.exit(1)
+
+for card_id, associated_foul, player, team, item, card_type in cards2(timed_events):
+    print card_id, associated_foul, player, team, item, card_type
+
+print "*******"
+
+for card_id, associated_foul, player, team, item, card_type in cards(timed_events):
+    print card_id, associated_foul, player, team, item, card_type
+
+sys.exit(1)
 
 with open('data/matches.csv', "w") as file:
     writer = csv.writer(file, delimiter=",")
@@ -30,8 +47,8 @@ with open('data/matches.csv', "w") as file:
     for match_id, home, away, home_score, away_score in teams(timed_events):
         writer.writerow([match_id, home.encode("utf-8"), away.encode("utf-8"), home_score, away_score])
 
-import sys
-sys.exit(1)
+# import sys
+# sys.exit(1)
 
 with open("data/fouls.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")

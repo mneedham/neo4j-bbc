@@ -1,111 +1,287 @@
 matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortableTime
-32683310,10,84:00,missed,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,5040
-32683310,19,78:24,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,4704
-32683310,21,77:56,blocked,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,4676
-32683310,28,73:19,goal,Thomas Müller,FC Bayern München,Bastian Schweinsteiger,4399
-32683310,37,62:22,missed,Thomas Müller,FC Bayern München,,3742
-32683310,44,58:45,goal,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,3525
-32683310,48,56:41,missed,Juan Bernat,FC Bayern München,,3401
-32683310,49,54:13,missed,Thomas Müller,FC Bayern München,Thiago Alcántara,3253
-32683310,53,51:32,blocked,Lionel Messi,Barcelona,Dani Alves,3092
-32683310,64,44:41,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,2681
-32683310,71,39:01,saved,Robert Lewandowski,FC Bayern München,,2341
-32683310,72,38:59,blocked,Thiago Alcántara,FC Bayern München,Xabi Alonso,2339
-32683310,73,37:55,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,2275
-32683310,75,37:26,saved,Bastian Schweinsteiger,FC Bayern München,Juan Bernat,2246
-32683310,83,28:48,goal,Neymar,Barcelona,Luis Suárez,1728
-32683310,84,28:15,saved,Thomas Müller,FC Bayern München,Thiago Alcántara,1695
-32683310,85,27:34,saved,Lionel Messi,Barcelona,Neymar,1654
-32683310,86,26:10,saved,Robert Lewandowski,FC Bayern München,Thomas Müller,1570
-32683310,93,18:20,saved,Thomas Müller,FC Bayern München,Philipp Lahm,1100
-32683310,99,14:16,goal,Neymar,Barcelona,Luis Suárez,856
-32683310,100,13:00,missed,Bastian Schweinsteiger,FC Bayern München,Jerome Boateng,780
-32683310,105,6:47,goal,Medhi Benatia,FC Bayern München,Xabi Alonso,407
-32683310,107,5:15,blocked,Thiago Alcántara,FC Bayern München,Thomas Müller,315
-32683310,109,4:18,saved,Ivan Rakitic,Barcelona,Dani Alves,258
-32683303,122,87:33,missed,Arturo Vidal,Juventus,,5253
-32683303,123,87:30,saved,Paul Pogba,Juventus,Fernando Llorente,5250
-32683303,127,83:10,missed,Gareth Bale,Real Madrid,James Rodríguez,4990
-32683303,129,80:23,saved,Toni Kroos,Real Madrid,Gareth Bale,4823
-32683303,130,80:20,blocked,Javier Hernández,Real Madrid,Isco,4820
-32683303,134,74:50,missed,Gareth Bale,Real Madrid,James Rodríguez,4490
-32683303,136,71:45,missed,Gareth Bale,Real Madrid,Cristiano Ronaldo,4305
-32683303,137,70:33,missed,Gareth Bale,Real Madrid,,4233
-32683303,141,69:04,saved,Claudio Marchisio,Juventus,Arturo Vidal,4144
-32683303,142,67:06,missed,James Rodríguez,Real Madrid,Cristiano Ronaldo,4026
-32683303,146,62:01,missed,Gareth Bale,Real Madrid,Marcelo,3721
-32683303,151,56:54,goal,Álvaro Morata,Juventus,Paul Pogba,3414
-32683303,155,52:12,missed,Marcelo,Real Madrid,,3132
-32683303,156,51:53,missed,Toni Kroos,Real Madrid,James Rodríguez,3113
-32683303,157,50:37,missed,Claudio Marchisio,Juventus,Carlos Tévez,3037
-32683303,164,41:25,missed,Sergio Ramos,Real Madrid,James Rodríguez,2485
-32683303,166,40:53,saved,Karim Benzema,Real Madrid,Cristiano Ronaldo,2453
-32683303,167,40:22,missed,Cristiano Ronaldo,Real Madrid,Gareth Bale,2422
-32683303,171,38:23,missed,Karim Benzema,Real Madrid,Daniel Carvajal,2303
-32683303,178,31:44,blocked,Álvaro Morata,Juventus,Carlos Tévez,1904
-32683303,182,29:56,saved,Karim Benzema,Real Madrid,Toni Kroos,1796
-32683303,184,29:00,blocked,Sergio Ramos,Real Madrid,James Rodríguez,1740
-32683303,191,22:30,goal,Cristiano Ronaldo,Real Madrid,,1350
-32683303,194,20:09,blocked,Toni Kroos,Real Madrid,,1209
-32683303,196,19:42,saved,Gareth Bale,Real Madrid,Daniel Carvajal,1182
-32683303,197,17:10,missed,Isco,Real Madrid,Daniel Carvajal,1030
-32683303,200,13:01,saved,Arturo Vidal,Juventus,Carlos Tévez,781
-32683303,202,10:25,blocked,Cristiano Ronaldo,Real Madrid,,625
-32683303,205,5:04,missed,Karim Benzema,Real Madrid,Daniel Carvajal,304
-32683303,212,0:35,missed,Gareth Bale,Real Madrid,Marcelo,35
-32384894,227,88:50,missed,Raúl García,Atlético de Madrid,,5330
-32384894,228,87:13,goal,Javier Hernández,Real Madrid,Cristiano Ronaldo,5233
-32384894,232,83:05,missed,Pepe,Real Madrid,Toni Kroos,4985
-32384894,234,80:59,saved,James Rodríguez,Real Madrid,Daniel Carvajal,4859
-32384894,235,79:49,missed,Isco,Real Madrid,James Rodríguez,4789
-32384894,237,79:29,saved,Javier Hernández,Real Madrid,James Rodríguez,4769
-32384894,249,69:39,saved,Cristiano Ronaldo,Real Madrid,,4179
-32384894,250,68:58,saved,Koke,Atlético de Madrid,Arda Turan,4138
-32384894,253,66:07,missed,Cristiano Ronaldo,Real Madrid,Javier Hernández,3967
-32384894,257,63:09,blocked,Gabi,Atlético de Madrid,,3789
-32384894,259,61:54,saved,Sergio Ramos,Real Madrid,Cristiano Ronaldo,3714
-32384894,263,60:28,blocked,Tiago,Atlético de Madrid,Koke,3628
-32384894,265,58:30,saved,Raphael Varane,Real Madrid,Toni Kroos,3510
-32384894,273,50:50,blocked,Isco,Real Madrid,James Rodríguez,3050
-32384894,274,48:05,missed,Javier Hernández,Real Madrid,Isco,2885
-32384894,277,45:10,missed,Javier Hernández,Real Madrid,Cristiano Ronaldo,2710
-32384894,281,44:08,missed,Raphael Varane,Real Madrid,James Rodríguez,2648
-32384894,283,43:49,saved,Cristiano Ronaldo,Real Madrid,James Rodríguez,2629
-32384894,296,32:00,missed,Toni Kroos,Real Madrid,,1920
-32384894,298,31:36,saved,Cristiano Ronaldo,Real Madrid,,1896
-32384894,303,30:08,blocked,Javier Hernández,Real Madrid,James Rodríguez,1808
-32384894,306,28:12,saved,Jesús Gámez,Atlético de Madrid,,1692
-32384894,309,26:40,missed,James Rodríguez,Real Madrid,,1600
-32384894,317,14:57,missed,Koke,Atlético de Madrid,,897
-32384894,320,12:59,missed,Cristiano Ronaldo,Real Madrid,,779
-32384894,321,11:22,missed,Javier Hernández,Real Madrid,James Rodríguez,682
-32384894,322,10:55,missed,Javier Hernández,Real Madrid,Daniel Carvajal,655
-32384894,325,9:26,blocked,Cristiano Ronaldo,Real Madrid,Daniel Carvajal,566
-32384894,330,1:33,missed,Toni Kroos,Real Madrid,Sergio Ramos,93
-31816155,335,90:00 +0:44,saved,Robert Lewandowski,FC Bayern München,Sebastian Rode,5444
-31816155,337,89:25,missed,Mario Götze,FC Bayern München,Bastian Schweinsteiger,5365
-31816155,340,86:56,goal,Mario Götze,FC Bayern München,Jerome Boateng,5216
-31816155,342,83:25,missed,Robert Lewandowski,FC Bayern München,Mario Götze,5005
-31816155,343,82:43,missed,Viacheslav Shevchuk,Shakhtar Donetsk,Fred,4963
-31816155,344,82:03,missed,Thomas Müller,FC Bayern München,Sebastian Rode,4923
-31816155,346,77:37,missed,Fred,Shakhtar Donetsk,Douglas Costa,4657
-31816155,347,74:12,goal,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,4452
-31816155,357,62:25,goal,Holger Badstuber,FC Bayern München,Rafinha,3745
-31816155,359,61:31,saved,Juan Bernat,FC Bayern München,Sebastian Rode,3691
-31816155,366,50:59,goal,Thomas Müller,FC Bayern München,,3059
-31816155,368,48:55,goal,Franck Ribéry,FC Bayern München,David Alaba,2935
-31816155,381,41:52,saved,Robert Lewandowski,FC Bayern München,Franck Ribéry,2512
-31816155,390,35:09,missed,Thomas Müller,FC Bayern München,David Alaba,2109
-31816155,391,33:13,goal,Jerome Boateng,FC Bayern München,,1993
-31816155,392,33:12,saved,Robert Lewandowski,FC Bayern München,Thomas Müller,1992
-31816155,395,31:42,missed,Jerome Boateng,FC Bayern München,,1902
-31816155,399,28:32,saved,Thomas Müller,FC Bayern München,Rafinha,1712
-31816155,400,27:46,saved,Franck Ribéry,FC Bayern München,Rafinha,1666
-31816155,405,23:32,blocked,Robert Lewandowski,FC Bayern München,Rafinha,1412
-31816155,410,16:03,missed,Robert Lewandowski,FC Bayern München,Franck Ribéry,963
-31816155,411,15:06,blocked,Franck Ribéry,FC Bayern München,Jerome Boateng,906
-31816155,412,14:52,missed,Arjen Robben,FC Bayern München,Franck Ribéry,892
-31816155,417,10:39,missed,Arjen Robben,FC Bayern München,Franck Ribéry,639
-31816155,422,6:13,missed,Franck Ribéry,FC Bayern München,,373
-31816155,424,5:24,blocked,Luiz Adriano,Shakhtar Donetsk,Darijo Srna,324
-31816155,427,3:30,goal,Thomas Müller,FC Bayern München,,210
+28278531,1,90:00 +2:54,blocked,Kris Commons,Celtic,Derk Boerrigter,5574
+28278531,4,90:00 +0:37,missed,Zato,KR Reykjavík,Jónas Saevarsson,5437
+28278531,10,86:47,blocked,Callum McGregor,Celtic,Emilio Izaguirre,5207
+28278531,13,83:45,goal,Callum McGregor,Celtic,Efe Ambrose,5025
+28278531,14,83:30,blocked,Stefan Johansen,Celtic,Mikael Lustig,5010
+28278531,15,83:12,blocked,Charlie Mulgrew,Celtic,,4992
+28278531,16,82:41,saved,Teemu Pukki,Celtic,Mikael Lustig,4961
+28278531,18,82:10,saved,Derk Boerrigter,Celtic,Emilio Izaguirre,4930
+28278531,19,81:59,blocked,Kris Commons,Celtic,,4919
+28278531,21,79:53,missed,Kris Commons,Celtic,Callum McGregor,4793
+28278531,23,79:36,blocked,Callum McGregor,Celtic,Kris Commons,4776
+28278531,25,76:32,saved,Callum McGregor,Celtic,,4592
+28278531,26,76:29,saved,Kris Commons,Celtic,,4589
+28278531,34,65:27,missed,Leigh Griffiths,Celtic,Stefan Johansen,3927
+28278531,37,60:44,missed,Mikael Lustig,Celtic,Anthony Stokes,3644
+28278531,42,57:25,missed,Anthony Stokes,Celtic,,3445
+28278531,45,54:21,saved,Kris Commons,Celtic,Anthony Stokes,3261
+28278531,46,51:36,missed,Kris Commons,Celtic,Anthony Stokes,3096
+28278531,49,49:04,missed,Leigh Griffiths,Celtic,,2944
+28278531,51,48:35,blocked,Callum McGregor,Celtic,Kris Commons,2915
+28278531,52,47:05,missed,Kris Commons,Celtic,Leigh Griffiths,2825
+28278531,59,38:25,blocked,Anthony Stokes,Celtic,Stefan Johansen,2305
+28278531,62,33:25,missed,Anthony Stokes,Celtic,Kris Commons,2005
+28278531,69,28:16,missed,Leigh Griffiths,Celtic,,1696
+28278531,70,28:00,blocked,Jónas Saevarsson,KR Reykjavík,Gonzalo Lorenzo Balbi,1680
+28278531,77,22:58,saved,Gary Martin,KR Reykjavík,,1378
+28278531,84,16:42,blocked,Stefan Johansen,Celtic,Anthony Stokes,1002
+28278531,91,10:38,saved,Kris Commons,Celtic,Stefan Johansen,638
+28508318,103,90:00 +0:19,goal,Jakub Kosecki,Legia Warsaw,Lukasz Broz,5419
+28508318,104,89:14,saved,Marek Saganowski,Legia Warsaw,Tomasz Brzyski,5354
+28508318,115,83:31,goal,Michal Zyro,Legia Warsaw,Miroslav Radovic,5011
+28508318,117,82:58,blocked,Michal Zyro,Legia Warsaw,Miroslav Radovic,4978
+28508318,124,79:43,missed,Jakub Rzezniczak,Legia Warsaw,Tomasz Jodlowiec,4783
+28508318,125,79:10,blocked,Miroslav Radovic,Legia Warsaw,Jakub Kosecki,4750
+28508318,128,77:52,missed,Lukasz Broz,Legia Warsaw,Michal Zyro,4672
+28508318,129,77:39,blocked,Tomasz Jodlowiec,Legia Warsaw,,4659
+28508318,131,77:11,blocked,Ondrej Duda,Legia Warsaw,Tomasz Jodlowiec,4631
+28508318,133,75:34,blocked,Jakub Kosecki,Legia Warsaw,Tomasz Jodlowiec,4534
+28508318,137,72:04,blocked,Michal Zyro,Legia Warsaw,Lukasz Broz,4324
+28508318,149,59:00,missed,Jo Inge Berget,Celtic,Stefan Johansen,3540
+28508318,159,53:12,saved,Michal Zyro,Legia Warsaw,Miroslav Radovic,3192
+28508318,163,47:54,blocked,Michal Zyro,Legia Warsaw,,2874
+28508318,165,47:01,blocked,Kris Commons,Celtic,Beram Kayal,2821
+28508318,169,44:22,blocked,Tomasz Brzyski,Legia Warsaw,,2662
+28508318,177,38:38,saved,Callum McGregor,Celtic,Adam Matthews,2318
+28508318,178,35:54,goal,Miroslav Radovic,Legia Warsaw,Michal Kucharczyk,2154
+28508318,179,34:41,missed,Teemu Pukki,Celtic,Kris Commons,2081
+28508318,181,30:42,blocked,Michal Kucharczyk,Legia Warsaw,,1842
+28508318,185,24:02,missed,Ondrej Duda,Legia Warsaw,,1442
+28508318,186,23:04,missed,Kris Commons,Celtic,Stefan Johansen,1384
+28508318,201,9:09,goal,Miroslav Radovic,Legia Warsaw,Michal Zyro,549
+28508318,206,7:01,goal,Callum McGregor,Celtic,Teemu Pukki,421
+28508318,213,0:34,missed,Michal Zyro,Legia Warsaw,Miroslav Radovic,34
+28656118,223,61:00,goal,Michal Kucharczyk,Legia Warsaw,,3660
+28656118,229,36:00,goal,Michal Zyro,Legia Warsaw,,2160
+28784340,235,90:00 +1:42,blocked,Kerim Koyunlu,Besiktas,,5502
+28784340,239,88:04,blocked,Nacho Monreal,Arsenal,,5284
+28784340,240,87:58,saved,Alex Oxlade-Chamberlain,Arsenal,,5278
+28784340,242,86:03,missed,Calum Chambers,Arsenal,Alex Oxlade-Chamberlain,5163
+28784340,251,79:05,saved,Santiago Cazorla,Arsenal,,4745
+28784340,254,77:30,blocked,Alex Oxlade-Chamberlain,Arsenal,Olivier Giroud,4650
+28784340,266,69:15,missed,Ismail Köybasi,Besiktas,,4155
+28784340,281,60:53,blocked,Olcay Sahan,Besiktas,Veli Kavlak,3653
+28784340,282,60:51,blocked,Ismail Köybasi,Besiktas,Mustafa Pektemek,3651
+28784340,283,60:22,blocked,Ramon,Besiktas,Oguzhan Ozyakup,3622
+28784340,284,59:11,saved,Ismail Köybasi,Besiktas,Oguzhan Ozyakup,3551
+28784340,295,50:21,blocked,Demba Ba,Besiktas,Ramon,3021
+28784340,299,47:04,missed,Olcay Sahan,Besiktas,Oguzhan Ozyakup,2824
+28784340,306,43:38,missed,Demba Ba,Besiktas,Ersan Gülüm,2618
+28784340,309,40:03,saved,Ismail Köybasi,Besiktas,,2403
+28784340,310,38:37,missed,Veli Kavlak,Besiktas,,2317
+28784340,311,37:58,saved,Jack Wilshere,Arsenal,Olivier Giroud,2278
+28784340,312,31:00,saved,Veli Kavlak,Besiktas,Mustafa Pektemek,1860
+28784340,323,15:05,missed,Olivier Giroud,Arsenal,Alexis Sánchez,905
+28784340,325,12:08,missed,Santiago Cazorla,Arsenal,Alexis Sánchez,728
+28784340,328,9:41,blocked,Olivier Giroud,Arsenal,,581
+28784340,329,9:40,blocked,Olivier Giroud,Arsenal,,580
+28784340,330,8:35,saved,Demba Ba,Besiktas,Oguzhan Ozyakup,515
+28784340,337,0:02,saved,Demba Ba,Besiktas,Oguzhan Ozyakup,2
+28784367,343,90:00 +1:18,blocked,Stefan Johansen,Celtic,Leigh Griffiths,5478
+28784367,352,85:13,blocked,Sintayehu Sallalich,NK Maribor,,5113
+28784367,355,82:40,saved,Ales Mertelj,NK Maribor,Agim Ibraimi,4960
+28784367,365,73:42,saved,Virgil van Dijk,Celtic,Jason Denayer,4422
+28784367,370,70:04,missed,Beram Kayal,Celtic,Emilio Izaguirre,4204
+28784367,376,64:57,missed,Anthony Stokes,Celtic,Mikael Lustig,3897
+28784367,377,64:10,missed,Anthony Stokes,Celtic,Emilio Izaguirre,3850
+28784367,378,62:22,blocked,Agim Ibraimi,NK Maribor,Dare Vrsic,3742
+28784367,379,61:19,blocked,Anthony Stokes,Celtic,Callum McGregor,3679
+28784367,384,58:27,saved,Agim Ibraimi,NK Maribor,Mitja Viler,3507
+28784367,387,55:17,blocked,Agim Ibraimi,NK Maribor,,3317
+28784367,390,52:40,missed,Damjan Bohar,NK Maribor,Dare Vrsic,3160
+28784367,398,47:06,missed,Damjan Bohar,NK Maribor,,2826
+28784367,400,46:39,blocked,Marcos Tavares,NK Maribor,Dare Vrsic,2799
+28784367,408,40:11,missed,Dare Vrsic,NK Maribor,,2411
+28784367,409,40:07,saved,Agim Ibraimi,NK Maribor,Aleksandar Rajcevic,2407
+28784367,417,25:35,saved,Petar Stojanovic,NK Maribor,Marcos Tavares,1535
+28784367,421,23:38,missed,Mikael Lustig,Celtic,,1418
+28784367,424,20:47,blocked,Charlie Mulgrew,Celtic,Stefan Johansen,1247
+28784367,426,19:40,missed,Callum McGregor,Celtic,,1180
+28784367,428,13:49,goal,Damjan Bohar,NK Maribor,Zeljko Filipovic,829
+28784367,429,9:15,missed,Mitja Viler,NK Maribor,Dare Vrsic,555
+28784367,430,5:27,goal,Callum McGregor,Celtic,,327
+28784367,431,5:20,saved,Jo Inge Berget,Celtic,Stefan Johansen,320
+28927666,438,90:00 +2:22,saved,Virgil van Dijk,Celtic,Callum McGregor,5542
+28927666,440,90:00 +0:20,blocked,Virgil van Dijk,Celtic,Adam Matthews,5420
+28927666,449,86:57,missed,Marcos Tavares,NK Maribor,Damjan Bohar,5217
+28927666,457,82:44,missed,Kris Commons,Celtic,Anthony Stokes,4964
+28927666,459,79:40,missed,Efe Ambrose,Celtic,Anthony Stokes,4780
+28927666,465,76:40,saved,Jean Philippe Mendy,NK Maribor,Petar Stojanovic,4600
+28927666,466,74:17,goal,Marcos Tavares,NK Maribor,Ales Mertelj,4457
+28927666,467,73:28,missed,Kris Commons,Celtic,Anthony Stokes,4408
+28927666,469,70:08,blocked,Zeljko Filipovic,NK Maribor,,4208
+28927666,472,65:53,saved,Dare Vrsic,NK Maribor,Jean Philippe Mendy,3953
+28927666,474,64:48,missed,Kris Commons,Celtic,,3888
+28927666,483,60:15,blocked,Charlie Mulgrew,Celtic,,3615
+28927666,484,60:12,blocked,Jo Inge Berget,Celtic,Stefan Johansen,3612
+28927666,490,53:54,saved,Jo Inge Berget,Celtic,Anthony Stokes,3234
+28927666,494,52:03,missed,Efe Ambrose,Celtic,Anthony Stokes,3123
+28927666,511,34:09,saved,Ales Mertelj,NK Maribor,Agim Ibraimi,2049
+28927666,520,28:20,saved,Mitja Viler,NK Maribor,Agim Ibraimi,1700
+28927666,524,22:48,missed,Virgil van Dijk,Celtic,,1368
+28927666,526,21:44,blocked,Agim Ibraimi,NK Maribor,Mitja Viler,1304
+28927666,531,15:41,blocked,Marcos Tavares,NK Maribor,Agim Ibraimi,941
+28927666,532,14:54,missed,Agim Ibraimi,NK Maribor,Dare Vrsic,894
+28927666,533,12:16,blocked,Callum McGregor,Celtic,Virgil van Dijk,736
+28927666,536,7:46,blocked,Callum McGregor,Celtic,Stefan Johansen,466
+28931063,554,82:04,blocked,Gökhan Töre,Besiktas,Ramon,4924
+28931063,557,81:26,missed,Atiba Hutchinson,Besiktas,Oguzhan Ozyakup,4886
+28931063,561,77:49,missed,Alexis Sánchez,Arsenal,Calum Chambers,4669
+28931063,568,74:07,saved,Alex Oxlade-Chamberlain,Arsenal,Nacho Monreal,4447
+28931063,569,73:43,blocked,Santiago Cazorla,Arsenal,Alexis Sánchez,4423
+28931063,570,73:30,blocked,Veli Kavlak,Besiktas,Oguzhan Ozyakup,4410
+28931063,577,63:40,missed,Demba Ba,Besiktas,Ramon,3820
+28931063,584,59:56,missed,Mathieu Debuchy,Arsenal,Santiago Cazorla,3596
+28931063,588,57:05,missed,Oguzhan Ozyakup,Besiktas,,3425
+28931063,591,54:51,blocked,Alexis Sánchez,Arsenal,Alex Oxlade-Chamberlain,3291
+28931063,592,52:16,saved,Laurent Koscielny,Arsenal,Mesut Özil,3136
+28931063,594,51:49,blocked,Alexis Sánchez,Arsenal,Jack Wilshere,3109
+28931063,598,49:38,missed,Santiago Cazorla,Arsenal,Alex Oxlade-Chamberlain,2978
+28931063,600,45:57,blocked,Santiago Cazorla,Arsenal,Mesut Özil,2757
+28931063,603,45:00 +0:36,goal,Alexis Sánchez,Arsenal,Jack Wilshere,2736
+28931063,604,43:46,blocked,Ismail Köybasi,Besiktas,Oguzhan Ozyakup,2626
+28931063,610,34:55,missed,Nacho Monreal,Arsenal,,2095
+28931063,619,23:57,saved,Alexis Sánchez,Arsenal,,1437
+28931063,634,9:37,missed,Santiago Cazorla,Arsenal,,577
+28931063,635,8:13,missed,Jack Wilshere,Arsenal,Alexis Sánchez,493
+28931063,641,0:54,blocked,Demba Ba,Besiktas,Mustafa Pektemek,54
+28962031,646,20:00 +9:02,goal,Fábio Espinho,Ludogorets Razgrad,,1742
+28962031,647,20:00 +8:31,goal,Andrei Prepelita,Steaua Bucharest,,1711
+28962031,648,20:00 +7:45,goal,Svetoslav Dyakov,Ludogorets Razgrad,,1665
+28962031,649,20:00 +7:00,goal,Fernando Varela,Steaua Bucharest,,1620
+28962031,650,20:00 +6:22,goal,Marcelinho,Ludogorets Razgrad,,1582
+28962031,651,20:00 +5:39,goal,Adrian Popa,Steaua Bucharest,,1539
+28962031,652,20:00 +4:59,goal,Junior Caiçara,Ludogorets Razgrad,,1499
+28962031,653,20:00 +4:17,goal,Lukasz Szukala,Steaua Bucharest,,1457
+28962031,654,20:00 +3:42,goal,Hamza Younes,Ludogorets Razgrad,,1422
+28962031,657,20:00 +1:22,goal,Claudiu Keseru,Steaua Bucharest,,1282
+28962031,658,20:00 +0:32,goal,Cosmin Moti,Ludogorets Razgrad,,1232
+28962031,662,20:00 +0:35,blocked,Nicolae Claudiu Stanciu,Steaua Bucharest,,1235
+28962031,668,12:09,missed,Nicandro Breeveld,Steaua Bucharest,Adrian Popa,729
+28962031,669,10:22,missed,Claudiu Keseru,Steaua Bucharest,Nicolae Claudiu Stanciu,622
+28962031,683,00:21,missed,Fábio Espinho,Ludogorets Razgrad,,21
+28962031,687,98:10,missed,Junior Caiçara,Ludogorets Razgrad,Dani Abalo,5890
+28962031,690,96:32,saved,Hamza Younes,Ludogorets Razgrad,Dani Abalo,5792
+28962031,692,91:52,saved,Cosmin Moti,Ludogorets Razgrad,Fábio Espinho,5512
+28962031,694,90:30,saved,Wanderson,Ludogorets Razgrad,Junior Caiçara,5430
+28962031,700,89:35,goal,Wanderson,Ludogorets Razgrad,,5375
+28962031,710,83:32,missed,Hamza Younes,Ludogorets Razgrad,Dani Abalo,5012
+28962031,718,77:58,saved,Dani Abalo,Ludogorets Razgrad,Hamza Younes,4678
+28962031,726,75:34,blocked,Marcelinho,Ludogorets Razgrad,Roman Bezjak,4534
+28962031,729,74:54,missed,Claudiu Keseru,Steaua Bucharest,Nicolae Claudiu Stanciu,4494
+28962031,730,74:21,saved,Yordan Minev,Ludogorets Razgrad,Svetoslav Dyakov,4461
+28962031,731,73:27,saved,Svetoslav Dyakov,Ludogorets Razgrad,,4407
+28962031,738,70:35,missed,Marcelinho,Ludogorets Razgrad,Fábio Espinho,4235
+28962031,740,69:19,missed,Nicolae Claudiu Stanciu,Steaua Bucharest,Paul Parvulescu,4159
+28962031,746,65:57,saved,Fábio Espinho,Ludogorets Razgrad,Yordan Minev,3957
+28962031,749,65:14,missed,Lucian Sanmartean,Steaua Bucharest,Claudiu Keseru,3914
+28962031,755,62:44,saved,Lukasz Szukala,Steaua Bucharest,Claudiu Keseru,3764
+28962031,760,60:00,blocked,Cosmin Moti,Ludogorets Razgrad,,3600
+28962031,771,54:34,missed,Virgil Misidjan,Ludogorets Razgrad,Fábio Espinho,3274
+28962031,778,49:26,missed,Virgil Misidjan,Ludogorets Razgrad,Mihail Aleksandrov,2966
+28962031,781,45:53,missed,Virgil Misidjan,Ludogorets Razgrad,Junior Caiçara,2753
+28962031,786,43:55,missed,Yordan Minev,Ludogorets Razgrad,Junior Caiçara,2635
+28962031,793,34:59,missed,Roman Bezjak,Ludogorets Razgrad,Mihail Aleksandrov,2099
+28962031,797,31:43,saved,Fábio Espinho,Ludogorets Razgrad,,1903
+28962031,800,30:26,blocked,Roman Bezjak,Ludogorets Razgrad,,1826
+28962031,801,29:38,blocked,Iasmin Latovlevici,Steaua Bucharest,Adrian Popa,1778
+28962031,807,21:27,missed,Lucian Sanmartean,Steaua Bucharest,Nicolae Claudiu Stanciu,1287
+28962031,808,20:21,missed,Claudiu Keseru,Steaua Bucharest,,1221
+28962031,811,18:05,blocked,Adrian Popa,Steaua Bucharest,,1085
+28962031,816,15:42,saved,Claudiu Keseru,Steaua Bucharest,,942
+28962031,817,14:56,saved,Roman Bezjak,Ludogorets Razgrad,,896
+28962031,820,11:36,missed,Cosmin Moti,Ludogorets Razgrad,Junior Caiçara,696
+28962031,826,6:14,missed,Claudiu Keseru,Steaua Bucharest,Lucian Sanmartean,374
+29209551,846,85:31,missed,Erik Durm,Borussia Dortmund,Milos Jojic,5131
+29209551,851,81:57,blocked,Alexis Sánchez,Arsenal,,4917
+29209551,857,75:47,missed,Danny Welbeck,Arsenal,Kieran Gibbs,4547
+29209551,860,72:27,missed,Henrikh Mkhitaryan,Borussia Dortmund,,4347
+29209551,866,66:52,missed,Kevin Großkreutz,Borussia Dortmund,,4012
+29209551,874,58:04,missed,Pierre-Emerick Aubameyang,Borussia Dortmund,Ciro Immobile,3484
+29209551,876,55:37,saved,Sokratis,Borussia Dortmund,,3337
+29209551,887,50:18,saved,Ciro Immobile,Borussia Dortmund,Henrikh Mkhitaryan,3018
+29209551,888,47:19,goal,Pierre-Emerick Aubameyang,Borussia Dortmund,Kevin Großkreutz,2839
+29209551,889,46:03,saved,Alexis Sánchez,Arsenal,Mesut Özil,2763
+29209551,893,44:20,goal,Ciro Immobile,Borussia Dortmund,Kevin Großkreutz,2660
+29209551,894,42:54,missed,Henrikh Mkhitaryan,Borussia Dortmund,Kevin Großkreutz,2574
+29209551,899,40:06,missed,Danny Welbeck,Arsenal,Aaron Ramsey,2406
+29209551,910,33:44,saved,Ciro Immobile,Borussia Dortmund,Marcel Schmelzer,2024
+29209551,912,33:09,saved,Pierre-Emerick Aubameyang,Borussia Dortmund,Sebastian Kehl,1989
+29209551,915,31:47,missed,Henrikh Mkhitaryan,Borussia Dortmund,Sven Bender,1907
+29209551,916,30:28,missed,Danny Welbeck,Arsenal,,1828
+29209551,917,26:43,saved,Pierre-Emerick Aubameyang,Borussia Dortmund,Kevin Großkreutz,1603
+29209551,919,24:51,missed,Pierre-Emerick Aubameyang,Borussia Dortmund,Sebastian Kehl,1491
+29209551,924,21:24,missed,Ciro Immobile,Borussia Dortmund,Henrikh Mkhitaryan,1284
+29209551,928,18:32,missed,Kevin Großkreutz,Borussia Dortmund,Marcel Schmelzer,1112
+29209551,929,18:17,blocked,Marcel Schmelzer,Borussia Dortmund,Henrikh Mkhitaryan,1097
+29209551,935,15:04,missed,Ciro Immobile,Borussia Dortmund,Pierre-Emerick Aubameyang,904
+29209551,936,13:11,missed,Sokratis,Borussia Dortmund,Erik Durm,791
+29209551,939,6:00,missed,Sebastian Kehl,Borussia Dortmund,,360
+29209551,942,1:35,blocked,Erik Durm,Borussia Dortmund,,95
+29209551,943,1:34,missed,Erik Durm,Borussia Dortmund,Neven Subotic,94
+29209558,950,90:00 +2:29,goal,Steven Gerrard,Liverpool,,5549
+29209558,954,90:00 +0:02,goal,Dani Abalo,Ludogorets Razgrad,Hamza Younes,5402
+29209558,958,84:51,saved,Mario Balotelli,Liverpool,Alberto Moreno,5091
+29209558,960,83:41,missed,Marcelinho,Ludogorets Razgrad,,5021
+29209558,963,81:13,goal,Mario Balotelli,Liverpool,Alberto Moreno,4873
+29209558,964,80:15,missed,Yordan Minev,Ludogorets Razgrad,Junior Caiçara,4815
+29209558,968,77:38,missed,Lucas Leiva,Liverpool,Alberto Moreno,4658
+29209558,971,76:06,missed,Dejan Lovren,Liverpool,Jordan Henderson,4566
+29209558,977,73:56,missed,Jordan Henderson,Liverpool,Alberto Moreno,4436
+29209558,979,71:25,missed,Yordan Minev,Ludogorets Razgrad,,4285
+29209558,981,70:55,blocked,Mario Balotelli,Liverpool,Fabio Borini,4255
+29209558,986,69:22,blocked,Mamadou Sakho,Liverpool,Steven Gerrard,4162
+29209558,988,68:56,saved,Fabio Borini,Liverpool,Javier Manquillo,4136
+29209558,991,65:35,missed,Mihail Aleksandrov,Ludogorets Razgrad,Svetoslav Dyakov,3935
+29209558,994,64:29,missed,Roman Bezjak,Ludogorets Razgrad,Marcelinho,3869
+29209558,995,63:29,missed,Mario Balotelli,Liverpool,Javier Manquillo,3809
+29209558,996,59:57,blocked,Mario Balotelli,Liverpool,Javier Manquillo,3597
+29209558,999,57:45,missed,Virgil Misidjan,Ludogorets Razgrad,Marcelinho,3465
+29209558,1004,55:29,blocked,Raheem Sterling,Liverpool,Philippe Coutinho,3329
+29209558,1008,52:48,saved,Junior Caiçara,Ludogorets Razgrad,Marcelinho,3168
+29209558,1009,52:07,missed,Javier Manquillo,Liverpool,,3127
+29209558,1016,47:00,saved,Jordan Henderson,Liverpool,Mario Balotelli,2820
+29209558,1017,46:39,saved,Philippe Coutinho,Liverpool,Alberto Moreno,2799
+29209558,1030,38:20,missed,Dejan Lovren,Liverpool,Steven Gerrard,2300
+29209558,1032,37:51,blocked,Adam Lallana,Liverpool,,2271
+29209558,1033,37:47,blocked,Adam Lallana,Liverpool,Jordan Henderson,2267
+29209558,1036,36:35,missed,Anicet,Ludogorets Razgrad,Junior Caiçara,2195
+29209558,1039,34:08,missed,Alberto Moreno,Liverpool,Mario Balotelli,2048
+29209558,1042,33:20,missed,Mario Balotelli,Liverpool,Philippe Coutinho,2000
+29209558,1057,20:57,saved,Adam Lallana,Liverpool,,1257
+29209558,1058,20:52,blocked,Mario Balotelli,Liverpool,Dejan Lovren,1252
+29209558,1059,20:27,blocked,Raheem Sterling,Liverpool,Philippe Coutinho,1227
+29209558,1061,19:23,blocked,Virgil Misidjan,Ludogorets Razgrad,Svetoslav Dyakov,1163
+29210808,1089,89:37,missed,Nacho,Real Madrid,,5377
+29210808,1091,88:09,missed,Breel Embolo,FC Basel,Behrang Safari,5289
+29210808,1098,82:55,missed,Breel Embolo,FC Basel,Luca Zuffi,4975
+29210808,1103,80:46,missed,Mohamed Elneny,FC Basel,Breel Embolo,4846
+29210808,1104,78:55,goal,Karim Benzema,Real Madrid,Cristiano Ronaldo,4735
+29210808,1109,75:28,missed,Mohamed Elneny,FC Basel,,4528
+29210808,1113,72:11,missed,Cristiano Ronaldo,Real Madrid,Nacho,4331
+29210808,1115,71:49,saved,Gareth Bale,Real Madrid,James Rodríguez,4309
+29210808,1116,70:24,missed,Derlis González,FC Basel,Luca Zuffi,4224
+29210808,1117,68:28,blocked,Luca Zuffi,FC Basel,,4108
+29210808,1121,66:28,saved,Derlis González,FC Basel,,3988
+29210808,1123,64:32,blocked,Yoichiro Kakitani,FC Basel,Mohamed Elneny,3872
+29210808,1128,60:29,missed,Sergio Ramos,Real Madrid,,3629
+29210808,1132,56:35,saved,Karim Benzema,Real Madrid,Luka Modric,3395
+29210808,1133,55:19,blocked,Cristiano Ronaldo,Real Madrid,,3319
+29210808,1137,50:28,saved,Luca Zuffi,FC Basel,,3028
+29210808,1139,46:32,missed,Cristiano Ronaldo,Real Madrid,,2792
+29210808,1144,45:00 +0:46,missed,Derlis González,FC Basel,Taulant Xhaka,2746
+29210808,1148,38:10,saved,Marco Streller,FC Basel,Luca Zuffi,2290
+29210808,1149,37:13,goal,Derlis González,FC Basel,Luca Zuffi,2233
+29210808,1150,35:57,goal,James Rodríguez,Real Madrid,,2157
+29210808,1151,35:55,saved,Karim Benzema,Real Madrid,Cristiano Ronaldo,2155
+29210808,1157,30:50,goal,Cristiano Ronaldo,Real Madrid,Gareth Bale,1850
+29210808,1158,29:22,goal,Gareth Bale,Real Madrid,Luka Modric,1762
+29210808,1159,28:36,blocked,Karim Benzema,Real Madrid,Marcelo,1716
+29210808,1160,28:25,blocked,Cristiano Ronaldo,Real Madrid,Luka Modric,1705
+29210808,1162,26:30,saved,Pepe,Real Madrid,Toni Kroos,1590
+29210808,1167,25:03,saved,Luka Modric,Real Madrid,Gareth Bale,1503
+29210808,1168,24:06,missed,Marcelo,Real Madrid,Toni Kroos,1446
+29210808,1171,21:29,missed,Mohamed Elneny,FC Basel,Luca Zuffi,1289
+29210808,1173,19:44,blocked,Cristiano Ronaldo,Real Madrid,Marcelo,1184
+29210808,1177,15:06,missed,Marco Streller,FC Basel,Taulant Xhaka,906
