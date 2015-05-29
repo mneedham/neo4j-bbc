@@ -96,6 +96,82 @@ match (foul1:Foul)-[:COMMITTED_AGAINST]->(app1)-[:COMMITTED_FOUL]->(foul2)-[:COM
 WHERE (foul1)-[:NEXT*]->(foul2)
 RETURN player2.name AS firstFouler, player1.name AS revengeFouler, foul1.time, foul1.location, foul2.time, foul2.location
 
+// most fouled in one match
+match (firstFoul:Foul)-[:COMMITTED_AGAINST]->(app1)<-[:MADE_APPEARANCE]-(nonRevengeFouler),
+      (app1)-[:IN_MATCH]->(match)
+RETURN nonRevengeFouler.name, match.home, match.away,  COUNT(*) AS timesFouled
+ORDER BY timesFouled DESC
+
+// immediate revenge
+match (firstFoul:Foul)-[:COMMITTED_AGAINST]->(app1)<-[:MADE_APPEARANCE]-(revengeFouler),
+      (app1)-[:IN_MATCH]->(match), (firstFoulerApp)-[:COMMITTED_FOUL]->(firstFoul),
+      (app1)-[:COMMITTED_FOUL]->(revengeFoul)-[:COMMITTED_AGAINST]->(firstFoulerApp),
+       (firstFouler)-[:MADE_APPEARANCE]->(firstFoulerApp)
+WHERE (firstFoul)-[:NEXT]->(revengeFoul)
+RETURN firstFouler.name AS firstFouler, revengeFouler.name AS revengeFouler, firstFoul.time, firstFoul.location, revengeFoul.time, revengeFoul.location
+
+// quickest revenge foul
+match (firstFoul:Foul)-[:COMMITTED_AGAINST]->(app1)<-[:MADE_APPEARANCE]-(revengeFouler),
+      (app1)-[:IN_MATCH]->(match), (firstFoulerApp)-[:COMMITTED_FOUL]->(firstFoul),
+      (app1)-[:COMMITTED_FOUL]->(revengeFoul)-[:COMMITTED_AGAINST]->(firstFoulerApp),
+       (firstFouler)-[:MADE_APPEARANCE]->(firstFoulerApp)
+WHERE (firstFoul)-[:NEXT*]->(revengeFoul)
+RETURN firstFouler.name AS firstFouler, revengeFouler.name AS revengeFouler, firstFoul.time,  revengeFoul.time,revengeFoul.sortableTime - firstFoul.sortableTime AS secondsWaited
+ORDER BY secondsWaited
+
+// slowest revenge foul
+// not quite right because you could have another revenge foul in between
+match (firstFoul:Foul)-[:COMMITTED_AGAINST]->(app1)<-[:MADE_APPEARANCE]-(revengeFouler),
+      (app1)-[:IN_MATCH]->(match), (firstFoulerApp)-[:COMMITTED_FOUL]->(firstFoul),
+      (app1)-[:COMMITTED_FOUL]->(revengeFoul)-[:COMMITTED_AGAINST]->(firstFoulerApp),
+       (firstFouler)-[:MADE_APPEARANCE]->(firstFoulerApp)
+WHERE (firstFoul)-[:NEXT*]->(revengeFoul)
+RETURN firstFouler.name AS firstFouler, revengeFouler.name AS revengeFouler, firstFoul.time,  revengeFoul.time,revengeFoul.sortableTime - firstFoul.sortableTime AS secondsWaited
+ORDER BY secondsWaited DESC
+
+// attempt 2
+match (foul1:Foul)-[:COMMITTED_AGAINST]->(app1)-[:COMMITTED_FOUL]->(foul2)-[:COMMITTED_AGAINST]->(app2)-[:COMMITTED_FOUL]->(foul1),
+      (player1)-[:MADE_APPEARANCE]->(app1), (player2)-[:MADE_APPEARANCE]->(app2),
+      (foul1)-[:COMMITTED_IN_MATCH]->(match:Match)<-[:COMMITTED_IN_MATCH]-(foul2)
+WHERE (foul1)-[:NEXT*]->(foul2)
+WITH foul1, player1, player2, foul2 ORDER BY foul1.sortableTime, foul2.sortableTime
+WITH foul1, player1, player2, COLLECT(foul2) AS revenge
+WITH foul1,  player1,player2,  revenge[0] AS revengeFoul
+RETURN player1.name, player2.name, foul1.time, revengeFoul.time, revengeFoul.sortableTime - foul1.sortableTime AS secondsWaited
+ORDER BY secondsWaited DESC
+
+// revenge foul leads to booking
+match (firstFoul:Foul)-[:COMMITTED_AGAINST]->(app1)<-[:MADE_APPEARANCE]-(revengeFouler),
+      (app1)-[:IN_MATCH]->(match), (firstFoulerApp)-[:COMMITTED_FOUL]->(firstFoul),
+      (app1)-[:COMMITTED_FOUL]->(revengeFoul)-[:COMMITTED_AGAINST]->(firstFoulerApp),
+       (firstFouler)-[:MADE_APPEARANCE]->(firstFoulerApp),
+       (revengeFoul)-[:RESULTED_IN]->(card)
+WHERE (firstFoul)-[:NEXT*]->(revengeFoul)
+RETURN firstFouler.name AS firstFouler, revengeFouler.name AS revengeFouler, firstFoul.time,  revengeFoul.time, card.type
+
+// foul and revenge foul resulted in booking
+match (firstFoul:Foul)-[:COMMITTED_AGAINST]->(app1)<-[:MADE_APPEARANCE]-(revengeFouler),
+      (app1)-[:IN_MATCH]->(match), (firstFoulerApp)-[:COMMITTED_FOUL]->(firstFoul),
+      (app1)-[:COMMITTED_FOUL]->(revengeFoul)-[:COMMITTED_AGAINST]->(firstFoulerApp),
+       (firstFouler)-[:MADE_APPEARANCE]->(firstFoulerApp),
+       (revengeFoul)-[:RESULTED_IN]->(revengeFoulCard), (firstFoul)-[:RESULTED_IN]->(firstFoulCard)
+WHERE (firstFoul)-[:NEXT*]->(revengeFoul)
+RETURN firstFouler.name AS firstFouler, revengeFouler.name AS revengeFouler, firstFoul.time,  revengeFoul.time, firstFoulCard.type, revengeFoulCard.type
+
+
+// repeated fouls with no revenge
+
+// someone else gets revenge
+
+// multiple revenge fouls
+match (foul1:Foul)-[:COMMITTED_AGAINST]->(app1)-[:COMMITTED_FOUL]->(foul2)-[:COMMITTED_AGAINST]->(app2)-[:COMMITTED_FOUL]->(foul1),
+      (player1)-[:MADE_APPEARANCE]->(app1), (player2)-[:MADE_APPEARANCE]->(app2),
+      (foul1)-[:COMMITTED_IN_MATCH]->(match:Match)<-[:COMMITTED_IN_MATCH]-(foul2)
+WHERE (foul1)-[:NEXT*]->(foul2)
+WITH foul1, player1, player2, foul2 ORDER BY foul1.sortableTime, foul2.sortableTime
+WITH foul1, player1, player2, COLLECT(foul2.time) AS revenge WHERE LENGTH(revenge) > 1
+RETURN foul1.time, player1.name,player2.name,  revenge
+
 // most revenge fouls
 match (foul1:Foul)-[:COMMITTED_AGAINST]->(app1)-[:COMMITTED_FOUL]->(foul2)-[:COMMITTED_AGAINST]->(app2)-[:COMMITTED_FOUL]->(foul1),
       (player1)-[:MADE_APPEARANCE]->(app1), (player2)-[:MADE_APPEARANCE]->(app2),
@@ -105,6 +181,8 @@ RETURN match.id, COUNT(*) AS revengeFouls
 ORDER BY revengeFouls DESC
 
 // on the edge - fouling after getting a yellow
+
+// fouls before and after getting a yellow
 
 // substitutes
 match (player:Player)-[:MADE_APPEARANCE]->(app)-[:FOR_TEAM]->(team)
@@ -117,3 +195,25 @@ match (player:Player {name: "Pedro"})-[:MADE_APPEARANCE]->(app)--(event:Event)
 WHERE (app)<-[:ON]-()
 return player.name, event.time, event.location, [ label in  LABELS(event) where label <> "Event"] AS eventType
 ORDER BY event.sortableTime
+
+// best conversion rate with > 10 shots
+match (a:Attempt)<-[:HAD_ATTEMPT]-(app)<-[:MADE_APPEARANCE]-(player),
+      (app)-[:FOR_TEAM]-(team)
+WITH player, COUNT(*) as times, COLLECT(a) AS attempts, team
+WITH player, times, LENGTH([a in attempts WHERE a:Goal]) AS goals, team
+WHERE times > 10
+RETURN player.name, team.name, goals, times, (goals * 1.0 / times) AS conversionRate
+ORDER BY conversionRate DESC
+LIMIT 10
+
+// appearances, shots, goals
+match (team)<-[:FOR_TEAM]-(app)<-[appRel:MADE_APPEARANCE]-(player:Player)
+optional match (a:Attempt)<-[att:HAD_ATTEMPT]-(app)
+WITH player, COUNT( DISTINCT appRel) AS apps, COUNT(att) as times, COLLECT(a) AS attempts, team
+WITH player,apps, times, LENGTH([a in attempts WHERE a:Goal]) AS goals, team
+WHERE times > 10
+RETURN player.name, team.name, apps, goals, times, (goals * 1.0 / times) AS conversionRate
+ORDER BY times DESC
+LIMIT 10
+
+// Ronaldo attempts

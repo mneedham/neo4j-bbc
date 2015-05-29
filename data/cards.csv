@@ -1,22 +1,568 @@
 matchId,cardId,foulId,player,playerTeam,time,sortableTime,cardType
-32683310,7,9,Pedro,Barcelona,84:43,5083,yellow
-32683310,11,12,Sebastian Rode,FC Bayern München,83:18,4998,yellow
-32683310,16,17,Xabi Alonso,FC Bayern München,80:44,4844,yellow
-32683310,24,25,Robert Lewandowski,FC Bayern München,75:41,4541,yellow
-32683310,34,36,Ivan Rakitic,Barcelona,63:29,3809,yellow
-32683310,61,62,Thiago Alcántara,FC Bayern München,45:00 +1:34,2794,yellow
-32683310,68,69,Rafinha,FC Bayern München,39:56,2396,yellow
-32683303,133,,Stephan Lichtsteiner,Juventus,75:58,4558,yellow
-32683303,138,140,Carlos Tévez,Juventus,69:54,4194,yellow
-32683303,160,162,James Rodríguez,Real Madrid,43:52,2632,yellow
-32683303,179,180,Isco,Real Madrid,31:05,1865,yellow
-32384894,218,220,Koke,Atlético de Madrid,90:00 +3:22,5602,yellow
-32384894,222,223,Álvaro Arbeloa,Real Madrid,90:00 +2:21,5541,yellow
-32384894,238,240,Arda Turan,Atlético de Madrid,75:18,4518,second_yellow
-32384894,242,,Pepe,Real Madrid,73:52,4432,yellow
-32384894,243,,Raúl García,Atlético de Madrid,73:29,4409,yellow
-32384894,299,301,Arda Turan,Atlético de Madrid,30:44,1844,yellow
-31816155,386,,Jerome Boateng,FC Bayern München,37:23,2243,yellow
-31816155,387,389,Douglas Costa,Shakhtar Donetsk,37:22,2242,yellow
-31816155,401,402,Holger Badstuber,FC Bayern München,25:54,1554,yellow
-31816155,428,430,Olexandr Kucher,Shakhtar Donetsk,2:39,159,red
+28278531,5,7,Jónas Saevarsson,KR Reykjavík,88:57,5337,yellow
+28278531,32,,Emil Atlason,KR Reykjavík,66:08,3968,yellow
+28508318,105,,Jakub Kosecki,Legia Warsaw,88:11,5291,yellow
+28508318,106,,Leigh Griffiths,Celtic,88:10,5290,yellow
+28508318,107,109,Beram Kayal,Celtic,87:23,5243,yellow
+28508318,112,,Charlie Mulgrew,Celtic,85:40,5140,yellow
+28508318,170,171,Efe Ambrose,Celtic,43:15,2595,red
+28508318,187,189,Iñaki Astiz,Legia Warsaw,21:10,1270,yellow
+28656118,222,,Stefan Johansen,Celtic,65:00,3900,yellow
+28656118,225,,Miroslav Radovic,Legia Warsaw,55:00,3300,yellow
+28656118,226,,Virgil van Dijk,Celtic,53:00,3180,yellow
+28784340,248,249,Aaron Ramsey,Arsenal,79:41,4781,second_yellow
+28784340,255,257,Oguzhan Ozyakup,Besiktas,76:35,4595,yellow
+28784340,270,271,Nacho Monreal,Arsenal,65:24,3924,yellow
+28784340,286,287,Mathieu Flamini,Arsenal,54:35,3275,yellow
+28784340,289,290,Aaron Ramsey,Arsenal,53:44,3224,yellow
+28784340,292,294,Ramon,Besiktas,52:35,3155,yellow
+28784367,341,,Mikael Lustig,Celtic,90:00 +1:50,5510,yellow
+28784367,361,362,Callum McGregor,Celtic,74:30,4470,yellow
+28784367,393,395,Zeljko Filipovic,NK Maribor,50:17,3017,yellow
+28927666,443,445,Derk Boerrigter,Celtic,88:54,5334,yellow
+28927666,446,448,Virgil van Dijk,Celtic,87:58,5278,yellow
+28927666,452,453,Marcos Tavares,NK Maribor,84:37,5077,yellow
+28927666,460,461,Petar Stojanovic,NK Maribor,78:46,4726,yellow
+28927666,491,492,Aleksandar Rajcevic,NK Maribor,53:19,3199,yellow
+28927666,495,,Marko Suler,NK Maribor,51:19,3079,yellow
+28927666,501,,Kris Commons,Celtic,47:33,2853,yellow
+28931063,543,544,Gökhan Töre,Besiktas,89:12,5352,yellow
+28931063,549,,Wojciech Szczesny,Arsenal,85:55,5155,yellow
+28931063,550,552,Necip Uysal,Besiktas,84:35,5075,yellow
+28931063,558,559,Atiba Hutchinson,Besiktas,78:50,4730,yellow
+28931063,564,,Calum Chambers,Arsenal,75:56,4556,yellow
+28931063,565,567,Mathieu Debuchy,Arsenal,74:26,4466,second_yellow
+28931063,585,587,Pedro Franco,Besiktas,58:50,3530,yellow
+28931063,613,615,Oguzhan Ozyakup,Besiktas,31:50,1910,yellow
+28931063,620,622,Veli Kavlak,Besiktas,22:10,1330,yellow
+28931063,627,628,Mathieu Debuchy,Arsenal,13:44,824,yellow
+28962031,663,664,Vladislav Stoyanov,Ludogorets Razgrad,18:11,1091,red
+28962031,684,686,Andrei Prepelita,Steaua Bucharest,99:11,5951,yellow
+28962031,702,704,Paul Parvulescu,Steaua Bucharest,88:36,5316,yellow
+28962031,723,724,Roman Bezjak,Ludogorets Razgrad,75:59,4559,yellow
+28962031,732,734,Vladislav Stoyanov,Ludogorets Razgrad,72:32,4352,yellow
+28962031,735,737,Nicandro Breeveld,Steaua Bucharest,71:39,4299,yellow
+28962031,750,,Fernando Varela,Steaua Bucharest,63:51,3831,yellow
+28962031,756,757,Svetoslav Dyakov,Ludogorets Razgrad,61:53,3713,yellow
+28962031,761,763,Iasmin Latovlevici,Steaua Bucharest,59:18,3558,yellow
+28962031,766,767,Cosmin Moti,Ludogorets Razgrad,56:45,3405,yellow
+28962031,790,791,Georgi Terziev,Ludogorets Razgrad,39:25,2365,yellow
+29209551,841,842,Jack Wilshere,Arsenal,87:55,5275,yellow
+29209551,879,880,Mesut Özil,Arsenal,53:38,3218,yellow
+29209551,940,,Henrikh Mkhitaryan,Borussia Dortmund,4:43,283,yellow
+29209558,951,,Milan Borjan,Ludogorets Razgrad,90:00 +1:41,5501,yellow
+29209558,972,974,Yordan Minev,Ludogorets Razgrad,75:39,4539,yellow
+29209558,1005,1007,Junior Caiçara,Ludogorets Razgrad,53:36,3216,yellow
+29209558,1075,1076,Alex Aleksandrov,Ludogorets Razgrad,4:30,270,yellow
+29210808,1086,1088,Taulant Xhaka,FC Basel,90:00 +0:44,5444,yellow
+29210808,1093,1094,Pepe,Real Madrid,84:07,5047,yellow
+29210808,1129,1131,Walter Samuel,FC Basel,59:24,3564,yellow
+29210808,1134,1136,Mohamed Elneny,FC Basel,54:12,3252,yellow
+29212602,1197,1199,Filip Helander,Malmö FF,88:04,5284,yellow
+29212602,1272,1274,Magnus Eriksson,Malmö FF,21:56,1316,yellow
+29212602,1287,,Pa Konate,Malmö FF,9:15,555,yellow
+29220458,1299,1300,Antoine Griezmann,Atlético de Madrid,89:31,5371,yellow
+29220458,1302,1303,Saúl Ñíguez,Atlético de Madrid,88:00,5280,yellow
+29220458,1358,1360,Koke,Atlético de Madrid,45:00 +1:00,2760,yellow
+29220458,1359,1360,Giannis Maniatis,Olympiakos,45:00 +0:59,2759,yellow
+29220458,1367,1369,Alejandro Domínguez,Olympiakos,34:58,2098,yellow
+29220458,1396,1397,Gabi,Atlético de Madrid,1:23,83,yellow
+29220465,1402,1403,Blerim Dzemaili,Galatasaray,90:00 +1:55,5515,yellow
+29220465,1435,1437,Frank Acheampong,RSC Anderlecht,63:36,3816,yellow
+29220465,1438,1439,Felipe Melo,Galatasaray,61:48,3708,yellow
+29220465,1482,,Steven Defour,RSC Anderlecht,38:13,2293,yellow
+29220465,1488,1489,Ibrahima Conte,RSC Anderlecht,32:55,1975,yellow
+29220465,1521,1523,Bram Nuytinck,RSC Anderlecht,1:19,79,yellow
+29220472,1553,1554,Emir Spahic,Bayer 04 Leverkusen,73:47,4427,yellow
+29220472,1566,1567,Sebastian Boenisch,Bayer 04 Leverkusen,64:16,3856,yellow
+29220472,1598,1600,Layvin Kurzawa,Monaco,45:00 +1:15,2775,yellow
+29220472,1620,1622,Yannick Ferreira-Carrasco,Monaco,28:15,1695,yellow
+29220479,1687,1688,Javi García,Zenit St Petersburg,64:08,3848,yellow
+29220479,1693,1695,Maxi Pereira,Benfica,59:35,3575,yellow
+29220479,1740,1741,Artur Moraes,Benfica,17:21,1041,red
+29225435,1795,1797,Martín Demichelis,Manchester City,76:33,4593,yellow
+29225435,1807,1809,Gaël Clichy,Manchester City,64:43,3883,yellow
+29225435,1834,1835,Vincent Kompany,Manchester City,44:37,2677,yellow
+29225435,1840,,Edin Dzeko,Manchester City,40:51,2451,yellow
+29225452,1896,,Marco Höger,FC Schalke 04,86:41,5201,yellow
+29225452,1915,1917,Willian,Chelsea,70:22,4222,yellow
+29225452,1926,1928,John Terry,Chelsea,58:33,3513,yellow
+29225452,1967,1968,Kevin-Prince Boateng,FC Schalke 04,25:06,1506,yellow
+29225452,1985,,Klaas-Jan Huntelaar,FC Schalke 04,10:27,627,yellow
+29225466,2096,,Agim Ibraimi,NK Maribor,88:20,5300,yellow
+29225466,2153,2154,Mauricio,Sporting Lisbon,41:24,2484,yellow
+29225466,2184,,Marcos Tavares,NK Maribor,21:55,1315,yellow
+29225473,2264,2266,Edgar Olekhnovich,BATE Borisov,55:18,3318,yellow
+29225473,2310,2312,Dmitri Likhtarovich,BATE Borisov,6:13,373,yellow
+29225480,2328,2330,Markel Susaeta,Athletic Club,87:53,5273,yellow
+29225480,2369,,Aritz Aduriz,Athletic Club,57:31,3451,yellow
+29225480,2379,2380,Olexandr Kucher,Shakhtar Donetsk,47:35,2855,yellow
+29225480,2392,2393,Ander Iturraspe,Athletic Club,37:46,2266,yellow
+29225480,2395,,Taison,Shakhtar Donetsk,34:47,2087,yellow
+29225480,2402,,Darijo Srna,Shakhtar Donetsk,28:50,1730,yellow
+29225487,2495,2497,Marios Antoniades,APOEL Nicosia,26:29,1589,yellow
+29225487,2513,2515,Vinicius,APOEL Nicosia,10:42,642,yellow
+29225494,2555,2556,Marquinhos,Paris Saint Germain,71:42,4302,yellow
+29225494,2561,2563,Thulani Serero,Ajax,68:25,4105,yellow
+29225494,2564,2566,Anwar El Ghazi,Ajax,67:27,4047,yellow
+29225494,2584,2586,Joël Veltman,Ajax,55:14,3314,yellow
+29225494,2600,2602,Davy Klaassen,Ajax,29:17,1757,yellow
+29362540,2651,2652,Medhi Benatia,FC Bayern München,67:20,4040,yellow
+29362540,2669,,Roman Eremenko,CSKA Moscow,45:00 +0:58,2758,yellow
+29362540,2674,2675,Philipp Lahm,FC Bayern München,39:15,2355,yellow
+29362547,2722,2723,Kolbeinn Sigthorsson,Ajax,89:36,5376,yellow
+29362547,2725,2727,Efstathios Aloneftis,APOEL Nicosia,88:14,5294,yellow
+29362547,2735,2737,João Guilherme,APOEL Nicosia,80:52,4852,yellow
+29362547,2774,2775,Jasper Cillessen,Ajax,55:27,3327,yellow
+29362547,2786,2787,Nick Viergever,Ajax,47:49,2869,yellow
+29362547,2797,2798,Niklas Moisander,Ajax,35:18,2118,yellow
+29362554,2860,2862,Gregory Van der Wiel,Paris Saint Germain,65:41,3941,yellow
+29362554,2880,2882,Blaise Matuidi,Paris Saint Germain,43:41,2621,yellow
+29362554,2893,2895,Marco Verratti,Paris Saint Germain,27:03,1623,yellow
+29362554,2909,,Dani Alves,Barcelona,8:30,510,yellow
+29362571,2922,,Aymeric Laporte,Athletic Club,90:00 +2:09,5529,yellow
+29362571,2933,2934,Gaizka Toquero,Athletic Club,84:52,5092,yellow
+29362571,2936,2937,Beñat,Athletic Club,83:13,4993,yellow
+29362571,2956,2958,Denis Polyakov,BATE Borisov,67:21,4041,yellow
+29362578,3051,3053,Ilsinho,Shakhtar Donetsk,89:49,5389,yellow
+29362578,3078,3080,Fernando,Shakhtar Donetsk,68:11,4091,yellow
+29362578,3099,3101,Darijo Srna,Shakhtar Donetsk,47:48,2868,yellow
+29362578,3100,3101,Maicon,FC Porto,47:09,2829,yellow
+29362578,3114,3116,Taras Stepanenko,Shakhtar Donetsk,35:51,2151,yellow
+29362578,3117,3118,Óliver,FC Porto,34:44,2084,yellow
+29362578,3121,,Olexandr Kucher,Shakhtar Donetsk,33:32,2012,yellow
+29362585,3160,3162,Agim Ibraimi,NK Maribor,84:44,5084,yellow
+29362585,3182,3184,Ales Mertelj,NK Maribor,75:45,4545,yellow
+29362585,3192,3193,Kevin-Prince Boateng,FC Schalke 04,70:55,4255,yellow
+29362585,3199,3201,Mitja Viler,NK Maribor,62:51,3771,yellow
+29362585,3218,3220,Zeljko Filipovic,NK Maribor,50:05,3005,yellow
+29362602,3274,3275,Cesc Fàbregas,Chelsea,90:00 +2:26,5546,yellow
+29362602,3302,3303,Filipe Luis,Chelsea,74:32,4472,yellow
+29362602,3305,3307,Cédric Soares,Sporting Lisbon,73:55,4435,yellow
+29362602,3309,3310,Eden Hazard,Chelsea,71:18,4278,yellow
+29362602,3325,,Mauricio,Sporting Lisbon,62:32,3752,yellow
+29362602,3330,3331,Branislav Ivanovic,Chelsea,57:49,3469,yellow
+29362602,3350,3352,João Mário,Sporting Lisbon,42:20,2540,yellow
+29362602,3374,3376,William Carvalho,Sporting Lisbon,24:34,1474,yellow
+29362609,3411,3413,Radja Nainggolan,Roma,80:06,4806,yellow
+29362609,3441,3442,Pablo Zabaleta,Manchester City,54:12,3252,yellow
+29362609,3505,,Maicon,Roma,3:08,188,yellow
+29362626,3526,3528,Nabil Dirar,Monaco,82:45,4965,yellow
+29362626,3531,3533,Fabinho,Monaco,80:50,4850,yellow
+29362626,3585,3586,Jérémy Toulalan,Monaco,37:35,2255,yellow
+29362633,3634,,Levin Öztunali,Bayer 04 Leverkusen,90:00 +1:38,5498,yellow
+29362633,3640,3641,Andreas Samaris,Benfica,87:21,5241,yellow
+29362633,3663,3664,Eduardo Salvio,Benfica,70:11,4211,yellow
+29362633,3676,3678,Roberto Hilbert,Bayer 04 Leverkusen,59:10,3550,yellow
+29362633,3680,3681,Luisão,Benfica,57:50,3470,yellow
+29362633,3686,3687,Enzo Pérez,Benfica,53:40,3220,yellow
+29362633,3727,,Nicolás Gaitán,Benfica,22:00,1320,yellow
+29362640,3800,3801,Wojciech Szczesny,Arsenal,59:43,3583,red
+29362640,3820,3821,Mathieu Flamini,Arsenal,43:51,2631,yellow
+29362640,3823,3825,Blerim Dzemaili,Galatasaray,42:58,2578,yellow
+29362640,3834,3836,Felipe Melo,Galatasaray,33:41,2021,yellow
+29362648,3938,3940,Matías Suárez,RSC Anderlecht,16:04,964,yellow
+29362655,3956,,Sebastian Giovinco,Juventus,90:00 +3:51,5631,yellow
+29362655,3964,3965,Paul Pogba,Juventus,90:00 +0:10,5410,yellow
+29362655,3970,3971,Álvaro Morata,Juventus,85:50,5150,yellow
+29362655,3975,3976,Stephan Lichtsteiner,Juventus,84:22,5062,yellow
+29362655,3998,4000,Cristian Ansaldi,Atlético de Madrid,62:11,3731,yellow
+29362655,4009,4010,Giorgio Chiellini,Juventus,56:23,3383,yellow
+29362655,4013,4015,Raúl García,Atlético de Madrid,54:03,3243,yellow
+29362655,4071,4072,Leonardo Bonucci,Juventus,12:03,723,yellow
+29362662,4118,4120,Enoch Kofi Adu,Malmö FF,68:49,4129,yellow
+29362662,4124,4125,Luka Milivojevic,Olympiakos,67:49,4069,yellow
+29362662,4140,,Giannis Maniatis,Olympiakos,55:52,3352,yellow
+29362662,4147,4148,Ibrahim Afellay,Olympiakos,46:55,2815,yellow
+29362669,4223,,Mario Balotelli,Liverpool,70:23,4223,yellow
+29362669,4236,4237,Marek Suchy,FC Basel,59:10,3550,yellow
+29362669,4241,4243,Steven Gerrard,Liverpool,53:54,3234,yellow
+29362669,4289,4291,Raheem Sterling,Liverpool,8:48,528,yellow
+29362676,4308,4310,Anicet,Ludogorets Razgrad,86:36,5196,yellow
+29362676,4329,4330,Sergio Ramos,Real Madrid,72:08,4328,yellow
+29362676,4339,4340,Fábio Espinho,Ludogorets Razgrad,61:03,3663,yellow
+29362676,4343,,Dani Abalo,Ludogorets Razgrad,56:00,3360,yellow
+29362676,4384,,Svetoslav Dyakov,Ludogorets Razgrad,23:40,1420,yellow
+29362676,4399,,Yordan Minev,Ludogorets Razgrad,9:31,571,yellow
+29362703,4456,4457,Fernando,Manchester City,56:36,3396,yellow
+29362717,4582,4584,Jaïro Riedewald,Ajax,89:55,5395,yellow
+29362717,4596,4597,Pedro,Barcelona,79:55,4795,yellow
+29362717,4609,4611,Ricardo van Rhijn,Ajax,68:55,4135,yellow
+29362717,4651,4653,Joël Veltman,Ajax,31:40,1900,yellow
+29362724,4689,4690,Luiz Adriano,Shakhtar Donetsk,87:51,5271,yellow
+29362724,4698,,Filip Mladenovic,BATE Borisov,79:45,4785,yellow
+29362724,4750,,Sergei Chernik,BATE Borisov,26:38,1598,yellow
+29362731,4791,4793,Carlos Gurpegi,Athletic Club,85:32,5132,yellow
+29362731,4813,4815,Mikel Rico,Athletic Club,64:57,3897,yellow
+29362731,4823,,Danilo,FC Porto,58:14,3494,yellow
+29362731,4824,,Markel Susaeta,Athletic Club,58:12,3492,yellow
+29362731,4862,4864,Mikel San José,Athletic Club,28:46,1726,yellow
+29362731,4867,4868,Maicon,FC Porto,21:48,1308,yellow
+29362745,5019,5021,Nani,Sporting Lisbon,55:19,3319,yellow
+29362745,5039,5041,Cédric Soares,Sporting Lisbon,45:00 +0:19,2719,yellow
+29362745,5057,5059,Mauricio,Sporting Lisbon,32:09,1929,second_yellow
+29362745,5078,5080,Mauricio,Sporting Lisbon,18:15,1095,yellow
+29362752,5123,,Juan Bernat,FC Bayern München,62:25,3745,yellow
+29362752,5134,,Radja Nainggolan,Roma,55:40,3340,yellow
+29362752,5135,5137,Vasilis Torosidis,Roma,55:28,3328,yellow
+29362752,5168,,Juan Iturbe,Roma,28:56,1736,yellow
+29362759,5199,5201,Salomón Rondón,Zenit St Petersburg,90:00 +4:43,5683,yellow
+29362759,5202,5204,Domenico Criscito,Zenit St Petersburg,90:00 +4:18,5658,yellow
+29362759,5223,5225,Wendell,Bayer 04 Leverkusen,78:35,4715,second_yellow
+29362759,5253,5254,Wendell,Bayer 04 Leverkusen,56:19,3379,yellow
+29362759,5296,,Hulk,Zenit St Petersburg,15:22,922,yellow
+29362759,5297,5299,Javi García,Zenit St Petersburg,14:45,885,yellow
+29362759,5304,5306,Viktor Faizulin,Zenit St Petersburg,6:23,383,yellow
+29362766,5322,5324,Yannick Ferreira-Carrasco,Monaco,90:00 +4:25,5665,yellow
+29362766,5346,5348,Layvin Kurzawa,Monaco,77:30,4650,yellow
+29362766,5350,5351,Lisandro López,Benfica,75:02,4502,red
+29362766,5356,,Ricardo Carvalho,Monaco,70:30,4230,yellow
+29362766,5409,5410,Eduardo Salvio,Benfica,35:57,2157,yellow
+29362766,5427,5428,Lisandro López,Benfica,25:14,1514,yellow
+29362766,5451,5453,Eliseu,Benfica,7:26,446,yellow
+29362773,5483,5484,Semih Kaya,Galatasaray,67:51,4071,yellow
+29362773,5524,,Wesley Sneijder,Galatasaray,24:27,1467,yellow
+29362790,5554,5556,Olivier Deschacht,RSC Anderlecht,79:50,4790,yellow
+29362790,5574,5575,Danny Welbeck,Arsenal,65:35,3935,yellow
+29362790,5639,,Nacho Monreal,Arsenal,7:55,475,yellow
+29362797,5677,5679,Markus Rosenberg,Malmö FF,71:11,4271,yellow
+29362797,5683,5685,Erik Johansson,Malmö FF,67:07,4027,yellow
+29362797,5713,5714,Diego Godín,Atlético de Madrid,45:00 +1:26,2786,yellow
+29362804,5804,5805,Claudio Marchisio,Juventus,64:56,3896,yellow
+29362804,5814,5815,Paul Pogba,Juventus,58:15,3495,yellow
+29362804,5821,5823,Arthur Masuaku,Olympiakos,55:51,3351,yellow
+29362804,5838,5840,Alberto Botía,Olympiakos,43:28,2608,yellow
+29362804,5847,5849,Stephan Lichtsteiner,Juventus,36:59,2219,yellow
+29362811,5943,5944,Toni Kroos,Real Madrid,35:08,2108,yellow
+29362818,5974,,Fabian Schär,FC Basel,90:00 +2:59,5579,yellow
+29362818,5975,5977,Fábio Espinho,Ludogorets Razgrad,90:00 +2:58,5578,yellow
+29362818,5986,5987,Cosmin Moti,Ludogorets Razgrad,85:44,5144,yellow
+29362818,5990,5992,Fabian Frei,FC Basel,84:21,5061,yellow
+29362818,6012,6014,Breel Embolo,FC Basel,66:40,4000,yellow
+29362818,6034,6036,Derlis González,FC Basel,45:00 +1:38,2798,yellow
+29362818,6039,6041,Taulant Xhaka,FC Basel,43:21,2601,yellow
+29362818,6061,6062,Yordan Minev,Ludogorets Razgrad,23:46,1426,yellow
+29362818,6069,6070,Serey Die,FC Basel,17:52,1072,red
+29362835,6118,,Karim Bellarabi,Bayer 04 Leverkusen,81:03,4863,yellow
+29362835,6119,,Oleg Shatov,Zenit St Petersburg,81:01,4861,yellow
+29362835,6123,,Giulio Donati,Bayer 04 Leverkusen,78:15,4695,yellow
+29362835,6125,6126,Axel Witsel,Zenit St Petersburg,75:30,4530,yellow
+29362835,6140,6141,Ezequiel Garay,Zenit St Petersburg,66:08,3968,yellow
+29362835,6181,6182,Danny,Zenit St Petersburg,36:55,2215,yellow
+29362842,6243,6245,Anthony Martial,Monaco,85:05,5105,yellow
+29362842,6260,6262,João Moutinho,Monaco,73:33,4413,yellow
+29362842,6284,,Jérémy Toulalan,Monaco,56:08,3368,yellow
+29362842,6312,6314,Ricardo Carvalho,Monaco,38:36,2316,yellow
+29362842,6316,6317,Enzo Pérez,Benfica,37:16,2236,yellow
+29362842,6327,6328,Andreas Samaris,Benfica,28:23,1703,yellow
+29362842,6332,6334,Lacina Traoré,Monaco,25:24,1524,yellow
+29362849,6360,6362,Anthony Vanden Borre,RSC Anderlecht,90:00 +2:30,5550,yellow
+29362849,6366,6368,Aleksandar Mitrovic,RSC Anderlecht,88:21,5301,yellow
+29362849,6372,6374,Sacha Kljestan,RSC Anderlecht,86:42,5202,yellow
+29362849,6393,,Nacho Monreal,Arsenal,71:30,4290,yellow
+29362856,6469,6471,Blerim Dzemaili,Galatasaray,90:00 +0:49,5449,yellow
+29362856,6497,6499,Hakan Balta,Galatasaray,62:12,3732,yellow
+29362856,6519,6521,Selcuk Inan,Galatasaray,44:06,2646,yellow
+29362863,6571,6573,Alberto Botía,Olympiakos,84:58,5098,yellow
+29362863,6623,6624,Carlos Tévez,Juventus,48:35,2915,yellow
+29362870,6680,6681,Magnus Eriksson,Malmö FF,90:00 +0:11,5411,yellow
+29362870,6692,6693,Markus Halsti,Malmö FF,82:16,4936,yellow
+29362870,6695,6696,Simon Kroon,Malmö FF,81:43,4903,yellow
+29362870,6726,,Juanfran,Atlético de Madrid,52:56,3176,yellow
+29362870,6729,,Diego Godín,Atlético de Madrid,51:13,3073,yellow
+29362870,6730,6732,Miranda,Atlético de Madrid,50:09,3009,yellow
+29362870,6779,6781,Gabi,Atlético de Madrid,8:04,484,yellow
+29362877,6802,6804,Marcelinho,Ludogorets Razgrad,83:52,5032,yellow
+29362877,6853,,Derlis González,FC Basel,41:51,2511,yellow
+29362894,6899,6901,Alberto Moreno,Liverpool,84:02,5042,yellow
+29362894,6905,6906,Marcelo,Real Madrid,75:28,4528,yellow
+29362894,6930,6931,Sergio Ramos,Real Madrid,59:15,3555,yellow
+29362894,6944,6945,James Rodríguez,Real Madrid,52:26,3146,yellow
+29362894,6952,6954,Martin Skrtel,Liverpool,46:45,2805,yellow
+29362901,7006,7008,Joël Veltman,Ajax,70:09,4209,second_yellow
+29362901,7029,7030,Dani Alves,Barcelona,44:55,2695,yellow
+29362901,7032,7033,Jordi Alba,Barcelona,41:24,2484,yellow
+29362901,7037,7038,Niklas Moisander,Ajax,39:03,2343,yellow
+29362901,7047,7049,Joël Veltman,Ajax,33:21,2001,yellow
+29362901,7070,7071,Anwar El Ghazi,Ajax,8:49,529,yellow
+29362901,7073,7075,Javier Mascherano,Barcelona,7:36,456,yellow
+29362915,7270,7271,Carlos Gurpegi,Athletic Club,19:10,1150,yellow
+29362915,7273,7275,Alex Sandro,FC Porto,16:24,984,yellow
+29362922,7343,,Anri Khagush,BATE Borisov,45:00 +2:40,2860,second_yellow
+29362922,7344,,Anri Khagush,BATE Borisov,45:00 +2:30,2850,yellow
+29362922,7346,7347,Luiz Adriano,Shakhtar Donetsk,45:00 +2:05,2825,yellow
+29362929,7401,,Mitja Viler,NK Maribor,84:45,5085,yellow
+29362929,7440,7442,Petar Stojanovic,NK Maribor,52:56,3176,yellow
+29362929,7464,7466,Zeljko Filipovic,NK Maribor,35:12,2112,yellow
+29362929,7477,7478,Filipe Luis,Chelsea,23:42,1422,yellow
+29362936,7518,7519,William Carvalho,Sporting Lisbon,77:33,4653,yellow
+29362936,7559,7560,João Mário,Sporting Lisbon,39:34,2374,yellow
+29362936,7585,7587,Christian Fuchs,FC Schalke 04,18:07,1087,yellow
+29362936,7589,7590,Mahamadou-Naby Sarr,Sporting Lisbon,15:51,951,yellow
+29362936,7593,7595,Klaas-Jan Huntelaar,FC Schalke 04,14:11,851,yellow
+29362943,7660,7661,Xabi Alonso,FC Bayern München,45:00 +0:15,2715,yellow
+29362950,7709,,Sergio Agüero,Manchester City,89:10,5350,yellow
+29362950,7721,7722,Yaya Touré,Manchester City,80:58,4858,red
+29362950,7724,7726,Roman Eremenko,CSKA Moscow,78:22,4702,yellow
+29362950,7728,7730,Sergei Ignashevitch,CSKA Moscow,76:30,4590,yellow
+29362950,7737,7738,Fernandinho,Manchester City,69:14,4154,second_yellow
+29362950,7742,7743,Yaya Touré,Manchester City,65:18,3918,yellow
+29362950,7747,7748,Fernandinho,Manchester City,61:44,3704,yellow
+29362950,7773,7775,Pontus Wernbloom,CSKA Moscow,27:15,1635,yellow
+29362977,7836,7837,Evgeni Yablonski,BATE Borisov,60:18,3618,yellow
+29362977,7849,7851,Edgar Olekhnovich,BATE Borisov,45:00 +0:13,2713,yellow
+29362977,7853,7855,Vitali Gayduchik,BATE Borisov,40:55,2455,yellow
+29362977,7883,7884,Marcano,FC Porto,9:12,552,yellow
+29362984,7910,7912,Georgy Schennikov,CSKA Moscow,84:22,5062,yellow
+29362984,7952,7954,Vassili Berezoutski,CSKA Moscow,41:35,2495,yellow
+29362984,7960,7962,Alan Dzagoev,CSKA Moscow,37:35,2255,yellow
+29362991,8044,8046,Zlatan Ibrahimovic,Paris Saint Germain,37:18,2238,yellow
+29362991,8069,8071,Davy Klaassen,Ajax,17:39,1059,yellow
+29362998,8094,8096,Unai López,Athletic Club,90:00 +1:42,5502,yellow
+29362998,8100,,Taras Stepanenko,Shakhtar Donetsk,88:32,5312,yellow
+29362998,8107,8108,Darijo Srna,Shakhtar Donetsk,84:41,5081,yellow
+29362998,8125,8126,Luiz Adriano,Shakhtar Donetsk,73:53,4433,yellow
+29362998,8142,8144,Borja Viguera,Athletic Club,65:12,3912,yellow
+29362998,8147,,Carlos Gurpegi,Athletic Club,62:03,3723,yellow
+29362998,8150,8151,Olexandr Kucher,Shakhtar Donetsk,57:45,3465,yellow
+29362998,8162,8164,Ander Iturraspe,Athletic Club,49:49,2989,yellow
+29363005,8285,8287,Marco Höger,FC Schalke 04,17:53,1073,yellow
+29363022,8359,8361,Cédric Soares,Sporting Lisbon,60:29,3629,yellow
+29363022,8360,8361,Arghus,NK Maribor,60:28,3628,yellow
+29363022,8377,8379,Petar Stojanovic,NK Maribor,49:13,2953,yellow
+29363022,8392,8394,Marcos Tavares,NK Maribor,39:57,2397,yellow
+29363029,8438,,Sergio Agüero,Manchester City,90:00 +1:49,5509,yellow
+29363029,8442,8444,Pablo Zabaleta,Manchester City,88:47,5327,yellow
+29363029,8456,,Manuel Neuer,FC Bayern München,77:50,4670,yellow
+29363029,8476,8478,Gaël Clichy,Manchester City,59:42,3582,yellow
+29363029,8521,8522,Medhi Benatia,FC Bayern München,19:49,1189,red
+29363037,8602,8604,Lukasz Piszczek,Borussia Dortmund,36:28,2188,yellow
+29363037,8615,8616,Mikel Arteta,Arsenal,14:27,867,yellow
+29363037,8618,8620,Neven Subotic,Borussia Dortmund,12:55,775,yellow
+29363038,8637,8638,Luisão,Benfica,90:00 +1:04,5464,second_yellow
+29363038,8696,8697,Domenico Criscito,Zenit St Petersburg,43:13,2593,yellow
+29363038,8701,8702,Hulk,Zenit St Petersburg,35:54,2154,yellow
+29363038,8704,8706,Luisão,Benfica,35:16,2116,yellow
+29363038,8712,8713,Luís Neto,Zenit St Petersburg,29:22,1762,yellow
+29363038,8724,8725,Andreas Samaris,Benfica,20:09,1209,yellow
+29363038,8739,8740,Jardel,Benfica,10:22,622,yellow
+29363064,8769,8771,Raúl Jiménez,Atlético de Madrid,85:37,5137,yellow
+29363064,8796,8798,David Fuster,Olympiakos,55:31,3331,yellow
+29363064,8801,8803,Delvin Ndinga,Olympiakos,52:58,3178,yellow
+29363064,8849,8850,Cristian Ansaldi,Atlético de Madrid,14:21,861,yellow
+29363078,8931,,Ricardo Carvalho,Monaco,41:14,2474,yellow
+29363078,8953,8954,Emir Spahic,Bayer 04 Leverkusen,25:58,1558,yellow
+29363106,9097,9098,Álvaro Morata,Juventus,90:00 +0:16,5416,yellow
+29363106,9100,,Markus Rosenberg,Malmö FF,89:24,5364,yellow
+29363106,9101,,Erik Johansson,Malmö FF,88:34,5314,red
+29363106,9102,,Erik Johansson,Malmö FF,88:30,5310,yellow
+29363106,9103,,Robin Olsen,Malmö FF,88:23,5303,yellow
+29363106,9111,9112,Roberto Pereyra,Juventus,84:14,5054,yellow
+29363492,9211,,Sergei Ignashevitch,CSKA Moscow,90:00 +0:24,5424,yellow
+29363492,9240,9242,Alan Dzagoev,CSKA Moscow,69:33,4173,yellow
+29363492,9245,9246,Dante,FC Bayern München,67:10,4030,yellow
+29363492,9284,,Bebras Natcho,CSKA Moscow,26:39,1599,yellow
+29363509,9339,9340,Marcano,FC Porto,63:28,3808,yellow
+29363509,9382,9384,Taras Stepanenko,Shakhtar Donetsk,42:24,2544,yellow
+29363509,9399,,Yaroslav Rakitskiy,Shakhtar Donetsk,18:35,1115,yellow
+29363509,9405,9406,Ricardo Quaresma,FC Porto,7:10,430,yellow
+29363510,9463,9465,Guillherme Siqueira,Atlético de Madrid,36:54,2214,yellow
+29363510,9474,9476,Mario Suárez,Atlético de Madrid,25:19,1519,yellow
+29363510,9479,9480,Arturo Vidal,Juventus,21:55,1315,yellow
+29363523,9528,9530,Samir Nasri,Manchester City,73:51,4431,yellow
+29363523,9577,9579,Mapou Yanga-Mbiwa,Roma,42:11,2531,yellow
+29363523,9578,9579,Edin Dzeko,Manchester City,42:10,2530,yellow
+29363530,9622,9624,Enoch Kofi Adu,Malmö FF,90:00 +2:22,5542,second_yellow
+29363530,9648,9650,Markus Halsti,Malmö FF,70:57,4257,yellow
+29363530,9653,9655,Filip Helander,Malmö FF,68:59,4139,yellow
+29363530,9710,9711,Enoch Kofi Adu,Malmö FF,29:24,1764,yellow
+29363530,9715,9717,Magnus Eriksson,Malmö FF,24:18,1458,yellow
+29363537,9760,9762,Fabian Schär,FC Basel,79:46,4786,yellow
+29363537,9763,9764,Alberto Moreno,Liverpool,76:07,4567,yellow
+29363537,9778,9779,Dejan Lovren,Liverpool,65:42,3942,yellow
+29363537,9785,9786,Lazar Markovic,Liverpool,60:03,3603,red
+29363537,9806,9807,Lucas Leiva,Liverpool,46:19,2779,yellow
+29363544,9866,9867,Marcelo,Real Madrid,85:23,5123,yellow
+29363544,9941,9942,Marcelinho,Ludogorets Razgrad,18:30,1110,red
+29363558,10117,10119,Vinicius,APOEL Nicosia,46:56,2816,yellow
+29363558,10123,,Marios Antoniades,APOEL Nicosia,44:31,2671,yellow
+29363565,10156,10157,Mikel Rico,Athletic Club,90:00 +2:09,5529,yellow
+29363565,10224,,Andoni Iraola,Athletic Club,22:05,1325,yellow
+29363565,10227,10229,Evgeni Yablonski,BATE Borisov,21:06,1266,yellow
+29363780,10256,10258,João Guilherme,APOEL Nicosia,83:45,5025,second_yellow
+29363780,10273,10274,Rafinha,Barcelona,69:24,4164,second_yellow
+29363780,10290,10292,João Guilherme,APOEL Nicosia,53:18,3198,yellow
+29363780,10308,10309,Rafinha,Barcelona,34:25,2065,yellow
+29363780,10313,,Dani Alves,Barcelona,32:10,1930,yellow
+29363780,10316,,Carlao,APOEL Nicosia,30:55,1855,yellow
+29363787,10360,10362,Fabian Schär,FC Basel,79:42,4782,yellow
+29363787,10399,10401,Marek Suchy,FC Basel,51:57,3117,yellow
+29363787,10408,10409,Fábio Coentrão,Real Madrid,47:40,2860,yellow
+29363787,10416,,Philipp Degen,FC Basel,43:24,2604,yellow
+29363787,10418,10419,Sergio Ramos,Real Madrid,42:33,2553,yellow
+29363804,10463,10464,Ömer Toprak,Bayer 04 Leverkusen,89:58,5398,second_yellow
+29363804,10520,,Bryan Cristante,Benfica,35:25,2125,yellow
+29363804,10526,10527,Ömer Toprak,Bayer 04 Leverkusen,31:40,1900,yellow
+29363804,10535,10537,Sebastian Boenisch,Bayer 04 Leverkusen,25:30,1530,yellow
+29363821,10582,10584,Jérémy Toulalan,Monaco,81:00,4860,yellow
+29363821,10606,10607,Viktor Faizulin,Zenit St Petersburg,61:32,3692,yellow
+29363821,10650,10652,Andrea Raggi,Monaco,25:55,1555,yellow
+29363821,10662,10663,Nicolas Lombaerts,Zenit St Petersburg,9:56,596,yellow
+29363838,10698,10700,Olivier Deschacht,RSC Anderlecht,61:55,3715,yellow
+29363845,10779,,Lukas Podolski,Arsenal,64:40,3880,yellow
+29363845,10780,10782,Mathieu Debuchy,Arsenal,64:30,3870,yellow
+29363845,10787,10788,Semih Kaya,Galatasaray,56:10,3370,yellow
+29363845,10807,10808,Tarik Camdal,Galatasaray,42:14,2534,yellow
+29363845,10832,10833,Felipe Melo,Galatasaray,32:46,1966,yellow
+29363845,10858,10860,Mathieu Flamini,Arsenal,14:40,880,yellow
+29363852,10909,10911,Edinson Cavani,Paris Saint Germain,56:49,3409,yellow
+29363859,10970,,Paulo Oliveira,Sporting Lisbon,90:00 +1:25,5485,yellow
+29363859,10975,10976,César Azpilicueta,Chelsea,86:58,5218,yellow
+29363859,10984,10986,Jonathan Silva,Sporting Lisbon,81:21,4881,yellow
+29363859,10993,10995,Adrien Silva,Sporting Lisbon,78:05,4685,yellow
+29363859,11020,11022,William Carvalho,Sporting Lisbon,57:26,3446,yellow
+31491679,11092,11093,Marco Verratti,Paris Saint Germain,78:00,4680,yellow
+31491679,11100,11101,Cesc Fàbregas,Chelsea,72:03,4323,yellow
+31491679,11111,11113,Branislav Ivanovic,Chelsea,64:59,3899,yellow
+31491679,11135,11137,Gregory Van der Wiel,Paris Saint Germain,51:51,3111,yellow
+31491686,11206,11207,Bastian Schweinsteiger,FC Bayern München,83:51,5031,yellow
+31491686,11214,11215,Jerome Boateng,FC Bayern München,79:33,4773,yellow
+31491686,11222,11224,Fred,Shakhtar Donetsk,76:50,4610,yellow
+31491686,11232,11233,Xabi Alonso,FC Bayern München,64:45,3885,second_yellow
+31491686,11240,11242,Douglas Costa,Shakhtar Donetsk,57:52,3472,yellow
+31491686,11262,11264,Darijo Srna,Shakhtar Donetsk,37:29,2249,yellow
+31491686,11272,11273,Xabi Alonso,FC Bayern München,23:37,1417,yellow
+31491686,11275,11276,Rafinha,FC Bayern München,22:05,1325,yellow
+31513358,11325,11327,Jan Kirchhoff,FC Schalke 04,62:19,3739,yellow
+31513358,11343,11345,Roman Neustädter,FC Schalke 04,45:00 +1:23,2783,yellow
+31513358,11359,11361,Kevin-Prince Boateng,FC Schalke 04,33:02,1982,yellow
+31513358,11383,11384,Toni Kroos,Real Madrid,8:45,525,yellow
+31513365,11406,11407,Danilo,FC Porto,85:59,5159,yellow
+31513365,11429,11431,Marek Suchy,FC Basel,61:51,3711,yellow
+31513365,11437,11439,Shkelzen Gashi,FC Basel,56:30,3390,yellow
+31513365,11444,11445,Alex Sandro,FC Porto,50:12,3012,yellow
+31513365,11452,11454,Walter Samuel,FC Basel,45:30,2730,yellow
+31513365,11468,,Óliver,FC Porto,35:43,2143,yellow
+31513365,11469,11471,Mohamed Elneny,FC Basel,35:41,2141,yellow
+31513365,11478,11479,Casemiro,FC Porto,28:03,1683,yellow
+31513365,11490,11492,Fabian Frei,FC Basel,20:48,1248,yellow
+31590794,11533,11535,Roberto Pereyra,Juventus,78:59,4739,yellow
+31590794,11566,11568,Arturo Vidal,Juventus,47:04,2824,yellow
+31590801,11620,11622,Fernando,Manchester City,89:18,5358,yellow
+31590801,11623,11624,Adriano,Barcelona,87:49,5269,yellow
+31590801,11646,11648,Gaël Clichy,Manchester City,73:01,4381,second_yellow
+31590801,11666,11668,Gaël Clichy,Manchester City,58:05,3485,yellow
+31590801,11690,11691,Dani Alves,Barcelona,44:10,2650,yellow
+31590801,11696,11698,Ivan Rakitic,Barcelona,40:39,2439,yellow
+31608951,11730,11731,João Moutinho,Monaco,90:00 +1:15,5475,yellow
+31608951,11738,,Mesut Özil,Arsenal,86:16,5176,yellow
+31608951,11747,11748,Héctor Bellerín,Arsenal,73:12,4392,yellow
+31608951,11781,11783,Elderson Echiéjilé,Monaco,44:33,2673,yellow
+31608951,11786,11787,Francis Coquelin,Arsenal,41:20,2480,yellow
+31608958,11824,11825,Jesús Gámez,Atlético de Madrid,90:00 +1:52,5512,yellow
+31608958,11828,,Stefan Kießling,Bayer 04 Leverkusen,88:05,5285,yellow
+31608958,11829,11831,Fernando Torres,Atlético de Madrid,88:02,5282,yellow
+31608958,11830,11831,Gonzalo Castro,Bayer 04 Leverkusen,87:18,5238,yellow
+31608958,11844,11846,Tiago,Atlético de Madrid,75:44,4544,second_yellow
+31608958,11861,11862,Lars Bender,Bayer 04 Leverkusen,61:45,3705,yellow
+31608958,11864,11866,Diego Godín,Atlético de Madrid,59:41,3581,yellow
+31608958,11867,11868,Wendell,Bayer 04 Leverkusen,57:30,3450,yellow
+31608958,11901,11902,Kyriakos Papadopoulos,Bayer 04 Leverkusen,35:04,2104,yellow
+31608958,11920,11921,Tiago,Atlético de Madrid,21:52,1312,yellow
+31802502,11952,11953,Roman Neustädter,FC Schalke 04,90:00 +2:57,5577,yellow
+31802502,11986,11988,Fábio Coentrão,Real Madrid,54:07,3247,yellow
+31802502,12016,12017,Cristiano Ronaldo,Real Madrid,30:28,1828,yellow
+31803965,12037,12039,Walter Samuel,FC Basel,90:00 +0:42,5442,second_yellow
+31803965,12068,,Behrang Safari,FC Basel,54:38,3278,yellow
+31803965,12069,12071,Marcano,FC Porto,54:37,3277,yellow
+31803965,12073,12075,Walter Samuel,FC Basel,48:08,2888,yellow
+31803965,12090,12092,Derlis González,FC Basel,37:10,2230,yellow
+31803965,12104,12106,Shkelzen Gashi,FC Basel,29:15,1755,yellow
+31816148,12201,12202,Marco Verratti,Paris Saint Germain,73:44,4424,yellow
+31816148,12204,,David Luiz,Paris Saint Germain,72:22,4342,yellow
+31816148,12205,12207,Diego Costa,Chelsea,72:21,4341,yellow
+31816148,12231,12233,Ramires,Chelsea,51:08,3068,yellow
+31816148,12256,12257,Blaise Matuidi,Paris Saint Germain,39:30,2370,yellow
+31816148,12264,12266,Oscar,Chelsea,36:18,2178,yellow
+31816148,12271,12273,Thiago Motta,Paris Saint Germain,32:22,1942,yellow
+31816148,12272,12273,Zlatan Ibrahimovic,Paris Saint Germain,30:55,1855,red
+31816155,12347,,Jerome Boateng,FC Bayern München,37:23,2243,yellow
+31816155,12348,12350,Douglas Costa,Shakhtar Donetsk,37:22,2242,yellow
+31816155,12362,12363,Holger Badstuber,FC Bayern München,25:54,1554,yellow
+31816155,12389,12391,Olexandr Kucher,Shakhtar Donetsk,2:39,159,red
+31911679,12413,12414,Kyriakos Papadopoulos,Bayer 04 Leverkusen,12:04,724,yellow
+31911679,12417,,Fernando Torres,Atlético de Madrid,09:32,572,yellow
+31911679,12428,12429,Stefan Kießling,Bayer 04 Leverkusen,01:28,88,yellow
+31911679,12444,12445,Wendell,Bayer 04 Leverkusen,88:49,5329,yellow
+31911679,12452,12453,Hakan Calhanoglu,Bayer 04 Leverkusen,77:05,4625,yellow
+31911679,12458,12460,Mario Suárez,Atlético de Madrid,75:08,4508,yellow
+31911679,12463,12465,Jesús Gámez,Atlético de Madrid,71:37,4297,yellow
+31911679,12474,12475,Ömer Toprak,Bayer 04 Leverkusen,64:25,3865,yellow
+31911679,12518,12519,Giménez,Atlético de Madrid,29:26,1766,yellow
+31911679,12522,12523,Emir Spahic,Bayer 04 Leverkusen,25:37,1537,yellow
+31913128,12591,12593,Geoffrey Kondogbia,Monaco,51:50,3110,yellow
+31913128,12606,12608,Alexis Sánchez,Arsenal,41:47,2507,yellow
+31922160,12651,12653,Martín Demichelis,Manchester City,81:34,4894,yellow
+31922160,12655,12656,Dani Alves,Barcelona,79:03,4743,yellow
+31922160,12708,12709,Samir Nasri,Manchester City,34:59,2099,yellow
+31922160,12717,12718,David Silva,Manchester City,26:07,1567,yellow
+31922160,12724,12725,Aleksandar Kolarov,Manchester City,19:21,1161,yellow
+31922160,12730,12731,Fernandinho,Manchester City,14:11,851,yellow
+31922167,12758,12759,Marco Reus,Borussia Dortmund,72:10,4330,yellow
+32289606,12831,12832,Marcelo,Real Madrid,88:10,5290,yellow
+32289606,12840,12842,Mario Suárez,Atlético de Madrid,84:14,5054,yellow
+32289606,12846,,Raúl García,Atlético de Madrid,79:34,4774,yellow
+32289606,12847,12849,Sergio Ramos,Real Madrid,79:33,4773,yellow
+32289606,12877,12879,Mario Mandzukic,Atlético de Madrid,54:40,3280,yellow
+32289613,12978,,Ricardo Carvalho,Monaco,54:55,3295,yellow
+32295979,13051,13053,Danilo,FC Porto,82:44,4964,yellow
+32295979,13063,13064,Sebastian Rode,FC Bayern München,70:32,4232,yellow
+32295979,13099,13100,Philipp Lahm,FC Bayern München,37:44,2264,yellow
+32295979,13102,13104,Alex Sandro,FC Porto,36:35,2195,yellow
+32295979,13109,13111,Casemiro,FC Porto,30:18,1818,yellow
+32295979,13126,13127,Juan Bernat,FC Bayern München,15:36,936,yellow
+32295979,13145,,Manuel Neuer,FC Bayern München,1:30,90,yellow
+32295986,13203,13204,Lionel Messi,Barcelona,53:20,3200,yellow
+32295986,13226,13228,Yohan Cabaye,Paris Saint-Germain,36:05,2165,yellow
+32295986,13235,13236,Gerard Piqué,Barcelona,31:27,1887,yellow
+32380834,13339,13341,David Luiz,Paris Saint-Germain,2:43,163,yellow
+32380841,13351,13353,Marcano,FC Porto,86:31,5191,second_yellow
+32380841,13380,13382,Marcano,FC Porto,70:38,4238,yellow
+32380841,13388,13390,Ricardo Pereira,FC Porto,64:54,3894,yellow
+32380841,13415,13416,Holger Badstuber,FC Bayern München,41:10,2470,yellow
+32380841,13422,,Jackson Martínez,FC Porto,37:35,2255,yellow
+32380841,13429,13431,Héctor Herrera,FC Porto,33:32,2012,yellow
+32384894,13472,13474,Koke,Atlético de Madrid,90:00 +3:22,5602,yellow
+32384894,13476,13477,Álvaro Arbeloa,Real Madrid,90:00 +2:21,5541,yellow
+32384894,13492,13494,Arda Turan,Atlético de Madrid,75:18,4518,second_yellow
+32384894,13496,,Pepe,Real Madrid,73:52,4432,yellow
+32384894,13497,,Raúl García,Atlético de Madrid,73:29,4409,yellow
+32384894,13553,13555,Arda Turan,Atlético de Madrid,30:44,1844,yellow
+32384921,13602,13604,Carlos Tévez,Juventus,85:01,5101,yellow
+32384921,13613,13614,Geoffrey Kondogbia,Monaco,75:56,4556,yellow
+32384921,13636,13637,Bernardo Silva,Monaco,49:25,2965,yellow
+32384921,13687,,Giorgio Chiellini,Juventus,0:48,48,yellow
+32582191,13694,13696,Giorgio Chiellini,Juventus,90:00 +2:02,5522,yellow
+32582191,13705,13706,James Rodríguez,Real Madrid,84:28,5068,yellow
+32582191,13714,13716,Daniel Carvajal,Real Madrid,74:34,4474,yellow
+32582191,13734,,Marcelo,Real Madrid,56:22,3382,yellow
+32582191,13735,,Arturo Vidal,Juventus,55:41,3341,yellow
+32582191,13755,13756,Carlos Tévez,Juventus,45:59,2759,yellow
+32582191,13803,13804,Leonardo Bonucci,Juventus,4:55,295,yellow
+32582198,13830,13832,Neymar,Barcelona,68:08,4088,yellow
+32582198,13835,13837,Gerard Piqué,Barcelona,65:57,3957,yellow
+32582198,13852,13853,Juan Bernat,FC Bayern München,55:50,3350,yellow
+32582198,13857,13858,Medhi Benatia,FC Bayern München,51:38,3098,yellow
+32582198,13864,13866,Dani Alves,Barcelona,45:36,2736,yellow
+32582198,13878,13879,Xabi Alonso,FC Bayern München,34:24,2064,yellow
+32683303,13933,,Stephan Lichtsteiner,Juventus,75:58,4558,yellow
+32683303,13938,13940,Carlos Tévez,Juventus,69:54,4194,yellow
+32683303,13960,13962,James Rodríguez,Real Madrid,43:52,2632,yellow
+32683303,13979,13980,Isco,Real Madrid,31:05,1865,yellow
+32683310,14022,14024,Pedro,Barcelona,84:43,5083,yellow
+32683310,14026,14027,Sebastian Rode,FC Bayern München,83:18,4998,yellow
+32683310,14031,14032,Xabi Alonso,FC Bayern München,80:44,4844,yellow
+32683310,14039,14040,Robert Lewandowski,FC Bayern München,75:41,4541,yellow
+32683310,14049,14051,Ivan Rakitic,Barcelona,63:29,3809,yellow
+32683310,14076,14077,Thiago Alcántara,FC Bayern München,45:00 +1:34,2794,yellow
+32683310,14083,14084,Rafinha,FC Bayern München,39:56,2396,yellow

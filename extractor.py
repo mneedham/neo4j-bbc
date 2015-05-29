@@ -1,9 +1,18 @@
 from bs4 import BeautifulSoup
 from soupselect import select
+from itertools import tee, izip
 
 import bs4
 import re
 import itertools
+
+def window(iterable, size):
+    iters = tee(iterable, size)
+    for i in xrange(1, size):
+        for each in iters[i:]:
+            next(each, None)
+    return izip(*iters)
+
 
 def format_time(raw_events):
     raw_events = iter(raw_events)
@@ -74,26 +83,29 @@ def attempts(events):
         attempt = re.findall("(Attempt|Goal).*", event)
         if attempt:
             print event
-            outcome = re.findall("Attempt ([^\.]*)\.", event)
 
-            # handle own goals here
-            # Goal!     Own Goal by Marek Suchy, FC Basel.  Real Madrid 1, FC Basel 0.
+            own_goal = re.findall("Own Goal.*", event)
+            if own_goal:
+                parts = re.findall("Own Goal by (.[^,]*), ([^\.]*)\. ", event)[0]
 
-            player_with_attempt = re.findall(".*\.([^(]*) \(.*\)", event)[0].strip()
-            player_with_attempt_team = re.findall(".*\.([^(]*) \((.*)\)", event)[0][1]
-
-            if not outcome:
-                outcome = "goal"
+                yield str(event_id), item, "own_goal", parts[0], parts[1], ""
             else:
-                outcome = outcome[0]
+                outcome = re.findall("Attempt ([^\.]*)\.", event)
+                player_with_attempt = re.findall(".*\.([^(]*) \(.*\)", event)[0].strip()
+                player_with_attempt_team = re.findall(".*\.([^(]*) \((.*)\)", event)[0][1]
 
-            player_with_assist = ""
-            parts = re.findall("\. Assisted by ([^\.]*)", event)
-            if parts:
-                without_with =  list(itertools.takewhile(lambda word: word != "with" and word != "following", parts[0].split(" ")))
-                player_with_assist = " ".join(without_with)
+                if not outcome:
+                    outcome = "goal"
+                else:
+                    outcome = outcome[0]
 
-            yield str(event_id), item, outcome, player_with_attempt, player_with_attempt_team, player_with_assist
+                player_with_assist = ""
+                parts = re.findall("\. Assisted by ([^\.]*)", event)
+                if parts:
+                    without_with =  list(itertools.takewhile(lambda word: word != "with" and word != "following", parts[0].split(" ")))
+                    player_with_assist = " ".join(without_with)
+
+                yield str(event_id), item, outcome, player_with_attempt, player_with_attempt_team, player_with_assist
 
 def corners(events):
     events = iter(events)
@@ -115,14 +127,6 @@ def corners(events):
                 yield '', str(event_id), team, conceded_by, item
         item = next
         event_id += 1
-
-from itertools import tee, izip
-def window(iterable, size):
-    iters = tee(iterable, size)
-    for i in xrange(1, size):
-        for each in iters[i:]:
-            next(each, None)
-    return izip(*iters)
 
 def cards(events):
     events = iter(events)

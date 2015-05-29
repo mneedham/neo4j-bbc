@@ -13,13 +13,16 @@ matchId,player,team
 29362773,Aurélien Chedjou,Galatasaray
 29362856,Aurélien Chedjou,Galatasaray
 29362818,Naser Aliji,FC Basel
+29362640,Danny Welbeck,Arsenal
 31913128,Danny Welbeck,Arsenal
 29362790,Danny Welbeck,Arsenal
+29209551,Danny Welbeck,Arsenal
 31608951,Danny Welbeck,Arsenal
 29362849,Danny Welbeck,Arsenal
 32380841,Maicon,FC Bayern München
 32295979,Maicon,FC Bayern München
 29362648,Shinji Kagawa,Borussia Dortmund
+29362773,Shinji Kagawa,Borussia Dortmund
 29363037,Shinji Kagawa,Borussia Dortmund
 29363838,Shinji Kagawa,Borussia Dortmund
 29362856,Shinji Kagawa,Borussia Dortmund
@@ -29,13 +32,26 @@ matchId,player,team
 29363859,Diego Capel,Sporting Lisbon
 32384894,Toni Kroos,Real Madrid
 29210808,Toni Kroos,Real Madrid
+31802502,Toni Kroos,Real Madrid
+31513358,Toni Kroos,Real Madrid
 29363544,Toni Kroos,Real Madrid
 32582191,Toni Kroos,Real Madrid
+29363787,Toni Kroos,Real Madrid
+32289606,Toni Kroos,Real Madrid
+29362894,Toni Kroos,Real Madrid
 29362811,Toni Kroos,Real Madrid
 32683303,Toni Kroos,Real Madrid
 29362676,Toni Kroos,Real Madrid
 29363078,Tiemoué Bakayoko,Monaco
 29362626,Tiemoué Bakayoko,Monaco
+29220472,João Moutinho,Monaco
+29362766,João Moutinho,Monaco
+31913128,João Moutinho,Monaco
+32289613,João Moutinho,Monaco
+32384921,João Moutinho,Monaco
+29362842,João Moutinho,Monaco
+31608951,João Moutinho,Monaco
+29363821,João Moutinho,Monaco
 29363565,Guillermo,Athletic Club
 29225480,Guillermo,Athletic Club
 29362731,Guillermo,Athletic Club
@@ -49,6 +65,18 @@ matchId,player,team
 29220465,Matías Suárez,RSC Anderlecht
 29362648,Matías Suárez,RSC Anderlecht
 29362790,Matías Suárez,RSC Anderlecht
+29362655,Carlos Tévez,Juventus
+29362804,Carlos Tévez,Juventus
+32384921,Carlos Tévez,Juventus
+32289613,Carlos Tévez,Juventus
+32582191,Carlos Tévez,Juventus
+29362863,Carlos Tévez,Juventus
+29363106,Carlos Tévez,Juventus
+29363510,Carlos Tévez,Juventus
+32683303,Carlos Tévez,Juventus
+31590794,Carlos Tévez,Juventus
+29212602,Carlos Tévez,Juventus
+31922167,Carlos Tévez,Juventus
 29362894,Simon Mignolet,Liverpool
 29362811,Simon Mignolet,Liverpool
 29362669,Simon Mignolet,Liverpool
@@ -61,11 +89,14 @@ matchId,player,team
 29363804,Gonzalo Castro,Bayer 04 Leverkusen
 29362877,Brayan Angulo,Ludogorets Razgrad
 29363492,Roman Eremenko,CSKA Moscow
+29362984,Roman Eremenko,CSKA Moscow
+29362540,Roman Eremenko,CSKA Moscow
 29225459,Roman Eremenko,CSKA Moscow
 29362950,Roman Eremenko,CSKA Moscow
-29362984,Roman Eremenko,CSKA Moscow
+29362703,Roman Eremenko,CSKA Moscow
 29212602,Rômulo,Juventus
 29220465,Alex Telles,Galatasaray
+29362640,Alex Telles,Galatasaray
 29362773,Alex Telles,Galatasaray
 29363845,Alex Telles,Galatasaray
 29362655,Roberto Pereyra,Juventus
@@ -75,9 +106,12 @@ matchId,player,team
 32582191,Roberto Pereyra,Juventus
 29362863,Roberto Pereyra,Juventus
 29363106,Roberto Pereyra,Juventus
+29363510,Roberto Pereyra,Juventus
 32683303,Roberto Pereyra,Juventus
 31590794,Roberto Pereyra,Juventus
 31922167,Roberto Pereyra,Juventus
+29363544,Fábio Coentrão,Real Madrid
+31802502,Fábio Coentrão,Real Madrid
 29225473,Sergei Chernik,BATE Borisov
 29362922,Sergei Chernik,BATE Borisov
 29362724,Sergei Chernik,BATE Borisov
@@ -88,13 +122,26 @@ matchId,player,team
 31922160,David Silva,Manchester City
 29363523,David Silva,Manchester City
 31590801,David Silva,Manchester City
-32582198,Luis Suárez,FC Bayern München
+32384894,Raúl García,Atlético de Madrid
+29220458,Raúl García,Atlético de Madrid
+29362655,Raúl García,Atlético de Madrid
+29363064,Raúl García,Atlético de Madrid
+31911679,Raúl García,Atlético de Madrid
+29362797,Raúl García,Atlético de Madrid
+29362870,Raúl García,Atlético de Madrid
+29363510,Raúl García,Atlético de Madrid
+31608958,Raúl García,Atlético de Madrid
 29362943,Ashley Cole,Roma
 29362752,Ashley Cole,Roma
 29363565,Andoni Iraola ,Athletic Club
 29225435,Aleksandar Kolarov,Manchester City
+31922160,Aleksandar Kolarov,Manchester City
 29363523,Aleksandar Kolarov,Manchester City
 29362703,Aleksandar Kolarov,Manchester City
+31922160,Yaya Touré,Manchester City
+29362950,Yaya Touré,Manchester City
+29362609,Yaya Touré,Manchester City
+29362703,Yaya Touré,Manchester City
 29362835,Salomón Rondón,Zenit St Petersburg
 29220479,Salomón Rondón,Zenit St Petersburg
 29362759,Salomón Rondón,Zenit St Petersburg
@@ -119,6 +166,8 @@ matchId,player,team
 29362745,Marco Höger,FC Schalke 04
 31513358,Marco Höger,FC Schalke 04
 29363106,Enoch Kofi Adu,Malmö FF
+29362870,Enoch Kofi Adu,Malmö FF
+29362662,Enoch Kofi Adu,Malmö FF
 32295986,Edinson Cavani,Paris Saint-Germain
 32380834,Edinson Cavani,Paris Saint-Germain
 29363078,Julian Brandt,Bayer 04 Leverkusen
@@ -137,8 +186,14 @@ matchId,player,team
 29362745,Sidney Sam,FC Schalke 04
 31513365,Marco Streller,FC Basel
 29210808,Marco Streller,FC Basel
+31803965,Marco Streller,FC Basel
 29363537,Marco Streller,FC Basel
 29362669,Marco Streller,FC Basel
+29363005,Marco Höger,FC Schalke 04
+31802502,Marco Höger,FC Schalke 04
+29362745,Marco Höger,FC Schalke 04
+29363551,Marco Höger,FC Schalke 04
+31513358,Marco Höger,FC Schalke 04
 32384894,Daniel Carvajal,Real Madrid
 32683303,Daniel Carvajal,Real Madrid
 32289606,Daniel Carvajal,Real Madrid
@@ -148,12 +203,15 @@ matchId,player,team
 29363859,Loïc Remy,Chelsea
 29362863,Dimitrios Diamantakos,Olympiakos
 29362662,Dimitrios Diamantakos,Olympiakos
+29363078,Tiemoué Bakayoko,Monaco
 31491686,Xabi Alonso,FC Bayern München
 29362752,Xabi Alonso,FC Bayern München
 29225435,Xabi Alonso,FC Bayern München
+29362540,Xabi Alonso,FC Bayern München
 29362943,Xabi Alonso,FC Bayern München
 29363029,Xabi Alonso,FC Bayern München
 32582198,Xabi Alonso,FC Bayern München
+32380841,Xabi Alonso,FC Bayern München
 32683310,Xabi Alonso,FC Bayern München
 32295979,Xabi Alonso,FC Bayern München
 28931063,Demba Ba,Besiktas
@@ -164,6 +222,12 @@ matchId,player,team
 29225459,Vasilis Torosidis,Roma
 29362752,Vasilis Torosidis,Roma
 29362609,Vasilis Torosidis,Roma
+28962031,Fábio Espinho,Ludogorets Razgrad
+29363092,Fábio Espinho,Ludogorets Razgrad
+29362818,Fábio Espinho,Ludogorets Razgrad
+29363544,Fábio Espinho,Ludogorets Razgrad
+29362877,Fábio Espinho,Ludogorets Razgrad
+29362676,Fábio Espinho,Ludogorets Razgrad
 29363038,Nicolás Gaitán,Benfica
 29220479,Nicolás Gaitán,Benfica
 29362842,Nicolás Gaitán,Benfica
@@ -192,18 +256,27 @@ matchId,player,team
 29362922,Nikolai Signevich,BATE Borisov
 29362724,Nikolai Signevich,BATE Borisov
 29362571,Nikolai Signevich,BATE Borisov
-29363092,Steven Gerrard,Liverpool
-29362894,Steven Gerrard,Liverpool
 29362811,Steven Gerrard,Liverpool
+29363092,Steven Gerrard,Liverpool
 29362669,Steven Gerrard,Liverpool
+29363537,Steven Gerrard,Liverpool
+29209558,Steven Gerrard,Liverpool
+29362894,Steven Gerrard,Liverpool
+29220458,Diego Godín,Atlético de Madrid
+29362655,Diego Godín,Atlético de Madrid
+29363064,Diego Godín,Atlético de Madrid
+29362797,Diego Godín,Atlético de Madrid
+32289606,Diego Godín,Atlético de Madrid
+31608958,Diego Godín,Atlético de Madrid
 29362894,Lazar Markovic,Liverpool
 29362811,Lazar Markovic,Liverpool
 29363537,Lazar Markovic,Liverpool
 29362669,Lazar Markovic,Liverpool
+29210808,Taulant Xhaka,FC Basel
 29362669,Taulant Xhaka,FC Basel
 29362877,Taulant Xhaka,FC Basel
-31803965,Taulant Xhaka,FC Basel
 29363537,Taulant Xhaka,FC Basel
+31803965,Taulant Xhaka,FC Basel
 31513365,Taulant Xhaka,FC Basel
 31491679,Thiago Silva,Paris Saint Germain
 31816148,Thiago Silva,Paris Saint Germain
@@ -217,11 +290,12 @@ matchId,player,team
 29363804,João Teixeira,Benfica
 28931063,Oguzhan Ozyakup,Besiktas
 28784340,Oguzhan Ozyakup,Besiktas
-29363530,Giannis Maniatis,Olympiakos
-29362863,Giannis Maniatis,Olympiakos
 29220458,Giannis Maniatis,Olympiakos
 29362804,Giannis Maniatis,Olympiakos
 29363064,Giannis Maniatis,Olympiakos
+29363530,Giannis Maniatis,Olympiakos
+29362863,Giannis Maniatis,Olympiakos
+29362662,Giannis Maniatis,Olympiakos
 29225466,Fredy Montero,Sporting Lisbon
 29362745,Fredy Montero,Sporting Lisbon
 29363022,Fredy Montero,Sporting Lisbon
@@ -236,8 +310,10 @@ matchId,player,team
 29362811,Cristiano Ronaldo,Real Madrid
 32384894,Cristiano Ronaldo,Real Madrid
 31513358,Cristiano Ronaldo,Real Madrid
+29363544,Cristiano Ronaldo,Real Madrid
 32582191,Cristiano Ronaldo,Real Madrid
 29363787,Cristiano Ronaldo,Real Madrid
+32289606,Cristiano Ronaldo,Real Madrid
 29362894,Cristiano Ronaldo,Real Madrid
 29210808,Cristiano Ronaldo,Real Madrid
 32683303,Cristiano Ronaldo,Real Madrid
@@ -253,6 +329,10 @@ matchId,player,team
 31590794,Carlos Tévez,Juventus
 29212602,Carlos Tévez,Juventus
 31922167,Carlos Tévez,Juventus
+31913128,Héctor Bellerín,Arsenal
+31608951,Héctor Bellerín,Arsenal
+29363492,Pierre-Emile Höjbjerg,FC Bayern München
+29362901,Nicolai Boilesen,Ajax
 29225494,Nicolai Boilesen,Ajax
 29362547,Nicolai Boilesen,Ajax
 32289613,Nabil Dirar ,Monaco
@@ -264,12 +344,15 @@ matchId,player,team
 32295979,Manuel Neuer,FC Bayern München
 29363029,Manuel Neuer,FC Bayern München
 32683310,Manuel Neuer,FC Bayern München
+29225473,Ilya Aleksievich,BATE Borisov
 29362724,Ilya Aleksievich,BATE Borisov
 29362977,Ilya Aleksievich,BATE Borisov
 29362710,Jean-Christophe Bahebeck,Paris Saint Germain
 29362908,Jean-Christophe Bahebeck,Paris Saint Germain
 29362554,Jean-Christophe Bahebeck,Paris Saint Germain
+31491686,Viacheslav Shevchuk,FC Bayern München
 31513358,Felix Platte,FC Schalke 04
+29363804,João Teixeira,Benfica
 29362773,Matthias Ginter,Borussia Dortmund
 29209551,Matthias Ginter,Borussia Dortmund
 31590794,Matthias Ginter,Borussia Dortmund
@@ -288,16 +371,22 @@ matchId,player,team
 32380834,Xavi,Barcelona
 29363780,Xavi,Barcelona
 32582198,Xavi,Barcelona
+29362901,Xavi,Barcelona
 29225487,Xavi,Barcelona
 29363852,Xavi,Barcelona
 29362759,Emir Spahic ,Bayer 04 Leverkusen
 29225466,André Martins,Sporting Lisbon
 29363022,André Martins,Sporting Lisbon
 29363859,André Martins,Sporting Lisbon
+29362578,Maicon,FC Porto
 29363509,Maicon,FC Porto
 29225473,Maicon,FC Porto
 29362915,Maicon,FC Porto
-29362578,Maicon,FC Porto
+32295979,Maicon,FC Porto
+31513365,Maicon,FC Porto
+29225480,Ibai Gómez,Athletic Club
+29362915,Ibai Gómez,Athletic Club
+29363565,Ibai Gómez,Athletic Club
 29363005,César Azpilicueta,Chelsea
 31491679,César Azpilicueta,Chelsea
 31816148,César Azpilicueta,Chelsea
@@ -348,23 +437,26 @@ matchId,player,team
 32683310,Ivan Rakitic,Barcelona
 31590801,Ivan Rakitic,Barcelona
 29362662,Eric Abidal,Malmö FF
+31802502,Leroy Sané,FC Schalke 04
 32295986,Maxwell,Paris Saint-Germain
 32380834,Maxwell,Paris Saint-Germain
-29363038,Oleg Shatov,Zenit St Petersburg
 29362835,Oleg Shatov,Zenit St Petersburg
-29362626,Oleg Shatov,Zenit St Petersburg
-29363821,Oleg Shatov,Zenit St Petersburg
+29220479,Oleg Shatov,Zenit St Petersburg
 29362759,Oleg Shatov,Zenit St Petersburg
+29363038,Oleg Shatov,Zenit St Petersburg
+29363821,Oleg Shatov,Zenit St Petersburg
+29362626,Oleg Shatov,Zenit St Petersburg
 29363530,Delvin Ndinga,Malmö FF
 29225487,Rafik Djebbour,APOEL Nicosia
 29362710,Rafik Djebbour,APOEL Nicosia
 29362908,Rafik Djebbour,APOEL Nicosia
 29362547,Rafik Djebbour,APOEL Nicosia
 29363780,Rafik Djebbour,APOEL Nicosia
-29363530,Markus Halsti,Malmö FF
-29362870,Markus Halsti,Malmö FF
 29362662,Markus Halsti,Malmö FF
 29362797,Markus Halsti,Malmö FF
+29363530,Markus Halsti,Malmö FF
+29362870,Markus Halsti,Malmö FF
+29363106,Markus Halsti,Malmö FF
 29212602,Markus Halsti,Malmö FF
 29212602,Martín Cáceres,Malmö FF
 32289613,Andrea Barzagli,Juventus
@@ -399,33 +491,38 @@ matchId,player,team
 29362842,Eduardo Salvio,Benfica
 29362766,Eduardo Salvio,Benfica
 29362633,Eduardo Salvio,Benfica
-29363780,Tiago Gomes,APOEL Nicosia
-29225487,Tiago Gomes,APOEL Nicosia
 29362547,Tiago Gomes,APOEL Nicosia
+29363780,Tiago Gomes,APOEL Nicosia
+29362710,Tiago Gomes,APOEL Nicosia
 29362908,Tiago Gomes,APOEL Nicosia
+29225487,Tiago Gomes,APOEL Nicosia
 29363558,Tiago Gomes,APOEL Nicosia
 29362724,Dmitry Baga,BATE Borisov
 29362977,Dmitry Baga,BATE Borisov
 29363565,Dmitry Baga,BATE Borisov
 32295979,Hernani,FC Porto
 28962031,Nicolae Claudiu Stanciu,Steaua Bucharest
+29363558,Joël Veltman,Ajax
 29362655,Guillherme Siqueira,Atlético de Madrid
-29362870,Guillherme Siqueira,Atlético de Madrid
-31608958,Guillherme Siqueira,Atlético de Madrid
 29362797,Guillherme Siqueira,Atlético de Madrid
+29362870,Guillherme Siqueira,Atlético de Madrid
+32289606,Guillherme Siqueira,Atlético de Madrid
 29363510,Guillherme Siqueira,Atlético de Madrid
+31608958,Guillherme Siqueira,Atlético de Madrid
 31491679,Blaise Matuidi,Paris Saint Germain
 29362991,Blaise Matuidi,Paris Saint Germain
 29362554,Blaise Matuidi,Paris Saint Germain
 29362710,Blaise Matuidi,Paris Saint Germain
+29362908,Blaise Matuidi,Paris Saint Germain
 31816148,Blaise Matuidi,Paris Saint Germain
 29225494,Blaise Matuidi,Paris Saint Germain
 29363852,Blaise Matuidi,Paris Saint Germain
 31802502,Pepe,Real Madrid
-32582191,Pepe,Real Madrid
 29210808,Pepe,Real Madrid
-29362811,Pepe,Real Madrid
+32384894,Pepe,Real Madrid
 31513358,Pepe,Real Madrid
+32582191,Pepe,Real Madrid
+29362811,Pepe,Real Madrid
 28927666,Marko Suler,NK Maribor
 29362585,Marko Suler,NK Maribor
 28784367,Marko Suler,NK Maribor
@@ -435,15 +532,32 @@ matchId,player,team
 32295979,Thiago Alcántara,FC Bayern München
 29362640,Yekta Kurtulus,Galatasaray
 29363838,Michael Heylen,RSC Anderlecht
+31491686,Thomas Müller,FC Bayern München
+29363492,Thomas Müller,FC Bayern München
+29225435,Thomas Müller,FC Bayern München
+29362540,Thomas Müller,FC Bayern München
+31816155,Thomas Müller,FC Bayern München
+32582198,Thomas Müller,FC Bayern München
+29362752,Thomas Müller,FC Bayern München
+32380841,Thomas Müller,FC Bayern München
+32683310,Thomas Müller,FC Bayern München
+32295979,Thomas Müller,FC Bayern München
+29362929,André Schürrle,Chelsea
+29362602,André Schürrle,Chelsea
+29363859,André Schürrle,Chelsea
 29362984,Kevin Strootman,Roma
 29362943,Pierre-Emile Höjbjerg,FC Bayern München
 29363492,Pierre-Emile Höjbjerg,FC Bayern München
 29363029,Pierre-Emile Höjbjerg,FC Bayern München
+29363859,César Azpilicueta,Chelsea
 31491679,Thibaut Courtois,Chelsea
 29225452,Thibaut Courtois,Chelsea
 31816148,Thibaut Courtois,Chelsea
+29209558,Jordan Henderson,Liverpool
+29363092,Jordan Henderson,Liverpool
 29362811,Jordan Henderson,Liverpool
 29363537,Jordan Henderson,Liverpool
+29362669,Jordan Henderson,Liverpool
 29220472,Ömer Toprak ,Bayer 04 Leverkusen
 29220472,Bernardo Silva,Monaco
 29362766,Bernardo Silva,Monaco
@@ -456,6 +570,8 @@ matchId,player,team
 29209558,Dejan Lovren,Liverpool
 29363537,Dejan Lovren,Liverpool
 29362669,Dejan Lovren,Liverpool
+29363838,Mitchell Langerak,Borussia Dortmund
+31513358,Lucas Silva,Real Madrid
 29363530,Simon Thern,Malmö FF
 29362870,Simon Thern,Malmö FF
 29362797,Simon Thern,Malmö FF
@@ -478,12 +594,14 @@ matchId,player,team
 29363530,Ricardinho,Malmö FF
 29363106,Ricardinho,Malmö FF
 29362870,Ricardinho,Malmö FF
+29362662,Ricardinho,Malmö FF
 29362797,Ricardinho,Malmö FF
 29362849,Andy Kawaya,RSC Anderlecht
 29362676,Marcelinho ,Ludogorets Razgrad
 29362922,Evgeni Yablonski,BATE Borisov
 29362724,Evgeni Yablonski,BATE Borisov
 29362977,Evgeni Yablonski,BATE Borisov
+29362571,Evgeni Yablonski,BATE Borisov
 29363565,Evgeni Yablonski,BATE Borisov
 29225435,Fernandinho,Manchester City
 29362950,Fernandinho,Manchester City
@@ -544,11 +662,17 @@ matchId,player,team
 29362842,Andrea Raggi,Monaco
 29363821,Andrea Raggi,Monaco
 29362626,Andrea Raggi,Monaco
+29362648,Kevin Großkreutz,Borussia Dortmund
+29209551,Kevin Großkreutz,Borussia Dortmund
+29363037,Kevin Großkreutz,Borussia Dortmund
+29363838,Kevin Großkreutz,Borussia Dortmund
 29362870,Erik Johansson ,Malmö FF
 29220465,Bruma,Galatasaray
 29362640,Bruma,Galatasaray
 29363845,Bruma,Galatasaray
 28784367,Nir Biton,Celtic
+29225466,André Martins,Sporting Lisbon
+29363859,André Martins,Sporting Lisbon
 32384894,Javier Hernández,Real Madrid
 29210808,Javier Hernández,Real Madrid
 31513358,Javier Hernández,Real Madrid
@@ -564,12 +688,18 @@ matchId,player,team
 29363558,Anwar El Ghazi,Ajax
 31491679,Maxwell,Paris Saint Germain
 29362991,Maxwell,Paris Saint Germain
+29362554,Maxwell,Paris Saint Germain
+29362710,Maxwell,Paris Saint Germain
+29362908,Maxwell,Paris Saint Germain
 31816148,Maxwell,Paris Saint Germain
 29225494,Maxwell,Paris Saint Germain
-29362554,Maxwell,Paris Saint Germain
+29363852,Maxwell,Paris Saint Germain
+29363804,Lisandro López,Benfica
+29362766,Lisandro López,Benfica
 28927666,Agim Ibraimi,NK Maribor
 28784367,Agim Ibraimi,NK Maribor
 29362585,Agim Ibraimi,NK Maribor
+29225466,Agim Ibraimi,NK Maribor
 29362738,Agim Ibraimi,NK Maribor
 29363551,Agim Ibraimi,NK Maribor
 29362929,Agim Ibraimi,NK Maribor
@@ -578,11 +708,19 @@ matchId,player,team
 29362804,Konstantinos Giannoulis,Olympiakos
 29362554,Lucas Moura ,Paris Saint Germain
 29363092,Joe Allen,Liverpool
+29362894,Joe Allen,Liverpool
+29362811,Joe Allen,Liverpool
+29363537,Joe Allen,Liverpool
+29363510,Giménez,Atlético de Madrid
+29363064,Giménez,Atlético de Madrid
 29362929,Didier Drogba,Chelsea
 29225452,Didier Drogba,Chelsea
 31816148,Didier Drogba,Chelsea
 29362738,Didier Drogba,Chelsea
 29363005,Didier Drogba,Chelsea
+29220465,Steven Defour,RSC Anderlecht
+29362648,Steven Defour,RSC Anderlecht
+29362790,Steven Defour,RSC Anderlecht
 29362578,Alex Sandro,FC Porto
 29362977,Alex Sandro,FC Porto
 29362915,Alex Sandro,FC Porto
@@ -592,6 +730,7 @@ matchId,player,team
 29362731,Alex Sandro,FC Porto
 32295979,Alex Sandro,FC Porto
 31513365,Alex Sandro,FC Porto
+29363804,Bebé,Benfica
 29362648,Ciro Immobile,Borussia Dortmund
 29362856,Ciro Immobile,Borussia Dortmund
 29209551,Ciro Immobile,Borussia Dortmund
@@ -606,11 +745,13 @@ matchId,player,team
 29363537,Martin Skrtel,Liverpool
 29362669,Martin Skrtel,Liverpool
 31491686,Alex Teixeira,Shakhtar Donetsk
+29362578,Alex Teixeira,Shakhtar Donetsk
 29362998,Alex Teixeira,Shakhtar Donetsk
 31816155,Alex Teixeira,Shakhtar Donetsk
 29363509,Alex Teixeira,Shakhtar Donetsk
 29362922,Alex Teixeira,Shakhtar Donetsk
 29362724,Alex Teixeira,Shakhtar Donetsk
+29225480,Alex Teixeira,Shakhtar Donetsk
 29362540,Dmitri Efremov,FC Bayern München
 28931063,Jack Wilshere,Arsenal
 29209551,Jack Wilshere,Arsenal
@@ -621,7 +762,9 @@ matchId,player,team
 31590794,Jakub Blaszczykowski,Borussia Dortmund
 29363838,Jakub Blaszczykowski,Borussia Dortmund
 31922167,Jakub Blaszczykowski,Borussia Dortmund
+29362648,Marcel Schmelzer,Borussia Dortmund
 29209551,Marcel Schmelzer,Borussia Dortmund
+31590794,Marcel Schmelzer,Borussia Dortmund
 29363037,Marcel Schmelzer,Borussia Dortmund
 29363838,Marcel Schmelzer,Borussia Dortmund
 31922167,Marcel Schmelzer,Borussia Dortmund
@@ -643,6 +786,13 @@ matchId,player,team
 28508318,Kris Commons,Celtic
 28278531,Kris Commons,Celtic
 28656118,Kris Commons,Celtic
+29210808,Derlis González,FC Basel
+29362818,Derlis González,FC Basel
+31803965,Derlis González,FC Basel
+29362877,Derlis González,FC Basel
+29363787,Derlis González,FC Basel
+29363537,Derlis González,FC Basel
+31513365,Derlis González,FC Basel
 29362554,Dani Alves,Barcelona
 32380834,Dani Alves,Barcelona
 31922160,Dani Alves,Barcelona
@@ -663,11 +813,13 @@ matchId,player,team
 28656118,Anthony Stokes,Celtic
 28784367,Anthony Stokes,Celtic
 28278531,Anthony Stokes,Celtic
-29362936,Atsuto Uchida,FC Schalke 04
 31802502,Atsuto Uchida,FC Schalke 04
 29362585,Atsuto Uchida,FC Schalke 04
-29362745,Atsuto Uchida,FC Schalke 04
+31513358,Atsuto Uchida,FC Schalke 04
+29363005,Atsuto Uchida,FC Schalke 04
 29363551,Atsuto Uchida,FC Schalke 04
+29362936,Atsuto Uchida,FC Schalke 04
+29362745,Atsuto Uchida,FC Schalke 04
 29362901,Lasse Schöne,Ajax
 29225494,Lasse Schöne,Ajax
 29362547,Lasse Schöne,Ajax
@@ -687,6 +839,7 @@ matchId,player,team
 29362842,Geoffrey Kondogbia,Monaco
 31608951,Geoffrey Kondogbia,Monaco
 29362626,Geoffrey Kondogbia,Monaco
+29362943,Seydou Keita,Roma
 29225459,Seydou Keita,Roma
 29363523,Seydou Keita,Roma
 29362609,Seydou Keita,Roma
@@ -707,9 +860,11 @@ matchId,player,team
 29362877,Alex Aleksandrov,Ludogorets Razgrad
 29362676,Alex Aleksandrov,Ludogorets Razgrad
 29362991,Ricardo van Rhijn,Ajax
+29362547,Ricardo van Rhijn,Ajax
+29362717,Ricardo van Rhijn,Ajax
 29362901,Ricardo van Rhijn,Ajax
 29225494,Ricardo van Rhijn,Ajax
-29362547,Ricardo van Rhijn,Ajax
+29363558,Ricardo van Rhijn,Ajax
 31802502,Eric Choupo-Moting ,FC Schalke 04
 29363492,Pontus Wernbloom,FC Bayern München
 28927666,Beram Kayal,Celtic
@@ -730,9 +885,13 @@ matchId,player,team
 31911679,Kyriakos Papadopoulos,Bayer 04 Leverkusen
 31608958,Kyriakos Papadopoulos,Bayer 04 Leverkusen
 29362759,Kyriakos Papadopoulos,Bayer 04 Leverkusen
-29362738,Mitja Viler,NK Maribor
+28927666,Mitja Viler,NK Maribor
 28784367,Mitja Viler,NK Maribor
+29362585,Mitja Viler,NK Maribor
+29362929,Mitja Viler,NK Maribor
+29362738,Mitja Viler,NK Maribor
 29363551,Mitja Viler,NK Maribor
+29225466,Mitja Viler,NK Maribor
 32384894,Arda Turan,Atlético de Madrid
 29220458,Arda Turan,Atlético de Madrid
 29362655,Arda Turan,Atlético de Madrid
@@ -748,6 +907,7 @@ matchId,player,team
 29209551,Lukas Podolski,Arsenal
 29362790,Lukas Podolski,Arsenal
 29363037,Lukas Podolski,Arsenal
+29363845,Lukas Podolski,Arsenal
 29362849,Lukas Podolski,Arsenal
 31802502,Álvaro Arbeloa,Real Madrid
 29362811,Álvaro Arbeloa,Real Madrid
@@ -763,6 +923,12 @@ matchId,player,team
 29362547,Tomás De Vincenti,APOEL Nicosia
 29362908,Tomás De Vincenti,APOEL Nicosia
 28962031,Giedrius Arlauskis,Steaua Bucharest
+31590801,Gaël Clichy,Manchester City
+29362950,Gaël Clichy,Manchester City
+29362609,Gaël Clichy,Manchester City
+29363523,Gaël Clichy,Manchester City
+31802502,Karim Benzema,Real Madrid
+29362811,Karim Benzema,Real Madrid
 29210808,Karim Benzema,Real Madrid
 31513358,Karim Benzema,Real Madrid
 29363787,Karim Benzema,Real Madrid
@@ -791,7 +957,10 @@ matchId,player,team
 31802502,Gareth Bale,Real Madrid
 29210808,Gareth Bale,Real Madrid
 31513358,Gareth Bale,Real Madrid
+29363544,Gareth Bale,Real Madrid
 32582191,Gareth Bale,Real Madrid
+29363787,Gareth Bale,Real Madrid
+32289606,Gareth Bale,Real Madrid
 29362894,Gareth Bale,Real Madrid
 32683303,Gareth Bale,Real Madrid
 29362676,Gareth Bale,Real Madrid
@@ -802,6 +971,7 @@ matchId,player,team
 32582191,Arturo Vidal,Juventus
 29362863,Arturo Vidal,Juventus
 29363106,Arturo Vidal,Juventus
+29363510,Arturo Vidal,Juventus
 32683303,Arturo Vidal,Juventus
 31590794,Arturo Vidal,Juventus
 31922167,Arturo Vidal,Juventus
@@ -823,6 +993,7 @@ matchId,player,team
 29363078,Jérémy Toulalan,Monaco
 28508318,Iñaki Astiz,Legia Warsaw
 28278531,Gary Martin,KR Reykjavík
+29362669,José Enrique,Liverpool
 31911679,Cani,Atlético de Madrid
 31491686,David Alaba,FC Bayern München
 29362752,David Alaba,FC Bayern München
@@ -832,6 +1003,9 @@ matchId,player,team
 29362943,David Alaba,FC Bayern München
 29210808,Matías Delgado,FC Basel
 29362877,Matías Delgado,FC Basel
+29363509,Adrián,FC Porto
+29225473,Adrián,FC Porto
+29362578,Adrián,FC Porto
 29362835,Danny,Zenit St Petersburg
 29220479,Danny,Zenit St Petersburg
 29362759,Danny,Zenit St Petersburg
@@ -844,11 +1018,12 @@ matchId,player,team
 29363029,Fernando,Manchester City
 28931063,Pedro Franco,Besiktas
 28784340,Pedro Franco,Besiktas
+29362811,Raheem Sterling,Liverpool
+29363092,Raheem Sterling,Liverpool
+29362669,Raheem Sterling,Liverpool
+29363537,Raheem Sterling,Liverpool
 29209558,Raheem Sterling,Liverpool
 29362894,Raheem Sterling,Liverpool
-29362811,Raheem Sterling,Liverpool
-29363537,Raheem Sterling,Liverpool
-29363092,Raheem Sterling,Liverpool
 29225487,Konstantinos Charalambidis,APOEL Nicosia
 29362655,Giorgio Chiellini,Juventus
 29362804,Giorgio Chiellini,Juventus
@@ -860,13 +1035,20 @@ matchId,player,team
 32683303,Giorgio Chiellini,Juventus
 31590794,Giorgio Chiellini,Juventus
 29212602,Giorgio Chiellini,Juventus
+31922167,Giorgio Chiellini,Juventus
 28931063,Necip Uysal,Besiktas
 28784340,Necip Uysal,Besiktas
 32380841,Rafinha ,FC Bayern München
+29363078,Jérémy Toulalan,Monaco
+29362842,Jérémy Toulalan,Monaco
+29362626,Jérémy Toulalan,Monaco
+29362766,Jérémy Toulalan,Monaco
+29363821,Jérémy Toulalan,Monaco
 31913128,Kieran Gibbs,Arsenal
+29362790,Kieran Gibbs,Arsenal
 29209551,Kieran Gibbs,Arsenal
-29363037,Kieran Gibbs,Arsenal
 31608951,Kieran Gibbs,Arsenal
+29363037,Kieran Gibbs,Arsenal
 29362849,Kieran Gibbs,Arsenal
 29220472,Wallace,Monaco
 31913128,Wallace,Monaco
@@ -876,6 +1058,7 @@ matchId,player,team
 28784367,Ales Mertelj,NK Maribor
 29362585,Ales Mertelj,NK Maribor
 29362929,Ales Mertelj,NK Maribor
+29362738,Ales Mertelj,NK Maribor
 29363551,Ales Mertelj,NK Maribor
 29225466,Ales Mertelj,NK Maribor
 29363022,Ales Mertelj,NK Maribor
@@ -891,10 +1074,13 @@ matchId,player,team
 32289606,Gabi,Atlético de Madrid
 29363510,Gabi,Atlético de Madrid
 31608958,Gabi,Atlético de Madrid
+29362717,Jaïro Riedewald,Ajax
+29363558,Jaïro Riedewald,Ajax
 29220458,Luka Milivojevic,Olympiakos
 29362863,Luka Milivojevic,Olympiakos
 29362662,Luka Milivojevic,Olympiakos
 29362804,Luka Milivojevic,Olympiakos
+29363064,Luka Milivojevic,Olympiakos
 28931063,Mesut Özil,Arsenal
 29362640,Mesut Özil,Arsenal
 31913128,Mesut Özil,Arsenal
@@ -924,11 +1110,20 @@ matchId,player,team
 29362676,Marcelo,Real Madrid
 31802502,Klaas-Jan Huntelaar,FC Schalke 04
 29362585,Klaas-Jan Huntelaar,FC Schalke 04
+31513358,Klaas-Jan Huntelaar,FC Schalke 04
 29363005,Klaas-Jan Huntelaar,FC Schalke 04
 29363551,Klaas-Jan Huntelaar,FC Schalke 04
 29362936,Klaas-Jan Huntelaar,FC Schalke 04
 29225452,Klaas-Jan Huntelaar,FC Schalke 04
 29362745,Klaas-Jan Huntelaar,FC Schalke 04
+31491686,Mario Götze,FC Bayern München
+29362752,Mario Götze,FC Bayern München
+29225435,Mario Götze,FC Bayern München
+29362540,Mario Götze,FC Bayern München
+31816155,Mario Götze,FC Bayern München
+29362943,Mario Götze,FC Bayern München
+29363492,Mario Götze,FC Bayern München
+32380841,Mario Götze,FC Bayern München
 29362835,Javi García,Zenit St Petersburg
 29220479,Javi García,Zenit St Petersburg
 29363821,Javi García,Zenit St Petersburg
@@ -940,13 +1135,20 @@ matchId,player,team
 29220458,Delvin Ndinga,Olympiakos
 29362648,Erik Durm,Borussia Dortmund
 29209551,Erik Durm,Borussia Dortmund
+29363838,Erik Durm,Borussia Dortmund
 29362856,Erik Durm,Borussia Dortmund
+29363804,André Almeida,Benfica
+29220479,André Almeida,Benfica
+29362842,André Almeida,Benfica
+29362766,André Almeida,Benfica
 28962031,Paul Parvulescu,Steaua Bucharest
+28927666,Zeljko Filipovic,NK Maribor
 28784367,Zeljko Filipovic,NK Maribor
 29362585,Zeljko Filipovic,NK Maribor
+29225466,Zeljko Filipovic,NK Maribor
 29362738,Zeljko Filipovic,NK Maribor
 29363551,Zeljko Filipovic,NK Maribor
-29225466,Zeljko Filipovic,NK Maribor
+29362929,Zeljko Filipovic,NK Maribor
 29363022,Zeljko Filipovic,NK Maribor
 29363509,Vincent Aboubakar,FC Porto
 29225473,Vincent Aboubakar,FC Porto
@@ -973,10 +1175,18 @@ matchId,player,team
 29363523,Jesús Navas,Manchester City
 32380841,Martins Indi,FC Porto
 31803965,Martins Indi,FC Porto
+28962031,Nicandro Breeveld,Steaua Bucharest
+32582198,Luis Suárez,FC Bayern München
 32384894,Juanfran,Atlético de Madrid
-31608958,Juanfran,Atlético de Madrid
-29362797,Juanfran,Atlético de Madrid
+29220458,Juanfran,Atlético de Madrid
 29362655,Juanfran,Atlético de Madrid
+29363064,Juanfran,Atlético de Madrid
+31911679,Juanfran,Atlético de Madrid
+29362797,Juanfran,Atlético de Madrid
+29362870,Juanfran,Atlético de Madrid
+32289606,Juanfran,Atlético de Madrid
+29363510,Juanfran,Atlético de Madrid
+31608958,Juanfran,Atlético de Madrid
 29362640,Santiago Cazorla,Arsenal
 31913128,Santiago Cazorla,Arsenal
 29362790,Santiago Cazorla,Arsenal
@@ -999,9 +1209,12 @@ matchId,player,team
 29363804,Simon Rolfes,Bayer 04 Leverkusen
 31911679,Simon Rolfes,Bayer 04 Leverkusen
 31608958,Simon Rolfes,Bayer 04 Leverkusen
+29220465,Matías Suárez,RSC Anderlecht
+29362648,Matías Suárez,RSC Anderlecht
 32295986,Yohan Cabaye,Paris Saint-Germain
 32380834,Yohan Cabaye,Paris Saint-Germain
 31802502,Tranquillo Barnetta,FC Schalke 04
+29362585,Tranquillo Barnetta,FC Schalke 04
 29363551,Tranquillo Barnetta,FC Schalke 04
 29225452,Tranquillo Barnetta,FC Schalke 04
 29362870,Cristian Rodríguez,Atlético de Madrid
@@ -1011,8 +1224,11 @@ matchId,player,team
 28508318,Emilio Izaguirre,Celtic
 28784367,Emilio Izaguirre,Celtic
 28278531,Emilio Izaguirre,Celtic
+29363780,Tomás De Vincenti,APOEL Nicosia
+29225487,Tomás De Vincenti,APOEL Nicosia
 29362901,Kolbeinn Sigthorsson,Ajax
 29225494,Kolbeinn Sigthorsson,Ajax
+29362547,Kolbeinn Sigthorsson,Ajax
 29362717,Kolbeinn Sigthorsson,Ajax
 29362710,Marios Antoniades ,APOEL Nicosia
 29220472,João Moutinho,Monaco
@@ -1026,18 +1242,34 @@ matchId,player,team
 32384921,João Moutinho,Monaco
 29363804,Robbie Kruse,Bayer 04 Leverkusen
 29362835,Robbie Kruse,Bayer 04 Leverkusen
+29362804,Álvaro Morata,Juventus
+32384921,Álvaro Morata,Juventus
+32289613,Álvaro Morata,Juventus
+32582191,Álvaro Morata,Juventus
+29362863,Álvaro Morata,Juventus
+29363106,Álvaro Morata,Juventus
+32683303,Álvaro Morata,Juventus
+31590794,Álvaro Morata,Juventus
+31922167,Álvaro Morata,Juventus
 29362633,Julio César,Benfica
 29363038,Luís Neto,Zenit St Petersburg
 29363530,Jorge Benítez,Olympiakos
 29225480,Ager Aketxe,Athletic Club
 32384894,Javier Hernández ,Real Madrid
 28278531,Gonzalo Lorenzo Balbi,KR Reykjavík
+31491686,Franck Ribéry,FC Bayern München
+29362752,Franck Ribéry,FC Bayern München
+31816155,Franck Ribéry,FC Bayern München
+29362943,Franck Ribéry,FC Bayern München
+29363029,Franck Ribéry,FC Bayern München
+29363492,Franck Ribéry,FC Bayern München
 29363509,Marcano,FC Porto
 32380841,Marcano,FC Porto
 29362977,Marcano,FC Porto
 29362578,Marcano,FC Porto
 31513365,Marcano,FC Porto
 29363565,Maksim Volodko,BATE Borisov
+29362724,Maksim Volodko,BATE Borisov
 29362922,Maksim Volodko,BATE Borisov
 29362977,Maksim Volodko,BATE Borisov
 29362571,Maksim Volodko,BATE Borisov
@@ -1045,14 +1277,18 @@ matchId,player,team
 28962031,Iasmin Latovlevici,Steaua Bucharest
 29362738,Nathan Aké,Chelsea
 28962031,Andrei Prepelita,Steaua Bucharest
-31513365,Mohamed Elneny,FC Basel
 29210808,Mohamed Elneny,FC Basel
+29362818,Mohamed Elneny,FC Basel
+29362669,Mohamed Elneny,FC Basel
+29362877,Mohamed Elneny,FC Basel
 29363787,Mohamed Elneny,FC Basel
 29363537,Mohamed Elneny,FC Basel
-29362669,Mohamed Elneny,FC Basel
+31803965,Mohamed Elneny,FC Basel
+31513365,Mohamed Elneny,FC Basel
 29363038,Jardel,Benfica
 29220479,Jardel,Benfica
 29362842,Jardel,Benfica
+29362633,Jardel,Benfica
 32384921,Valère Germain,Monaco
 29362842,Valère Germain,Monaco
 29362626,Valère Germain,Monaco
@@ -1064,10 +1300,12 @@ matchId,player,team
 29209551,Mikel Arteta,Arsenal
 29363037,Mikel Arteta,Arsenal
 29362849,Mikel Arteta,Arsenal
-32683310,Bastian Schweinsteiger,FC Bayern München
 31491686,Bastian Schweinsteiger,FC Bayern München
 29363492,Bastian Schweinsteiger,FC Bayern München
+31816155,Bastian Schweinsteiger,FC Bayern München
 29363029,Bastian Schweinsteiger,FC Bayern München
+32582198,Bastian Schweinsteiger,FC Bayern München
+32683310,Bastian Schweinsteiger,FC Bayern München
 29363544,Wanderson,Ludogorets Razgrad
 29363092,Wanderson,Ludogorets Razgrad
 28962031,Wanderson,Ludogorets Razgrad
@@ -1079,6 +1317,7 @@ matchId,player,team
 29362648,Youri Tielemans,RSC Anderlecht
 29362790,Youri Tielemans,RSC Anderlecht
 29363838,Youri Tielemans,RSC Anderlecht
+29362849,Youri Tielemans,RSC Anderlecht
 29362655,Fernando Llorente,Juventus
 32384921,Fernando Llorente,Juventus
 32582191,Fernando Llorente,Juventus
@@ -1088,7 +1327,15 @@ matchId,player,team
 32683303,Fernando Llorente,Juventus
 29212602,Fernando Llorente,Juventus
 31816155,Franck Ribéry ,FC Bayern München
+32380834,Zlatan Ibrahimovic,Paris Saint-Germain
 29225459,Kirill Panchenko,CSKA Moscow
+29209558,Junior Caiçara,Ludogorets Razgrad
+29362818,Junior Caiçara,Ludogorets Razgrad
+29363092,Junior Caiçara,Ludogorets Razgrad
+28962031,Junior Caiçara,Ludogorets Razgrad
+29362676,Junior Caiçara,Ludogorets Razgrad
+28931063,Ismail Köybasi,Besiktas
+28784340,Ismail Köybasi,Besiktas
 28508318,Jakub Kosecki,Legia Warsaw
 28656118,Jakub Kosecki,Legia Warsaw
 29212602,Agon Mehmeti,Malmö FF
@@ -1096,17 +1343,22 @@ matchId,player,team
 32380834,Ezequiel Lavezzi,Paris Saint-Germain
 28508318,Tomasz Brzyski,Legia Warsaw
 29362738,Dominic Solanke,Chelsea
+29362773,Yasin Öztekin,Galatasaray
+29363845,Yasin Öztekin,Galatasaray
 29362877,Cosmin Moti ,Ludogorets Razgrad
+29363544,Jesé,Real Madrid
 29220465,Bram Nuytinck ,RSC Anderlecht
 29362915,Mikel San José,Athletic Club
 29362998,Mikel San José,Athletic Club
 29363565,Mikel San José,Athletic Club
 29362731,Mikel San José,Athletic Club
 29362571,Mikel San José,Athletic Club
-29362929,John Terry,Chelsea
 31491679,John Terry,Chelsea
-31816148,John Terry,Chelsea
+29363005,John Terry,Chelsea
 29362738,John Terry,Chelsea
+29362929,John Terry,Chelsea
+29225452,John Terry,Chelsea
+31816148,John Terry,Chelsea
 29362943,Xherdan Shaqiri,FC Bayern München
 29362540,Xherdan Shaqiri,FC Bayern München
 29362752,Xherdan Shaqiri,FC Bayern München
@@ -1126,10 +1378,12 @@ matchId,player,team
 29362676,James Rodríguez,Real Madrid
 31913128,Theo Walcott,Arsenal
 31608951,Theo Walcott,Arsenal
-29363523,Radja Nainggolan,Roma
 29362752,Radja Nainggolan,Roma
-29362609,Radja Nainggolan,Roma
 29362984,Radja Nainggolan,Roma
+29225459,Radja Nainggolan,Roma
+29362943,Radja Nainggolan,Roma
+29362609,Radja Nainggolan,Roma
+29363523,Radja Nainggolan,Roma
 28962031,Claudiu Keseru,Steaua Bucharest
 29225473,Dmitri Likhtarovich,BATE Borisov
 29362724,Dmitri Likhtarovich,BATE Borisov
@@ -1144,6 +1398,8 @@ matchId,player,team
 32582191,Claudio Marchisio,Juventus
 29362863,Claudio Marchisio,Juventus
 29363106,Claudio Marchisio,Juventus
+32683303,Claudio Marchisio,Juventus
+31590794,Claudio Marchisio,Juventus
 29212602,Claudio Marchisio,Juventus
 31922167,Claudio Marchisio,Juventus
 31816155,Alex Teixeira,FC Bayern München
@@ -1154,6 +1410,10 @@ matchId,player,team
 29209551,Wojciech Szczesny,Arsenal
 29362602,Mauricio ,Sporting Lisbon
 28962031,Adrian Popa,Steaua Bucharest
+32582198,Thiago Alcántara,FC Bayern München
+32380841,Thiago Alcántara,FC Bayern München
+32683310,Thiago Alcántara,FC Bayern München
+32295979,Thiago Alcántara,FC Bayern München
 28656118,James Forrest,Celtic
 29363492,Sebastian Rode,FC Bayern München
 31816155,Sebastian Rode,FC Bayern München
@@ -1164,6 +1424,12 @@ matchId,player,team
 32295979,Sebastian Rode,FC Bayern München
 29225435,Claudio Pizarro,FC Bayern München
 29362540,Claudio Pizarro,FC Bayern München
+29362991,Lasse Schöne,Ajax
+29362547,Lasse Schöne,Ajax
+29362717,Lasse Schöne,Ajax
+29362901,Lasse Schöne,Ajax
+29225494,Lasse Schöne,Ajax
+29363558,Lasse Schöne,Ajax
 29362602,Mohamed Salah,Chelsea
 29363859,Mohamed Salah,Chelsea
 29362571,Ibai Gómez,Athletic Club
@@ -1179,7 +1445,11 @@ matchId,player,team
 29362745,Kaan Ayhan,FC Schalke 04
 29363551,Kaan Ayhan,FC Schalke 04
 29220479,Igor Smolnikov ,Zenit St Petersburg
+29225487,Sandro Ramírez,Barcelona
+29362554,Sandro Ramírez,Barcelona
+29362717,Sandro Ramírez,Barcelona
 29220465,Burak Yilmaz,Galatasaray
+29362640,Burak Yilmaz,Galatasaray
 29362773,Burak Yilmaz,Galatasaray
 29363845,Burak Yilmaz,Galatasaray
 29362856,Burak Yilmaz,Galatasaray
@@ -1191,9 +1461,11 @@ matchId,player,team
 29362929,Ramires,Chelsea
 29225452,Ramires,Chelsea
 31816148,Ramires,Chelsea
-29209558,Yordan Minev,Ludogorets Razgrad
-29363544,Yordan Minev,Ludogorets Razgrad
+28962031,Yordan Minev,Ludogorets Razgrad
+29363092,Yordan Minev,Ludogorets Razgrad
 29362818,Yordan Minev,Ludogorets Razgrad
+29363544,Yordan Minev,Ludogorets Razgrad
+29209558,Yordan Minev,Ludogorets Razgrad
 29362676,Yordan Minev,Ludogorets Razgrad
 31491686,Douglas Costa,Shakhtar Donetsk
 29362578,Douglas Costa,Shakhtar Donetsk
@@ -1209,23 +1481,27 @@ matchId,player,team
 29362609,James Milner,Manchester City
 29363029,James Milner,Manchester City
 31922160,James Milner,Manchester City
+29363523,James Milner,Manchester City
+31590801,James Milner,Manchester City
 29209551,Milos Jojic,Borussia Dortmund
 29363037,Milos Jojic,Borussia Dortmund
 29362585,Damjan Bohar ,NK Maribor
+29362998,Mikel Rico,Athletic Club
 29363565,Mikel Rico,Athletic Club
+29362915,Mikel Rico,Athletic Club
+29362571,Mikel Rico,Athletic Club
 29225480,Mikel Rico,Athletic Club
 29362731,Mikel Rico,Athletic Club
-29362571,Mikel Rico,Athletic Club
-29362915,Mikel Rico,Athletic Club
 29362766,Artur Moraes,Benfica
 29363092,Rickie Lambert,Liverpool
 29363537,Rickie Lambert,Liverpool
 29362669,Rickie Lambert,Liverpool
 29362998,Mikel Balenziaga,Athletic Club
 29363565,Mikel Balenziaga,Athletic Club
-29362731,Mikel Balenziaga,Athletic Club
-29362571,Mikel Balenziaga,Athletic Club
 29362915,Mikel Balenziaga,Athletic Club
+29362571,Mikel Balenziaga,Athletic Club
+29225480,Mikel Balenziaga,Athletic Club
+29362731,Mikel Balenziaga,Athletic Club
 32295986,Neymar,Barcelona
 32683310,Neymar,Barcelona
 29362554,Neymar,Barcelona
@@ -1241,9 +1517,14 @@ matchId,player,team
 28784340,Gökhan Töre,Besiktas
 28927666,Charlie Mulgrew,Celtic
 28508318,Charlie Mulgrew,Celtic
+28784367,Charlie Mulgrew,Celtic
 28278531,Charlie Mulgrew,Celtic
 28927666,Adam Matthews,Celtic
 28508318,Adam Matthews,Celtic
+29363509,Óliver,FC Porto
+29362977,Óliver,FC Porto
+29362578,Óliver,FC Porto
+31513365,Óliver,FC Porto
 28784367,Sintayehu Sallalich,NK Maribor
 29362585,Sintayehu Sallalich,NK Maribor
 29362929,Sintayehu Sallalich,NK Maribor
@@ -1280,14 +1561,17 @@ matchId,player,team
 29212602,Emil Forsberg,Malmö FF
 31590801,Dani Alves ,Barcelona
 29363804,Loris Benito,Benfica
-29209558,Cosmin Moti,Ludogorets Razgrad
-29363092,Cosmin Moti,Ludogorets Razgrad
-29363544,Cosmin Moti,Ludogorets Razgrad
+29225480,Márcio Azevedo,Shakhtar Donetsk
 28962031,Cosmin Moti,Ludogorets Razgrad
+29363092,Cosmin Moti,Ludogorets Razgrad
 29362818,Cosmin Moti,Ludogorets Razgrad
+29363544,Cosmin Moti,Ludogorets Razgrad
+29209558,Cosmin Moti,Ludogorets Razgrad
+29362676,Cosmin Moti,Ludogorets Razgrad
 31491686,Juan Bernat,FC Bayern München
 29363492,Juan Bernat,FC Bayern München
 29225435,Juan Bernat,FC Bayern München
+29362540,Juan Bernat,FC Bayern München
 31816155,Juan Bernat,FC Bayern München
 29362943,Juan Bernat,FC Bayern München
 29363029,Juan Bernat,FC Bayern München
@@ -1303,10 +1587,22 @@ matchId,player,team
 29362929,Cesc Fàbregas,Chelsea
 31816148,Cesc Fàbregas,Chelsea
 29362602,Cesc Fàbregas,Chelsea
+29362703,Sergio Agüero,Manchester City
+29225435,Sergio Agüero,Manchester City
+29362950,Sergio Agüero,Manchester City
+29362609,Sergio Agüero,Manchester City
+29363029,Sergio Agüero,Manchester City
+31922160,Sergio Agüero,Manchester City
+31590801,Sergio Agüero,Manchester City
+29362648,Adrián Ramos,Borussia Dortmund
+29362773,Adrián Ramos,Borussia Dortmund
+29363037,Adrián Ramos,Borussia Dortmund
+31922167,Adrián Ramos,Borussia Dortmund
 29362655,Stephan Lichtsteiner,Juventus
 29362804,Stephan Lichtsteiner,Juventus
 32384921,Stephan Lichtsteiner,Juventus
 32289613,Stephan Lichtsteiner,Juventus
+32582191,Stephan Lichtsteiner,Juventus
 29362863,Stephan Lichtsteiner,Juventus
 29363106,Stephan Lichtsteiner,Juventus
 29363510,Stephan Lichtsteiner,Juventus
@@ -1314,19 +1610,28 @@ matchId,player,team
 31590794,Stephan Lichtsteiner,Juventus
 29212602,Stephan Lichtsteiner,Juventus
 31922167,Stephan Lichtsteiner,Juventus
+29362804,Andrea Pirlo,Juventus
 32384921,Andrea Pirlo,Juventus
 32289613,Andrea Pirlo,Juventus
+32582191,Andrea Pirlo,Juventus
+29362863,Andrea Pirlo,Juventus
 29363106,Andrea Pirlo,Juventus
+29363510,Andrea Pirlo,Juventus
 32683303,Andrea Pirlo,Juventus
-29362804,Andrea Pirlo,Juventus
+31590794,Andrea Pirlo,Juventus
 28508318,Ivica Vrdoljak,Legia Warsaw
 29362578,Márcio Azevedo,Shakhtar Donetsk
 28962031,Fernando Varela,Steaua Bucharest
+29225466,Cédric Soares,Sporting Lisbon
+29362745,Cédric Soares,Sporting Lisbon
+29363022,Cédric Soares,Sporting Lisbon
+29362602,Cédric Soares,Sporting Lisbon
 29362877,Marcelo Díaz,FC Basel
 29363787,Marcelo Díaz,FC Basel
 29363537,Marcelo Díaz,FC Basel
 31922160,Wilfried Bony,Manchester City
 31590801,Wilfried Bony,Manchester City
+31802502,Max Meyer,FC Schalke 04
 29362585,Max Meyer,FC Schalke 04
 31513358,Max Meyer,FC Schalke 04
 29363005,Max Meyer,FC Schalke 04
@@ -1340,6 +1645,7 @@ matchId,player,team
 29362669,Adam Lallana,Liverpool
 29363492,Dante,FC Bayern München
 29225435,Dante,FC Bayern München
+29362540,Dante,FC Bayern München
 31816155,Dante,FC Bayern München
 29363029,Dante,FC Bayern München
 32380841,Dante,FC Bayern München
@@ -1347,11 +1653,19 @@ matchId,player,team
 29363804,Bebé,Benfica
 29362842,Bebé,Benfica
 29362766,Bebé,Benfica
+31911679,Mario Suárez,Atlético de Madrid
+29363510,Mario Suárez,Atlético de Madrid
+29220458,Mario Suárez,Atlético de Madrid
+29362797,Mario Suárez,Atlético de Madrid
+32289606,Mario Suárez,Atlético de Madrid
+29362773,Pierre-Emerick Aubameyang,Borussia Dortmund
 29362648,Pierre-Emerick Aubameyang,Borussia Dortmund
+29362856,Pierre-Emerick Aubameyang,Borussia Dortmund
+29209551,Pierre-Emerick Aubameyang,Borussia Dortmund
 31590794,Pierre-Emerick Aubameyang,Borussia Dortmund
 29363037,Pierre-Emerick Aubameyang,Borussia Dortmund
 29363838,Pierre-Emerick Aubameyang,Borussia Dortmund
-29362856,Pierre-Emerick Aubameyang,Borussia Dortmund
+31922167,Pierre-Emerick Aubameyang,Borussia Dortmund
 29225473,Egor Filipenko,BATE Borisov
 28278531,Stefan Logi Magnusson,KR Reykjavík
 29362835,Alexander Kerzhakov,Zenit St Petersburg
@@ -1368,7 +1682,11 @@ matchId,player,team
 29363523,Mattia Destro,Roma
 29362640,Umut Bulut,Galatasaray
 29220465,Umut Bulut,Galatasaray
+29363845,Umut Bulut,Galatasaray
 29362856,Umut Bulut,Galatasaray
+31608958,Saúl Ñíguez,Atlético de Madrid
+29362797,Saúl Ñíguez,Atlético de Madrid
+29362655,Saúl Ñíguez,Atlético de Madrid
 29220472,Stefan Kießling,Bayer 04 Leverkusen
 29363804,Stefan Kießling,Bayer 04 Leverkusen
 29362835,Stefan Kießling,Bayer 04 Leverkusen
@@ -1377,11 +1695,13 @@ matchId,player,team
 29362633,Stefan Kießling,Bayer 04 Leverkusen
 31608958,Stefan Kießling,Bayer 04 Leverkusen
 28784367,Jason Denayer,Celtic
-29362648,Neven Subotic,Borussia Dortmund
-29209551,Neven Subotic,Borussia Dortmund
 29362773,Neven Subotic,Borussia Dortmund
-29363838,Neven Subotic,Borussia Dortmund
+29362648,Neven Subotic,Borussia Dortmund
 29362856,Neven Subotic,Borussia Dortmund
+29209551,Neven Subotic,Borussia Dortmund
+29363037,Neven Subotic,Borussia Dortmund
+29363838,Neven Subotic,Borussia Dortmund
+31922167,Neven Subotic,Borussia Dortmund
 32384894,Diego Godín,Atlético de Madrid
 29220458,Diego Godín,Atlético de Madrid
 29362655,Diego Godín,Atlético de Madrid
@@ -1400,6 +1720,7 @@ matchId,player,team
 29362540,Georgy Schennikov,CSKA Moscow
 29362950,Georgy Schennikov,CSKA Moscow
 29362703,Georgy Schennikov,CSKA Moscow
+29362984,Georgy Schennikov,CSKA Moscow
 31816148,Nemanja Matic ,Chelsea
 29363038,Enzo Pérez,Benfica
 29220479,Enzo Pérez,Benfica
@@ -1413,16 +1734,22 @@ matchId,player,team
 29220465,Chancel Mbemba Mangulu,RSC Anderlecht
 29362648,Chancel Mbemba Mangulu,RSC Anderlecht
 29362790,Chancel Mbemba Mangulu,RSC Anderlecht
+29363838,Chancel Mbemba Mangulu,RSC Anderlecht
 29362849,Chancel Mbemba Mangulu,RSC Anderlecht
-29225459,Bebras Natcho,CSKA Moscow
-29362540,Bebras Natcho,CSKA Moscow
 29363492,Bebras Natcho,CSKA Moscow
+29362984,Bebras Natcho,CSKA Moscow
+29362540,Bebras Natcho,CSKA Moscow
+29225459,Bebras Natcho,CSKA Moscow
+29362950,Bebras Natcho,CSKA Moscow
 29362703,Bebras Natcho,CSKA Moscow
+31802502,Eric Choupo-Moting,FC Schalke 04
+29362585,Eric Choupo-Moting,FC Schalke 04
+31513358,Eric Choupo-Moting,FC Schalke 04
+29363005,Eric Choupo-Moting,FC Schalke 04
+29363551,Eric Choupo-Moting,FC Schalke 04
 29362936,Eric Choupo-Moting,FC Schalke 04
 29225452,Eric Choupo-Moting,FC Schalke 04
-29362585,Eric Choupo-Moting,FC Schalke 04
 29362745,Eric Choupo-Moting,FC Schalke 04
-29363551,Eric Choupo-Moting,FC Schalke 04
 29363530,Roberto,Olympiakos
 29362863,Roberto,Olympiakos
 29220458,Roberto,Olympiakos
@@ -1430,15 +1757,18 @@ matchId,player,team
 29363064,Roberto,Olympiakos
 29220479,Ezequiel Garay,Zenit St Petersburg
 29363038,Ezequiel Garay,Zenit St Petersburg
+29363821,Ezequiel Garay,Zenit St Petersburg
 29362759,Ezequiel Garay,Zenit St Petersburg
 29362922,Vitali Gayduchik,BATE Borisov
 29362724,Vitali Gayduchik,BATE Borisov
-29225466,Adrien Silva,Sporting Lisbon
 29362936,Adrien Silva,Sporting Lisbon
-29362745,Adrien Silva,Sporting Lisbon
-29362602,Adrien Silva,Sporting Lisbon
 29363859,Adrien Silva,Sporting Lisbon
+29225466,Adrien Silva,Sporting Lisbon
+29362745,Adrien Silva,Sporting Lisbon
+29363022,Adrien Silva,Sporting Lisbon
+29362602,Adrien Silva,Sporting Lisbon
 31922167,Simone Pepe,Juventus
+28927666,Virgil van Dijk,Celtic
 28508318,Virgil van Dijk,Celtic
 28784367,Virgil van Dijk,Celtic
 28278531,Virgil van Dijk,Celtic
@@ -1452,11 +1782,13 @@ matchId,player,team
 29362648,Aleksandar Mitrovic,RSC Anderlecht
 29363838,Aleksandar Mitrovic,RSC Anderlecht
 29362849,Aleksandar Mitrovic,RSC Anderlecht
-29225435,Arjen Robben,FC Bayern München
+31491686,Arjen Robben,FC Bayern München
 29363492,Arjen Robben,FC Bayern München
+29225435,Arjen Robben,FC Bayern München
 29362540,Arjen Robben,FC Bayern München
-29362752,Arjen Robben,FC Bayern München
+31816155,Arjen Robben,FC Bayern München
 29363029,Arjen Robben,FC Bayern München
+29362752,Arjen Robben,FC Bayern München
 29220458,Cristian Ansaldi,Atlético de Madrid
 29362655,Cristian Ansaldi,Atlético de Madrid
 29363064,Cristian Ansaldi,Atlético de Madrid
@@ -1477,8 +1809,19 @@ matchId,player,team
 31922160,Bacary Sagna,Manchester City
 29363029,Bacary Sagna,Manchester City
 31590801,Bacary Sagna,Manchester City
+32384894,James Rodríguez,Real Madrid
+29362811,James Rodríguez,Real Madrid
+32582191,James Rodríguez,Real Madrid
+29363787,James Rodríguez,Real Madrid
+32289606,James Rodríguez,Real Madrid
+29362894,James Rodríguez,Real Madrid
+29210808,James Rodríguez,Real Madrid
+32683303,James Rodríguez,Real Madrid
 29362640,Wesley Sneijder,Galatasaray
+29220465,Wesley Sneijder,Galatasaray
+29362773,Wesley Sneijder,Galatasaray
 29363845,Wesley Sneijder,Galatasaray
+29362856,Wesley Sneijder,Galatasaray
 29362578,Jackson Martínez,FC Porto
 29362977,Jackson Martínez,FC Porto
 29362915,Jackson Martínez,FC Porto
@@ -1487,9 +1830,10 @@ matchId,player,team
 29362731,Jackson Martínez,FC Porto
 32295979,Jackson Martínez,FC Porto
 31513365,Jackson Martínez,FC Porto
-29362943,Miralem Pjanic,Roma
-29362984,Miralem Pjanic,Roma
 29362752,Miralem Pjanic,Roma
+29362984,Miralem Pjanic,Roma
+29225459,Miralem Pjanic,Roma
+29362943,Miralem Pjanic,Roma
 29362609,Miralem Pjanic,Roma
 29363523,Miralem Pjanic,Roma
 29362745,Jonathan Silva,Sporting Lisbon
@@ -1507,11 +1851,19 @@ matchId,player,team
 29362915,Borja Viguera,Athletic Club
 29363565,Borja Viguera,Athletic Club
 28962031,Cornel Rapa,Steaua Bucharest
-29363510,Moyá,Atlético de Madrid
+29362936,João Mário,Sporting Lisbon
+29363859,João Mário,Sporting Lisbon
+29225466,João Mário,Sporting Lisbon
+29362745,João Mário,Sporting Lisbon
+29363022,João Mário,Sporting Lisbon
+29362602,João Mário,Sporting Lisbon
 32295986,Martín Montoya,Barcelona
 29362640,Calum Chambers,Arsenal
-28931063,Calum Chambers,Arsenal
+29362790,Calum Chambers,Arsenal
+28784340,Calum Chambers,Arsenal
 29363845,Calum Chambers,Arsenal
+28931063,Calum Chambers,Arsenal
+29363037,Calum Chambers,Arsenal
 29362849,Calum Chambers,Arsenal
 31491686,Marlos,Shakhtar Donetsk
 29362998,Marlos,Shakhtar Donetsk
@@ -1533,6 +1885,7 @@ matchId,player,team
 29362856,Sebastian Kehl,Borussia Dortmund
 29363537,José Enrique,Liverpool
 29362669,José Enrique,Liverpool
+29362752,Philipp Lahm,FC Bayern München
 29225435,Philipp Lahm,FC Bayern München
 29362540,Philipp Lahm,FC Bayern München
 29362943,Philipp Lahm,FC Bayern München
@@ -1541,25 +1894,33 @@ matchId,player,team
 32683310,Philipp Lahm,FC Bayern München
 32295986,Gregory Van der Wiel,Paris Saint-Germain
 32380834,Gregory Van der Wiel,Paris Saint-Germain
+29362648,Lukasz Piszczek,Borussia Dortmund
 29362773,Lukasz Piszczek,Borussia Dortmund
 31590794,Lukasz Piszczek,Borussia Dortmund
 29363037,Lukasz Piszczek,Borussia Dortmund
+29362856,Lukasz Piszczek,Borussia Dortmund
 29363544,Gareth Bale ,Real Madrid
 29363804,Ola John,Benfica
 29363038,Ola John,Benfica
+31922167,Kevin Kampl,Borussia Dortmund
 32384894,Isco,Real Madrid
+29362811,Isco,Real Madrid
+31802502,Isco,Real Madrid
 31513358,Isco,Real Madrid
 29363544,Isco,Real Madrid
 32582191,Isco,Real Madrid
 29363787,Isco,Real Madrid
 32289606,Isco,Real Madrid
 29362894,Isco,Real Madrid
+32683303,Isco,Real Madrid
 29362676,Isco,Real Madrid
 29225459,Kirill Nababkin,CSKA Moscow
+29363492,Kirill Nababkin,CSKA Moscow
 29362991,Adrien Rabiot,Paris Saint Germain
 31816148,Adrien Rabiot,Paris Saint Germain
 31491679,Nemanja Matic,Chelsea
 29363005,Nemanja Matic,Chelsea
+29362738,Nemanja Matic,Chelsea
 29363859,Nemanja Matic,Chelsea
 29362929,Nemanja Matic,Chelsea
 29225452,Nemanja Matic,Chelsea
@@ -1603,6 +1964,15 @@ matchId,player,team
 29362633,Ömer Toprak,Bayer 04 Leverkusen
 31802502,Sami Khedira,Real Madrid
 29362811,Sami Khedira,Real Madrid
+32295986,Andrés Iniesta,Barcelona
+29362554,Andrés Iniesta,Barcelona
+32380834,Andrés Iniesta,Barcelona
+32582198,Andrés Iniesta,Barcelona
+29362717,Andrés Iniesta,Barcelona
+31922160,Andrés Iniesta,Barcelona
+29225487,Andrés Iniesta,Barcelona
+29363852,Andrés Iniesta,Barcelona
+31590801,Andrés Iniesta,Barcelona
 29362835,Aleksandr Ryazantsev,Zenit St Petersburg
 29363038,Aleksandr Ryazantsev,Zenit St Petersburg
 28931063,Mustafa Pektemek,Besiktas
@@ -1612,6 +1982,7 @@ matchId,player,team
 29209558,Alberto Moreno,Liverpool
 29362811,Alberto Moreno,Liverpool
 29363537,Alberto Moreno,Liverpool
+29362894,Alberto Moreno,Liverpool
 32295986,Sergio Busquets,Barcelona
 32683310,Sergio Busquets,Barcelona
 29362554,Sergio Busquets,Barcelona
@@ -1626,36 +1997,43 @@ matchId,player,team
 29362908,Carlao,APOEL Nicosia
 29225487,Carlao,APOEL Nicosia
 29363558,Carlao,APOEL Nicosia
-29362609,Juan Iturbe,Roma
-29362943,Juan Iturbe,Roma
-29363523,Juan Iturbe,Roma
+29362752,Juan Iturbe,Roma
 29362984,Juan Iturbe,Roma
+29225459,Juan Iturbe,Roma
+29362943,Juan Iturbe,Roma
+29362609,Juan Iturbe,Roma
+29363523,Juan Iturbe,Roma
 29225435,Sergio Agüero,Manchester City
 29362950,Sergio Agüero,Manchester City
 29362609,Sergio Agüero,Manchester City
 29363029,Sergio Agüero,Manchester City
 31922160,Sergio Agüero,Manchester City
 31590801,Sergio Agüero,Manchester City
+29363558,Nektarious Alexandrou,APOEL Nicosia
 29362662,Kostas Mitroglou,Olympiakos
-29220458,Kostas Mitroglou,Olympiakos
-29363530,Kostas Mitroglou,Olympiakos
 29362804,Kostas Mitroglou,Olympiakos
 29363064,Kostas Mitroglou,Olympiakos
+29363530,Kostas Mitroglou,Olympiakos
+29362863,Kostas Mitroglou,Olympiakos
+29220458,Kostas Mitroglou,Olympiakos
 29362710,Yohan Cabaye,Paris Saint Germain
 29362908,Yohan Cabaye,Paris Saint Germain
 29362554,Yohan Cabaye,Paris Saint Germain
+29220479,Javi García,Zenit St Petersburg
 29362915,Óscar De Marcos,Athletic Club
 29362998,Óscar De Marcos,Athletic Club
 29225480,Óscar De Marcos,Athletic Club
 29362731,Óscar De Marcos,Athletic Club
 29362571,Óscar De Marcos,Athletic Club
 29362655,Leonardo Bonucci,Juventus
+29362804,Leonardo Bonucci,Juventus
 32384921,Leonardo Bonucci,Juventus
 32289613,Leonardo Bonucci,Juventus
 32582191,Leonardo Bonucci,Juventus
 29362863,Leonardo Bonucci,Juventus
 31590794,Leonardo Bonucci,Juventus
 32683303,Leonardo Bonucci,Juventus
+29212602,Leonardo Bonucci,Juventus
 31922167,Leonardo Bonucci,Juventus
 32295986,Adrien Rabiot,Paris Saint-Germain
 32380834,Adrien Rabiot,Paris Saint-Germain
@@ -1670,6 +2048,7 @@ matchId,player,team
 29225480,Beñat,Athletic Club
 29362731,Beñat,Athletic Club
 29362915,Beñat,Athletic Club
+29363092,Georgi Terziev,Ludogorets Razgrad
 29363544,Georgi Terziev,Ludogorets Razgrad
 28962031,Georgi Terziev,Ludogorets Razgrad
 29362818,Georgi Terziev,Ludogorets Razgrad
@@ -1714,9 +2093,11 @@ matchId,player,team
 29363106,Paul Pogba,Malmö FF
 31922160,Vincent Kompany,Manchester City
 29362609,Vincent Kompany,Manchester City
+29363029,Vincent Kompany,Manchester City
 31590801,Vincent Kompany,Manchester City
 28931063,Cenk Tosun,Besiktas
 28784340,Cenk Tosun,Besiktas
+28931063,Gökhan Töre,Besiktas
 32289613,Matheus Carvalho,Monaco
 32384921,Matheus Carvalho,Monaco
 29220472,Josip Drmic,Bayer 04 Leverkusen
@@ -1726,20 +2107,33 @@ matchId,player,team
 31911679,Josip Drmic,Bayer 04 Leverkusen
 29362633,Josip Drmic,Bayer 04 Leverkusen
 31608958,Josip Drmic,Bayer 04 Leverkusen
+29362929,Kurt Zouma,Chelsea
 31816148,Kurt Zouma,Chelsea
+29362738,Kurt Zouma,Chelsea
 29225466,Nani,Sporting Lisbon
 29362936,Nani,Sporting Lisbon
 29362745,Nani,Sporting Lisbon
 29363022,Nani,Sporting Lisbon
 29362602,Nani,Sporting Lisbon
+29362773,Ilkay Gündogan,Borussia Dortmund
+29362856,Ilkay Gündogan,Borussia Dortmund
+31590794,Ilkay Gündogan,Borussia Dortmund
+29363037,Ilkay Gündogan,Borussia Dortmund
+29363838,Ilkay Gündogan,Borussia Dortmund
+31922167,Ilkay Gündogan,Borussia Dortmund
 29363780,Gustavo Manduca,APOEL Nicosia
 29362710,Gustavo Manduca,APOEL Nicosia
 29225487,Gustavo Manduca,APOEL Nicosia
 29362547,Gustavo Manduca,APOEL Nicosia
 29362908,Gustavo Manduca,APOEL Nicosia
 31802502,Timon Wellenreuther,FC Schalke 04
+29225466,Carlos Mané,Sporting Lisbon
+29362936,Carlos Mané,Sporting Lisbon
+29363022,Carlos Mané,Sporting Lisbon
+29363859,Carlos Mané,Sporting Lisbon
 29220465,Semih Kaya,Galatasaray
 29362640,Semih Kaya,Galatasaray
+29362773,Semih Kaya,Galatasaray
 29363845,Semih Kaya,Galatasaray
 29362856,Semih Kaya,Galatasaray
 29362977,Aleksandr Karnitski,BATE Borisov
@@ -1767,6 +2161,7 @@ matchId,player,team
 29220472,Nabil Dirar,Monaco
 29362766,Nabil Dirar,Monaco
 29363078,Nabil Dirar,Monaco
+32289613,Nabil Dirar,Monaco
 31913128,Nabil Dirar,Monaco
 29362626,Nabil Dirar,Monaco
 31608951,Nabil Dirar,Monaco
@@ -1783,6 +2178,7 @@ matchId,player,team
 29363852,Salvatore Sirigu,Paris Saint Germain
 31816148,Salvatore Sirigu,Paris Saint Germain
 29362752,Mapou Yanga-Mbiwa,FC Bayern München
+29362797,Cristian Rodríguez,Atlético de Madrid
 31913128,Aaron Ramsey,Arsenal
 29362790,Aaron Ramsey,Arsenal
 28784340,Aaron Ramsey,Arsenal
@@ -1796,17 +2192,22 @@ matchId,player,team
 29362811,Philippe Coutinho,Liverpool
 29363537,Philippe Coutinho,Liverpool
 29362669,Philippe Coutinho,Liverpool
+29362578,Fernando,Shakhtar Donetsk
 29362998,Fernando,Shakhtar Donetsk
 29363509,Fernando,Shakhtar Donetsk
 29362922,Fernando,Shakhtar Donetsk
-29225480,Fernando,Shakhtar Donetsk
 29362724,Fernando,Shakhtar Donetsk
+29225480,Fernando,Shakhtar Donetsk
 29362738,Petr Cech,Chelsea
 29363859,Petr Cech,Chelsea
 32380841,Ruben Neves,FC Bayern München
 31816155,Yaroslav Rakitskiy,FC Bayern München
 28962031,Lukasz Szukala,Steaua Bucharest
-31491686,Viacheslav Shevchuk,FC Bayern München
+29362998,Mikel San José,Athletic Club
+29363565,Mikel San José,Athletic Club
+29362731,Mikel San José,Athletic Club
+29362915,Mikel San José,Athletic Club
+29362797,Juanfran,Malmö FF
 29363092,Glen Johnson,Liverpool
 29362811,Glen Johnson,Liverpool
 29363537,Glen Johnson,Liverpool
@@ -1816,6 +2217,14 @@ matchId,player,team
 29362842,Lucas Ocampos,Monaco
 29363821,Lucas Ocampos,Monaco
 29362626,Lucas Ocampos,Monaco
+29362578,Jackson Martínez,FC Porto
+29362977,Jackson Martínez,FC Porto
+29362915,Jackson Martínez,FC Porto
+29225473,Jackson Martínez,FC Porto
+32380841,Jackson Martínez,FC Porto
+29362731,Jackson Martínez,FC Porto
+32295979,Jackson Martínez,FC Porto
+31513365,Jackson Martínez,FC Porto
 29363492,Alan Dzagoev,CSKA Moscow
 29362950,Alan Dzagoev,CSKA Moscow
 29362984,Alan Dzagoev,CSKA Moscow
@@ -1826,6 +2235,7 @@ matchId,player,team
 29363859,Paulo Oliveira,Sporting Lisbon
 29362991,Nicolai Boilesen ,Ajax
 32295986,Lionel Messi,Barcelona
+29363852,Lionel Messi,Barcelona
 29362554,Lionel Messi,Barcelona
 32380834,Lionel Messi,Barcelona
 32582198,Lionel Messi,Barcelona
@@ -1863,10 +2273,13 @@ matchId,player,team
 29220479,Eliseu,Benfica
 29362766,Eliseu,Benfica
 29362633,Eliseu,Benfica
+31590794,Nuri Sahin,Borussia Dortmund
+29363838,Nuri Sahin,Borussia Dortmund
+29362773,Sokratis,Borussia Dortmund
 29362648,Sokratis,Borussia Dortmund
+29362856,Sokratis,Borussia Dortmund
 29209551,Sokratis,Borussia Dortmund
 31590794,Sokratis,Borussia Dortmund
-29362856,Sokratis,Borussia Dortmund
 31922167,Sokratis,Borussia Dortmund
 28508318,Leigh Griffiths,Celtic
 28784367,Leigh Griffiths,Celtic
@@ -1876,6 +2289,7 @@ matchId,player,team
 28278531,Emil Atlason,KR Reykjavík
 32295986,Andrés Iniesta ,Barcelona
 29362710,Georgios Efrem,APOEL Nicosia
+29362908,Georgios Efrem,APOEL Nicosia
 29362547,Georgios Efrem,APOEL Nicosia
 29363780,Georgios Efrem,APOEL Nicosia
 29363558,Georgios Efrem,APOEL Nicosia
@@ -1896,6 +2310,7 @@ matchId,player,team
 29209551,Henrikh Mkhitaryan,Borussia Dortmund
 31590794,Henrikh Mkhitaryan,Borussia Dortmund
 29363037,Henrikh Mkhitaryan,Borussia Dortmund
+29363838,Henrikh Mkhitaryan,Borussia Dortmund
 31922167,Henrikh Mkhitaryan,Borussia Dortmund
 29362554,Thiago Motta,Paris Saint Germain
 29362710,Thiago Motta,Paris Saint Germain
@@ -1916,10 +2331,20 @@ matchId,player,team
 29362929,Welle N'Diaye,NK Maribor
 29362585,Welle N'Diaye,NK Maribor
 29209558,Javier Manquillo,Liverpool
-29362894,Javier Manquillo,Liverpool
 29363092,Javier Manquillo,Liverpool
+29362894,Javier Manquillo,Liverpool
 29362669,Javier Manquillo,Liverpool
 29362773,Emre Colak,Galatasaray
+29363845,Emre Colak,Galatasaray
+32295986,Luis Suárez,Barcelona
+32683310,Luis Suárez,Barcelona
+32380834,Luis Suárez,Barcelona
+32582198,Luis Suárez,Barcelona
+29363780,Luis Suárez,Barcelona
+31922160,Luis Suárez,Barcelona
+29362901,Luis Suárez,Barcelona
+29363852,Luis Suárez,Barcelona
+31590801,Luis Suárez,Barcelona
 29362571,Gaizka Toquero,Athletic Club
 29362998,Olexandr Kucher,Shakhtar Donetsk
 31491686,Olexandr Kucher,Shakhtar Donetsk
@@ -1931,6 +2356,11 @@ matchId,player,team
 29362797,Saúl Ñíguez,Atlético de Madrid
 29362655,Saúl Ñíguez,Atlético de Madrid
 32384894,Saúl Ñíguez,Atlético de Madrid
+29363038,Salomón Rondón,Zenit St Petersburg
+29362835,Salomón Rondón,Zenit St Petersburg
+29220479,Salomón Rondón,Zenit St Petersburg
+29362626,Salomón Rondón,Zenit St Petersburg
+29363821,Salomón Rondón,Zenit St Petersburg
 29362863,Alberto Botía,Olympiakos
 29220458,Alberto Botía,Olympiakos
 29362804,Alberto Botía,Olympiakos
@@ -1941,21 +2371,36 @@ matchId,player,team
 29363530,Alejandro Domínguez,Olympiakos
 29362863,Alejandro Domínguez,Olympiakos
 29220458,Alejandro Domínguez,Olympiakos
+31491679,Gary Cahill,Chelsea
+29363005,Gary Cahill,Chelsea
+29363859,Gary Cahill,Chelsea
 29225452,Gary Cahill,Chelsea
 31816148,Gary Cahill,Chelsea
-29363859,Gary Cahill,Chelsea
+29362602,Gary Cahill,Chelsea
+29225459,Maicon,Roma
 29363523,Maicon,Roma
 29362609,Maicon,Roma
-29209558,Marcelinho,Ludogorets Razgrad
-29363092,Marcelinho,Ludogorets Razgrad
-29362877,Marcelinho,Ludogorets Razgrad
 28962031,Marcelinho,Ludogorets Razgrad
+29363092,Marcelinho,Ludogorets Razgrad
 29362818,Marcelinho,Ludogorets Razgrad
+29363544,Marcelinho,Ludogorets Razgrad
+29362877,Marcelinho,Ludogorets Razgrad
+29209558,Marcelinho,Ludogorets Razgrad
+29362676,Marcelinho,Ludogorets Razgrad
+29362998,Óscar De Marcos,Athletic Club
+29225480,Óscar De Marcos,Athletic Club
+29362915,Óscar De Marcos,Athletic Club
+29363565,Óscar De Marcos,Athletic Club
 29363492,Dmitri Efremov,CSKA Moscow
 29225459,Dmitri Efremov,CSKA Moscow
 29362540,Dmitri Efremov,CSKA Moscow
 29362950,Dmitri Efremov,CSKA Moscow
 29362703,Dmitri Efremov,CSKA Moscow
+29225466,André Carrillo,Sporting Lisbon
+29362936,André Carrillo,Sporting Lisbon
+29362745,André Carrillo,Sporting Lisbon
+29363022,André Carrillo,Sporting Lisbon
+29363859,André Carrillo,Sporting Lisbon
 29362752,Alessandro Florenzi,Roma
 29362984,Alessandro Florenzi,Roma
 29225459,Alessandro Florenzi,Roma
@@ -1977,6 +2422,9 @@ matchId,player,team
 29363787,Tomás Vaclik,FC Basel
 31513365,Tomás Vaclik,FC Basel
 31513358,Klaas-Jan Huntelaar ,FC Schalke 04
+29363530,Alberto Botía,Olympiakos
+29362863,Alberto Botía,Olympiakos
+29362662,Alberto Botía,Olympiakos
 31491679,Oscar,Chelsea
 29363005,Oscar,Chelsea
 29362738,Oscar,Chelsea
@@ -1992,6 +2440,11 @@ matchId,player,team
 29362915,Óliver,FC Porto
 32295979,Óliver,FC Porto
 31513365,Óliver,FC Porto
+29363038,Nicolás Gaitán,Benfica
+29220479,Nicolás Gaitán,Benfica
+29362842,Nicolás Gaitán,Benfica
+29362766,Nicolás Gaitán,Benfica
+29362633,Nicolás Gaitán,Benfica
 29362640,Alexis Sánchez,Arsenal
 31913128,Alexis Sánchez,Arsenal
 29362790,Alexis Sánchez,Arsenal
@@ -2005,14 +2458,26 @@ matchId,player,team
 29225480,Carlos Gurpegi,Athletic Club
 29362915,Carlos Gurpegi,Athletic Club
 29362731,Carlos Gurpegi,Athletic Club
+29363005,Cesc Fàbregas,Chelsea
+29362738,Cesc Fàbregas,Chelsea
+29363859,Cesc Fàbregas,Chelsea
+29362929,Cesc Fàbregas,Chelsea
+29225452,Cesc Fàbregas,Chelsea
+31816148,Cesc Fàbregas,Chelsea
+29362602,Cesc Fàbregas,Chelsea
 29363022,Mauricio,Sporting Lisbon
 29362602,Mauricio,Sporting Lisbon
 29363859,Mauricio,Sporting Lisbon
 29362950,Igor Akinfeev,CSKA Moscow
 29362984,Igor Akinfeev,CSKA Moscow
 31802502,Leroy Sané,FC Schalke 04
+32295986,Martín Montoya,Barcelona
 29362626,Dimitar Berbatov ,Monaco
 29362766,Dimitar Berbatov ,Monaco
+31922160,Martín Demichelis,Manchester City
+29362950,Martín Demichelis,Manchester City
+29362609,Martín Demichelis,Manchester City
+31590801,Martín Demichelis,Manchester City
 29362901,Joël Veltman,Ajax
 29225494,Joël Veltman,Ajax
 29362547,Joël Veltman,Ajax
@@ -2020,14 +2485,19 @@ matchId,player,team
 29363845,Ainsley Maitland-Niles,Arsenal
 29362703,Eliaquim Mangala,Manchester City
 29362929,Filipe Luis,Chelsea
+29225452,Filipe Luis,Chelsea
+29362738,Filipe Luis,Chelsea
 29362602,Filipe Luis,Chelsea
 29363859,Filipe Luis,Chelsea
+32295986,Javier Pastore,Paris Saint-Germain
 32380834,Javier Pastore,Paris Saint-Germain
-29362936,Dennis Aogo,FC Schalke 04
-29363005,Dennis Aogo,FC Schalke 04
 29362585,Dennis Aogo,FC Schalke 04
-29362745,Dennis Aogo,FC Schalke 04
 31513358,Dennis Aogo,FC Schalke 04
+29363005,Dennis Aogo,FC Schalke 04
+29363551,Dennis Aogo,FC Schalke 04
+29362936,Dennis Aogo,FC Schalke 04
+29225452,Dennis Aogo,FC Schalke 04
+29362745,Dennis Aogo,FC Schalke 04
 29212602,Stephan Lichtsteiner,Malmö FF
 31913128,Olivier Giroud,Arsenal
 28784340,Olivier Giroud,Arsenal
@@ -2038,9 +2508,12 @@ matchId,player,team
 29362655,Koke,Atlético de Madrid
 29363064,Koke,Atlético de Madrid
 31911679,Koke,Atlético de Madrid
+29362797,Koke,Atlético de Madrid
 29362870,Koke,Atlético de Madrid
 32289606,Koke,Atlético de Madrid
+29363510,Koke,Atlético de Madrid
 29363804,Pizzi,Benfica
+29362717,Marc-André ter Stegen,Barcelona
 31913128,Danijel Subasic,Monaco
 29362842,Danijel Subasic,Monaco
 29362766,Danijel Subasic,Monaco
@@ -2055,11 +2528,14 @@ matchId,player,team
 29362977,Aleksandr Volodko,BATE Borisov
 29362571,Aleksandr Volodko,BATE Borisov
 29225459,Vassili Berezoutski,CSKA Moscow
+29362540,Vassili Berezoutski,CSKA Moscow
 29362703,Vassili Berezoutski,CSKA Moscow
+29362984,Vassili Berezoutski,CSKA Moscow
 29363106,Erdal Rakip,Malmö FF
 29362662,Erdal Rakip,Malmö FF
 29212602,Erdal Rakip,Malmö FF
 28656118,Bartosz Bereszynski,Legia Warsaw
+29363544,Álvaro Medrán,Real Madrid
 29362998,Markel Susaeta,Athletic Club
 29363565,Markel Susaeta,Athletic Club
 29362731,Markel Susaeta,Athletic Club
@@ -2068,6 +2544,8 @@ matchId,player,team
 29362915,Markel Susaeta,Athletic Club
 29363078,Wendell,Bayer 04 Leverkusen
 31911679,Wendell,Bayer 04 Leverkusen
+31608958,Wendell,Bayer 04 Leverkusen
+29362633,Wendell,Bayer 04 Leverkusen
 29362759,Wendell,Bayer 04 Leverkusen
 32295986,David Luiz,Paris Saint-Germain
 32380834,David Luiz,Paris Saint-Germain
@@ -2085,6 +2563,7 @@ matchId,player,team
 31816148,Edinson Cavani,Paris Saint Germain
 29225494,Edinson Cavani,Paris Saint Germain
 29363852,Edinson Cavani,Paris Saint Germain
+29362936,Mahamadou-Naby Sarr,Sporting Lisbon
 29362745,Mahamadou-Naby Sarr,Sporting Lisbon
 29362602,Mahamadou-Naby Sarr,Sporting Lisbon
 29220465,Tarik Camdal,Galatasaray
@@ -2120,13 +2599,16 @@ matchId,player,team
 29362662,Omar Elabdellaoui,Olympiakos
 29362863,Omar Elabdellaoui,Olympiakos
 29220458,Omar Elabdellaoui,Olympiakos
+29363530,Omar Elabdellaoui,Olympiakos
 29363064,Omar Elabdellaoui,Olympiakos
 28927666,Marcos Tavares,NK Maribor
 28784367,Marcos Tavares,NK Maribor
 29362585,Marcos Tavares,NK Maribor
+29362929,Marcos Tavares,NK Maribor
 29362738,Marcos Tavares,NK Maribor
 29363551,Marcos Tavares,NK Maribor
 29225466,Marcos Tavares,NK Maribor
+29363022,Marcos Tavares,NK Maribor
 29362773,Adrián Ramos,Borussia Dortmund
 29362648,Adrián Ramos,Borussia Dortmund
 29362856,Adrián Ramos,Borussia Dortmund
@@ -2138,6 +2620,7 @@ matchId,player,team
 29363092,Mihail Aleksandrov,Ludogorets Razgrad
 29362818,Mihail Aleksandrov,Ludogorets Razgrad
 29363544,Mihail Aleksandrov,Ludogorets Razgrad
+29362877,Mihail Aleksandrov,Ludogorets Razgrad
 29209558,Mihail Aleksandrov,Ludogorets Razgrad
 29362676,Mihail Aleksandrov,Ludogorets Razgrad
 29363509,Evandro Goebel,FC Porto
@@ -2151,20 +2634,41 @@ matchId,player,team
 31816148,Marco Verratti,Paris Saint Germain
 29225494,Marco Verratti,Paris Saint Germain
 29363852,Marco Verratti,Paris Saint Germain
+29362640,Alexis Sánchez,Arsenal
+31913128,Alexis Sánchez,Arsenal
+29362790,Alexis Sánchez,Arsenal
+28784340,Alexis Sánchez,Arsenal
+29209551,Alexis Sánchez,Arsenal
+31608951,Alexis Sánchez,Arsenal
+28931063,Alexis Sánchez,Arsenal
+29363037,Alexis Sánchez,Arsenal
+29362849,Alexis Sánchez,Arsenal
 29362991,Thulani Serero,Ajax
 29362901,Thulani Serero,Ajax
 29225494,Thulani Serero,Ajax
 29362547,Thulani Serero,Ajax
 29363558,Thulani Serero,Ajax
 28962031,Lucian Filip,Steaua Bucharest
+29362752,Mapou Yanga-Mbiwa,Roma
 29225459,Mapou Yanga-Mbiwa,Roma
 29362943,Mapou Yanga-Mbiwa,Roma
 29363523,Mapou Yanga-Mbiwa,Roma
 29362609,Mapou Yanga-Mbiwa,Roma
+29220472,Stefan Kießling,Bayer 04 Leverkusen
+29363078,Stefan Kießling,Bayer 04 Leverkusen
+29362835,Stefan Kießling,Bayer 04 Leverkusen
+31911679,Stefan Kießling,Bayer 04 Leverkusen
+29362759,Stefan Kießling,Bayer 04 Leverkusen
+29362633,Stefan Kießling,Bayer 04 Leverkusen
 29362609,Lukasz Skorupski,Roma
 31911679,Fernando Torres,Atlético de Madrid
 31608958,Fernando Torres,Atlético de Madrid
 32289606,Fernando Torres,Atlético de Madrid
+29225435,Jesús Navas,Manchester City
+31922160,Jesús Navas,Manchester City
+29362950,Jesús Navas,Manchester City
+29363523,Jesús Navas,Manchester City
+29363029,Jesús Navas,Manchester City
 31491686,Thomas Müller,FC Bayern München
 29362752,Thomas Müller,FC Bayern München
 29225435,Thomas Müller,FC Bayern München
@@ -2178,25 +2682,36 @@ matchId,player,team
 29220465,Goran Pandev,Galatasaray
 29362640,Goran Pandev,Galatasaray
 29362773,Goran Pandev,Galatasaray
-29362877,Fabian Frei,FC Basel
+29363005,Benedikt Höwedes,FC Schalke 04
+31802502,Benedikt Höwedes,FC Schalke 04
+29362745,Benedikt Höwedes,FC Schalke 04
+29363551,Benedikt Höwedes,FC Schalke 04
 29210808,Fabian Frei,FC Basel
+29362669,Fabian Frei,FC Basel
+29362877,Fabian Frei,FC Basel
 29363787,Fabian Frei,FC Basel
+29363537,Fabian Frei,FC Basel
 31803965,Fabian Frei,FC Basel
-29362998,Luiz Adriano,Shakhtar Donetsk
-29362922,Luiz Adriano,Shakhtar Donetsk
+31513365,Fabian Frei,FC Basel
 31491686,Luiz Adriano,Shakhtar Donetsk
+29362578,Luiz Adriano,Shakhtar Donetsk
+29362998,Luiz Adriano,Shakhtar Donetsk
+31816155,Luiz Adriano,Shakhtar Donetsk
+29362922,Luiz Adriano,Shakhtar Donetsk
 29362724,Luiz Adriano,Shakhtar Donetsk
 29225480,Luiz Adriano,Shakhtar Donetsk
-29225459,Kostas Manolas,Roma
+29362752,Kostas Manolas,Roma
 29362984,Kostas Manolas,Roma
+29225459,Kostas Manolas,Roma
 29362943,Kostas Manolas,Roma
-29363523,Kostas Manolas,Roma
 29362609,Kostas Manolas,Roma
+29363523,Kostas Manolas,Roma
 29220458,Alessio Cerci,Atlético de Madrid
 29362797,Alessio Cerci,Atlético de Madrid
 29363551,Marvin Friedrich,FC Schalke 04
 29225466,Arghus,NK Maribor
 29363022,Arghus,NK Maribor
+29363551,Arghus,NK Maribor
 29363530,Kostas Mitroglou,Malmö FF
 32683310,Dani Alves,FC Bayern München
 29362662,Anton Tinnerholm,Malmö FF
@@ -2207,13 +2722,16 @@ matchId,player,team
 29212602,Anton Tinnerholm,Malmö FF
 29363078,Lacina Traoré,Monaco
 29362842,Lacina Traoré,Monaco
+29225466,William Carvalho,Sporting Lisbon
+29363859,William Carvalho,Sporting Lisbon
 29362936,William Carvalho,Sporting Lisbon
+29362745,William Carvalho,Sporting Lisbon
 29363022,William Carvalho,Sporting Lisbon
 29362602,William Carvalho,Sporting Lisbon
-29363859,William Carvalho,Sporting Lisbon
 29363544,Keylor Navas,Real Madrid
 29363787,Keylor Navas,Real Madrid
 31491679,Willian,Chelsea
+29363005,Willian,Chelsea
 29362738,Willian,Chelsea
 29362929,Willian,Chelsea
 29225452,Willian,Chelsea
@@ -2225,23 +2743,36 @@ matchId,player,team
 29362547,João Guilherme,APOEL Nicosia
 28927666,Derk Boerrigter,Celtic
 28278531,Derk Boerrigter,Celtic
+29363544,Javier Hernández,Real Madrid
+32384894,Javier Hernández,Real Madrid
+32582191,Javier Hernández,Real Madrid
+32683303,Javier Hernández,Real Madrid
+29362676,Javier Hernández,Real Madrid
 28962031,Lucian Sanmartean,Steaua Bucharest
+29362578,Taras Stepanenko,Shakhtar Donetsk
 29362998,Taras Stepanenko,Shakhtar Donetsk
+31816155,Taras Stepanenko,Shakhtar Donetsk
 29363509,Taras Stepanenko,Shakhtar Donetsk
 29362922,Taras Stepanenko,Shakhtar Donetsk
-31816155,Taras Stepanenko,Shakhtar Donetsk
-29362578,Taras Stepanenko,Shakhtar Donetsk
+29225480,Taras Stepanenko,Shakhtar Donetsk
+29212602,Martín Cáceres,Juventus
 29362901,Jaïro Riedewald,Ajax
 29362717,Jaïro Riedewald,Ajax
 29363558,Jaïro Riedewald,Ajax
 29210808,Marek Suchy,FC Basel
 29362818,Marek Suchy,FC Basel
 29362669,Marek Suchy,FC Basel
+29362877,Marek Suchy,FC Basel
 29363787,Marek Suchy,FC Basel
 29363537,Marek Suchy,FC Basel
 31513365,Marek Suchy,FC Basel
+29220479,Enzo Pérez,Benfica
+29362766,Enzo Pérez,Benfica
+29362633,Enzo Pérez,Benfica
+28508318,Jakub Rzezniczak,Legia Warsaw
 29225452,Christian Fuchs,FC Schalke 04
 29362585,Christian Fuchs,FC Schalke 04
+29363551,Christian Fuchs,FC Schalke 04
 31802502,Christian Fuchs,FC Schalke 04
 31491686,Taison,Shakhtar Donetsk
 29362578,Taison,Shakhtar Donetsk
@@ -2251,22 +2782,32 @@ matchId,player,team
 29362922,Taison,Shakhtar Donetsk
 29362724,Taison,Shakhtar Donetsk
 29225480,Taison,Shakhtar Donetsk
+29220479,Igor Smolnikov,Zenit St Petersburg
 29362626,Igor Smolnikov,Zenit St Petersburg
 29363821,Igor Smolnikov,Zenit St Petersburg
 31816155,Holger Badstuber,FC Bayern München
 31491686,Holger Badstuber,FC Bayern München
+32380841,Holger Badstuber,FC Bayern München
 32295979,Holger Badstuber,FC Bayern München
+29362752,Jerome Boateng,FC Bayern München
 29225435,Jerome Boateng,FC Bayern München
+31816155,Jerome Boateng,FC Bayern München
+29362943,Jerome Boateng,FC Bayern München
+29363029,Jerome Boateng,FC Bayern München
 32582198,Jerome Boateng,FC Bayern München
 29363492,Jerome Boateng,FC Bayern München
+32380841,Jerome Boateng,FC Bayern München
+32683310,Jerome Boateng,FC Bayern München
 32295979,Jerome Boateng,FC Bayern München
-29363029,Jerome Boateng,FC Bayern München
+29362877,Marcelo Díaz,FC Basel
+29363537,Marcelo Díaz,FC Basel
 29210808,Breel Embolo,FC Basel
 29362818,Breel Embolo,FC Basel
 31803965,Breel Embolo,FC Basel
 29362877,Breel Embolo,FC Basel
 29363787,Breel Embolo,FC Basel
 29363537,Breel Embolo,FC Basel
+29362669,Breel Embolo,FC Basel
 31513365,Breel Embolo,FC Basel
 29362640,Hamit Altintop,Galatasaray
 29362773,Hamit Altintop,Galatasaray
@@ -2316,6 +2857,7 @@ matchId,player,team
 29362731,Cristian Tello,FC Porto
 29362915,Cristian Tello,FC Porto
 31513365,Cristian Tello,FC Porto
+29220458,Eric Abidal,Olympiakos
 29362662,Eric Abidal,Olympiakos
 29363064,Eric Abidal,Olympiakos
 28962031,Svetoslav Dyakov,Ludogorets Razgrad
@@ -2339,12 +2881,20 @@ matchId,player,team
 29362648,Sven Bender,Borussia Dortmund
 29209551,Sven Bender,Borussia Dortmund
 31922167,Sven Bender,Borussia Dortmund
+29363037,Sven Bender,Borussia Dortmund
 29362856,Sven Bender,Borussia Dortmund
 29362991,Nick Viergever,Ajax
 29225494,Nick Viergever,Ajax
 29362547,Nick Viergever,Ajax
 29362717,Nick Viergever,Ajax
 29363558,Nick Viergever,Ajax
+29362578,Héctor Herrera,FC Porto
+29362977,Héctor Herrera,FC Porto
+31803965,Héctor Herrera,FC Porto
+29225473,Héctor Herrera,FC Porto
+32380841,Héctor Herrera,FC Porto
+29362731,Héctor Herrera,FC Porto
+31513365,Héctor Herrera,FC Porto
 31590794,Oliver Kirch,Borussia Dortmund
 29363838,Oliver Kirch,Borussia Dortmund
 31922167,Oliver Kirch,Borussia Dortmund
@@ -2353,7 +2903,13 @@ matchId,player,team
 29363804,Heung-Min Son,Bayer 04 Leverkusen
 29362835,Heung-Min Son,Bayer 04 Leverkusen
 31911679,Heung-Min Son,Bayer 04 Leverkusen
+29362759,Heung-Min Son,Bayer 04 Leverkusen
 29362633,Heung-Min Son,Bayer 04 Leverkusen
+29362915,Beñat,Athletic Club
+29362998,Beñat,Athletic Club
+29225480,Beñat,Athletic Club
+29362731,Beñat,Athletic Club
+29362571,Beñat,Athletic Club
 29362977,Casemiro,FC Porto
 31803965,Casemiro,FC Porto
 29225473,Casemiro,FC Porto
@@ -2362,6 +2918,7 @@ matchId,player,team
 29362915,Casemiro,FC Porto
 32295979,Casemiro,FC Porto
 31513365,Casemiro,FC Porto
+28784340,Ersan Gülüm,Besiktas
 29362998,Iker Muniain,Athletic Club
 29362731,Iker Muniain,Athletic Club
 29225480,Iker Muniain,Athletic Club
@@ -2380,13 +2937,20 @@ matchId,player,team
 29363537,Luca Zuffi,FC Basel
 29362669,Luca Zuffi,FC Basel
 31513365,Luca Zuffi,FC Basel
-29362936,Islam Slimani,Sporting Lisbon
 29225466,Islam Slimani,Sporting Lisbon
+29363859,Islam Slimani,Sporting Lisbon
+29362936,Islam Slimani,Sporting Lisbon
+29362745,Islam Slimani,Sporting Lisbon
 29363022,Islam Slimani,Sporting Lisbon
 29362602,Islam Slimani,Sporting Lisbon
-29363859,Islam Slimani,Sporting Lisbon
+29362870,Erik Johansson,Malmö FF
 29362662,Erik Johansson,Malmö FF
 29362797,Erik Johansson,Malmö FF
+29212602,Erik Johansson,Malmö FF
+29363544,Álvaro Arbeloa,Real Madrid
+29362894,Álvaro Arbeloa,Real Madrid
+31802502,Álvaro Arbeloa,Real Madrid
+32384894,Jesús Gámez,Atlético de Madrid
 31922160,Frank Lampard,Manchester City
 29362609,Frank Lampard,Manchester City
 29363029,Frank Lampard,Manchester City
@@ -2394,14 +2958,21 @@ matchId,player,team
 29362856,Hakan Balta,Galatasaray
 31911679,Moyá ,Atlético de Madrid
 28927666,Aleksandar Rajcevic,NK Maribor
+28784367,Aleksandar Rajcevic,NK Maribor
 29225466,Aleksandar Rajcevic,NK Maribor
 29362738,Aleksandar Rajcevic,NK Maribor
 29363551,Aleksandar Rajcevic,NK Maribor
 29362929,Aleksandar Rajcevic,NK Maribor
+29363022,Aleksandar Rajcevic,NK Maribor
 29362991,Davy Klaassen,Ajax
+29362547,Davy Klaassen,Ajax
+29362717,Davy Klaassen,Ajax
 29362901,Davy Klaassen,Ajax
 29225494,Davy Klaassen,Ajax
+29363558,Davy Klaassen,Ajax
+29363064,Raúl Jiménez,Atlético de Madrid
 28278531,Baldur Sigurdsson,KR Reykjavík
+29220465,Aurélien Chedjou,Galatasaray
 29363845,Gedion Zelalem,Arsenal
 29225487,Marc-André ter Stegen,Barcelona
 29225435,Bacary Sagna,FC Bayern München
@@ -2410,6 +2981,7 @@ matchId,player,team
 31608951,Francis Coquelin,Arsenal
 28927666,Damjan Bohar,NK Maribor
 28784367,Damjan Bohar,NK Maribor
+29362585,Damjan Bohar,NK Maribor
 29362929,Damjan Bohar,NK Maribor
 29362738,Damjan Bohar,NK Maribor
 29363551,Damjan Bohar,NK Maribor
@@ -2438,6 +3010,9 @@ matchId,player,team
 29225480,Aritz Aduriz,Athletic Club
 29362731,Aritz Aduriz,Athletic Club
 29362571,Aritz Aduriz,Athletic Club
+31922160,Gerard Piqué,Barcelona
+29225487,Gerard Piqué,Barcelona
+32380834,Gerard Piqué,Barcelona
 29362818,Derlis González,FC Basel
 31803965,Derlis González,FC Basel
 29362877,Derlis González,FC Basel
@@ -2449,7 +3024,9 @@ matchId,player,team
 29363565,Unai López,Athletic Club
 29225435,Medhi Benatia,FC Bayern München
 29362943,Medhi Benatia,FC Bayern München
+29362540,Medhi Benatia,FC Bayern München
 29362752,Medhi Benatia,FC Bayern München
+32683310,Medhi Benatia,FC Bayern München
 29362835,Andrey Arshavin,Zenit St Petersburg
 29220479,Andrey Arshavin,Zenit St Petersburg
 29362626,Andrey Arshavin,Zenit St Petersburg
@@ -2476,9 +3053,11 @@ matchId,player,team
 29362870,Antoine Griezmann,Atlético de Madrid
 32289606,Antoine Griezmann,Atlético de Madrid
 31608958,Antoine Griezmann,Atlético de Madrid
+28278531,Jónas Saevarsson,KR Reykjavík
 29362991,Ricardo Kishna,Ajax
 29362547,Ricardo Kishna,Ajax
 29362717,Ricardo Kishna,Ajax
+29363558,Ricardo Kishna,Ajax
 29225487,Munir El Haddadi,Barcelona
 29362554,Munir El Haddadi,Barcelona
 29362717,Munir El Haddadi,Barcelona
@@ -2488,25 +3067,32 @@ matchId,player,team
 29363780,Marios Antoniades,APOEL Nicosia
 29363558,Marios Antoniades,APOEL Nicosia
 29363804,Bernd Leno,Bayer 04 Leverkusen
+29362835,Bernd Leno,Bayer 04 Leverkusen
 31911679,Bernd Leno,Bayer 04 Leverkusen
 31608958,Bernd Leno,Bayer 04 Leverkusen
+29362977,Mikhail Gordeychuk,BATE Borisov
+29225473,Mikhail Gordeychuk,BATE Borisov
 29362922,Mikhail Gordeychuk,BATE Borisov
+29362724,Mikhail Gordeychuk,BATE Borisov
 29362571,Mikhail Gordeychuk,BATE Borisov
 29225480,Gorka Iraizoz,Athletic Club
 29362915,Gorka Iraizoz,Athletic Club
 29362571,Gorka Iraizoz,Athletic Club
 28931063,Tolga Zengin,Besiktas
 29363804,Nélson Oliveira,Benfica
-32295979,Danilo,FC Porto
-31513365,Danilo,FC Porto
-29362915,Danilo,FC Porto
 29362578,Danilo,FC Porto
 29362977,Danilo,FC Porto
+29362731,Danilo,FC Porto
+29225473,Danilo,FC Porto
+29362915,Danilo,FC Porto
+32295979,Danilo,FC Porto
+31513365,Danilo,FC Porto
 29225466,Cédric Soares,Sporting Lisbon
 29362745,Cédric Soares,Sporting Lisbon
 29363022,Cédric Soares,Sporting Lisbon
 29362602,Cédric Soares,Sporting Lisbon
 29209558,Mamadou Sakho,Liverpool
+32582198,Javier Mascherano,FC Bayern München
 32380841,Martins Indi,FC Bayern München
 32295979,Martins Indi,FC Bayern München
 29362578,Héctor Herrera,FC Porto
@@ -2522,6 +3108,7 @@ matchId,player,team
 29362759,Axel Witsel,Zenit St Petersburg
 32295986,Thiago Silva ,Paris Saint-Germain
 29362710,Nuno Morais,APOEL Nicosia
+29362908,Nuno Morais,APOEL Nicosia
 29362547,Nuno Morais,APOEL Nicosia
 29363558,Nuno Morais,APOEL Nicosia
 29220472,Layvin Kurzawa,Monaco
@@ -2532,14 +3119,16 @@ matchId,player,team
 29362626,Layvin Kurzawa,Monaco
 31608951,Layvin Kurzawa,Monaco
 29362842,Layvin Kurzawa,Monaco
+29363804,Roberto Hilbert,Bayer 04 Leverkusen
 31911679,Roberto Hilbert,Bayer 04 Leverkusen
 31608958,Roberto Hilbert,Bayer 04 Leverkusen
 29362633,Roberto Hilbert,Bayer 04 Leverkusen
-29363544,Nacho,Real Madrid
-29362894,Nacho,Real Madrid
-29362811,Nacho,Real Madrid
-29363787,Nacho,Real Madrid
 31802502,Nacho,Real Madrid
+29362811,Nacho,Real Madrid
+29210808,Nacho,Real Madrid
+29363544,Nacho,Real Madrid
+29363787,Nacho,Real Madrid
+29362894,Nacho,Real Madrid
 29209558,Hamza Younes,Ludogorets Razgrad
 29363092,Hamza Younes,Ludogorets Razgrad
 29362877,Hamza Younes,Ludogorets Razgrad
@@ -2554,27 +3143,41 @@ matchId,player,team
 31491679,David Luiz,Paris Saint Germain
 29362554,David Luiz,Paris Saint Germain
 29362710,David Luiz,Paris Saint Germain
+29362908,David Luiz,Paris Saint Germain
+31816148,David Luiz,Paris Saint Germain
 29225494,David Luiz,Paris Saint Germain
 29363852,David Luiz,Paris Saint Germain
 29362915,Aymeric Laporte,Athletic Club
+29363565,Aymeric Laporte,Athletic Club
 29225480,Aymeric Laporte,Athletic Club
 29362731,Aymeric Laporte,Athletic Club
 29362571,Aymeric Laporte,Athletic Club
 31913128,Héctor Bellerín,Arsenal
 29363845,Héctor Bellerín,Arsenal
-32582198,Javier Mascherano,FC Bayern München
+29362710,Mário Sérgio,APOEL Nicosia
+29362908,Mário Sérgio,APOEL Nicosia
+29362547,Mário Sérgio,APOEL Nicosia
+29363558,Mário Sérgio,APOEL Nicosia
+29363510,Moyá,Atlético de Madrid
 31803965,Davide Callà,FC Basel
 29362669,Davide Callà,FC Basel
 29362877,Davide Callà,FC Basel
 29362818,Davide Callà,FC Basel
 31513365,Davide Callà,FC Basel
-29225459,Mario Fernandes,CSKA Moscow
+29363492,Mario Fernandes,CSKA Moscow
+29362984,Mario Fernandes,CSKA Moscow
 29362540,Mario Fernandes,CSKA Moscow
+29225459,Mario Fernandes,CSKA Moscow
 29362950,Mario Fernandes,CSKA Moscow
 29362703,Mario Fernandes,CSKA Moscow
+29220472,Ömer Toprak,Bayer 04 Leverkusen
+29363078,Ömer Toprak,Bayer 04 Leverkusen
+29362835,Ömer Toprak,Bayer 04 Leverkusen
+29362633,Ömer Toprak,Bayer 04 Leverkusen
 29225466,Rui Patricio,Sporting Lisbon
 29362602,Rui Patricio,Sporting Lisbon
 29363859,Rui Patricio,Sporting Lisbon
+28931063,Mathieu Debuchy,Arsenal
 29363845,Mathieu Debuchy,Arsenal
 28784340,Mathieu Debuchy,Arsenal
 29225487,Sergi Samper,Barcelona
@@ -2585,10 +3188,12 @@ matchId,player,team
 31911679,Emir Spahic,Bayer 04 Leverkusen
 29362759,Emir Spahic,Bayer 04 Leverkusen
 29362633,Emir Spahic,Bayer 04 Leverkusen
+31608958,Emir Spahic,Bayer 04 Leverkusen
 29220472,Yannick Ferreira-Carrasco,Monaco
 31913128,Yannick Ferreira-Carrasco,Monaco
 29362766,Yannick Ferreira-Carrasco,Monaco
 29363078,Yannick Ferreira-Carrasco,Monaco
+32289613,Yannick Ferreira-Carrasco,Monaco
 32384921,Yannick Ferreira-Carrasco,Monaco
 29362842,Yannick Ferreira-Carrasco,Monaco
 31608951,Yannick Ferreira-Carrasco,Monaco
@@ -2612,6 +3217,7 @@ matchId,player,team
 29363780,Adriano,Barcelona
 31922160,Adriano,Barcelona
 29362901,Adriano,Barcelona
+29225487,Adriano,Barcelona
 29363852,Adriano,Barcelona
 31590801,Adriano,Barcelona
 29362998,Bernard,Shakhtar Donetsk
@@ -2619,7 +3225,9 @@ matchId,player,team
 29362724,Bernard,Shakhtar Donetsk
 29362922,Bernard,Shakhtar Donetsk
 29362578,Bernard,Shakhtar Donetsk
+29362818,Serey Die,FC Basel
 29362669,Serey Die,FC Basel
+29362842,Lacina Traoré,Monaco
 28927666,Dare Vrsic,NK Maribor
 28784367,Dare Vrsic,NK Maribor
 29362585,Dare Vrsic,NK Maribor
@@ -2646,13 +3254,16 @@ matchId,player,team
 29362797,Filip Helander,Malmö FF
 29212602,Filip Helander,Malmö FF
 29209551,Per Mertesacker,Arsenal
+29362790,Per Mertesacker,Arsenal
 29363845,Per Mertesacker,Arsenal
 29362849,Per Mertesacker,Arsenal
-29362943,Gervinho,Roma
-29225459,Gervinho,Roma
+29363804,Nélson Oliveira,Benfica
 29362752,Gervinho,Roma
-29362609,Gervinho,Roma
 29362984,Gervinho,Roma
+29225459,Gervinho,Roma
+29362943,Gervinho,Roma
+29362609,Gervinho,Roma
+29363523,Gervinho,Roma
 28927666,Stefan Johansen,Celtic
 28508318,Stefan Johansen,Celtic
 28784367,Stefan Johansen,Celtic
@@ -2683,8 +3294,12 @@ matchId,player,team
 32289606,Raphael Varane,Real Madrid
 32683303,Raphael Varane,Real Madrid
 29362676,Raphael Varane,Real Madrid
-29363530,Markus Rosenberg,Malmö FF
 29362662,Markus Rosenberg,Malmö FF
+29362797,Markus Rosenberg,Malmö FF
+29363530,Markus Rosenberg,Malmö FF
+29362870,Markus Rosenberg,Malmö FF
+29363106,Markus Rosenberg,Malmö FF
+29212602,Markus Rosenberg,Malmö FF
 32380841,Yacine Brahimi,FC Porto
 29362578,Yacine Brahimi,FC Porto
 29362977,Yacine Brahimi,FC Porto
@@ -2696,8 +3311,10 @@ matchId,player,team
 31513365,Yacine Brahimi,FC Porto
 29220472,Stefan Reinartz,Bayer 04 Leverkusen
 29362633,Stefan Reinartz,Bayer 04 Leverkusen
+29362759,Stefan Reinartz,Bayer 04 Leverkusen
 29225473,Anri Khagush,BATE Borisov
 29363565,Anri Khagush,BATE Borisov
+29362724,Anri Khagush,BATE Borisov
 29362571,Anri Khagush,BATE Borisov
 29362929,Luka Zahovic,NK Maribor
 29225466,Luka Zahovic,NK Maribor
@@ -2733,9 +3350,11 @@ matchId,player,team
 29362571,Andoni Iraola,Athletic Club
 29362915,Andoni Iraola,Athletic Club
 29363565,Andoni Iraola,Athletic Club
+29362724,Filip Mladenovic,BATE Borisov
 29225473,Filip Mladenovic,BATE Borisov
 29362922,Filip Mladenovic,BATE Borisov
 29362977,Filip Mladenovic,BATE Borisov
+29362571,Filip Mladenovic,BATE Borisov
 29362998,Ander Iturraspe,Athletic Club
 29363565,Ander Iturraspe,Athletic Club
 29225480,Ander Iturraspe,Athletic Club
@@ -2762,10 +3381,11 @@ matchId,player,team
 29362894,Luka Modric,Real Madrid
 29210808,Luka Modric,Real Madrid
 29362676,Luka Modric,Real Madrid
-29363530,Isaac Thelin,Malmö FF
-29363106,Isaac Thelin,Malmö FF
-29362870,Isaac Thelin,Malmö FF
+29362662,Isaac Thelin,Malmö FF
 29362797,Isaac Thelin,Malmö FF
+29363530,Isaac Thelin,Malmö FF
+29362870,Isaac Thelin,Malmö FF
+29363106,Isaac Thelin,Malmö FF
 29212602,Isaac Thelin,Malmö FF
 28278531,Almarr Ormarsson,KR Reykjavík
 29362752,Miralem Pjanic,FC Bayern München
@@ -2804,9 +3424,10 @@ matchId,player,team
 29363106,Giorgio Chiellini,Malmö FF
 29212602,Giorgio Chiellini,Malmö FF
 29225473,Fabiano,FC Porto
+31803965,Fabiano,FC Porto
 29362915,Fabiano,FC Porto
 29362578,Fabiano,FC Porto
-31803965,Fabiano,FC Porto
+29362731,Fabiano,FC Porto
 29362950,Pontus Wernbloom,CSKA Moscow
 28962031,Fábio Espinho,Ludogorets Razgrad
 29363092,Fábio Espinho,Ludogorets Razgrad
@@ -2816,8 +3437,9 @@ matchId,player,team
 29209558,Fábio Espinho,Ludogorets Razgrad
 29362676,Fábio Espinho,Ludogorets Razgrad
 29225435,Samir Nasri,Manchester City
-31922160,Samir Nasri,Manchester City
 29362950,Samir Nasri,Manchester City
+29363029,Samir Nasri,Manchester City
+31922160,Samir Nasri,Manchester City
 29363523,Samir Nasri,Manchester City
 31590801,Samir Nasri,Manchester City
 29362998,Xabier Etxeita,Athletic Club
@@ -2826,6 +3448,7 @@ matchId,player,team
 29362655,Sebastian Giovinco,Juventus
 29212602,Sebastian Giovinco,Juventus
 29363038,Maxi Pereira,Benfica
+29220479,Maxi Pereira,Benfica
 29362842,Maxi Pereira,Benfica
 29362766,Maxi Pereira,Benfica
 29362633,Maxi Pereira,Benfica
@@ -2833,20 +3456,23 @@ matchId,player,team
 29362554,Pedro,Barcelona
 32380834,Pedro,Barcelona
 29363780,Pedro,Barcelona
+29362717,Pedro,Barcelona
 29362901,Pedro,Barcelona
 29363852,Pedro,Barcelona
 31590801,Pedro,Barcelona
 31590794,Andrea Pirlo ,Juventus
 29363078,Aymen Abdennour,Monaco
+32289613,Aymen Abdennour,Monaco
 31913128,Aymen Abdennour,Monaco
 31608951,Aymen Abdennour,Monaco
+29363821,Aymen Abdennour,Monaco
 32384921,Aymen Abdennour,Monaco
-32289613,Aymen Abdennour,Monaco
 31513365,Óliver ,FC Porto
-29362710,Cillian Sheridan,APOEL Nicosia
-29225487,Cillian Sheridan,APOEL Nicosia
 29362547,Cillian Sheridan,APOEL Nicosia
+29362710,Cillian Sheridan,APOEL Nicosia
+29363780,Cillian Sheridan,APOEL Nicosia
 29362908,Cillian Sheridan,APOEL Nicosia
+29225487,Cillian Sheridan,APOEL Nicosia
 29363558,Cillian Sheridan,APOEL Nicosia
 29362943,Alessandro Florenzi ,Roma
 28927666,Mikael Lustig,Celtic
@@ -2857,24 +3483,36 @@ matchId,player,team
 28927666,Efe Ambrose,Celtic
 28508318,Efe Ambrose,Celtic
 28784367,Efe Ambrose,Celtic
+28278531,Efe Ambrose,Celtic
 29363787,Philipp Degen,FC Basel
 32380841,Ricardo Quaresma,FC Bayern München
 29220479,Luisão,Benfica
 29362842,Luisão,Benfica
 29362766,Luisão,Benfica
 29362540,Mario Fernandes,FC Bayern München
+29362877,Fabian Schär,FC Basel
+29363787,Fabian Schär,FC Basel
+29363537,Fabian Schär,FC Basel
 29362703,Aleksandrs Cauna,CSKA Moscow
 29362984,Aleksandrs Cauna,CSKA Moscow
 31491679,Juan Cuadrado,Chelsea
 29362943,Kostas Manolas,FC Bayern München
 29220465,Fernando Muslera,Galatasaray
 29362856,Fernando Muslera,Galatasaray
+29363804,Bryan Cristante,Benfica
 29362842,Bryan Cristante,Benfica
 29362633,Bryan Cristante,Benfica
+29362738,Nathan Aké,Chelsea
 29362648,Nathan Kabasele,RSC Anderlecht
 31491686,Taison,FC Bayern München
+28931063,Mesut Özil,Arsenal
+29209551,Mesut Özil,Arsenal
+31913128,Mesut Özil,Arsenal
+29362640,Mesut Özil,Arsenal
+31608951,Mesut Özil,Arsenal
 28508318,Tomasz Jodlowiec,Legia Warsaw
 32384894,Mario Mandzukic,Atlético de Madrid
+29220458,Mario Mandzukic,Atlético de Madrid
 29362655,Mario Mandzukic,Atlético de Madrid
 29363064,Mario Mandzukic,Atlético de Madrid
 31911679,Mario Mandzukic,Atlético de Madrid
@@ -2887,6 +3525,7 @@ matchId,player,team
 29363092,Dani Abalo,Ludogorets Razgrad
 29362818,Dani Abalo,Ludogorets Razgrad
 29363544,Dani Abalo,Ludogorets Razgrad
+29362877,Dani Abalo,Ludogorets Razgrad
 29209558,Dani Abalo,Ludogorets Razgrad
 29362676,Dani Abalo,Ludogorets Razgrad
 29363492,Kirill Nababkin,FC Bayern München
@@ -2906,9 +3545,13 @@ matchId,player,team
 29225487,Urko Pardo,APOEL Nicosia
 32295986,Marquinhos,Paris Saint-Germain
 32380834,Marquinhos,Paris Saint-Germain
+29225452,Loïc Remy,Chelsea
+29362738,Loïc Remy,Chelsea
+29363859,Loïc Remy,Chelsea
 29225459,Davide Astori,Roma
 29362554,Jordi Alba,Barcelona
 32380834,Jordi Alba,Barcelona
+31922160,Jordi Alba,Barcelona
 29363780,Jordi Alba,Barcelona
 29362717,Jordi Alba,Barcelona
 32582198,Jordi Alba,Barcelona
@@ -2924,6 +3567,9 @@ matchId,player,team
 32384894,Jesé,Real Madrid
 32582191,Jesé,Real Madrid
 29363509,Kelvin,FC Porto
+29220479,Luisão,Benfica
+29363038,Luisão,Benfica
+29362633,Luisão,Benfica
 29363558,Anastasios Papazoglou,APOEL Nicosia
 29225435,Joe Hart,FC Bayern München
 29362835,Sebastian Boenisch,Bayer 04 Leverkusen
@@ -2933,6 +3579,7 @@ matchId,player,team
 29362908,Mário Sérgio,APOEL Nicosia
 29363558,Mário Sérgio,APOEL Nicosia
 32683310,Gerard Piqué,FC Bayern München
+29363523,José Holebas,Roma
 29362662,Arthur Masuaku,Olympiakos
 29362804,Arthur Masuaku,Olympiakos
 29363064,Arthur Masuaku,Olympiakos
@@ -2941,7 +3588,10 @@ matchId,player,team
 29220458,Arthur Masuaku,Olympiakos
 29362818,Arlind Ajeti,FC Basel
 29362703,Pablo Zabaleta,Manchester City
+29362950,Pablo Zabaleta,Manchester City
+29362609,Pablo Zabaleta,Manchester City
 29363029,Pablo Zabaleta,Manchester City
+29363523,Pablo Zabaleta,Manchester City
 29362540,Alexei Berezoutski,FC Bayern München
 31590794,Kingsley Coman,Juventus
 29363037,Yaya Sanogo ,Arsenal
@@ -2949,6 +3599,7 @@ matchId,player,team
 29362578,Yaroslav Rakitskiy,Shakhtar Donetsk
 29362998,Yaroslav Rakitskiy,Shakhtar Donetsk
 29363509,Yaroslav Rakitskiy,Shakhtar Donetsk
+29362922,Yaroslav Rakitskiy,Shakhtar Donetsk
 29362724,Yaroslav Rakitskiy,Shakhtar Donetsk
 29225480,Yaroslav Rakitskiy,Shakhtar Donetsk
 29363509,Andriy Pyatov,Shakhtar Donetsk
@@ -2973,6 +3624,7 @@ matchId,player,team
 29209551,Alex Oxlade-Chamberlain,Arsenal
 29363845,Alex Oxlade-Chamberlain,Arsenal
 31608951,Alex Oxlade-Chamberlain,Arsenal
+28931063,Alex Oxlade-Chamberlain,Arsenal
 29363037,Alex Oxlade-Chamberlain,Arsenal
 29362849,Alex Oxlade-Chamberlain,Arsenal
 29363005,Ralf Fährmann,FC Schalke 04
@@ -2982,6 +3634,7 @@ matchId,player,team
 29220465,Andy Najar,RSC Anderlecht
 29362648,Andy Najar,RSC Anderlecht
 29362790,Andy Najar,RSC Anderlecht
+29362849,Andy Najar,RSC Anderlecht
 29220465,Selcuk Inan,Galatasaray
 29362773,Selcuk Inan,Galatasaray
 29362856,Selcuk Inan,Galatasaray
@@ -2990,7 +3643,11 @@ matchId,player,team
 29362877,Anicet,Ludogorets Razgrad
 29362676,Anicet,Ludogorets Razgrad
 29363845,Stefan O'Connor,Arsenal
-29362797,Juanfran,Malmö FF
+29362936,Roman Neustädter,FC Schalke 04
+31802502,Roman Neustädter,FC Schalke 04
+29363551,Roman Neustädter,FC Schalke 04
+31513358,Roman Neustädter,FC Schalke 04
+29220472,Karim Bellarabi,Bayer 04 Leverkusen
 29363078,Karim Bellarabi,Bayer 04 Leverkusen
 29363804,Karim Bellarabi,Bayer 04 Leverkusen
 29362835,Karim Bellarabi,Bayer 04 Leverkusen
@@ -2998,6 +3655,7 @@ matchId,player,team
 29362759,Karim Bellarabi,Bayer 04 Leverkusen
 29362633,Karim Bellarabi,Bayer 04 Leverkusen
 31608958,Karim Bellarabi,Bayer 04 Leverkusen
+29362752,Daniele De Rossi,Roma
 29362984,Daniele De Rossi,Roma
 29362877,Behrang Safari,FC Basel
 29210808,Behrang Safari,FC Basel
@@ -3005,16 +3663,22 @@ matchId,player,team
 29363537,Behrang Safari,FC Basel
 31513365,Behrang Safari,FC Basel
 29363492,Georgi Milanov,CSKA Moscow
+29362984,Georgi Milanov,CSKA Moscow
+29362540,Georgi Milanov,CSKA Moscow
+29225459,Georgi Milanov,CSKA Moscow
 29362950,Georgi Milanov,CSKA Moscow
 29362703,Georgi Milanov,CSKA Moscow
-29362984,Georgi Milanov,CSKA Moscow
 32384921,Simone Padoin,Juventus
 29363106,Simone Padoin,Juventus
 29362863,Simone Padoin,Juventus
 31590794,Simone Padoin,Juventus
 29362669,Behrang Safari ,FC Basel
+29363092,Juninho Quixadá,Ludogorets Razgrad
+29363544,Juninho Quixadá,Ludogorets Razgrad
 29220465,Dennis Praet,RSC Anderlecht
+29362648,Dennis Praet,RSC Anderlecht
 29362790,Dennis Praet,RSC Anderlecht
+29363838,Dennis Praet,RSC Anderlecht
 29362849,Dennis Praet,RSC Anderlecht
 31491679,Javier Pastore,Paris Saint Germain
 29362991,Javier Pastore,Paris Saint Germain
@@ -3029,6 +3693,7 @@ matchId,player,team
 29362818,Roman Bezjak,Ludogorets Razgrad
 28962031,Roman Bezjak,Ludogorets Razgrad
 29362676,Roman Bezjak,Ludogorets Razgrad
+29362818,Davide Callà,FC Basel
 29362922,Vitali Rodionov,BATE Borisov
 29225473,Vitali Rodionov,BATE Borisov
 29362571,Vitali Rodionov,BATE Borisov
@@ -3046,6 +3711,7 @@ matchId,player,team
 29362752,Robert Lewandowski,FC Bayern München
 29225435,Robert Lewandowski,FC Bayern München
 29362540,Robert Lewandowski,FC Bayern München
+31816155,Robert Lewandowski,FC Bayern München
 29362943,Robert Lewandowski,FC Bayern München
 29363029,Robert Lewandowski,FC Bayern München
 32582198,Robert Lewandowski,FC Bayern München
@@ -3058,12 +3724,23 @@ matchId,player,team
 29362863,Kwadwo Asamoah,Juventus
 29362804,Kwadwo Asamoah,Juventus
 29212602,Kwadwo Asamoah,Juventus
+29363037,Yaya Sanogo,Arsenal
 29363845,Yaya Sanogo,Arsenal
+29362662,Alejandro Domínguez,Olympiakos
+29362804,Alejandro Domínguez,Olympiakos
+29363064,Alejandro Domínguez,Olympiakos
+29363530,Alejandro Domínguez,Olympiakos
+29362863,Alejandro Domínguez,Olympiakos
+29220458,Alejandro Domínguez,Olympiakos
 29363492,Seydou Doumbia,CSKA Moscow
-29225459,Seydou Doumbia,CSKA Moscow
+29362984,Seydou Doumbia,CSKA Moscow
 29362540,Seydou Doumbia,CSKA Moscow
+29225459,Seydou Doumbia,CSKA Moscow
 29362950,Seydou Doumbia,CSKA Moscow
 29362703,Seydou Doumbia,CSKA Moscow
+29363804,César,Benfica
+28927666,Callum McGregor,Celtic
+28508318,Callum McGregor,Celtic
 28784367,Callum McGregor,Celtic
 28278531,Callum McGregor,Celtic
 31816155,Franck Ribéry,FC Bayern München
@@ -3090,4 +3767,6 @@ matchId,player,team
 29225480,Fred,Shakhtar Donetsk
 31513365,Shkelzen Gashi,FC Basel
 29362877,Shkelzen Gashi,FC Basel
+29363787,Shkelzen Gashi,FC Basel
+29363537,Shkelzen Gashi,FC Basel
 31803965,Shkelzen Gashi,FC Basel

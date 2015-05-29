@@ -22,8 +22,8 @@ SET m.home = row.home, m.away = row.away, m.homeScore = toint(row.homeScore), m.
 WITH *
 MERGE (home:Team {name: row.home})
 MERGE (away:Team {name: row.away})
-MERGE (match)-[:HOME_TEAM]->(home)
-MERGE (match)-[:AWAY_TEAM]->(away);
+MERGE (m)-[:HOME_TEAM]->(home)
+MERGE (m)-[:AWAY_TEAM]->(away);
 
 // players
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/players.csv" AS row
@@ -73,10 +73,6 @@ FOREACH(ignoreMe IN CASE WHEN attempt.outcome = "goal" THEN [1] ELSE [] END |
 
 MERGE (match:Match {id: row.matchId})
 MERGE (appearance)-[:HAD_ATTEMPT]->(attempt);
-
-// add goals to match
-MATCH (match:Match)-[:IN_MATCH]-(:Appearance)-[:HAD_ATTEMPT]->(:Goal)
-RETURN *;
 
 // assists for attempts
 LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row

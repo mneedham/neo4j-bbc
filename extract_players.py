@@ -14,6 +14,7 @@ import os, glob
 matches = [f.split("/")[-1] for f in glob.glob('data/raw/[0-9]*') if os.path.isfile(f) ]
 # matches = ["32683310", "32683303"]
 # matches = ["32683310", "32683303", "32384894", "31816155"]
+# matches = ["29362578"]
 
 raw_events = itertools.chain()
 for match_id in matches:
@@ -73,6 +74,33 @@ for i in range(0, len(timed_events)):
 for i in range(0, len(timed_events)):
     entry = timed_events[i]
     event = entry["event"]
+    attempt = re.findall("(Attempt|Goal).*", event)
+    if attempt:
+        own_goal = re.findall("Own Goal.*", event)
+        if own_goal:
+            parts = re.findall("Own Goal by (.[^,]*), ([^\.]*)\. ", event)[0]
+            players.add((parts[0], parts[1]))
+            players_matches[(parts[0], parts[1])].add(entry["match_id"])
+
+        else:
+            outcome = re.findall("Attempt ([^\.]*)\.", event)
+            player_with_attempt = re.findall(".*\.([^(]*) \(.*\)", event)[0].strip()
+            player_with_attempt_team = re.findall(".*\.([^(]*) \((.*)\)", event)[0][1]
+
+            parts = re.findall("\. Assisted by ([^\.]*)", event)
+            if parts:
+                without_with =  list(itertools.takewhile(lambda word: word != "with" and word != "following", parts[0].split(" ")))
+                player_with_assist = " ".join(without_with)
+
+                players.add((player_with_assist, player_with_attempt_team))
+                players_matches[(player_with_assist, player_with_attempt_team)].add(entry["match_id"])
+
+            players.add((player_with_attempt, player_with_attempt_team))
+            players_matches[(player_with_attempt, player_with_attempt_team)].add(entry["match_id"])
+
+for i in range(0, len(timed_events)):
+    entry = timed_events[i]
+    event = entry["event"]
 
     teams = matches_teams[entry["match_id"]]
 
@@ -85,11 +113,11 @@ for i in range(0, len(timed_events)):
         players.add((conceded_by, team))
         players_matches[(conceded_by, team)].add(entry["match_id"])
 
-import sys
-for player in players:
-    print player
+# import sys
+# for player in players:
+#     print player
 
-sys.exit(1)
+# sys.exit(1)
 
 with open("data/players.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")

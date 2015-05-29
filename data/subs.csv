@@ -1,23 +1,738 @@
 matchId,subId,team,on,off,time,sortableTime
-32683310,5,FC Bayern München,Mario Götze,Thomas Müller,86:52,5212
-32683310,6,FC Bayern München,Javi Martínez,Bastian Schweinsteiger,86:41,5201
-32683310,27,Barcelona,Xavi,Andrés Iniesta,74:07,4447
-32683310,29,Barcelona,Jeremy Mathieu,Ivan Rakitic,71:04,4264
-32683310,33,FC Bayern München,Sebastian Rode,Philipp Lahm,67:19,4039
-32683310,59,Barcelona,Pedro,Luis Suárez,45:00,2700
-32683303,121,Juventus,Roberto Pereyra,Paul Pogba,88:09,5289
-32683303,126,Juventus,Fernando Llorente,Álvaro Morata,83:39,5019
-32683303,132,Juventus,Andrea Barzagli,Andrea Pirlo,78:47,4727
-32683303,143,Real Madrid,Javier Hernández,Karim Benzema,66:06,3966
-32384894,221,Real Madrid,Asier Illarramendi,Isco,90:00 +2:56,5576
-32384894,225,Real Madrid,Jesé,Javier Hernández ,90:00 +1:08,5468
-32384894,226,Real Madrid,Álvaro Arbeloa,Fábio Coentrão,90:00 +0:30,5430
-32384894,229,Atlético de Madrid,Giménez,Tiago,85:23,5123
-32384894,254,Atlético de Madrid,Raúl García,Antoine Griezmann,64:54,3894
-32384894,279,Atlético de Madrid,Gabi,Saúl Ñíguez,45:00,2700
-31816155,345,Shakhtar Donetsk,Wellington Nem,Douglas Costa,78:03,4683
-31816155,351,Shakhtar Donetsk,Ilsinho,Alex Teixeira,69:06,4146
-31816155,356,FC Bayern München,Dante,Holger Badstuber,66:06,3966
-31816155,361,FC Bayern München,Juan Bernat,Franck Ribéry ,58:58,3538
-31816155,408,FC Bayern München,Sebastian Rode,Arjen Robben ,18:38,1118
-31816155,421,Shakhtar Donetsk,Sergey Krivtsov,Taison,8:22,502
+28278531,8,KR Reykjavík,Almarr Ormarsson,Emil Atlason,87:29,5249
+28278531,20,KR Reykjavík,Thorsteinn Ragnarsson,Gary Martin,80:39,4839
+28278531,27,Celtic,Teemu Pukki,Anthony Stokes,74:02,4442
+28278531,28,Celtic,Derk Boerrigter,Leigh Griffiths,73:42,4422
+28278531,41,KR Reykjavík,Zato,Gonzalo Lorenzo Balbi,58:12,3492
+28508318,110,Legia Warsaw,Marek Saganowski,Michal Zyro,86:50,5210
+28508318,134,Celtic,Leigh Griffiths,Kris Commons,74:20,4460
+28508318,135,Legia Warsaw,Jakub Kosecki,Michal Kucharczyk,74:20,4460
+28508318,145,Celtic,Emilio Izaguirre,Jo Inge Berget,62:00,3720
+28508318,167,Celtic,Beram Kayal,Teemu Pukki,45:00,2700
+28656118,217,Legia Warsaw,Bartosz Bereszynski,Michal Zyro,88:00,5280
+28656118,218,Legia Warsaw,Helio Pinto,Ondrej Duda,87:00,5220
+28656118,219,Legia Warsaw,Jakub Kosecki,Michal Kucharczyk,75:00,4500
+28656118,220,Celtic,Teemu Pukki,Kris Commons,71:00,4260
+28656118,221,Celtic,James Forrest,Anthony Stokes,70:00,4200
+28656118,224,Celtic,Leigh Griffiths,Mikael Lustig,57:00,3420
+28784340,238,Arsenal,Tomas Rosicky,Santiago Cazorla,89:54,5394
+28784340,241,Besiktas,Cenk Tosun,Mustafa Pektemek,87:30,5250
+28784340,247,Besiktas,Kerim Koyunlu,Oguzhan Ozyakup,80:20,4820
+28784340,262,Besiktas,Gökhan Töre,Olcay Sahan,72:35,4355
+28784340,263,Arsenal,Alex Oxlade-Chamberlain,Alexis Sánchez,72:06,4326
+28784340,296,Arsenal,Mathieu Flamini,Mikel Arteta ,49:58,2998
+28784367,350,Celtic,Nir Biton,Beram Kayal,86:31,5191
+28784367,356,NK Maribor,Ales Mertelj,Amir Dervisevic,80:08,4808
+28784367,357,Celtic,Leigh Griffiths,Anthony Stokes,79:51,4791
+28784367,360,NK Maribor,Sintayehu Sallalich,Damjan Bohar,78:32,4712
+28784367,366,Celtic,Efe Ambrose,Jo Inge Berget,72:35,4355
+28784367,367,NK Maribor,Jean Philippe Mendy,Dare Vrsic,71:58,4318
+28927666,439,NK Maribor,Amir Dervisevic,Marcos Tavares,90:00 +1:44,5504
+28927666,458,NK Maribor,Damjan Bohar,Dare Vrsic,82:27,4947
+28927666,468,Celtic,Derk Boerrigter,Mikael Lustig,71:31,4291
+28927666,473,Celtic,Adam Matthews,Jo Inge Berget,65:16,3916
+28927666,503,Celtic,Kris Commons,Beram Kayal,45:00,2700
+28931063,546,Besiktas,Cenk Tosun,Mustafa Pektemek,86:55,5215
+28931063,562,Arsenal,Calum Chambers,Mesut Özil,76:33,4593
+28931063,563,Besiktas,Necip Uysal,Veli Kavlak,76:25,4585
+28931063,580,Besiktas,Gökhan Töre,Olcay Sahan,62:15,3735
+28962031,709,Ludogorets Razgrad,Wanderson,Virgil Misidjan,84:06,5046
+28962031,711,Steaua Bucharest,Lucian Filip,Lucian Sanmartean,82:28,4948
+28962031,721,Ludogorets Razgrad,Dani Abalo,Mihail Aleksandrov,76:59,4619
+28962031,722,Ludogorets Razgrad,Hamza Younes,Roman Bezjak,76:36,4596
+28962031,745,Steaua Bucharest,Paul Parvulescu,Iasmin Latovlevici,66:45,4005
+28962031,828,Steaua Bucharest,Nicolae Claudiu Stanciu,Cristian Tanase ,4:29,269
+29209551,848,Borussia Dortmund,Adrián Ramos,Ciro Immobile,85:13,5113
+29209551,855,Borussia Dortmund,Milos Jojic,Marcel Schmelzer,78:37,4717
+29209551,856,Arsenal,Lukas Podolski,Mikel Arteta,76:12,4572
+29209551,870,Arsenal,Santiago Cazorla,Aaron Ramsey,61:24,3684
+29209551,871,Arsenal,Alex Oxlade-Chamberlain,Mesut Özil,61:13,3673
+29209551,890,Borussia Dortmund,Matthias Ginter,Sebastian Kehl,45:00,2700
+29209558,957,Ludogorets Razgrad,Hamza Younes,Roman Bezjak,85:57,5157
+29209558,959,Ludogorets Razgrad,Fábio Espinho,Svetoslav Dyakov,84:19,5059
+29209558,978,Ludogorets Razgrad,Dani Abalo,Virgil Misidjan,72:39,4359
+29209558,989,Liverpool,Lucas Leiva,Philippe Coutinho,67:16,4036
+29209558,990,Liverpool,Fabio Borini,Adam Lallana,66:52,4012
+29210808,1099,FC Basel,Matías Delgado,Fabian Frei,82:44,4964
+29210808,1102,Real Madrid,Javier Hernández,Karim Benzema,81:08,4868
+29210808,1111,Real Madrid,Asier Illarramendi,Luka Modric,73:06,4386
+29210808,1112,FC Basel,Breel Embolo,Marco Streller,72:44,4364
+29210808,1122,Real Madrid,Raphael Varane,Sergio Ramos,65:33,3933
+29210808,1125,FC Basel,Yoichiro Kakitani,Walter Samuel,63:21,3801
+29212602,1194,Juventus,Rômulo,Stephan Lichtsteiner,90:00 +1:00,5460
+29212602,1195,Juventus,Sebastian Giovinco,Carlos Tévez,90:00 +0:25,5425
+29212602,1204,Juventus,Álvaro Morata,Fernando Llorente,85:02,5102
+29212602,1209,Malmö FF,Erdal Rakip,Magnus Eriksson,81:00,4860
+29212602,1218,Malmö FF,Simon Kroon,Isaac Thelin,72:26,4346
+29212602,1235,Malmö FF,Agon Mehmeti,Markus Rosenberg ,52:52,3172
+29220458,1310,Olympiakos,Konstantinos Giannoulis,Pajtim Kasami,83:23,5003
+29220458,1324,Atlético de Madrid,Saúl Ñíguez,Mario Suárez,74:32,4472
+29220458,1330,Olympiakos,Delvin Ndinga,Ibrahim Afellay,68:43,4123
+29220458,1335,Atlético de Madrid,Alessio Cerci,Raúl García,65:56,3956
+29220458,1349,Olympiakos,David Fuster,Alejandro Domínguez,56:41,3401
+29220458,1350,Atlético de Madrid,Antoine Griezmann,Gabi,55:15,3315
+29220465,1416,Galatasaray,Tarik Camdal,Alex Telles,78:58,4738
+29220465,1417,RSC Anderlecht,Leander Dendoncker,Dennis Praet,77:51,4671
+29220465,1424,Galatasaray,Umut Bulut,Selcuk Inan,71:06,4266
+29220465,1431,RSC Anderlecht,Sacha Kljestan,Aleksandar Mitrovic,65:51,3951
+29220465,1448,Galatasaray,Bruma,Goran Pandev,56:47,3407
+29220465,1499,RSC Anderlecht,Matías Suárez,Bram Nuytinck ,22:09,1329
+29220472,1527,Monaco,Wallace,Geoffrey Kondogbia,90:00 +3:50,5630
+29220472,1538,Monaco,Nabil Dirar,Yannick Ferreira-Carrasco,85:40,5140
+29220472,1550,Bayer 04 Leverkusen,Josip Drmic,Lars Bender,75:16,4516
+29220472,1559,Bayer 04 Leverkusen,Stefan Reinartz,Ömer Toprak ,70:53,4253
+29220472,1565,Bayer 04 Leverkusen,Giulio Donati,Tin Jedvaj,64:49,3889
+29220472,1578,Monaco,Bernardo Silva,Lucas Ocampos,56:45,3405
+29220479,1657,Zenit St Petersburg,Andrey Arshavin,Hulk,84:24,5064
+29220479,1666,Zenit St Petersburg,Pavel Mogilevets,Salomón Rondón,75:12,4512
+29220479,1669,Benfica,André Almeida,Andreas Samaris,73:17,4397
+29220479,1670,Benfica,Derley,Lima,73:05,4385
+29220479,1714,Zenit St Petersburg,Alexander Anyukov,Igor Smolnikov ,45:00,2700
+29220479,1739,Benfica,Paulo Lopes,Anderson Talisca,19:13,1153
+29225435,1783,Manchester City,Aleksandar Kolarov,Jesús Navas,87:34,5254
+29225435,1785,FC Bayern München,Dante,Medhi Benatia,84:45,5085
+29225435,1788,FC Bayern München,Claudio Pizarro,Rafinha,83:40,5020
+29225435,1798,FC Bayern München,Arjen Robben,Thomas Müller,75:15,4515
+29225435,1802,Manchester City,Sergio Agüero,Edin Dzeko,73:37,4417
+29225435,1820,Manchester City,James Milner,Samir Nasri,57:14,3434
+29225452,1897,FC Schalke 04,Chinedu Obasi,Julian Draxler,85:44,5144
+29225452,1906,FC Schalke 04,Tranquillo Barnetta,Sidney Sam,77:26,4646
+29225452,1912,Chelsea,Loïc Remy,Willian,73:43,4423
+29225452,1913,Chelsea,Diego Costa,Didier Drogba,73:35,4415
+29225452,1914,FC Schalke 04,Eric Choupo-Moting,Max Meyer,73:32,4412
+29225452,1919,Chelsea,Oscar,Ramires,66:50,4010
+29225459,2009,Roma,Mapou Yanga-Mbiwa,Kostas Manolas,76:03,4563
+29225459,2014,Roma,Adem Ljajic,Gervinho,70:55,4255
+29225459,2020,CSKA Moscow,Kirill Panchenko,Roman Eremenko,65:46,3946
+29225459,2039,CSKA Moscow,Dmitri Efremov,Zoran Tosic,52:20,3140
+29225459,2050,CSKA Moscow,Georgy Schennikov,Kirill Nababkin,45:00,2700
+29225459,2072,Roma,Alessandro Florenzi,Juan Iturbe ,25:50,1550
+29225466,2093,Sporting Lisbon,Fredy Montero,Islam Slimani,90:00 +1:17,5477
+29225466,2106,NK Maribor,Jean Philippe Mendy,Marcos Tavares,83:29,5009
+29225466,2108,NK Maribor,Luka Zahovic,Dare Vrsic,80:59,4859
+29225466,2122,Sporting Lisbon,Carlos Mané,André Carrillo,65:22,3922
+29225466,2133,NK Maribor,Damjan Bohar,Sintayehu Sallalich,57:22,3442
+29225466,2149,Sporting Lisbon,João Mário,André Martins,45:00,2700
+29225473,2246,BATE Borisov,Nikolai Signevich,Vitali Rodionov,70:03,4203
+29225473,2249,FC Porto,Cristian Tello,Héctor Herrera,68:06,4086
+29225473,2254,FC Porto,Vincent Aboubakar,Jackson Martínez,63:42,3822
+29225473,2255,BATE Borisov,Aleksandr Karnitski,Edgar Olekhnovich,61:58,3718
+29225473,2260,FC Porto,Evandro Goebel,Yacine Brahimi,59:00,3540
+29225473,2269,BATE Borisov,Andriy Yakovlev,Dmitri Likhtarovich,52:59,3179
+29225480,2327,Shakhtar Donetsk,Olexandr Gladkiy,Luiz Adriano,89:04,5344
+29225480,2341,Shakhtar Donetsk,Marlos,Taison,79:31,4771
+29225480,2344,Athletic Club,Guillermo,Aritz Aduriz,76:24,4584
+29225480,2350,Athletic Club,Ager Aketxe,Iker Muniain,74:16,4456
+29225480,2351,Shakhtar Donetsk,Fred,Fernando,72:47,4367
+29225480,2362,Athletic Club,Markel Susaeta,Beñat,63:59,3839
+29225487,2437,Barcelona,Rafinha,Sergi Roberto,78:45,4725
+29225487,2438,APOEL Nicosia,Konstantinos Charalambidis,Tomás De Vincenti,78:37,4717
+29225487,2445,APOEL Nicosia,Rafik Djebbour,Cillian Sheridan,74:59,4499
+29225487,2453,Barcelona,Sandro Ramírez,Munir El Haddadi,67:59,4079
+29225487,2461,APOEL Nicosia,Gustavo Manduca,Tiago Gomes,61:22,3682
+29225487,2462,Barcelona,Andrés Iniesta,Xavi,60:14,3614
+29225494,2541,Ajax,Arkadiusz Milik,Lasse Schöne,81:04,4864
+29225494,2542,Paris Saint Germain,Ezequiel Lavezzi,Lucas Moura,80:57,4857
+29225494,2543,Paris Saint Germain,Javier Pastore,Marco Verratti,80:42,4842
+29225494,2577,Ajax,Anwar El Ghazi,Kolbeinn Sigthorsson,60:03,3603
+29225494,2591,Ajax,Niki Zimling,Nick Viergever,45:00,2700
+29362540,2627,FC Bayern München,Claudio Pizarro,Robert Lewandowski,89:45,5385
+29362540,2639,FC Bayern München,Rafinha,Arjen Robben,80:55,4855
+29362540,2641,CSKA Moscow,Dmitri Efremov,Zoran Tosic,78:01,4681
+29362540,2642,FC Bayern München,Xherdan Shaqiri,Mario Götze,76:30,4590
+29362540,2654,CSKA Moscow,Seydou Doumbia,Bebras Natcho,65:41,3941
+29362547,2734,APOEL Nicosia,Rafik Djebbour,Cillian Sheridan,81:24,4884
+29362547,2741,APOEL Nicosia,Georgios Efrem,Gustavo Manduca,78:42,4722
+29362547,2750,Ajax,Ricardo Kishna,Lucas Andersen,73:18,4398
+29362547,2751,Ajax,Anwar El Ghazi,Lasse Schöne,73:15,4395
+29362547,2754,APOEL Nicosia,Tomás De Vincenti,Tiago Gomes,70:40,4240
+29362554,2837,Paris Saint Germain,Jean-Christophe Bahebeck,Lucas Moura ,90:00 +0:12,5412
+29362554,2842,Paris Saint Germain,Clément Chantôme,Javier Pastore,85:28,5128
+29362554,2845,Barcelona,Sandro Ramírez,Dani Alves,82:28,4948
+29362554,2857,Paris Saint Germain,Yohan Cabaye,Marco Verratti,70:16,4216
+29362554,2858,Barcelona,Xavi,Ivan Rakitic,68:24,4104
+29362554,2865,Barcelona,Munir El Haddadi,Pedro,61:47,3707
+29362571,2923,BATE Borisov,Edgar Olekhnovich,Mikhail Gordeychuk,90:00 +1:46,5506
+29362571,2932,BATE Borisov,Vitali Rodionov,Aleksandr Karnitski,85:33,5133
+29362571,2943,BATE Borisov,Andriy Yakovlev,Maksim Volodko,80:14,4814
+29362571,2944,Athletic Club,Gaizka Toquero,Andoni Iraola,76:43,4603
+29362571,2989,Athletic Club,Markel Susaeta,Mikel Rico,45:00,2700
+29362571,2990,Athletic Club,Óscar De Marcos,Ibai Gómez,45:00,2700
+29362578,3063,Shakhtar Donetsk,Bernard,Douglas Costa,78:36,4716
+29362578,3066,FC Porto,Adrián,Yacine Brahimi,77:07,4627
+29362578,3071,Shakhtar Donetsk,Ilsinho,Taison,74:34,4474
+29362578,3082,FC Porto,Juan Quintero,Marcano,64:36,3876
+29362578,3083,FC Porto,Jackson Martínez,Vincent Aboubakar,64:30,3870
+29362585,3167,NK Maribor,Sintayehu Sallalich,Damjan Bohar ,82:11,4931
+29362585,3174,NK Maribor,Welle N'Diaye,Ales Mertelj,79:24,4764
+29362585,3176,FC Schalke 04,Max Meyer,Kevin-Prince Boateng,78:16,4696
+29362585,3196,NK Maribor,Jean Philippe Mendy,Dare Vrsic,66:23,3983
+29362585,3197,FC Schalke 04,Chinedu Obasi,Eric Choupo-Moting,65:58,3958
+29362585,3226,FC Schalke 04,Atsuto Uchida,Kaan Ayhan,45:00,2700
+29362602,3293,Chelsea,Mohamed Salah,Eden Hazard,83:45,5025
+29362602,3297,Sporting Lisbon,Fredy Montero,Adrien Silva,80:20,4820
+29362602,3298,Sporting Lisbon,Diego Capel,André Carrillo,80:20,4820
+29362602,3314,Chelsea,John Obi Mikel,Oscar,70:23,4223
+29362602,3323,Sporting Lisbon,Paulo Oliveira,Mauricio ,62:54,3774
+29362602,3333,Chelsea,Willian,André Schürrle,57:10,3430
+29362609,3403,Roma,Vasilis Torosidis,Maicon,88:12,5292
+29362609,3407,Manchester City,Stevan Jovetic,Sergio Agüero,83:39,5019
+29362609,3409,Roma,José Holebas,Alessandro Florenzi,82:28,4948
+29362609,3418,Roma,Juan Iturbe,Francesco Totti,71:38,4298
+29362609,3439,Manchester City,Frank Lampard,Edin Dzeko,56:55,3415
+29362609,3459,Manchester City,James Milner,Jesús Navas,45:00,2700
+29362626,3515,Monaco,Tiemoué Bakayoko,João Moutinho,90:00 +1:45,5505
+29362626,3518,Zenit St Petersburg,Andrey Arshavin,Alexander Anyukov,87:40,5260
+29362626,3534,Monaco,Valère Germain,Lucas Ocampos,79:05,4745
+29362626,3540,Zenit St Petersburg,Alexander Kerzhakov,Salomón Rondón,74:41,4481
+29362626,3552,Zenit St Petersburg,Igor Smolnikov,Oleg Shatov,65:30,3930
+29362626,3568,Monaco,Yannick Ferreira-Carrasco,Dimitar Berbatov ,51:45,3105
+29362633,3649,Bayer 04 Leverkusen,Giulio Donati,Lars Bender,81:11,4871
+29362633,3654,Benfica,Andreas Samaris,Enzo Pérez,76:41,4601
+29362633,3657,Bayer 04 Leverkusen,Josip Drmic,Stefan Kießling,75:06,4506
+29362633,3668,Bayer 04 Leverkusen,Levin Öztunali,Karim Bellarabi,69:03,4143
+29362633,3701,Benfica,Lima,Anderson Talisca,45:00,2700
+29362633,3702,Benfica,Maxi Pereira,Bryan Cristante,45:00,2700
+29362640,3777,Arsenal,Jack Wilshere,Mesut Özil,76:23,4583
+29362640,3792,Galatasaray,Umut Bulut,Veysel Sari,68:14,4094
+29362640,3793,Galatasaray,Bruma,Goran Pandev,68:01,4081
+29362640,3794,Arsenal,Tomas Rosicky,Alex Oxlade-Chamberlain,67:32,4052
+29362640,3799,Arsenal,David Ospina,Alexis Sánchez,61:52,3712
+29362640,3816,Galatasaray,Hamit Altintop,Yekta Kurtulus,45:00,2700
+29362648,3883,RSC Anderlecht,Cyriac,Matías Suárez,82:01,4921
+29362648,3884,RSC Anderlecht,Nathan Kabasele,Aleksandar Mitrovic,81:42,4902
+29362648,3885,Borussia Dortmund,Mats Hummels,Sven Bender,81:23,4883
+29362648,3893,RSC Anderlecht,Frank Acheampong,Ibrahima Conte,72:43,4363
+29362648,3894,Borussia Dortmund,Erik Durm,Ciro Immobile,71:14,4274
+29362648,3900,Borussia Dortmund,Adrián Ramos,Kevin Großkreutz,64:27,3867
+29362655,3968,Atlético de Madrid,Guillherme Siqueira,Arda Turan,88:47,5327
+29362655,3969,Juventus,Sebastian Giovinco,Stephan Lichtsteiner,88:25,5305
+29362655,3978,Atlético de Madrid,Mario Suárez,Mario Mandzukic,83:20,5000
+29362655,3979,Juventus,Álvaro Morata,Arturo Vidal,82:22,4942
+29362655,3985,Juventus,Roberto Pereyra,Martín Cáceres ,77:18,4638
+29362655,4018,Atlético de Madrid,Antoine Griezmann,Saúl Ñíguez,52:08,3128
+29362662,4096,Malmö FF,Erdal Rakip,Emil Forsberg,90:00 +2:21,5541
+29362662,4111,Olympiakos,Dimitrios Diamantakos,Ibrahim Afellay,78:27,4707
+29362662,4113,Malmö FF,Pawel Cibicki,Magnus Eriksson,74:26,4466
+29362662,4121,Olympiakos,Jimmy Durmaz,Pajtim Kasami,68:40,4120
+29362662,4139,Olympiakos,Alejandro Domínguez,Delvin Ndinga,56:47,3407
+29362669,4202,FC Basel,Luca Zuffi,Ahmed Hamoudi,90:00 +1:24,5484
+29362669,4213,FC Basel,Davide Callà,Breel Embolo ,80:40,4840
+29362669,4214,Liverpool,Rickie Lambert,Lazar Markovic,80:21,4821
+29362669,4224,Liverpool,Adam Lallana,Philippe Coutinho,69:15,4155
+29362669,4288,FC Basel,Derlis González,Behrang Safari ,8:56,536
+29362676,4318,Ludogorets Razgrad,Anicet,Fábio Espinho,81:54,4914
+29362676,4319,Ludogorets Razgrad,Virgil Misidjan,Mihail Aleksandrov,81:41,4901
+29362676,4324,Real Madrid,James Rodríguez,Isco,75:09,4509
+29362676,4327,Real Madrid,Toni Kroos,Luka Modric,72:48,4368
+29362676,4332,Ludogorets Razgrad,Wanderson,Marcelinho ,69:57,4197
+29362676,4336,Real Madrid,Karim Benzema,Javier Hernández,66:22,3982
+29362703,4418,CSKA Moscow,Aleksandrs Cauna,Seydou Doumbia ,89:32,5372
+29362703,4424,Manchester City,Stevan Jovetic,Fernando,85:55,5155
+29362703,4432,Manchester City,Fernandinho,David Silva,77:51,4671
+29362703,4446,Manchester City,Jesús Navas,Edin Dzeko,71:10,4270
+29362703,4447,CSKA Moscow,Dmitri Efremov,Zoran Tosic,68:49,4129
+29362703,4471,CSKA Moscow,Seydou Doumbia,Alexei Berezoutski,45:00,2700
+29362710,4504,Paris Saint Germain,Clément Chantôme,Lucas Moura,88:09,5289
+29362710,4507,APOEL Nicosia,Tomás De Vincenti,Nuno Morais,79:06,4746
+29362710,4515,Paris Saint Germain,Jean-Christophe Bahebeck,Marco Verratti,69:51,4191
+29362710,4516,Paris Saint Germain,Yohan Cabaye,Javier Pastore,69:33,4173
+29362710,4518,APOEL Nicosia,Rafik Djebbour,Cillian Sheridan,66:17,3977
+29362710,4543,APOEL Nicosia,John Arne Riise,Marios Antoniades ,40:17,2417
+29362717,4603,Barcelona,Rafinha,Andrés Iniesta,75:32,4532
+29362717,4606,Ajax,Anwar El Ghazi,Kolbeinn Sigthorsson,72:46,4366
+29362717,4615,Barcelona,Munir El Haddadi,Lionel Messi,65:58,3958
+29362717,4617,Barcelona,Sandro Ramírez,Neymar,61:04,3664
+29362717,4625,Ajax,Jaïro Riedewald,Niki Zimling,55:18,3318
+29362717,4637,Ajax,Arkadiusz Milik,Ricardo Kishna,45:00,2700
+29362724,4707,BATE Borisov,Dmitry Baga,Nikolai Signevich,74:09,4449
+29362724,4730,Shakhtar Donetsk,Bernard,Taison,45:00,2700
+29362724,4731,Shakhtar Donetsk,Fred,Fernando,45:00,2700
+29362724,4732,Shakhtar Donetsk,Marlos,Douglas Costa,45:00,2700
+29362724,4733,BATE Borisov,Ilya Aleksievich,Dmitri Likhtarovich,45:00,2700
+29362724,4734,BATE Borisov,Vitali Gayduchik,Nemanja Tubic,45:00,2700
+29362731,4799,FC Porto,Óliver,Cristian Tello,81:12,4872
+29362731,4808,Athletic Club,Carlos Gurpegi,Mikel Rico,72:29,4349
+29362731,4810,FC Porto,Ricardo Quaresma,Casemiro,70:11,4211
+29362731,4816,FC Porto,Ruben Neves,Juan Quintero,63:38,3818
+29362731,4843,Athletic Club,Iker Muniain,Aritz Aduriz,45:00,2700
+29362731,4844,Athletic Club,Beñat,Mikel San José,45:00,2700
+29362738,4902,Chelsea,Dominic Solanke,Oscar,72:22,4342
+29362738,4903,NK Maribor,Jean Philippe Mendy,Marcos Tavares,71:50,4310
+29362738,4907,NK Maribor,Luka Zahovic,Agim Ibraimi,68:00,4080
+29362738,4916,Chelsea,Nathan Aké,Cesc Fàbregas,59:05,3545
+29362738,4919,NK Maribor,Dare Vrsic,Mitja Viler,56:06,3366
+29362738,4961,Chelsea,Didier Drogba,Loïc Remy ,15:22,922
+29362745,4987,Sporting Lisbon,Diego Capel,André Carrillo,88:55,5335
+29362745,4990,FC Schalke 04,Sidney Sam,Julian Draxler,81:52,4912
+29362745,5007,FC Schalke 04,Max Meyer,Chinedu Obasi,64:01,3841
+29362745,5034,FC Schalke 04,Eric Choupo-Moting,Kevin-Prince Boateng,45:00,2700
+29362745,5050,Sporting Lisbon,Mahamadou-Naby Sarr,João Mário,37:39,2259
+29362745,5070,Sporting Lisbon,Fredy Montero,Islam Slimani ,24:12,1452
+29362752,5109,Roma,Adem Ljajic,Miralem Pjanic,78:25,4705
+29362752,5110,FC Bayern München,Xherdan Shaqiri,Mario Götze,78:15,4695
+29362752,5118,FC Bayern München,Franck Ribéry,Robert Lewandowski,67:15,4035
+29362752,5127,FC Bayern München,Rafinha,Thomas Müller,59:40,3580
+29362752,5150,Roma,José Holebas,Ashley Cole,45:00,2700
+29362752,5151,Roma,Alessandro Florenzi,Francesco Totti,45:00,2700
+29362759,5210,Bayer 04 Leverkusen,Julian Brandt,Karim Bellarabi,84:58,5098
+29362759,5217,Zenit St Petersburg,Alexander Kerzhakov,Axel Witsel,81:27,4887
+29362759,5218,Bayer 04 Leverkusen,Tin Jedvaj,Hakan Calhanoglu,81:12,4872
+29362759,5245,Zenit St Petersburg,Oleg Shatov,Viktor Faizulin,61:27,3687
+29362759,5249,Bayer 04 Leverkusen,Kyriakos Papadopoulos,Emir Spahic ,59:43,3583
+29362766,5331,Benfica,Andreas Samaris,Enzo Pérez,87:22,5242
+29362766,5339,Monaco,Bernardo Silva,João Moutinho,81:51,4911
+29362766,5344,Benfica,César,Nicolás Gaitán,78:34,4714
+29362766,5358,Benfica,Bebé,Anderson Talisca,67:47,4067
+29362766,5367,Monaco,Yannick Ferreira-Carrasco,Lucas Ocampos,61:34,3694
+29362766,5416,Monaco,Anthony Martial,Dimitar Berbatov ,33:14,1994
+29362773,5470,Borussia Dortmund,Adrián Ramos,Shinji Kagawa ,81:18,4878
+29362773,5473,Galatasaray,Emre Colak,Goran Pandev,77:08,4628
+29362773,5482,Borussia Dortmund,Ilkay Gündogan,Mats Hummels,68:44,4124
+29362773,5489,Galatasaray,Yasin Öztekin,Alex Telles,61:16,3676
+29362773,5490,Galatasaray,Blerim Dzemaili,Hamit Altintop,60:55,3655
+29362773,5494,Borussia Dortmund,Matthias Ginter,Sven Bender ,54:25,3265
+29362790,5547,RSC Anderlecht,Leander Dendoncker,Dennis Praet,87:36,5256
+29362790,5549,Arsenal,Lukas Podolski,Jack Wilshere,83:05,4985
+29362790,5550,RSC Anderlecht,Matías Suárez,Cyriac,82:55,4975
+29362790,5564,Arsenal,Alex Oxlade-Chamberlain,Mathieu Flamini,74:25,4465
+29362790,5565,Arsenal,Joel Campbell,Danny Welbeck,74:15,4455
+29362797,5654,Malmö FF,Pa Konate,Ricardinho,90:00 +0:06,5406
+29362797,5658,Malmö FF,Simon Thern,Magnus Eriksson,86:36,5196
+29362797,5672,Atlético de Madrid,Alessio Cerci,Mario Mandzukic,76:30,4590
+29362797,5676,Atlético de Madrid,Cristian Rodríguez,Antoine Griezmann,71:56,4316
+29362797,5682,Atlético de Madrid,Raúl García,Arda Turan,67:50,4070
+29362797,5686,Malmö FF,Simon Kroon,Emil Forsberg,65:55,3955
+29362804,5770,Olympiakos,Konstantinos Giannoulis,Pajtim Kasami,90:00 +0:27,5427
+29362804,5775,Juventus,Sebastian Giovinco,Paul Pogba,86:14,5174
+29362804,5780,Olympiakos,David Fuster,Alejandro Domínguez,84:29,5069
+29362804,5792,Juventus,Roberto Pereyra,Angelo Ogbonna,76:49,4609
+29362804,5802,Olympiakos,Ibrahim Afellay,Kostas Mitroglou,68:26,4106
+29362804,5819,Juventus,Claudio Marchisio,Andrea Pirlo,56:43,3403
+29362811,5895,Real Madrid,Nacho,Marcelo,84:09,5049
+29362811,5898,Real Madrid,Asier Illarramendi,Toni Kroos,81:04,4864
+29362811,5904,Real Madrid,Sami Khedira,Cristiano Ronaldo,74:29,4469
+29362811,5910,Liverpool,Lazar Markovic,Philippe Coutinho,66:57,4017
+29362811,5911,Liverpool,Emre Can,Jordan Henderson,66:29,3989
+29362811,5931,Liverpool,Adam Lallana,Mario Balotelli,45:00,2700
+29362818,5985,FC Basel,Giovanni Sio,Derlis González,86:43,5203
+29362818,5995,FC Basel,Ahmed Hamoudi,Davide Callà,83:13,4993
+29362818,5999,Ludogorets Razgrad,Wanderson,Mihail Aleksandrov,80:30,4830
+29362818,6002,Ludogorets Razgrad,Virgil Misidjan,Dani Abalo,76:18,4578
+29362818,6005,FC Basel,Arlind Ajeti,Naser Aliji,74:20,4460
+29362818,6011,Ludogorets Razgrad,Hamza Younes,Roman Bezjak,67:00,4020
+29362835,6105,Bayer 04 Leverkusen,Robbie Kruse,Stefan Kießling,90:00 +1:00,5460
+29362835,6107,Zenit St Petersburg,Andrey Arshavin,Oleg Shatov,86:32,5192
+29362835,6121,Zenit St Petersburg,Aleksandr Ryazantsev,Danny,78:58,4738
+29362835,6122,Zenit St Petersburg,Salomón Rondón,Alexander Kerzhakov,78:38,4718
+29362835,6143,Bayer 04 Leverkusen,Sebastian Boenisch,Tin Jedvaj,64:25,3865
+29362835,6155,Bayer 04 Leverkusen,Josip Drmic,Julian Brandt,52:15,3135
+29362842,6237,Benfica,Bebé,Nicolás Gaitán,90:00 +0:15,5415
+29362842,6241,Monaco,Valère Germain,Geoffrey Kondogbia,86:00,5160
+29362842,6242,Benfica,Bryan Cristante,Derley,85:52,5152
+29362842,6265,Monaco,Anthony Martial,Lacina Traoré,71:26,4286
+29362842,6277,Monaco,Nabil Dirar,Lucas Ocampos,62:05,3725
+29362842,6278,Benfica,Lima,Andreas Samaris,61:46,3706
+29362849,6378,Arsenal,Lukas Podolski,Danny Welbeck,81:20,4880
+29362849,6379,Arsenal,Tomas Rosicky,Alex Oxlade-Chamberlain,81:00,4860
+29362849,6402,Arsenal,Mathieu Flamini,Mikel Arteta,61:20,3680
+29362849,6403,RSC Anderlecht,Aleksandar Mitrovic,Cyriac,61:06,3666
+29362849,6409,RSC Anderlecht,Leander Dendoncker,Chancel Mbemba Mangulu ,53:39,3219
+29362849,6415,RSC Anderlecht,Andy Kawaya,Ibrahima Conte,45:00,2700
+29362856,6475,Borussia Dortmund,Adrián Ramos,Sven Bender,83:34,5014
+29362856,6476,Galatasaray,Burak Yilmaz,Umut Bulut,82:57,4977
+29362856,6478,Galatasaray,Yasin Öztekin,Hamit Altintop,80:27,4827
+29362856,6489,Borussia Dortmund,Ciro Immobile,Marco Reus,69:22,4162
+29362856,6500,Borussia Dortmund,Ilkay Gündogan,Shinji Kagawa,61:40,3700
+29362863,6576,Juventus,Roberto Pereyra,Kwadwo Asamoah ,82:39,4959
+29362863,6577,Olympiakos,Dimitrios Diamantakos,Giannis Maniatis,82:30,4950
+29362863,6591,Olympiakos,Pajtim Kasami,Delvin Ndinga,77:03,4623
+29362863,6597,Olympiakos,David Fuster,Alejandro Domínguez,71:06,4266
+29362863,6599,Juventus,Simone Padoin,Claudio Marchisio,70:08,4208
+29362863,6612,Juventus,Fernando Llorente,Álvaro Morata,57:13,3433
+29362870,6683,Malmö FF,Simon Thern,Emil Forsberg,85:58,5158
+29362870,6706,Atlético de Madrid,Cristian Rodríguez,Arda Turan,75:57,4557
+29362870,6710,Atlético de Madrid,Antoine Griezmann,Mario Mandzukic,68:57,4137
+29362870,6714,Malmö FF,Simon Kroon,Erik Johansson ,63:22,3802
+29362877,6805,FC Basel,Marcelo Díaz,Fabian Frei,80:05,4805
+29362877,6811,FC Basel,Matías Delgado,Shkelzen Gashi,73:08,4388
+29362877,6814,FC Basel,Davide Callà,Derlis González,68:27,4107
+29362877,6820,Ludogorets Razgrad,Anicet,Fábio Espinho,63:12,3792
+29362877,6840,Ludogorets Razgrad,Hamza Younes,Roman Bezjak,45:00,2700
+29362877,6866,Ludogorets Razgrad,Alex Aleksandrov,Cosmin Moti ,20:52,1252
+29362894,6896,Real Madrid,Javier Hernández,Karim Benzema,86:50,5210
+29362894,6902,Real Madrid,Nacho,Álvaro Arbeloa,82:58,4978
+29362894,6910,Liverpool,Philippe Coutinho,Emre Can,74:16,4456
+29362894,6920,Liverpool,Steven Gerrard,Lucas Leiva,68:53,4133
+29362894,6921,Liverpool,Raheem Sterling,Lazar Markovic,68:39,4119
+29362894,6927,Real Madrid,Gareth Bale,James Rodríguez,61:58,3718
+29362901,6995,Barcelona,Adriano,Dani Alves,82:40,4960
+29362901,6997,Barcelona,Rafinha,Ivan Rakitic,79:43,4783
+29362901,6998,Ajax,Stefano Denswil,Thulani Serero,79:15,4755
+29362901,7002,Barcelona,Pedro,Neymar,74:20,4460
+29362901,7004,Ajax,Jaïro Riedewald,Lucas Andersen,71:53,4313
+29362901,7012,Ajax,Arkadiusz Milik,Kolbeinn Sigthorsson,61:44,3704
+29362908,7092,Paris Saint Germain,Yohan Cabaye,Lucas Moura,85:46,5146
+29362908,7099,Paris Saint Germain,Jean-Christophe Bahebeck,Ezequiel Lavezzi,77:28,4648
+29362908,7112,APOEL Nicosia,Efstathios Aloneftis,Rafik Djebbour,63:25,3805
+29362908,7115,APOEL Nicosia,Tomás De Vincenti,Gustavo Manduca,58:18,3498
+29362908,7124,APOEL Nicosia,Cillian Sheridan,Tiago Gomes,45:00,2700
+29362915,7161,FC Porto,Adrián,Yacine Brahimi,90:00 +0:18,5418
+29362915,7177,FC Porto,Ruben Neves,Óliver,81:01,4861
+29362915,7189,Athletic Club,Borja Viguera,Ibai Gómez,72:29,4349
+29362915,7212,FC Porto,Ricardo Quaresma,Cristian Tello,59:34,3574
+29362915,7229,Athletic Club,Iker Muniain,Markel Susaeta,45:00,2700
+29362915,7230,Athletic Club,Andoni Iraola,Beñat,45:00,2700
+29362922,7316,Shakhtar Donetsk,Bernard,Taison,72:46,4366
+29362922,7322,BATE Borisov,Vitali Rodionov,Nikolai Signevich,69:28,4168
+29362922,7328,Shakhtar Donetsk,Fred,Fernando,65:46,3946
+29362922,7329,Shakhtar Donetsk,Marlos,Viacheslav Shevchuk,63:28,3808
+29362922,7332,BATE Borisov,Maksim Volodko,Evgeni Yablonski,58:38,3518
+29362922,7342,BATE Borisov,Edgar Olekhnovich,Andriy Yakovlev,45:00,2700
+29362929,7393,NK Maribor,Welle N'Diaye,Sintayehu Sallalich,90:00 +1:15,5475
+29362929,7395,NK Maribor,Damjan Bohar,Agim Ibraimi,89:23,5363
+29362929,7421,NK Maribor,Jean Philippe Mendy,Luka Zahovic,72:17,4337
+29362929,7437,Chelsea,Ramires,Filipe Luis,55:08,3308
+29362929,7451,Chelsea,Oscar,Willian,45:00,2700
+29362929,7452,Chelsea,Diego Costa,André Schürrle,45:00,2700
+29362936,7504,Sporting Lisbon,Diego Capel,Nani,88:58,5338
+29362936,7512,Sporting Lisbon,Oriol Rosell,João Mário,81:40,4900
+29362936,7521,FC Schalke 04,Jan Kirchhoff,Christian Fuchs ,77:10,4630
+29362936,7528,FC Schalke 04,Sidney Sam,Chinedu Obasi,68:38,4118
+29362936,7531,Sporting Lisbon,André Carrillo,Carlos Mané,67:40,4060
+29362936,7532,FC Schalke 04,Kevin-Prince Boateng,Max Meyer,64:23,3863
+29362943,7612,FC Bayern München,Pierre-Emile Höjbjerg,Philipp Lahm,87:50,5270
+29362943,7623,FC Bayern München,Sebastian Rode,David Alaba,80:15,4815
+29362943,7628,Roma,Gervinho,Juan Iturbe,73:42,4422
+29362943,7629,FC Bayern München,Xherdan Shaqiri,Xabi Alonso,71:25,4285
+29362943,7643,Roma,Miralem Pjanic,Alessandro Florenzi ,57:38,3458
+29362943,7658,Roma,Ashley Cole,José Holebas,45:00,2700
+29362950,7718,CSKA Moscow,Dmitri Efremov,Alan Dzagoev,85:50,5150
+29362950,7741,CSKA Moscow,Georgi Milanov,Seydou Doumbia,66:05,3965
+29362950,7745,Manchester City,Edin Dzeko,Fernando,64:26,3866
+29362950,7755,Manchester City,Samir Nasri,Jesús Navas,45:00,2700
+29362950,7756,Manchester City,Fernandinho,Stevan Jovetic,45:00,2700
+29362977,7804,FC Porto,Juan Quintero,Jackson Martínez,89:28,5368
+29362977,7808,FC Porto,Adrián,Yacine Brahimi,82:52,4972
+29362977,7819,BATE Borisov,Nikolai Signevich,Vitali Rodionov,74:30,4470
+29362977,7824,BATE Borisov,Ilya Aleksievich,Filip Mladenovic,71:09,4269
+29362977,7825,FC Porto,Cristian Tello,Ricardo Quaresma,70:59,4259
+29362977,7832,BATE Borisov,Dmitry Baga,Aleksandr Karnitski,66:04,3964
+29362984,7909,Roma,Miralem Pjanic,Adem Ljajic,86:46,5206
+29362984,7915,Roma,Kevin Strootman,Radja Nainggolan,82:23,4943
+29362984,7917,CSKA Moscow,Zoran Tosic,Ahmed Musa,80:18,4818
+29362984,7923,Roma,Juan Iturbe,Gervinho,76:35,4595
+29362984,7933,CSKA Moscow,Georgi Milanov,Aleksandrs Cauna,63:24,3804
+29362991,7994,Paris Saint Germain,Lucas Digne,Zlatan Ibrahimovic,85:59,5159
+29362991,8005,Paris Saint Germain,Clément Chantôme,Adrien Rabiot,74:38,4478
+29362991,8013,Ajax,Niki Zimling,Thulani Serero,68:14,4094
+29362991,8014,Paris Saint Germain,Lucas Moura,Ezequiel Lavezzi,67:24,4044
+29362991,8076,Ajax,Nick Viergever,Nicolai Boilesen ,9:59,599
+29362998,8104,Athletic Club,Unai López,Iker Muniain,87:32,5252
+29362998,8120,Shakhtar Donetsk,Fred,Fernando,76:08,4568
+29362998,8134,Shakhtar Donetsk,Bernard,Taison,70:25,4225
+29362998,8139,Shakhtar Donetsk,Marlos,Douglas Costa,67:03,4023
+29362998,8145,Athletic Club,Aritz Aduriz,Markel Susaeta,64:12,3852
+29362998,8190,Athletic Club,Carlos Gurpegi,Xabier Etxeita ,31:24,1884
+29363005,8229,Chelsea,André Schürrle,Cesc Fàbregas,77:50,4670
+29363005,8232,Chelsea,Ramires,Oscar,74:57,4497
+29363005,8241,Chelsea,Didier Drogba,Diego Costa,65:45,3945
+29363005,8244,FC Schalke 04,Max Meyer,Kevin-Prince Boateng,62:52,3772
+29363005,8257,FC Schalke 04,Christian Clemens,Jan Kirchhoff,45:00,2700
+29363022,8326,Sporting Lisbon,André Martins,João Mário,81:44,4904
+29363022,8337,NK Maribor,Jean Philippe Mendy,Luka Zahovic,75:39,4539
+29363022,8340,Sporting Lisbon,Fredy Montero,Islam Slimani,74:40,4480
+29363022,8349,NK Maribor,Damjan Bohar,Sintayehu Sallalich,69:06,4146
+29363022,8353,Sporting Lisbon,André Carrillo,Carlos Mané,66:10,3970
+29363022,8385,NK Maribor,Agim Ibraimi,Dare Vrsic,45:00,2700
+29363029,8437,Manchester City,Martín Demichelis,Sergio Agüero,90:00 +3:21,5601
+29363029,8450,FC Bayern München,Xherdan Shaqiri,Robert Lewandowski,83:40,5020
+29363029,8453,FC Bayern München,Bastian Schweinsteiger,Franck Ribéry,80:10,4810
+29363029,8468,Manchester City,Pablo Zabaleta,Bacary Sagna,67:38,4058
+29363029,8469,Manchester City,Stevan Jovetic,James Milner,65:28,3928
+29363029,8515,FC Bayern München,Dante,Sebastian Rode,24:25,1465
+29363037,8544,Arsenal,Joel Campbell,Alex Oxlade-Chamberlain,89:10,5350
+29363037,8556,Arsenal,Lukas Podolski,Yaya Sanogo ,78:50,4730
+29363037,8558,Borussia Dortmund,Milos Jojic,Kevin Großkreutz,77:45,4665
+29363037,8570,Arsenal,Mathieu Flamini,Mikel Arteta ,66:10,3970
+29363037,8580,Borussia Dortmund,Adrián Ramos,Pierre-Emerick Aubameyang,60:27,3627
+29363037,8581,Borussia Dortmund,Shinji Kagawa,Ciro Immobile,60:19,3619
+29363038,8649,Benfica,Ola John,Andreas Samaris,81:14,4874
+29363038,8664,Benfica,Derley,Anderson Talisca,69:20,4160
+29363038,8671,Zenit St Petersburg,Oleg Shatov,Aleksandr Ryazantsev,64:01,3841
+29363038,8675,Zenit St Petersburg,Viktor Faizulin,Javi García ,57:54,3474
+29363038,8721,Zenit St Petersburg,Luís Neto,Nicolas Lombaerts ,22:50,1370
+29363064,8783,Olympiakos,Andreas Bouchalakis,Alejandro Domínguez,71:33,4293
+29363064,8784,Atlético de Madrid,Antoine Griezmann,Mario Mandzukic,68:55,4135
+29363064,8788,Atlético de Madrid,Raúl Jiménez,Arda Turan,65:55,3955
+29363064,8811,Atlético de Madrid,Mario Suárez,Tiago,45:00,2700
+29363064,8812,Olympiakos,David Fuster,Giannis Maniatis,45:00,2700
+29363064,8813,Olympiakos,Pajtim Kasami,Ibrahim Afellay,45:00,2700
+29363078,8868,Monaco,Lacina Traoré,Dimitar Berbatov,90:00 +0:01,5401
+29363078,8880,Monaco,Fabinho,Nabil Dirar,82:43,4963
+29363078,8884,Bayer 04 Leverkusen,Julian Brandt,Karim Bellarabi,76:07,4567
+29363078,8885,Bayer 04 Leverkusen,Simon Rolfes,Lars Bender,75:50,4550
+29363078,8889,Monaco,Lucas Ocampos,Yannick Ferreira-Carrasco,69:31,4171
+29363078,8898,Bayer 04 Leverkusen,Josip Drmic,Heung-Min Son,58:55,3535
+29363092,8993,Liverpool,Alberto Moreno,Raheem Sterling,81:46,4906
+29363092,8996,Ludogorets Razgrad,Hamza Younes,Fábio Espinho,80:11,4811
+29363092,9005,Ludogorets Razgrad,Wanderson,Mihail Aleksandrov,71:50,4310
+29363092,9009,Ludogorets Razgrad,Juninho Quixadá,Dani Abalo,68:49,4129
+29363106,9110,Malmö FF,Erdal Rakip,Anton Tinnerholm,84:48,5088
+29363106,9116,Juventus,Roberto Pereyra,Claudio Marchisio,82:55,4975
+29363106,9128,Juventus,Álvaro Morata,Fernando Llorente,71:33,4293
+29363106,9130,Malmö FF,Pawel Cibicki,Isaac Thelin,69:14,4154
+29363492,9213,CSKA Moscow,Dmitri Efremov,Ahmed Musa,89:34,5374
+29363492,9219,CSKA Moscow,Georgi Milanov,Roman Eremenko,81:55,4915
+29363492,9234,FC Bayern München,Mitchell Weiser,Gianluca Gaudino,72:30,4350
+29363492,9248,CSKA Moscow,Zoran Tosic,Bebras Natcho,65:18,3918
+29363492,9267,FC Bayern München,Robert Lewandowski,Franck Ribéry,45:00,2700
+29363492,9268,FC Bayern München,Arjen Robben,Thomas Müller,45:00,2700
+29363509,9311,Shakhtar Donetsk,Fernando,Taras Stepanenko,85:25,5125
+29363509,9330,FC Porto,Óliver,Juan Quintero,68:16,4096
+29363509,9333,Shakhtar Donetsk,Taison,Bernard,66:01,3961
+29363509,9334,Shakhtar Donetsk,Marlos,Douglas Costa,65:52,3952
+29363509,9357,FC Porto,Kelvin,Adrián,52:45,3165
+29363509,9385,FC Porto,Bruno Martins Indi,Ruben Neves,40:21,2421
+29363523,9515,Manchester City,Aleksandar Kolarov,Samir Nasri,88:26,5306
+29363523,9522,Roma,Alessandro Florenzi,Maicon,78:33,4713
+29363523,9524,Manchester City,Stevan Jovetic,Edin Dzeko,77:50,4670
+29363523,9537,Roma,Mattia Destro,Francesco Totti,69:56,4196
+29363523,9541,Manchester City,David Silva,Jesús Navas,66:49,4009
+29363523,9542,Roma,Juan Iturbe,Adem Ljajic,66:23,3983
+29363530,9629,Olympiakos,Dimitrios Siovas,Alejandro Domínguez,89:19,5359
+29363530,9630,Olympiakos,Jorge Benítez,Kostas Mitroglou,88:00,5280
+29363530,9641,Malmö FF,Pawel Cibicki,Isaac Thelin,79:48,4788
+29363530,9644,Olympiakos,Ibrahim Afellay,David Fuster,76:45,4605
+29363530,9646,Malmö FF,Simon Thern,Magnus Eriksson,74:12,4452
+29363530,9672,Malmö FF,Simon Kroon,Pa Konate,56:07,3367
+29363537,9748,FC Basel,Walter Samuel,Luca Zuffi,87:11,5231
+29363537,9755,FC Basel,Marcelo Díaz,Mohamed Elneny,82:59,4979
+29363537,9768,FC Basel,Breel Embolo,Marco Streller,73:30,4410
+29363537,9769,Liverpool,Philippe Coutinho,Lucas Leiva,73:15,4395
+29363537,9811,Liverpool,Lazar Markovic,Rickie Lambert,45:00,2700
+29363537,9812,Liverpool,Alberto Moreno,José Enrique,45:00,2700
+29363544,9873,Real Madrid,Álvaro Medrán,Gareth Bale ,82:23,4943
+29363544,9891,Ludogorets Razgrad,Juninho Quixadá,Virgil Misidjan,71:03,4263
+29363544,9899,Ludogorets Razgrad,Anicet,Fábio Espinho,62:36,3756
+29363544,9902,Ludogorets Razgrad,Wanderson,Mihail Aleksandrov,60:20,3620
+29363544,9903,Real Madrid,Jesé,Toni Kroos,59:45,3585
+29363544,9904,Real Madrid,Marcelo,Fábio Coentrão,59:18,3558
+29363551,9970,FC Schalke 04,Marvin Friedrich,Klaas-Jan Huntelaar,90:00 +1:26,5486
+29363551,9973,FC Schalke 04,Kaan Ayhan,Marco Höger ,87:28,5248
+29363551,9980,NK Maribor,Luka Zahovic,Agim Ibraimi,82:05,4925
+29363551,9987,NK Maribor,Dare Vrsic,Petar Stojanovic,75:44,4544
+29363551,9996,NK Maribor,Jean Philippe Mendy,Sintayehu Sallalich,64:39,3879
+29363551,10011,FC Schalke 04,Max Meyer,Tranquillo Barnetta,55:44,3344
+29363558,10078,Ajax,Richairo Zivkovic,Arkadiusz Milik,84:05,5045
+29363558,10091,Ajax,Anwar El Ghazi,Lasse Schöne,74:22,4462
+29363558,10095,APOEL Nicosia,Kostakis Artymatas,Nuno Morais,71:18,4278
+29363558,10097,Ajax,Jaïro Riedewald,Lucas Andersen,67:21,4041
+29363558,10100,APOEL Nicosia,Efstathios Aloneftis,Georgios Efrem,64:44,3884
+29363558,10101,APOEL Nicosia,Pieros Sotiriou,Cillian Sheridan,64:19,3859
+29363565,10160,Athletic Club,Borja Viguera,Ibai Gómez,86:28,5188
+29363565,10165,BATE Borisov,Dmitri Likhtarovich,Vitali Rodionov,83:02,4982
+29363565,10167,Athletic Club,Aritz Aduriz,Guillermo,77:48,4668
+29363565,10168,BATE Borisov,Dmitry Baga,Evgeni Yablonski,76:21,4581
+29363565,10170,Athletic Club,Unai López,Andoni Iraola ,75:14,4514
+29363565,10191,BATE Borisov,Nikolai Signevich,Aleksandr Volodko,59:53,3593
+29363780,10267,Barcelona,Sergio Busquets,Luis Suárez,76:07,4567
+29363780,10270,APOEL Nicosia,Rafik Djebbour,Vinicius,73:19,4399
+29363780,10282,APOEL Nicosia,Tomás De Vincenti,Gustavo Manduca,62:06,3726
+29363780,10283,Barcelona,Adriano,Jordi Alba,61:57,3717
+29363780,10284,Barcelona,Xavi,Ivan Rakitic,61:29,3689
+29363780,10298,APOEL Nicosia,Georgios Efrem,Efstathios Aloneftis,45:00,2700
+29363787,10344,Real Madrid,Nacho,Isco,90:00 +2:10,5530
+29363787,10349,Real Madrid,Marcelo,James Rodríguez,88:17,5297
+29363787,10350,FC Basel,Yoichiro Kakitani,Luca Zuffi,86:06,5166
+29363787,10354,FC Basel,Marcelo Díaz,Fabian Frei,82:46,4966
+29363787,10367,FC Basel,Ahmed Hamoudi,Philipp Degen,75:48,4548
+29363787,10377,Real Madrid,Asier Illarramendi,Karim Benzema,70:27,4227
+29363804,10468,Benfica,João Teixeira,Bebé,87:03,5223
+29363804,10478,Bayer 04 Leverkusen,Stefan Kießling,Simon Rolfes,82:44,4964
+29363804,10488,Benfica,Nélson Oliveira,Derley,75:10,4510
+29363804,10495,Bayer 04 Leverkusen,Heung-Min Son,Josip Drmic,70:21,4221
+29363804,10499,Benfica,Anderson Talisca,Lima,62:10,3730
+29363804,10509,Bayer 04 Leverkusen,Julian Brandt,Robbie Kruse,45:00,2700
+29363821,10569,Monaco,Lucas Ocampos,Yannick Ferreira-Carrasco,90:00 +2:01,5521
+29363821,10575,Monaco,Bernardo Silva,Nabil Dirar,89:59,5399
+29363821,10595,Zenit St Petersburg,Oleg Shatov,Viktor Faizulin,68:05,4085
+29363821,10617,Monaco,Anthony Martial,Dimitar Berbatov,55:44,3344
+29363838,10670,RSC Anderlecht,Michael Heylen,Aleksandar Mitrovic,88:39,5319
+29363838,10673,Borussia Dortmund,Jakub Blaszczykowski,Shinji Kagawa,84:56,5096
+29363838,10682,RSC Anderlecht,Cyriac,Ibrahima Conte,78:17,4697
+29363838,10683,Borussia Dortmund,Pierre-Emerick Aubameyang,Marcel Schmelzer,74:41,4481
+29363838,10692,RSC Anderlecht,Youri Tielemans,Sacha Kljestan,68:35,4115
+29363838,10694,Borussia Dortmund,Oliver Kirch,Ilkay Gündogan,65:08,3908
+29363845,10770,Galatasaray,Olcan Adin,Bruma,76:25,4585
+29363845,10771,Arsenal,Stefan O'Connor,Mathieu Debuchy,76:10,4570
+29363845,10801,Galatasaray,Yasin Öztekin,Burak Yilmaz,45:00,2700
+29363845,10802,Galatasaray,Hamit Altintop,Tarik Camdal,45:00,2700
+29363845,10803,Arsenal,Ainsley Maitland-Niles,Aaron Ramsey,45:00,2700
+29363845,10804,Arsenal,Gedion Zelalem,Mathieu Flamini,45:00,2700
+29363852,10879,Barcelona,Adriano,Marc Bartra,90:00 +1:53,5513
+29363852,10896,Paris Saint Germain,Ezequiel Lavezzi,Blaise Matuidi,74:12,4452
+29363852,10899,Barcelona,Xavi,Andrés Iniesta,72:58,4378
+29363852,10903,Barcelona,Ivan Rakitic,Pedro,67:09,4029
+29363852,10904,Paris Saint Germain,Javier Pastore,Marco Verratti,61:55,3715
+29363859,10983,Chelsea,Ruben Loftus-Cheek,Cesc Fàbregas,82:38,4958
+29363859,10998,Chelsea,Ramires,André Schürrle,73:41,4421
+29363859,11002,Chelsea,Loïc Remy,Mohamed Salah,70:43,4243
+29363859,11003,Sporting Lisbon,André Martins,João Mário,69:11,4151
+29363859,11015,Sporting Lisbon,Fredy Montero,William Carvalho,60:08,3608
+29363859,11016,Sporting Lisbon,Carlos Mané,Diego Capel,59:55,3595
+31491679,11086,Chelsea,Oscar,Cesc Fàbregas,82:59,4979
+31491679,11088,Paris Saint Germain,Javier Pastore,Ezequiel Lavezzi,80:47,4847
+31491679,11089,Chelsea,Loïc Remy,Diego Costa,80:34,4834
+31491679,11091,Chelsea,Juan Cuadrado,Willian ,78:34,4714
+31491686,11201,Shakhtar Donetsk,Olexandr Gladkiy,Luiz Adriano,88:18,5298
+31491686,11209,Shakhtar Donetsk,Wellington Nem,Taison,83:23,5003
+31491686,11221,Shakhtar Donetsk,Marlos,Douglas Costa,77:13,4633
+31491686,11225,FC Bayern München,Robert Lewandowski,Mario Götze,74:12,4452
+31491686,11230,FC Bayern München,Holger Badstuber,Thomas Müller,69:13,4153
+31513358,11306,Real Madrid,Asier Illarramendi,Isco,84:17,5057
+31513358,11307,Real Madrid,Álvaro Arbeloa,Daniel Carvajal,81:36,4896
+31513358,11309,FC Schalke 04,Max Meyer,Marco Höger,79:30,4770
+31513358,11311,Real Madrid,Javier Hernández,Karim Benzema,77:58,4678
+31513358,11331,FC Schalke 04,Jan Kirchhoff,Roman Neustädter,56:26,3386
+31513358,11362,FC Schalke 04,Felix Platte,Klaas-Jan Huntelaar ,32:18,1938
+31513365,11412,FC Basel,Ahmed Hamoudi,Shkelzen Gashi,82:25,4945
+31513365,11413,FC Porto,Juan Quintero,Cristian Tello,80:45,4845
+31513365,11422,FC Porto,Ruben Neves,Óliver ,67:43,4063
+31513365,11428,FC Basel,Breel Embolo,Marco Streller,62:36,3756
+31513365,11432,FC Porto,Ricardo Quaresma,Yacine Brahimi,60:31,3631
+31513365,11487,FC Basel,Davide Callà,Derlis González ,24:11,1451
+31590794,11524,Juventus,Kingsley Coman,Carlos Tévez,88:46,5326
+31590794,11525,Juventus,Simone Padoin,Arturo Vidal,85:59,5159
+31590794,11540,Borussia Dortmund,Jakub Blaszczykowski,Ciro Immobile,75:09,4509
+31590794,11573,Borussia Dortmund,Oliver Kirch,Sokratis,45:00,2700
+31590794,11581,Juventus,Roberto Pereyra,Andrea Pirlo ,36:16,2176
+31590794,11584,Borussia Dortmund,Matthias Ginter,Lukasz Piszczek ,31:27,1887
+31590801,11633,Barcelona,Pedro,Neymar,79:33,4773
+31590801,11640,Manchester City,Bacary Sagna,David Silva,77:23,4643
+31590801,11643,Barcelona,Adriano,Dani Alves ,74:20,4460
+31590801,11649,Barcelona,Jeremy Mathieu,Ivan Rakitic,70:58,4258
+31590801,11654,Manchester City,Wilfried Bony,Edin Dzeko,67:18,4038
+31590801,11660,Manchester City,Fernandinho,Samir Nasri,61:03,3663
+31608951,11740,Monaco,Bernardo Silva,Anthony Martial,83:50,5030
+31608951,11742,Monaco,Layvin Kurzawa,Nabil Dirar,81:39,4899
+31608951,11743,Arsenal,Tomas Rosicky,Santiago Cazorla,80:56,4856
+31608951,11746,Monaco,Yannick Ferreira-Carrasco,Dimitar Berbatov,74:56,4496
+31608951,11750,Arsenal,Alex Oxlade-Chamberlain,Francis Coquelin,67:38,4058
+31608951,11760,Arsenal,Theo Walcott,Olivier Giroud,59:30,3570
+31608958,11833,Bayer 04 Leverkusen,Julian Brandt,Hakan Calhanoglu,86:49,5209
+31608958,11843,Bayer 04 Leverkusen,Stefan Kießling,Josip Drmic,79:51,4791
+31608958,11857,Bayer 04 Leverkusen,Simon Rolfes,Lars Bender,67:12,4032
+31608958,11860,Atlético de Madrid,Fernando Torres,Arda Turan,63:46,3826
+31608958,11895,Atlético de Madrid,Raúl García,Saúl Ñíguez ,41:49,2509
+31608958,11900,Atlético de Madrid,Jesús Gámez,Guillherme Siqueira ,37:43,2263
+31802502,11963,Real Madrid,Nacho,Álvaro Arbeloa,82:08,4928
+31802502,11966,FC Schalke 04,Atsuto Uchida,Tranquillo Barnetta,80:14,4814
+31802502,11981,Real Madrid,Marcelo,Fábio Coentrão,57:30,3450
+31802502,11982,Real Madrid,Luka Modric,Sami Khedira,57:14,3434
+31802502,11983,FC Schalke 04,Leon Goretzka,Marco Höger,56:50,3410
+31802502,12021,FC Schalke 04,Leroy Sané,Eric Choupo-Moting ,28:52,1732
+31803965,12052,FC Porto,Ricardo Quaresma,Evandro Goebel,78:59,4739
+31803965,12053,FC Basel,Davide Callà,Shkelzen Gashi,76:54,4614
+31803965,12058,FC Porto,Ruben Neves,Yacine Brahimi,73:25,4405
+31803965,12061,FC Basel,Yoichiro Kakitani,Fabian Frei,62:23,3743
+31803965,12066,FC Basel,Breel Embolo,Fabian Schär,56:58,3418
+31803965,12115,FC Porto,Martins Indi,Danilo ,21:18,1278
+31816148,12138,Paris Saint Germain,Gregory Van der Wiel,Javier Pastore,17:23,1043
+31816148,12174,Chelsea,Didier Drogba,Ramires,90:00,5400
+31816148,12184,Chelsea,Kurt Zouma,Nemanja Matic ,83:46,5026
+31816148,12189,Paris Saint Germain,Adrien Rabiot,Marco Verratti,81:02,4862
+31816148,12190,Paris Saint Germain,Ezequiel Lavezzi,Blaise Matuidi,81:00,4860
+31816148,12246,Chelsea,Willian,Oscar,45:00,2700
+31816155,12306,Shakhtar Donetsk,Wellington Nem,Douglas Costa,78:03,4683
+31816155,12312,Shakhtar Donetsk,Ilsinho,Alex Teixeira,69:06,4146
+31816155,12317,FC Bayern München,Dante,Holger Badstuber,66:06,3966
+31816155,12322,FC Bayern München,Juan Bernat,Franck Ribéry ,58:58,3538
+31816155,12369,FC Bayern München,Sebastian Rode,Arjen Robben ,18:38,1118
+31816155,12382,Shakhtar Donetsk,Sergey Krivtsov,Taison,8:22,502
+31911679,12426,Bayer 04 Leverkusen,Kyriakos Papadopoulos,Lars Bender,03:58,238
+31911679,12448,Atlético de Madrid,Fernando Torres,Mario Mandzukic,82:57,4977
+31911679,12455,Bayer 04 Leverkusen,Simon Rolfes,Heung-Min Son,76:33,4593
+31911679,12470,Bayer 04 Leverkusen,Stefan Kießling,Josip Drmic,68:35,4115
+31911679,12498,Atlético de Madrid,Raúl García,Cani,45:00,2700
+31911679,12526,Atlético de Madrid,Jan Oblak,Moyá ,22:08,1328
+31913128,12551,Monaco,Elderson Echiéjilé,Nabil Dirar,85:46,5146
+31913128,12555,Arsenal,Kieran Gibbs,Nacho Monreal,82:15,4935
+31913128,12570,Arsenal,Theo Walcott,Danny Welbeck,71:07,4267
+31913128,12573,Monaco,Bernardo Silva,Dimitar Berbatov,69:14,4154
+31913128,12578,Arsenal,Aaron Ramsey,Francis Coquelin,62:16,3736
+31913128,12583,Monaco,Yannick Ferreira-Carrasco,Anthony Martial,59:04,3544
+31922160,12641,Barcelona,Adriano,Dani Alves,90:00 +1:00,5460
+31922160,12645,Manchester City,Frank Lampard,James Milner,86:16,5176
+31922160,12649,Barcelona,Rafinha,Ivan Rakitic,83:29,5009
+31922160,12669,Manchester City,Wilfried Bony,Yaya Touré,71:08,4268
+31922160,12698,Manchester City,Jesús Navas,Samir Nasri,45:00,2700
+31922167,12751,Juventus,Simone Pepe,Carlos Tévez,80:47,4847
+31922167,12754,Juventus,Alessandro Matri,Álvaro Morata,77:34,4654
+31922167,12768,Borussia Dortmund,Jakub Blaszczykowski,Henrikh Mkhitaryan,62:59,3779
+31922167,12769,Borussia Dortmund,Adrián Ramos,Sven Bender,62:55,3775
+31922167,12786,Borussia Dortmund,Oliver Kirch,Marcel Schmelzer,45:00,2700
+31922167,12799,Juventus,Andrea Barzagli,Paul Pogba ,26:27,1587
+32289606,12839,Real Madrid,Álvaro Arbeloa,Daniel Carvajal,84:14,5054
+32289606,12843,Atlético de Madrid,Fernando Torres,Koke,82:37,4957
+32289606,12850,Atlético de Madrid,Raúl García,Antoine Griezmann,76:29,4589
+32289606,12853,Real Madrid,Isco,Karim Benzema,75:18,4518
+32289613,12948,Juventus,Stefano Sturaro,Roberto Pereyra,86:40,5200
+32289613,12949,Monaco,Matheus Carvalho,Anthony Martial,86:17,5177
+32289613,12955,Juventus,Alessandro Matri,Álvaro Morata,82:11,4931
+32289613,12961,Juventus,Andrea Barzagli,Andrea Pirlo,73:43,4423
+32289613,12964,Monaco,Dimitar Berbatov,Andrea Raggi,70:31,4231
+32289613,12985,Monaco,Bernardo Silva,Nabil Dirar ,50:30,3030
+32295979,13050,FC Porto,Evandro Goebel,Ricardo Quaresma,83:50,5030
+32295979,13056,FC Porto,Hernani,Yacine Brahimi,79:06,4746
+32295979,13059,FC Porto,Ruben Neves,Óliver,74:26,4466
+32295979,13062,FC Bayern München,Holger Badstuber,Xabi Alonso,73:08,4388
+32295979,13077,FC Bayern München,Sebastian Rode,Mario Götze,55:55,3355
+32295986,13168,Barcelona,Adriano,Martín Montoya,79:41,4781
+32295986,13172,Barcelona,Jeremy Mathieu,Ivan Rakitic,73:28,4408
+32295986,13189,Paris Saint-Germain,Lucas Moura,Adrien Rabiot,64:51,3891
+32295986,13206,Barcelona,Xavi,Andrés Iniesta ,52:30,3150
+32295986,13243,Paris Saint-Germain,David Luiz,Thiago Silva ,20:37,1237
+32380834,13262,Paris Saint-Germain,Adrien Rabiot,Blaise Matuidi,79:21,4761
+32380834,13263,Paris Saint-Germain,Ezequiel Lavezzi,Edinson Cavani,79:07,4747
+32380834,13267,Barcelona,Pedro,Luis Suárez,74:20,4460
+32380834,13283,Paris Saint-Germain,Lucas Moura,Yohan Cabaye,65:56,3956
+32380834,13294,Barcelona,Sergi Roberto,Sergio Busquets,54:24,3264
+32380834,13304,Barcelona,Xavi,Andrés Iniesta,45:00,2700
+32380841,13349,FC Bayern München,Dante,Thiago Alcántara,89:42,5382
+32380841,13354,FC Bayern München,Mitchell Weiser,Mario Götze,85:53,5153
+32380841,13378,FC Bayern München,Sebastian Rode,Rafinha ,71:45,4305
+32380841,13385,FC Porto,Evandro Goebel,Yacine Brahimi,66:48,4008
+32380841,13406,FC Porto,Ruben Neves,Ricardo Quaresma,45:00,2700
+32380841,13432,FC Porto,Ricardo Pereira,Diego Reyes,32:16,1936
+32384894,13475,Real Madrid,Asier Illarramendi,Isco,90:00 +2:56,5576
+32384894,13479,Real Madrid,Jesé,Javier Hernández ,90:00 +1:08,5468
+32384894,13480,Real Madrid,Álvaro Arbeloa,Fábio Coentrão,90:00 +0:30,5430
+32384894,13483,Atlético de Madrid,Giménez,Tiago,85:23,5123
+32384894,13508,Atlético de Madrid,Raúl García,Antoine Griezmann,64:54,3894
+32384894,13533,Atlético de Madrid,Gabi,Saúl Ñíguez,45:00,2700
+32384921,13595,Juventus,Simone Padoin,Patrice Evra,89:59,5399
+32384921,13601,Monaco,Matheus Carvalho,Yannick Ferreira-Carrasco,86:49,5209
+32384921,13612,Juventus,Roberto Pereyra,Arturo Vidal,76:44,4604
+32384921,13616,Monaco,Valère Germain,Anthony Martial,75:14,4514
+32384921,13622,Juventus,Fernando Llorente,Álvaro Morata,68:32,4112
+32384921,13647,Monaco,Dimitar Berbatov,Jérémy Toulalan,45:00,2700
+32582191,13703,Real Madrid,Jesé,Gareth Bale,85:30,5130
+32582191,13704,Juventus,Roberto Pereyra,Carlos Tévez,85:19,5119
+32582191,13712,Juventus,Fernando Llorente,Álvaro Morata,77:50,4670
+32582191,13727,Juventus,Andrea Barzagli,Stefano Sturaro,63:58,3838
+32582191,13729,Real Madrid,Javier Hernández,Isco,62:44,3764
+32582198,13819,Barcelona,Marc Bartra,Javier Mascherano,88:19,5299
+32582198,13820,Barcelona,Rafinha,Andrés Iniesta,86:30,5190
+32582198,13823,Barcelona,Xavi,Ivan Rakitic,81:53,4913
+32582198,13825,FC Bayern München,Mario Götze,Thomas Müller,78:03,4683
+32683303,13921,Juventus,Roberto Pereyra,Paul Pogba,88:09,5289
+32683303,13926,Juventus,Fernando Llorente,Álvaro Morata,83:39,5019
+32683303,13932,Juventus,Andrea Barzagli,Andrea Pirlo,78:47,4727
+32683303,13943,Real Madrid,Javier Hernández,Karim Benzema,66:06,3966
+32683310,14020,FC Bayern München,Mario Götze,Thomas Müller,86:52,5212
+32683310,14021,FC Bayern München,Javi Martínez,Bastian Schweinsteiger,86:41,5201
+32683310,14042,Barcelona,Xavi,Andrés Iniesta,74:07,4447
+32683310,14044,Barcelona,Jeremy Mathieu,Ivan Rakitic,71:04,4264
+32683310,14048,FC Bayern München,Sebastian Rode,Philipp Lahm,67:19,4039
+32683310,14074,Barcelona,Pedro,Luis Suárez,45:00,2700

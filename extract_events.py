@@ -5,10 +5,10 @@ import itertools
 
 import os, glob
 import sys
-# matches = [f.split("/")[-1] for f in glob.glob('data/raw/[0-9]*') if os.path.isfile(f) ]
+matches = [f.split("/")[-1] for f in glob.glob('data/raw/[0-9]*') if os.path.isfile(f) ]
 
 
-matches = ["32683310"]
+# matches = ["32683310"]
 # matches = ["32683310", "32683303"]
 # matches = ["32683310", "32683303", "32384894", "31816155"]
 
@@ -18,49 +18,24 @@ for match_id in matches:
 
 timed_events = list(format_time(raw_events))
 
-# for event in timed_events:
-#     print event
-
-# for event in timed_events:
-#     print event
+# with open('data/matches.csv', "w") as file:
+#     writer = csv.writer(file, delimiter=",")
+#     writer.writerow(["matchId", "home", "away", "homeScore", "awayScore"])
 #
-
-# match_id = "32683310"
-# events = extract_events("data/raw/%s" % (match_id))
-# print type(events)
+#     for match_id, home, away, home_score, away_score in teams(timed_events):
+#         writer.writerow([match_id, home.encode("utf-8"), away.encode("utf-8"), home_score, away_score])
 #
-
-for card_id, associated_foul, player, team, item, card_type in cards2(timed_events):
-    print card_id, associated_foul, player, team, item, card_type
-
-print "*******"
-
-for card_id, associated_foul, player, team, item, card_type in cards(timed_events):
-    print card_id, associated_foul, player, team, item, card_type
-
-sys.exit(1)
-
-with open('data/matches.csv', "w") as file:
-    writer = csv.writer(file, delimiter=",")
-    writer.writerow(["matchId", "home", "away", "homeScore", "awayScore"])
-
-    for match_id, home, away, home_score, away_score in teams(timed_events):
-        writer.writerow([match_id, home.encode("utf-8"), away.encode("utf-8"), home_score, away_score])
-
-# import sys
-# sys.exit(1)
-
-with open("data/fouls.csv", "w") as file:
-    writer = csv.writer(file, delimiter=",")
-    writer.writerow(["matchId", "foulId", "time", "foulLocation", "fouledPlayer",
-                     "fouledPlayerTeam", "foulingPlayer", "foulingPlayerTeam",
-                     "sortableTime"])
-
-    for event_id, entry, fouled in fouls(timed_events):
-        values = [fouled["match_id"], event_id, fouled["formatted_time"], foul_location(fouled["event"]),
-                  fouled_player(fouled["event"]), fouled_player_team(fouled["event"]),
-                  fouling_player(entry["event"]), fouling_player_team(entry["event"])]
-        writer.writerow([value.encode("utf-8") for value in values] + [fouled["sortable_time"]])
+# with open("data/fouls.csv", "w") as file:
+#     writer = csv.writer(file, delimiter=",")
+#     writer.writerow(["matchId", "foulId", "time", "foulLocation", "fouledPlayer",
+#                      "fouledPlayerTeam", "foulingPlayer", "foulingPlayerTeam",
+#                      "sortableTime"])
+#
+#     for event_id, entry, fouled in fouls(timed_events):
+#         values = [fouled["match_id"], event_id, fouled["formatted_time"], foul_location(fouled["event"]),
+#                   fouled_player(fouled["event"]), fouled_player_team(fouled["event"]),
+#                   fouling_player(entry["event"]), fouling_player_team(entry["event"])]
+#         writer.writerow([value.encode("utf-8") for value in values] + [fouled["sortable_time"]])
 
 with open("data/attempts.csv", "w") as file:
     writer = csv.writer(file, delimiter=",")
