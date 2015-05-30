@@ -11,10 +11,12 @@ This project takes us from BBC live text commentary for Champions League 2014/20
 Import the data into Neo4j:
 
 [source, bash]
----
-./neo4j-community-2.2.2/bin/neo4j-shell --file import.cql
----
+----
+cd neo4j-community-2.2.2
+./bin/neo4j-shell --file import.cql
+----
 
+Open http://localhost:7474 and you're good to go
 
 == Working with the data
 
