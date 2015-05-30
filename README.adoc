@@ -1,17 +1,42 @@
-= BBC Live Text Graph
+= BBC Champions League Graph
 
-````
+This project takes us from BBC live text commentary for Champions League 2014/2015 matches to a Neo4j graph containing the events of each match.
+
+== Quick start
+
+* Install the latest version of Neo4j from http://neo4j.com/download/
+* Windows users: Install desktop application & then click the 'start' button
+* Mac/Linux: Unpack the tarball & then `./bin/neo4j start`
+
+Import the data into Neo4j:
+
+[source, bash]
+---
+./neo4j-community-2.2.2/bin/neo4j-shell --file import.cql
+---
+
+
+== Working with the data
+
+If you want to play with the raw data and
+
+Install link:https://virtualenv.pypa.io/en/latest/[virtualenv]  and create a sandbox for this project:
+
+[source, bash]
+----
 virtualenv bbc
-````
-
-````
 source bbc/bin/activate
-````
+----
 
-````
+Install the appropriate libraries:
+
+[source, bash]
+----
 pip install -r requirements.txt
-`````
+----
+
+Download all the matches:
 
 ```
-find_all_matches.py | xargs wget -O data/raw
+python find_all_matches.py | xargs wget -O data/raw
 ```
