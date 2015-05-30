@@ -7,6 +7,8 @@ This project takes us from BBC live text commentary for Champions League 2014/20
 * Install the latest version of Neo4j from http://neo4j.com/download/
 * Windows users: Install desktop application & then click the 'start' button
 * Mac/Linux: Unpack the tarball & then `./bin/neo4j start`
+* Download link:https://raw.githubusercontent.com/mneedham/neo4j-bbc/master/import.cql[import.cql] to your machine
+
 
 Import the data into Neo4j:
 
