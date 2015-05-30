@@ -20,7 +20,7 @@ Open http://localhost:7474 and you're good to go
 
 == Working with the data
 
-If you want to play with the raw data and
+If you want to play with the raw data you'll first need to setup a Python environment.
 
 Install link:https://virtualenv.pypa.io/en/latest/[virtualenv]  and create a sandbox for this project:
 
@@ -39,6 +39,22 @@ pip install -r requirements.txt
 
 Download all the matches:
 
-```
+[source, bash]
+----
 python find_all_matches.py | xargs wget -O data/raw
-```
+----
+
+Generate the CSV files that we import into Neo4j:
+
+[source, bash]
+----
+python extract_players.py
+# players will be written to data/players.csv
+----
+
+
+[source, bash]
+----
+python extract_events.py
+# the other CSV files in data/ will be written
+----
