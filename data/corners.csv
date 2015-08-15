@@ -736,10 +736,10 @@ matchId,attemptId,cornerId,team,concededBy,time,sortableTime
 29363005,,8302,Chelsea,Roman Neustädter,3:48,228
 29363005,8305,8304,Chelsea,Ralf Fährmann,1:03,63
 29363022,8339,8338,Sporting Lisbon,Jasmin Handanovic,75:09,4509
-29363022,8343,8342,Sporting Lisbon,Zeljko Filipovic,73:31,4411
+29363022,8343,8342,Sporting Lisbon,Damjan Bohar,73:31,4411
 29363022,,8358,NK Maribor,Cédric Soares,61:39,3699
 29363022,,8382,NK Maribor,Jefferson,46:47,2807
-29363022,,8383,NK Maribor,Mauricio,45:55,2755
+29363022,,8383,NK Maribor,Mauricio,45:52,2752
 29363022,,8395,Sporting Lisbon,Arghus,38:13,2293
 29363022,,8411,Sporting Lisbon,Arghus,26:28,1588
 29363022,8418,8417,Sporting Lisbon,Jasmin Handanovic,18:03,1083
@@ -1240,7 +1240,7 @@ matchId,attemptId,cornerId,team,concededBy,time,sortableTime
 32683303,,14007,Juventus,Daniel Carvajal,3:23,203
 32683310,,14016,FC Bayern München,Dani Alves,90:00 +1:02,5462
 32683310,14036,14035,FC Bayern München,Gerard Piqué,77:59,4679
-32683310,14090,14089,FC Bayern München,Marc-André ter Stegen,37:28,2248
-32683310,14108,14107,FC Bayern München,Marc-André ter Stegen,18:23,1103
-32683310,14122,14121,FC Bayern München,Gerard Piqué,6:21,381
-32683310,14124,14123,Barcelona,Manuel Neuer,4:31,271
+32683310,14089,14088,FC Bayern München,Marc-André ter Stegen,37:28,2248
+32683310,14107,14106,FC Bayern München,Marc-André ter Stegen,18:23,1103
+32683310,14121,14120,FC Bayern München,Gerard Piqué,6:21,381
+32683310,14123,14122,Barcelona,Manuel Neuer,4:31,271

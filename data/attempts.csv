@@ -1973,7 +1973,7 @@ matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortabl
 29363005,8303,1:26,goal,John Terry,Chelsea,Cesc Fàbregas,86
 29363005,8305,0:59,saved,Diego Costa,Chelsea,Oscar,59
 29363022,8309,90:00 +3:03,saved,William Carvalho,Sporting Lisbon,Nani,5583
-29363022,8310,90:00 +1:33,missed,Jean Philippe Mendy,NK Maribor,Aleksandar Rajcevic,5493
+29363022,8310,90:00 +1:30,missed,Jean Philippe Mendy,NK Maribor,Aleksandar Rajcevic,5490
 29363022,8313,90:00 +0:35,blocked,Marcos Tavares,NK Maribor,Damjan Bohar,5435
 29363022,8318,87:45,missed,Fredy Montero,Sporting Lisbon,,5265
 29363022,8319,87:44,blocked,Fredy Montero,Sporting Lisbon,André Carrillo,5264
@@ -1987,7 +1987,7 @@ matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortabl
 29363022,8341,73:57,missed,Mauricio,Sporting Lisbon,William Carvalho,4437
 29363022,8343,73:29,blocked,Nani,Sporting Lisbon,,4409
 29363022,8352,66:55,saved,Islam Slimani,Sporting Lisbon,Nani,4015
-29363022,8354,64:37,goal,Islam Slimani,Sporting Lisbon,Nani,3877
+29363022,8354,64:36,goal,Islam Slimani,Sporting Lisbon,Nani,3876
 29363022,8370,55:07,missed,Zeljko Filipovic,NK Maribor,Agim Ibraimi,3307
 29363022,8391,41:14,own_goal,Jefferson,Sporting Lisbon,,2474
 29363022,8398,34:48,goal,Nani,Sporting Lisbon,,2088
@@ -1997,8 +1997,8 @@ matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortabl
 29363022,8415,18:34,blocked,João Mário,Sporting Lisbon,,1114
 29363022,8416,18:32,blocked,João Mário,Sporting Lisbon,Nani,1112
 29363022,8418,18:01,saved,Cédric Soares,Sporting Lisbon,Adrien Silva,1081
-29363022,8419,13:56,missed,Adrien Silva,Sporting Lisbon,Nani,836
-29363022,8424,9:09,goal,Carlos Mané,Sporting Lisbon,Jefferson,549
+29363022,8419,13:54,missed,Adrien Silva,Sporting Lisbon,Nani,834
+29363022,8424,9:07,goal,Carlos Mané,Sporting Lisbon,Jefferson,547
 29363022,8427,5:23,saved,Nani,Sporting Lisbon,,323
 29363029,8439,90:00 +0:27,goal,Sergio Agüero,Manchester City,,5427
 29363029,8447,84:51,goal,Sergio Agüero,Manchester City,Stevan Jovetic,5091
@@ -3254,23 +3254,23 @@ matchId,attemptId,time,attemptOutcome,attemptBy,attemptByTeam,assistedBy,sortabl
 32683310,14034,78:24,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,4704
 32683310,14036,77:56,blocked,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,4676
 32683310,14043,73:19,goal,Thomas Müller,FC Bayern München,Bastian Schweinsteiger,4399
-32683310,14052,62:22,missed,Thomas Müller,FC Bayern München,,3742
-32683310,14059,58:45,goal,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,3525
-32683310,14063,56:41,missed,Juan Bernat,FC Bayern München,,3401
-32683310,14064,54:13,missed,Thomas Müller,FC Bayern München,Thiago Alcántara,3253
-32683310,14068,51:32,blocked,Lionel Messi,Barcelona,Dani Alves,3092
-32683310,14079,44:41,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,2681
-32683310,14086,39:01,saved,Robert Lewandowski,FC Bayern München,,2341
-32683310,14087,38:59,blocked,Thiago Alcántara,FC Bayern München,Xabi Alonso,2339
-32683310,14088,37:55,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,2275
-32683310,14090,37:26,saved,Bastian Schweinsteiger,FC Bayern München,Juan Bernat,2246
-32683310,14098,28:48,goal,Neymar,Barcelona,Luis Suárez,1728
-32683310,14099,28:15,saved,Thomas Müller,FC Bayern München,Thiago Alcántara,1695
-32683310,14100,27:34,saved,Lionel Messi,Barcelona,Neymar,1654
-32683310,14101,26:10,saved,Robert Lewandowski,FC Bayern München,Thomas Müller,1570
-32683310,14108,18:20,saved,Thomas Müller,FC Bayern München,Philipp Lahm,1100
-32683310,14114,14:16,goal,Neymar,Barcelona,Luis Suárez,856
-32683310,14115,13:00,missed,Bastian Schweinsteiger,FC Bayern München,Jerome Boateng,780
-32683310,14120,6:47,goal,Medhi Benatia,FC Bayern München,Xabi Alonso,407
-32683310,14122,5:15,blocked,Thiago Alcántara,FC Bayern München,Thomas Müller,315
-32683310,14124,4:18,saved,Ivan Rakitic,Barcelona,Dani Alves,258
+32683310,14051,62:22,missed,Thomas Müller,FC Bayern München,,3742
+32683310,14058,58:45,goal,Robert Lewandowski,FC Bayern München,Bastian Schweinsteiger,3525
+32683310,14062,56:41,missed,Juan Bernat,FC Bayern München,,3401
+32683310,14063,54:13,missed,Thomas Müller,FC Bayern München,Thiago Alcántara,3253
+32683310,14067,51:32,blocked,Lionel Messi,Barcelona,Dani Alves,3092
+32683310,14078,44:41,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,2681
+32683310,14085,39:01,saved,Robert Lewandowski,FC Bayern München,,2341
+32683310,14086,38:59,blocked,Thiago Alcántara,FC Bayern München,Xabi Alonso,2339
+32683310,14087,37:55,missed,Medhi Benatia,FC Bayern München,Xabi Alonso,2275
+32683310,14089,37:26,saved,Bastian Schweinsteiger,FC Bayern München,Juan Bernat,2246
+32683310,14097,28:48,goal,Neymar,Barcelona,Luis Suárez,1728
+32683310,14098,28:15,saved,Thomas Müller,FC Bayern München,Thiago Alcántara,1695
+32683310,14099,27:34,saved,Lionel Messi,Barcelona,Neymar,1654
+32683310,14100,26:10,saved,Robert Lewandowski,FC Bayern München,Thomas Müller,1570
+32683310,14107,18:20,saved,Thomas Müller,FC Bayern München,Philipp Lahm,1100
+32683310,14113,14:16,goal,Neymar,Barcelona,Luis Suárez,856
+32683310,14114,13:00,missed,Bastian Schweinsteiger,FC Bayern München,Jerome Boateng,780
+32683310,14119,6:47,goal,Medhi Benatia,FC Bayern München,Xabi Alonso,407
+32683310,14121,5:15,blocked,Thiago Alcántara,FC Bayern München,Thomas Müller,315
+32683310,14123,4:18,saved,Ivan Rakitic,Barcelona,Dani Alves,258

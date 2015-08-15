@@ -43,7 +43,7 @@ Download all the matches:
 
 [source, bash]
 ----
-python find_all_matches.py | xargs wget -O data/raw
+python find_all_matches.py | xargs wget -P data/raw
 ----
 
 Generate the CSV files that we import into Neo4j:

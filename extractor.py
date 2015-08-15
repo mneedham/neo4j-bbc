@@ -82,8 +82,6 @@ def attempts(events):
 
         attempt = re.findall("(Attempt|Goal).*", event)
         if attempt:
-            print event
-
             own_goal = re.findall("Own Goal.*", event)
             if own_goal:
                 parts = re.findall("Own Goal by (.[^,]*), ([^\.]*)\. ", event)[0]

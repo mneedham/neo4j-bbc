@@ -439,11 +439,11 @@ matchId,subId,team,on,off,time,sortableTime
 29363005,8241,Chelsea,Didier Drogba,Diego Costa,65:45,3945
 29363005,8244,FC Schalke 04,Max Meyer,Kevin-Prince Boateng,62:52,3772
 29363005,8257,FC Schalke 04,Christian Clemens,Jan Kirchhoff,45:00,2700
-29363022,8326,Sporting Lisbon,André Martins,João Mário,81:44,4904
+29363022,8326,Sporting Lisbon,André Martins,João Mário,81:37,4897
 29363022,8337,NK Maribor,Jean Philippe Mendy,Luka Zahovic,75:39,4539
 29363022,8340,Sporting Lisbon,Fredy Montero,Islam Slimani,74:40,4480
-29363022,8349,NK Maribor,Damjan Bohar,Sintayehu Sallalich,69:06,4146
-29363022,8353,Sporting Lisbon,André Carrillo,Carlos Mané,66:10,3970
+29363022,8349,NK Maribor,Damjan Bohar,Sintayehu Sallalich,68:59,4139
+29363022,8353,Sporting Lisbon,André Carrillo,Carlos Mané,65:50,3950
 29363022,8385,NK Maribor,Agim Ibraimi,Dare Vrsic,45:00,2700
 29363029,8437,Manchester City,Martín Demichelis,Sergio Agüero,90:00 +3:21,5601
 29363029,8450,FC Bayern München,Xherdan Shaqiri,Robert Lewandowski,83:40,5020
@@ -734,5 +734,5 @@ matchId,subId,team,on,off,time,sortableTime
 32683310,14021,FC Bayern München,Javi Martínez,Bastian Schweinsteiger,86:41,5201
 32683310,14042,Barcelona,Xavi,Andrés Iniesta,74:07,4447
 32683310,14044,Barcelona,Jeremy Mathieu,Ivan Rakitic,71:04,4264
-32683310,14048,FC Bayern München,Sebastian Rode,Philipp Lahm,67:19,4039
-32683310,14074,Barcelona,Pedro,Luis Suárez,45:00,2700
+32683310,14047,FC Bayern München,Sebastian Rode,Philipp Lahm,67:19,4039
+32683310,14073,Barcelona,Pedro,Luis Suárez,45:00,2700
