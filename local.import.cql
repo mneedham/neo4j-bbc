@@ -12,7 +12,7 @@ CREATE CONSTRAINT ON (app:Appearance)
 ASSERT app.id IS UNIQUE;
 
 // matches
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/matches.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/matches.csv" AS row
 MERGE (m:Match {id: row.matchId})
 SET m.home = row.home, m.away = row.away, m.homeScore = toint(row.homeScore), m.awayScore = toint(row.awayScore)
 
@@ -23,12 +23,12 @@ MERGE (m)-[:HOME_TEAM]->(home)
 MERGE (m)-[:AWAY_TEAM]->(away);
 
 // players
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/players.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/players.csv" AS row
 MERGE (player:Player {id: row.player + "_" + row.team})
 ON CREATE SET player.name = row.player;
 
 // appearances
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/players.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/players.csv" AS row
 MATCH (match:Match {id: row.matchId})
 MATCH (player:Player {id: row.player + "_" + row.team})
 MATCH (team:Team {name: row.team})
@@ -38,7 +38,7 @@ MERGE (appearance)-[:IN_MATCH]->(match)
 MERGE (appearance)-[:FOR_TEAM]->(team);
 
 // fouls
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/fouls.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/fouls.csv" AS row
 
 MATCH (foulingPlayer:Player {id:row.foulingPlayer + "_" + row.foulingPlayerTeam })
 MATCH (fouledPlayer:Player {id:row.fouledPlayer + "_" + row.fouledPlayerTeam })
@@ -55,7 +55,7 @@ MERGE (foul)-[:COMMITTED_AGAINST]->(fouledPlayerApp)
 MERGE (foul)-[:COMMITTED_IN_MATCH]->(match);
 
 // attempts
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/attempts.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
 
 MERGE (attemptingPlayer:Player {id:row.attemptBy + "_" + row.attemptByTeam })
 ON CREATE SET attemptingPlayer.name = row.attemptBy
@@ -72,7 +72,7 @@ MERGE (match:Match {id: row.matchId})
 MERGE (appearance)-[:HAD_ATTEMPT]->(attempt);
 
 // assists for attempts
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/attempts.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/attempts.csv" AS row
 
 MATCH (assistingPlayer:Player {id:row.assistedBy + "_" + row.attemptByTeam })
 MATCH (attempt:Attempt:Event {attemptId: row.matchId + "_" + row.attemptId})
@@ -82,7 +82,7 @@ MATCH (assistingPlayer)-[:MADE_APPEARANCE]->(app)-[:IN_MATCH]-(match)
 MERGE (attempt)<-[:PROVIDED_ASSIST_FOR]-(app);
 
 // corners from an attempt
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/corners.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/corners.csv" AS row
 
 WITH row WHERE row.attemptId <> ""
 MERGE (match:Match {id: row.matchId})
@@ -99,7 +99,7 @@ MERGE (attempt)-[:LED_TO]->(corner)
 MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
 
 // corners not from an attempt
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/corners.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/corners.csv" AS row
 
 WITH row WHERE row.attemptId is null
 MERGE (match:Match {id: row.matchId})
@@ -114,7 +114,7 @@ MERGE (corner:Corner {cornerId: row.cornerId})
 MERGE (corner)-[:CONCEDED_BY]->(concededByApp);
 
 // bookings with fouls
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/cards.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/cards.csv" AS row
 WITH row WHERE row.foulId <> ""
 
 MERGE (card:Card:Event:Yellow {eventId: row.matchId + "_" + row.cardId})
@@ -130,7 +130,7 @@ MERGE (foul)-[:RESULTED_IN]->(card)
 MERGE (card)-[:GIVEN_TO]->(app);
 
 // bookings with no fouls
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/cards.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/cards.csv" AS row
 WITH row WHERE row.foulId is null
 
 MERGE (card:Card:Event:Yellow {eventId: row.matchId + "_" + row.cardId})
@@ -155,7 +155,7 @@ FOREACH(i in range(0, length(fouls) -2) |
 
 // subs
 
-LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/repos/neo4j-bbc/data/subs.csv" AS row
+LOAD CSV WITH HEADERS FROM "file:///Users/markneedham/projects/neo4j-bbc/data/subs.csv" AS row
 
 MERGE (sub:Sub:Event {subId: row.matchId + "_" + row.subId})
 SET sub.time = row.time, sub.sortableTime = toint(row.sortableTime)
